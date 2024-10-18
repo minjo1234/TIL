@@ -1,0 +1,7 @@
+# 모든 파일 무시
+/*
+# 3.Resource 디렉토리는 무시하지 않음
+!/3.Resource/
+
+# 추가: .gitignore 파일은 무시하지 않음
+!.gitignore
