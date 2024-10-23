@@ -18,7 +18,10 @@ return solutions.stream()
 
 
 ```java
-public static <T> Predicate <T> distinctB
+public static <T> Predicate <T> distinctByKey(Functino<? super T,?> keyExtractor) {
+	Set<Object> seen = ConcurrentHashMap.newKeySet();
+	return t -> seen.add(keyExtractor.apply(t))
+}
 ```
 
 
