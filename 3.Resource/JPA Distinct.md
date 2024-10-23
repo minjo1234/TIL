@@ -26,3 +26,5 @@ public static <T> Predicate <T> distinctByKey(Functino<? super T,?> keyExtractor
 
 
 #### Predicate -> T타입의 조건을 입력받아 boolean 을 반환하는 함수형 인터페이스.
+
+? super T -> 해당 인자의 상위타입 까지 수용
