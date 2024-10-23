@@ -1,6 +1,6 @@
 
 
-1.Java Stream 사용 - 모든 필드가 동일
+###  1.Java Stream 사용 - 모든 필드가 동일
 
 ```Java
 
@@ -14,4 +14,9 @@ return solutions.stream()
 				
 ```
 
-2.
+### 2.특정 컬럼을 기준으로 중복제거
+
+
+```java
+
+```
