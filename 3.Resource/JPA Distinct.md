@@ -18,5 +18,8 @@ return solutions.stream()
 
 
 ```java
-
+public static <T> Predicate <T> distinctB
 ```
+
+
+#### Predicate -> T타입의 조건을 입력받아 boolean 을 반환하는 함수형 인터페이스.
