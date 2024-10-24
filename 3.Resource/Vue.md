@@ -23,4 +23,4 @@
     코드 복사
     
     `const filteredArray = array.filter(element => {     return element.condition; // 조건을 만족하는 모든 요소를 포함합니다. });`
-- 
+
