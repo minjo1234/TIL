@@ -91,3 +91,5 @@ checkAlreadyIsExistsSalesTarget().then(isExists => {
 });
 
 ```
+
+.then을 이용하거나 async/await를 사용해서 비동기 작업이 끝나기 전에는 값을 받을 수 없다.
