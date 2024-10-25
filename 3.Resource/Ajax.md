@@ -3,8 +3,9 @@
 $_ajax 일반
 
 1.콜백 방식
-Ajax는 비동기로 동작하고 있기 때문에, 함수가 종료되기 전에 Aja
 
+
+Ajax는 비동기로 동작하고 있기 때문에, 함수가 종료되기 전에 Ajax 요청이 완료되지 않는다.
 
 ```javascript 
 
@@ -72,4 +73,21 @@ checkAlreadyIsExistsSalesTarget() {
         });
     });
 }
+```
+
+
+## 3.Promise 사용방식
+
+
+```java
+checkAlreadyIsExistsSalesTarget().then(isExists => {
+    if (isExists) {
+        console.log("이미 판매 목표가 존재합니다.");
+    } else {
+        console.log("판매 목표가 존재하지 않습니다.");
+    }
+}).catch(error => {
+    console.error("에러 발생:", error);
+});
+
 ```
