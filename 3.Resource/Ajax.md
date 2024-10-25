@@ -1,6 +1,9 @@
 
 
-$_ajax 
+$_ajax 일반
+
+1.콜백 방식
+Ajax는 비동기로 동작하고 있기 때문에, 함수가 종료되기 전에 Aja
 
 
 ```javascript 
@@ -40,3 +43,33 @@ checkAlreadyIsExistsSalesTarget() {
 return new Promise((resolve, reject => {
 	
 })) 
+
+```javascript
+checkAlreadyIsExistsSalesTarget() {
+    let tmpDepartmentId = this.salesTargetCondition.departmentId;
+    this.salesTargetCondition.departmentId = this.currentUser.departmentId;
+
+    // 비동기 작업을 Promise로 처리
+    return new Promise((resolve, reject) => {
+        $.ajax({
+            type: 'post',
+            url: `${contextPath}/api/salesTarget/find/searchCondition`,
+            dataType: 'json',
+            data: JSON.stringify(copyObject(this.salesTargetCondition)),
+            contentType: 'application/json; charset=utf-8',
+            success: (dtos) => {
+                this.salesTargetCondition.departmentId = tmpDepartmentId;
+
+                if (dtos.find(dto => dto.employeeId == this.currentUser.userId)) {
+                    resolve(true);  // Promise가 완료되었을 때 값을 반환
+                } else {
+                    resolve(false);  // Promise가 완료되었을 때 다른 값을 반환
+                }
+            },
+            error: (error) => {
+                reject(error);  // 에러 발생 시
+            }
+        });
+    });
+}
+```
