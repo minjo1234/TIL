@@ -12,7 +12,8 @@ div{
   margin: 50px;
   border: 50px solid rgb(162, 90, 162);
   width: 300px;
-	box-sizing: border-box 
+#	box-sizing: border-box
+#.  box-sizing: content-box
 }
 ```
 
@@ -27,6 +28,9 @@ div{
 
 - content-box : 설정한 width와 height 값이 곧 내부 요소의 크기  
 - border-box :   설정한 Width와 height 값이 안쪽 여백과 테두리까지 포함
+
+
+항상 border-box를 사용하는게 올바르지 않고, 레이아웃을 고려해서 content-box를 사용할지 border-box를 사용할 지 선택해야한다.
 
 
 
