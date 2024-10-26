@@ -12,6 +12,7 @@ div{
   margin: 50px;
   border: 50px solid rgb(162, 90, 162);
   width: 300px;
+	box-sizing: border-box 
 }
 ```
 
