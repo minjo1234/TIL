@@ -24,7 +24,7 @@ div{
 
 초기값은 content-box로 설정되어 있고 box-sizing을 지정해주지 않으면 content-box 형식으로 요소의 너비와 높이를 계산한다.
 
-- content-box :  
-- border-box :   
+- content-box : 설정한 width와 height 값이 곧 내부 요소의 크기  
+- border-box :   설정한 Width와 height 값이 
 
 
