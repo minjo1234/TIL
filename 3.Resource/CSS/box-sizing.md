@@ -21,7 +21,8 @@ div{
 
 개발자는 300px의 box를 만들려고 하였지만<font color="#ff0000"> 480px 사이즈의 box가</font> 만들어지는 것을 확인할 수 있다.
 
-- box-sizing  
-- content-box 
+내가 지정한 widths
+- box-sizing : 
+- content-box :  
 
 
