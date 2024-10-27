@@ -13,6 +13,12 @@ APIcontroller를 제외한 controller 들이 BaseControllerConfig에서 유저�
 ```java
 public interface BaseControllerConfig {
 	// 세션ID를 받는 메서드
-	default ㅣㅐㅜㅎ 
+	default Long getIdBySession(HttpServletRequest request) {
+		return (long) request.getSession().getAttribute("userId");
+	}
 }
+
+
+@Controller
+public class TestController implem
 ```
