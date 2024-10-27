@@ -7,8 +7,12 @@
 
 
 이러한 경우에는 **default** 확장자를 사용함으로써 간편하게 해결할 수 있다.
-API
+APIcontroller를 제외한 controller 들이 BaseControllerConfig에서 유저의 아이디, 권한을 조회한다고 생각한다면 간편하게 default 확장자를 이용하여 수 많은 controller의 코드 양을 줄일 수 있다.
+
 
 ```java
-public interface BaseControllerConfig 
+public interface BaseControllerConfig {
+	// 세션ID를 받는 메서드
+	default ㅣㅐㅜㅎ 
+}
 ```
