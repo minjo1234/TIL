@@ -20,5 +20,7 @@ public interface BaseControllerConfig {
 
 
 @Controller
-public class TestController implem
+public class TestController implements BaseControllerConfig {
+	getIdBySession(request) // 구현을 하지않고도 바로 사용이 가능하다.
+}
 ```
