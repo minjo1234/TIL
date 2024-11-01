@@ -25,3 +25,5 @@ let $day = $(‘<div></div>’)
 8.appendChild -> append
 9.onClick = .on(‘click’, function()
 10.forEach - $.each
+
+appendchild vs append
