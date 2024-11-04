@@ -9,7 +9,8 @@
    
 ----
 
-  
+# filter VS find
 
-find -> 배열이 아닌 개별 객체로 list에 추가된다.
-filter -> array - 배열형태로 값을 반환한다.
+
+find -> 배열이 아닌 개별 **객체로 list**에 추가된다.
+filter -> array - **배열형태로 값을 반환**한다.
