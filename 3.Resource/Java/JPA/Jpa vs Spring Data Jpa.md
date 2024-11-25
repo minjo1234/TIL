@@ -8,4 +8,5 @@ public class MemberRepository {
 
 public interface MemberRepository extends JpaRepositories<> 
 
-		
+
+jpql 만들어서 넣어두기.
