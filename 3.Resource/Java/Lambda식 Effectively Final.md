@@ -12,7 +12,7 @@
 ```
 for (int i = 1; i <= 12; i++) {  
     int month = i;  
-    List<SaleStatusVO> list = vo.stream().filter(d -> d.getSaleDate().getMonthValue() == int).toList();  -> effectively final 에러
+    List<SaleStatusVO> list = vo.stream().filter(d -> d.getSaleDate().getMonthValue() == i).toList();  -> effectively final 에러
 }
 ```
 
@@ -32,12 +32,11 @@ i는 반복문으로 계속 변할 수 있다고 가정되어 **`Effectively`** 
 
 - 지역변수는 스택영역에 저장되며, 블록이 끝나면 제거된다.
 
-
 -----
 
 **람다식에서 지역변수로 선언된 값을 읽을 수 있는 경우가 존재한다.
 
-- effectively final : 한 번 초기화 된 후 값이 변경되지 않는 변수
+- 1.effectively final : 한 번 초기화 된 후 값이 변경되지 않는 변수
 
 
 여기서는 클로저라는 개념이 존재하는데 클로저는 여기서는 간단하게 변수 복사와 영역을 변경시켜주며
@@ -46,4 +45,6 @@ i는 반복문으로 계속 변할 수 있다고 가정되어 **`Effectively`** 
 
 ---
 
-람다식은 변수 자체를 참조하는게 아니라 값의 복사본을 참조하
+
+
+람다식은 변수 자체를 참조하는게 아니라 값의 복사본을 참조합니다.
