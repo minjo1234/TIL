@@ -12,8 +12,16 @@
 ```
 for (int i = 1; i <= 12; i++) {  
     int month = i;  
+    List<SaleStatusVO> list = vo.stream().filter(d -> d.getSaleDate().getMonthValue() == int).toList();  -> effectively final 에러
+}
+```
+
+```
+for (int i = 1; i <= 12; i++) {  
+    int month = i;  
     List<SaleStatusVO> list = vo.stream().filter(d -> d.getSaleDate().getMonthValue() == month).toList();  
 }
 ```
 
-``
+
+i는 반복문으로 계속 변할 수 있다고 가정되어 effectively final의 조건을 충족하지않지만
