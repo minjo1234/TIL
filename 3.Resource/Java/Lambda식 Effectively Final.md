@@ -24,4 +24,4 @@ for (int i = 1; i <= 12; i++) {
 ```
 
 
-i는 반복문으로 계속 변할 수 있다고 가정되어 effectively final의 조건을 충족하지않지만
+i는 반복문으로 계속 변할 수 있다고 가정되어 **`Effectively`** final의 조건을 충족하지않지만
