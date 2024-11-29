@@ -32,5 +32,9 @@ public interface UserRepository extends JpaRepositories<User, Long>
 
 
 **JPA(Java ORM) 기술을 사용하기 위해서는  JpaRepository를 확장한 인터페이스를 정의해야한다. 
-JpaRepository를 확장한 인터페이스이기 때문에 동적 프록시가 hibernate와의 연결을 도와주어
-다양한 Jpa 구현체를 사용할 수 있게된다.
+Spring Data JPA가 동적 프록시 객체를 생성하고, hibernate 구현체와의 연결을 도와준다.
+다양한 JPA 구현체를 쉽게 사용할 수 있다.
+
+
+- Spring Data Jpa vs Jpa 
+- 
