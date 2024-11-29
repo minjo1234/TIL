@@ -31,4 +31,4 @@ public interface UserRepository extends JpaRepositories<User, Long>
 ---
 
 
-**JPA(Java ORM) 기술을 사용하기 위해서는 repository를 인터페이스로 정의해야한다. (동적인 클래스로 정의되어야 동**
+**JPA(Java ORM) 기술을 사용하기 위해서는  JpaRepository를 확장한 인터페이스인 Jpa repository를 인터페이스로 정의해야한다. (동적인 클래스로 정의되어야 프록시 객체를 생성하여 hibernate 구현체와 연결이 가능하기 때문이다.) 또한**
