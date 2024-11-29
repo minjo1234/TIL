@@ -20,7 +20,9 @@
 |                      |                                        |
 |                      |                                        |
 - UserRepository가 인터페이스로 존재해야 하는 이유 
-- 
+- 클래스는 기본적으로 정적인 구조
+- 인터페이스는 기본적으로 동적인 구조이다.
+- 만약 UserRepository를 class로 정의하게되면 확장이 불가능하기때문에 findById
 ```java
 public interface UserRepository extends JpaRepositories<User, Long> 
 ```
