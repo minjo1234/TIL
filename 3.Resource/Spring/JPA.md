@@ -6,13 +6,17 @@
 
 - 궁금증 JPA 가 인터페이스 모음이라고 했는데 어떠한 인터페이스들이 존재하는지
 
+### 주요 JPA 인터페이스
+
 | EntityManager        | 데이터베이스 작업(삽입, 삭제, 수정, 조회)을 관리하는 인터페이스 |
 | -------------------- | -------------------------------------- |
 | EntityManagerFactory | EntityManager 인스턴스를 생성하는 팩토리 인터페이스     |
 | Query                | 쿼리를 실행하는데 사용되는 인터페이스                   |
 | CriteriaBuilder      | 타입 세이프하고 동적으로 쿼리를 생성하는데 사용             |
+| Transaction          | 데이터베이스 트랜잭션을 관리                        |
+| PersistenceUnitInfo  |                                        |
 |                      |                                        |
 
-
-- hibernate가 구현될것을 코딩으로 예시를 든다면?
-- 
+```java
+public interface UserRepository extends JpaRepositories<User, Long> 
+```
