@@ -4,6 +4,8 @@
 - 인터페이스이기 때문에 hibernate, OpenJPA 등이 JPA를 구현함
 
 
+---
+
 - 궁금증 JPA 가 인터페이스 모음이라고 했는데 어떠한 인터페이스들이 존재하는지
 
 ### 주요 JPA 인터페이스
@@ -16,7 +18,10 @@
 | Transaction          | 데이터베이스 트랜잭션을 관리                        |
 | PersistenceUnitInfo  |                                        |
 |                      |                                        |
-
+|                      |                                        |
+- UserRepository가 인터페이스로 존재해야 하는 이유 
+- 
 ```java
 public interface UserRepository extends JpaRepositories<User, Long> 
 ```
+
