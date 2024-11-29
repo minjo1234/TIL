@@ -8,8 +8,9 @@
 
 | EntityManager        | 데이터베이스 작업(삽입, 삭제, 수정, 조회)을 관리하는 인터페이스 |
 | -------------------- | -------------------------------------- |
-| EntityManagerFactory |                                        |
-| Query                |                                        |
+| EntityManagerFactory | EntityManager 인스턴스를 생성하는 팩토리 인터페이스     |
+| Query                | 쿼리를 실행하는데 사용되는 인터페이스                   |
+| CriteriaBuilder      | 타입 세이프하고 동적으로 쿼리를 생성하는데 사용             |
 |                      |                                        |
 
 
