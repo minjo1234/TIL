@@ -37,4 +37,3 @@ public interface UserRepository extends JpaRepositories<User, Long>
 
 
 - Spring Data Jpa vs Jpa 
-- 
