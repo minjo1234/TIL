@@ -12,3 +12,5 @@
 adoptedId
 revenueId
 sale에서 사용중이면 안된다.
+
+purchase
