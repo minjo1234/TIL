@@ -28,4 +28,8 @@
 </svg>
 
 
-figma를 이용해서 frontend 개발
+figma를 이용해서 frontend 개발 시작하기.
+
+
+
+
