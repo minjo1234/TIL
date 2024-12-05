@@ -1,6 +1,9 @@
 ### findById() vs getReferenceById()
 
 
-| findById | get |
-| -------- | --- |
-|          |     |
+| 조건  | findById       | getReferenceById |
+| --- | -------------- | ---------------- |
+|    | CrudRepository | JpaRepository    |
+| N   |                |                  |
+|     |                |                  |
+|     |                |                  |
