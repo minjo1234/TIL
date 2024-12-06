@@ -22,3 +22,6 @@ public OrderServiceImpl(MemberRepository memberRepository, DisCountPolicy disCou
 
 - 구현객체는 인터페이스만 호출할 뿐 어떤 구현객체가 실행될지에 대해서는 모르는 제어의 역전
 ```
+
+
+-- 프로그램의 흐름을 직접 제어하는게 아니라 Appconfig같은 외부에서 관리한느 
