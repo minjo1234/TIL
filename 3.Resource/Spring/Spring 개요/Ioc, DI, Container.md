@@ -11,6 +11,14 @@ public class OrderServiceImpl implements OrderService {
 		private final MemberRepository MemberRepository
 		private final DisCountPolicy fixDiscountPolicy
 - 이런 식으로 인터페이스의 구현객체를 직접결정하여 구현객체가 어떤 객체를 실행할 지에 대한 인식을 하였지만
-- 
 }
+```
+
+```java
+public OrderServiceImpl(MemberRepository memberRepository, DisCountPolicy disCountPolicy) {  
+    this.memberRepository = memberRepository;  
+    this.disCountPolicy = disCountPolicy;  
+}
+
+- 구현객체는 인터페이스만 호출할 뿐 어떤 구현객체가 실행될지에 대해서는 모르는 제어의 역전
 ```
