@@ -6,6 +6,11 @@
 
 기존 : OrderService -> OrderServiceImpl  ()
 
-```
-public class OrderServiceImpl 
+```java
+public class OrderServiceImpl implements OrderService {
+		private final MemberRepository MemberRepository
+		private final DisCountPolicy fixDiscountPolicy
+- 이런 식으로 인터페이스의 구현객체를 직접결정하여 구현객체가 어떤 객체를 실행할 지에 대한 인식을 하였지만
+- 
+}
 ```
