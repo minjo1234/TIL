@@ -52,3 +52,15 @@ OrderServiceImpl은 DisCountPolicy 인터페이스에만 의존한다. 실제 �
 Ioc컨테이너 또는 DI 컨테이너 라고한다.
 `AppConfig 같은 파일이 DI컨테이너 라고한다.`
 
+
+**ApplicationContext = 스프링 컨테이너**
+
+Appconfig를 설정하고 직접 객체를 설정하고 DI를 설정했지만, 이제부터는 스프링 컨테이너를 통해서 사용한다.
+
+스프링 컨테이너는 @Configuration에 등록된 @Bean객체를 모두 가져와서 스프링 컨테이너에 등록하며, 등록된 객체를 스프링 빈이라고 한다.
+
+.getBean메서드를 활용해서 해당하는 객체를 가져올 수 있다.
+
+  
+
+이러면 코드가 더 복잡해진것같은데 무슨 장점이 있냐 ?
