@@ -37,6 +37,7 @@ public OrderServiceImpl(MemberRepository memberRepository, DisCountPolicy disCou
 OrderServiceImpl은 DisCountPolicy 인터페이스에만 의존한다. 실제 어떤 구현 객체가 사용될지는 OrderServiceImpl은 알지못한다.
 
 정적인 클래스 의존관계와
-동적인(실행시점의) 
+동적인(실행시점의) 객체 의존 관계 둘을 분리하여 생각
+
 
 
