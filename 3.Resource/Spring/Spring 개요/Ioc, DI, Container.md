@@ -24,3 +24,6 @@ public OrderServiceImpl(MemberRepository memberRepository, DisCountPolicy disCou
 ```
 
 
+### 프레임워크 vs 라이브러리
+
+프레임워크는 해당 프레임워크의 라이프사이클이 있어서 내가 코드를 작성하더라도 해당 프레임워크의 라이프사이클
