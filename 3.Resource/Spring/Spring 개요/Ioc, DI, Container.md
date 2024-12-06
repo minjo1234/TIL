@@ -3,7 +3,7 @@
 
 원래는 구현객체를 생성하여 기능을 실행하고 연결하면 수행했다. 
 하지만 Appconfig의 등장으로 인해서 구현 객체는 자신의 로직을 실행하는 역할만 담당한다.
-
+프로그램의 흐름을 직접 제어하는게 아니라 Appconfig같은 외부에서 관리한느 것이 제어의 역전이다.
 기존 : OrderService -> OrderServiceImpl  ()
 
 ```java
@@ -24,4 +24,3 @@ public OrderServiceImpl(MemberRepository memberRepository, DisCountPolicy disCou
 ```
 
 
--- 프로그램의 흐름을 직접 제어하는게 아니라 Appconfig같은 외부에서 관리한느 
