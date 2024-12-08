@@ -23,3 +23,6 @@ ApplicationContext
 - 자바 코드, XML, Groovy 등등 
 - new AnnotationConfigApplicationContext()
 - new GenericXmlContextLoader() 
+
+xml과 자바코드로 해도 상관없는 것은 `BeanDefinition` 이라는 추상화가 있다.
+
