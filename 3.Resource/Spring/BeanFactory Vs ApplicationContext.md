@@ -26,3 +26,4 @@ ApplicationContext
 
 xml과 자바코드로 해도 상관없는 것은 `BeanDefinition` 이라는 추상화가 있다.
 
+- 스프링 컨테이너는 자바 코드인지, 
