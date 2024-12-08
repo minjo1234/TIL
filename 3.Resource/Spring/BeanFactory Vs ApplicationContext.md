@@ -21,4 +21,5 @@ ApplicationContext
 #### 다양한 설정 형식 지원 - 자바 코드, XML
 
 - 자바 코드, XML, Groovy 등등 
-- 
+- new AnnotationConfigApplicationContext()
+- new GenericXmlContextLoader() 
