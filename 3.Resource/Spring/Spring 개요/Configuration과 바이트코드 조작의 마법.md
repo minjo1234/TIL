@@ -5,6 +5,9 @@
 ```java
 @Test
 void configurationDeep() {
-	Application
+	ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
+
+	//AppConfig
+
 }
 ```
