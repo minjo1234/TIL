@@ -11,7 +11,7 @@
 
 
 ApplicationContext
-- MessageSource
-- EnviormentCapable
-- ApplicationEventPublisher
-- 
+- MessageSource - 한국어로 들어오면 한국어로, 영어권으로하면 영어
+- EnviormentCapable - 로컬, 개발, 운영등을 구분해서 관리 
+- ApplicationEventPublisher - 이벤트를 발생하고, 구독하는 모델을 편리하게 관리
+- ResourceLoader - 파일 클래스패스 외부 등에서 리소스를 편리하게 조회
