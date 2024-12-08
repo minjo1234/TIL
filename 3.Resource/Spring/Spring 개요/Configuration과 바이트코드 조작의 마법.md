@@ -8,6 +8,8 @@ void configurationDeep() {
 	ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
 
 	//AppConfig
+	AppConfig bena = ac.getBean(AppConfig.class);
 
+	System.out.pritnln("been = " + bean.getClass());
 }
 ```
