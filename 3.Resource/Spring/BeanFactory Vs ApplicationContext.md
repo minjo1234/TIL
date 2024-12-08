@@ -7,4 +7,11 @@
 
 ### ApplicationContext
 - BeanFactory 기능을 모아 상속받아서 제공한다.
-- 애플리케이션을 개발할 때는 빈을 관리하고 
+- 애플리케이션을 개발할 때는 빈을 관리하고 조회하는 기능은 물론이고, 수 많은 부가기능이 필요하다.
+
+
+ApplicationContext
+- MessageSource
+- EnviormentCapable
+- ApplicationEventPublisher
+- 
