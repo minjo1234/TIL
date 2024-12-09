@@ -39,3 +39,6 @@ public MemberRepository memberRepository() {
 
 ---
 
+@Configuration을 사용하지않고 @Bean을 등록하게 될 경우에는 
+싱글톤을 보장받지 못한다.
+- 
