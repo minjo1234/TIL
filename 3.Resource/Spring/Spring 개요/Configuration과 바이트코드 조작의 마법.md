@@ -18,3 +18,14 @@ void configurationDeep() {
 AppConfig가 Bean으로 등록되면 AppConfig 자체가 등록된게 아니라 CGLIP이라는 바이트코드 조작 라이브러리를 사용하여 AppConfig를 상속받은 임의의 다른 클래스를 만들고, 그 다른 클래스를 스프링 빈으로 등록
 -> 해당 클래스가 싱글톤으로 조작되도록 설정해준다.
 
+```java
+@Bean
+public MemberRepository memberRepository() {
+
+	if(memoryMemberRepository) { // 이미 스프링 컨테이너에 등록되어 있으면
+		return 스프링 컨테이너에서 찾아서 봔환 
+	} else {
+		return 반환
+	}
+}
+```
