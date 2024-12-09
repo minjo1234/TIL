@@ -35,3 +35,7 @@ public MemberRepository memberRepository() {
 ```
 
 - CGLIP에 상속된 코드를 이용하여 반환이 정상적으로 완료되는 것이다.
+- AppConfig@CGLIP은 AppConfig의 자식이기 때문에 AppConfig를 조회할 수 있는 것이다.
+
+---
+
