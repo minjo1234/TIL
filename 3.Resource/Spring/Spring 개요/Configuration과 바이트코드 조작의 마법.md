@@ -41,4 +41,5 @@ public MemberRepository memberRepository() {
 
 @Configuration을 사용하지않고 @Bean을 등록하게 될 경우에는 
 싱글톤을 보장받지 못한다.
+- @Bean만 사용해도 스프링 빈으로 등록되지만, 싱글톤을 보장하지 않는다.
 - 
