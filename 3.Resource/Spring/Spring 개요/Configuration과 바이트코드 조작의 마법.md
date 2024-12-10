@@ -52,5 +52,5 @@ public MemberRepository memberRepository() {
 @Autowired 
 public MemberServiceImpl(MemoryRepository memoryRepository) {
 	this.memberRepository = memberRepository;
-} // ac.getBean(MemberR)
+} // ac.getBean(MemberRepository.class)
 ```
