@@ -44,3 +44,10 @@ public MemberRepository memberRepository() {
 - @Bean만 사용해도 스프링 빈으로 등록되지만, 싱글톤을 보장하지 않는다.
   
 ---
+@Component를 사용하게 되면 
+
+의존관계설정을 어떻게 할지에 대해서
+
+```java
+public MemberServiceImpl(MemoryRepository memoryRepository)
+```
