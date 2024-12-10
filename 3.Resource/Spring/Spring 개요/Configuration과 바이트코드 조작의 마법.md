@@ -46,8 +46,11 @@ public MemberRepository memberRepository() {
 ---
 @Component를 사용하게 되면 
 
-의존관계설정을 어떻게 할지에 대해서
+의존관계설정을 어떻게 할지에 대해서 `Autowired` 어노테이션을 활용하면 자동을 memberRepository에 빈으로 등록된 요소의 의존관계를 설정해준다.
 
 ```java
-public MemberServiceImpl(MemoryRepository memoryRepository)
+@Autowired 
+public MemberServiceImpl(MemoryRepository memoryRepository) {
+	this.memberRepository = memberRepository;
+} // ac.getBean(MemberR)
 ```
