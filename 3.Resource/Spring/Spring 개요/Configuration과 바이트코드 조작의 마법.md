@@ -57,3 +57,4 @@ public MemberServiceImpl(MemoryRepository memoryRepository) {
 
 스프링 컨테이너가 자동으로 스프링 빈을 찾아서 주입하는데
 기본 조회 전략은 타입이 같은 빈을 찾아서 주입하는 것이다.
+`// ac.getBean(MemberRepository.class)과 동일하다고 생각`
