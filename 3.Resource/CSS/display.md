@@ -21,4 +21,7 @@ display: inline-flex를 찾아보며
 필드 주입
 테스트가 어려움
 
-setMemberRepository
+setMemberRepository - 수정자 주입으로 한 번 더 이용하면 가능하다.
+setDisCountPolicy - 수정자 주입으로 한 번 더 이용하면 가능하다.
+
+스프링으로 테스트하려는 
