@@ -21,7 +21,10 @@ display: inline-flex를 찾아보며
 필드 주입
 테스트가 어려움
 
-setMemberRepository - 수정자 주입으로 한 번 더 이용하면 가능하다.
+setMemberRepository - 수정자 주입으로 한 번 더 이용하면 가능하다.다.
 setDisCountPolicy - 수정자 주입으로 한 번 더 이용하면 가능하다.
 
-스프링으로 테스트하려는 
+DI 프레임워크가 없으면 아무것도 할 수 없
+사용하지 말자!
+- 애플리케이션의 코드와 상관없는 테스트 코드에서는 사용가능하다.
+- 
