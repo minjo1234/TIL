@@ -20,3 +20,5 @@ display: inline-flex를 찾아보며
 
 필드 주입
 테스트가 어려움
+
+setMemberRepository
