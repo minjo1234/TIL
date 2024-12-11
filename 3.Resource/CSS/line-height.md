@@ -4,3 +4,5 @@
 ![[Pasted image 20241211095015.png]]
 
 line-height를 키우게 된다면 `leading` 영역이 늘어나게 되는 일이 발생할 수 있다.
+
+`line-height를` normal로 설정해둘 경우 font-style에 따라서 line-height가
