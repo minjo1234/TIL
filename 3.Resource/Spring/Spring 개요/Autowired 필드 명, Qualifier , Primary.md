@@ -2,6 +2,7 @@
 ### @Autowired
 
 Autowired 필드명을 입력하면 역할이 아니라 구현에 직접 의존한다.
+별로 택하는 방식은 아니다 DIP를 위반하는 방식이므로..
 
 ```java
 
@@ -30,3 +31,7 @@ public class OrderServiceImpl(MemberRepository demberRepository, @Qualifier("rat
 	this.discountPolicy = discountPolicy;
 }```
 																
+---
+
+### @Primary
+
