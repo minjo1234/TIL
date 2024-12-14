@@ -33,11 +33,17 @@ public class OrderServiceImpl(MemberRepository demberRepository, @Qualifier("rat
 																
 ---
 
-### @Primary
+### @Primary 
+
+이거 좋다. primary로 지칭하면 해당 빈을 인식해서 지원해준다
 
 ```java
 
 @Component
-@Primay
-public class RateDiscountPolicy imp 
+@Primary
+public class RateDiscountPolicy implements DiscountPolicy
+
+@Component
+public class DiscountPolicy implements
+DiscountPolicy
 ```
