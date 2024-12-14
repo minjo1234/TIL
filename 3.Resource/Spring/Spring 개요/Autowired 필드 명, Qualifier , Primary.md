@@ -35,3 +35,9 @@ public class OrderServiceImpl(MemberRepository demberRepository, @Qualifier("rat
 
 ### @Primary
 
+```java
+
+@Component
+@Primay
+public class RateDiscountPolicy imp 
+```
