@@ -1,12 +1,12 @@
 
 ### @Autowired
 
-Autowired 필드명을 입력하면 역할이 아니라 구현에 직접 의존하
+Autowired 필드명을 입력하면 역할이 아니라 구현에 직접 의존한다.
 
 ```java
 
 @Autowired
-public OrderServiceImpl(MemberRepository demberRepository, DiscountPolicy discountPolicy){
+public OrderServiceImpl(MemberRepository demberRepository, DiscountPolicy rateDiscountPolicy){
 	this.memberRepository = memberRepository;
 	this.discountPolicy = rateDiscountPolicy;
 }
