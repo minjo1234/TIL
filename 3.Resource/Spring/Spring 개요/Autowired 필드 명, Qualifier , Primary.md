@@ -47,3 +47,8 @@ public class RateDiscountPolicy implements DiscountPolicy
 public class DiscountPolicy implements
 DiscountPolicy
 ```
+
+---
+
+메인 데이터베이스와 서브 데이터베이스를 함께 사용하는 경우
+메인 데이터베이스 : @Primary 지정
