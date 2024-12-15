@@ -13,4 +13,4 @@
 ### JSR-330 Provider
 
 마지막 방법은 `javax.inject.Provider` 라는 JSR-330 자바 표준을 사용하는 방법이다.
-이 방법을 사용하려면 `javax.inject:javax.inject:1` 라이브러리를 gradle에 추가
+이 방법을 사용하려면 `javax.inject:javax.inject:1` 라이브러리를 gradle에 추가해야 한다.
