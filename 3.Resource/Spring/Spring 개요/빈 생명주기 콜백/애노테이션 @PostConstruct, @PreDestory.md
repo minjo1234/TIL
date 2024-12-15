@@ -17,4 +17,4 @@ InitializingBean, DisposableBean 대신에
 ### 정리
 
 - @PostConstruct, @PreDestroy 어노테이션을 사용하자.
-- 코드를 코칠 수 없는 외부 라이브러리의 경우에는 Bean, initMethod, destroyme
+- 코드를 코칠 수 없는 외부 라이브러리의 경우에는 Bean, initMethod, destroymethod를 활용하자.
