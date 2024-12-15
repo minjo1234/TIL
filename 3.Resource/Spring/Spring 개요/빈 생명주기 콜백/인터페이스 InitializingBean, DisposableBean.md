@@ -1,6 +1,6 @@
 
 객체의 생성과 초기화를 분리하자는 규칙이 존재하기에 의존관계 주입이 완료된 이후에 스프링 빈의 라이프사이클 중에서 
-초기화 콜백 - afterPropertiesSet 초기화를 잉ㅇ
+초기화 콜백 - afterPropertiesSet  
 소멸전 콜백 - destroy 
 
 ---
