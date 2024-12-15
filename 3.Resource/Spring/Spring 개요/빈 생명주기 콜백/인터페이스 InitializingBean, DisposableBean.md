@@ -33,3 +33,7 @@ public void destroy() throws Exception {
 }
 
 ```
+
+---
+
+원래는 초기화 없이는 
