@@ -11,4 +11,10 @@ InitializingBean, DisposableBean 대신에
 - 컴포넌트 스캔과 잘 어울린다.
 - 유일한 단점은 외부 라이브러리에는 적용하지 못한다는 점이다.
 - 외부 라이브러리 초기화, 종료 해야하면 @Bean의 기능을 사용하자.
-- 
+
+---
+
+### 정리
+
+- @PostConstruct, @PreDestroy 어노테이션을 사용하자.
+- 코드를 코칠 수 없는 외부 라이브러리의 경우에는 Bean, initMethod, destroyme
