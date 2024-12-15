@@ -6,4 +6,4 @@
 ---
 
 - ObjectFactory : 기능이 단순, 별도의 라이브러리 필요 없음, 스프링에 의존
-- ObjectProvider : ObjectFactory 상속, 옵션, 스
+- ObjectProvider : ObjectFactory 상속, 옵션, 스트림 처리등 편의 기능이 많고, 별도의 라이브러리 필요 없음, 스프링에 의존
