@@ -14,3 +14,7 @@
 
 마지막 방법은 `javax.inject.Provider` 라는 JSR-330 자바 표준을 사용하는 방법이다.
 이 방법을 사용하려면 `javax.inject:javax.inject:1` 라이브러리를 gradle에 추가해야 한다.
+
+---
+
+그런데 실무에서 프로토타입으로 개발할 일이 거의없다.
