@@ -9,3 +9,6 @@ InitializingBean, DisposableBean 대신에
 - 애노테이션 하나만 붙이면 된다.
 - javax.annotation.PostConstruct 스프링에 종속적인게 아니라 자바 표준 기술이다.
 - 컴포넌트 스캔과 잘 어울린다.
+- 유일한 단점은 외부 라이브러리에는 적용하지 못한다는 점이다.
+- 외부 라이브러리 초기화, 종료 해야하면 @Bean의 기능을 사용하자.
+- 
