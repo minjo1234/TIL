@@ -8,4 +8,9 @@ $('input[id="EXPECTATION"]').prop('checked', true)
 
 벤더/인력검색해야 값을 . 볼수있음
 
-find
+
+document.ready()
+this.findCompanys()  
+this.findProductTypes()
+setData
+
