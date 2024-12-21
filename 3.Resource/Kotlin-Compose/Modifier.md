@@ -50,3 +50,5 @@ Jeju , Busan enum
 
 SEOUL(1,SEOUL)
 JEJU(2,JEJUE)
+
+사용자가 해당지역의 어떤 구를 선택했을때 해당지역의
