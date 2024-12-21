@@ -61,7 +61,8 @@ location
 
 location
 id ? 
-code 1 제주 
+code-> id  1 
+
 
 spot 
 image
