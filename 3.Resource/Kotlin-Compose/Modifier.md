@@ -14,4 +14,4 @@ follower
 
 userId
 follower
-status  ->
+status  -> 요청 중 요청 완료 거절 Enum 
