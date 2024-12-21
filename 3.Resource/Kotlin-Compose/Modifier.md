@@ -24,3 +24,5 @@ status
 거절 REFUSE
 수락 AGREE
 
+
+카카오 구글 
