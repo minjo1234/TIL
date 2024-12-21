@@ -59,6 +59,10 @@ location
 		2                      위도경도이름
 		https:/api/2 -> 
 
+location
+id ? 
+code 1 제주 
+
 spot 
 image
 planId
