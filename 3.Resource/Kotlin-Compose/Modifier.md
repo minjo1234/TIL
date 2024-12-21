@@ -46,7 +46,4 @@ Jeju , Busan enum
 
 제주 
 
-
-
-location  ->
-서울 
+지역코드
