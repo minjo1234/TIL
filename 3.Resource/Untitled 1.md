@@ -131,12 +131,8 @@
 - 성능 최적화를 위해 인덱스와 캐싱 전략 검토 권장.
 
 
-k8s 
-
-
-prometheous 
-harbor 
-gitlab 
+k8s -> 
+aws -> 
 
 
 
