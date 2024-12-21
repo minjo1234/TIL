@@ -60,7 +60,9 @@ location
 		https:/api/2 -> 
 
 spot 
+image
 planId
+description 
 위도
 경도
 이름
