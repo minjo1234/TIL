@@ -46,6 +46,7 @@ Jeju , Busan enum
 
 제주 
 
-지역코드 ? 
+지역코드 ?
+
 SEOUL(1,SEOUL)
-JEUE(2,JEUE)
+JEJU(2,JEJUE)
