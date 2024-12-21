@@ -39,3 +39,8 @@ status
 거제도 
 서울
 
+location 
+id
+Jeju , Busan enum 
+
+제주 
