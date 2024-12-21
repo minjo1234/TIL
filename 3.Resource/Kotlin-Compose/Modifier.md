@@ -45,3 +45,8 @@ Jeju , Busan enum
 
 
 제주 
+
+
+
+location  ->
+서울 
