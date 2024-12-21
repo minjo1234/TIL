@@ -9,3 +9,9 @@ Compose의 UI **구성요소들을 꾸미거나 행동을 추가**하기 위한 
 팔로워 테이블을 만들고
 
 userId와 followerId를 복합키로 잡을건데 좋은 방법
+
+follower 
+
+userId
+follower
+status  ->
