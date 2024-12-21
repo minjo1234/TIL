@@ -16,6 +16,10 @@ userId
 follower
 status  -> 요청 중 요청 완료 거절 Enum 
 
+userId 
+follwerId -> User FOllwer manytoOne 
+status  
+
 요청 중 PROGRESS
 거절 REFUSE
 수락 AGREE
