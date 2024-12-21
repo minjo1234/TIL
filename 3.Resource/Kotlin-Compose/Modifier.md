@@ -15,3 +15,7 @@ follower
 userId
 follower
 status  -> 요청 중 요청 완료 거절 Enum 
+
+요청 중 PROGRESS
+거절
+수락
