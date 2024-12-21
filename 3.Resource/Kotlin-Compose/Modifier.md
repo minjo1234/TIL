@@ -55,8 +55,12 @@ JEJU(2,JEJUE)
 
 
 location 
-사용자 -> 제주
-		2 
+사용자 -> 제주 -> 그 지역의 맛집,명소 
+		2                      위도경도이름
 		https:/api/2 -> 
 
 spot 
+planId
+위도
+경도
+이름
