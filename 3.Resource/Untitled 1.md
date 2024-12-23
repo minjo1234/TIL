@@ -173,3 +173,4 @@ https://blog.naver.com/writer0713/221465050942 (thymeleaf 값 넘겨주기).
 Composable 라이브러리는 코틀린 함수이다.
 1.@Composable Annotation을 이용하여 선언하면 
 2.Composable이 호출되면 앱 안에서
+3.해당 영역이 이미지로 변환될 때 사용자에게 표시되고 동작하는 방식을 정의하는 데이터와 프로퍼티의 집합을 전달한다.
