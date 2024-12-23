@@ -157,5 +157,7 @@ businessInfo -> 125
 
 예상 네고 확정 지불 -> purchaseContent
 
+salesItem  -> 비고추가하기
+
 
 
