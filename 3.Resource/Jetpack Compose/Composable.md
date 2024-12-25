@@ -3,3 +3,5 @@
 2.층(@Composable) 안에 층(@Composable) -> 층(@Composable이) 존재하는 구조이다.
 
 3.@Preview 미리보기 기능을 수행한다.
+
+Surface -> 레이아웃 구성
