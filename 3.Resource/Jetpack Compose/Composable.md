@@ -6,3 +6,5 @@
 
 Surface -> 레이아웃 구성
 // Column, Row, Box 
+
+modifier.padding(24.dp)
