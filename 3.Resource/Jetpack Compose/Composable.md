@@ -5,3 +5,4 @@
 3.@Preview 미리보기 기능을 수행한다.
 
 Surface -> 레이아웃 구성
+// Column, Row, Box 
