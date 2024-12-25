@@ -8,3 +8,10 @@ Surface -> 레이아웃 구성
 // Column, Row, Box 
 
 modifier.padding(24.dp)
+
+
+```
+Box( modifier = Modifier .sizeIn(maxWidth = 300.dp, maxHeight = 400.dp) .verticalScroll(rememberScrollState()) // 세로 스크롤 추가 .background(Color.Cyan) ) { Column { for (i in 1..50) { Text("항목 $i", modifier = Modifier.padding(8.dp)) } }
+
+```
+
