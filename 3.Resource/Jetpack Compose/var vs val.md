@@ -15,4 +15,5 @@ grid.gridOptions.api.paginationSetRowCount
 3.날짜는 주간단위로
 미완료 -> 미발행
 
-내부 외부 -> 솔루션 비용 산정하기. company 
+내부 외부 -> 솔루션 비용 산정하기. company 레벨과 다른 분류
+
