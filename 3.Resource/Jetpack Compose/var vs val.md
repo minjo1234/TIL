@@ -4,3 +4,5 @@ val로 지정된 불변 타입 변수는 초기에 값이 할당되면 나중에
 var 초기화 후의 값을 변경하지만, 다른 타입의 값을 넣을 수는 없다.
 
 1.오버레이가 무엇인지.
+
+grid.gridOptions.api.paginationSetRowCount
