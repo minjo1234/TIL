@@ -11,3 +11,5 @@ grid.gridOptions.api.paginationSetRowCount
 2.GetMapping은 url로 보내기때문에 
 @RequestBody를 사용하지 못한다.
 
+
+3.날짜는 주간단위로
