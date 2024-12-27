@@ -12,5 +12,7 @@ ConstraintLayout : 위젯을 다른 위젯의 위치에 상대저으로 배치,
 기존 ConstraintLayout과 동일
 
 
+넣을때부터 5를 바라보도록 설정한다.
+
 
 
