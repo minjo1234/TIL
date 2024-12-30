@@ -7,3 +7,6 @@
 - 테투리 색상
 
 alpha : 선명도 (0.1~1.0)
+
+salesManagerRecordId를 가지냐 마냐의 문제인데..
+
