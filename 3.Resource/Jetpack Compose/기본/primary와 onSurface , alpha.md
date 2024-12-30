@@ -15,5 +15,5 @@ SalesTarget
 departmentId -> primary key 
 userId -> primary key 
 
-salesManager_record  -> id -
+salesManager_record  -> id  -> 합산이라고 해주면된다.
 department_record -> id 
