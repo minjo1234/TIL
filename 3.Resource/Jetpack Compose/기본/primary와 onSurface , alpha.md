@@ -17,3 +17,6 @@ userId -> primary key
 
 salesManager_record  -> id  -> 합산이라고 해주면된다.
 department_record -> id 
+
+sales_target 재생성
+department_record
