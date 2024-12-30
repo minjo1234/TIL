@@ -20,3 +20,6 @@ department_record -> id
 
 sales_target 재생성
 department_record
+
+현재 문제는 저장을 누르면 purchaseCostSum의 값이 0 이되어버린다.
+
