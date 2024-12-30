@@ -10,3 +10,10 @@ alpha : 선명도 (0.1~1.0)
 
 salesManagerRecordId를 가지냐 마냐의 문제인데..
 
+
+SalesTarget
+departmentId -> primary key 
+userId -> primary key 
+
+salesManager_record  -> id -
+department_record -> id 
