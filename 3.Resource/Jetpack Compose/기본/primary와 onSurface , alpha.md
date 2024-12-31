@@ -23,3 +23,5 @@ department_record
 
 현재 문제는 저장을 누르면 purchaseCostSum의 값이 0 이되어버린다.
 
+clearObject 설정
+purchaseContent닫힐때 설정
