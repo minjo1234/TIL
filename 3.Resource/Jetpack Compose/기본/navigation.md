@@ -8,9 +8,19 @@ NavController는 Jetpack Compose에서 네비게이션에서 화면 전환과 �
 - 특정 화면으로 이동하거나 뒤로 가기수행
 - navigate(route: String) 메서드를 사용하여 지정된 경로를 이동
 
-`navController.navigates(Screen.Home.route)`
-`navController.navigate("home_screen") { popUpTo("login_screen") { inclusive = true } // login_screen 제거 }`
+```
+navController.navigates(Screen.Home.route)
+```
 
+
+- 특정 화면만 남기고 이동할 수 있습니다.
+  
+```
+navController.navigate("home_screen") { popUpTo("login_screen") { inclusive = true } // login_screen 제거 }`
+```
+
+- 현재 경로 추척
+- 
 ### 2.네비게이션 상태 관리
 
 
