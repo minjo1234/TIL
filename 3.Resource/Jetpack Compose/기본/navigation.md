@@ -29,5 +29,7 @@ val currentRoute = navController.currentBackStackEntry?.destination?.route
 
 ---
 
+### Navigate()  vs popBackStack()
 
-navi
+
+navController.popBackStack() : 현재 화면을 스택에서 제거하고 됟
