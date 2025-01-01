@@ -32,4 +32,7 @@ val currentRoute = navController.currentBackStackEntry?.destination?.route
 ### Navigate()  vs popBackStack()
 
 
-navController.popBackStack() : 현재 화면을 스택에서 제거하고 됟
+navController.popBackStack() : 현재 화면을 스택에서 제거하고 되돌린다.
+
+
+navController.navigate(R.id.destination) : 특정 화면으로 화면을 이동하고 이동하려는 화면이 네비게이션 스택에 추가된다.
