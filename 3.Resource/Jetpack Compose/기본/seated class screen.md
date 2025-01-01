@@ -10,3 +10,8 @@ sealed class Screen(val route: String) {
 
 
 ### 2.쉽게 모바일에서 화면을 추가할 수 있습니다.
+
+
+### 3.호출방식
+
+``
