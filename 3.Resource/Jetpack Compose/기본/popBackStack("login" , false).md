@@ -11,3 +11,6 @@ LoginResponse 반환값을 받을 객체
 
 **Login화면 -> LoginViewModel -> LoginClient.apiService -> LoginService**
 
+
+
+// JSON 타입 (예시) @POST("user/login") Call<ResponseBody> login(@Body LoginRequest loginRequest); // Form URL Encoded 타입 (예시) @FormUrlEncoded @POST("user/login") Call<ResponseBody> login( @Field("username") String username, @Field("password") String password );
