@@ -4,7 +4,7 @@
 
 Unable to parse TLS packet header https://10.0.2.2:8080 http로하면 CLEARTEXT communication to 10.0.2.2 not permitted by network security policy 이거뜨는데 어떻게 하라는거임?
 
-LoginService GET,POSㅆ
+LoginService GET,POST 메서드정의
 LoginViewModel 로그인관련한 상태관리 및 로그인관련 메서드호출
 LoginClient controller에 보낼값정의 
 LoginResponse 반환값을 받을 객체
