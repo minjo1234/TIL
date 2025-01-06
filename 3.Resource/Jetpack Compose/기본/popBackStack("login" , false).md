@@ -8,3 +8,6 @@ LoginService GET,POST 메서드정의
 LoginViewModel 로그인관련한 상태관리 및 로그인관련 메서드호출
 LoginClient controller에 보낼값정의 
 LoginResponse 반환값을 받을 객체
+
+**Login화면 -> LoginViewModel -> LoginClient.apiService -> LoginService**
+
