@@ -1,0 +1,3 @@
+
+MainActivity : 
+MyApplication : ㅎㄴ
