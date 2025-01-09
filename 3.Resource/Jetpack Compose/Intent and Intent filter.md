@@ -18,5 +18,12 @@ startActivity(intent)
 
 명시적 Intent : 
 
-```kotl
+```kotlin
+val sendIntent = Intent().apply {
+	action = Intent.ACTION.SEND
+	putExtra(Intent.EXTRA_TEXT, textMessage)
+} 
+
+// verify that the intent will resolve to an activity
+if (sendIntent.resolveActivity9packageManager) != null
 ```
