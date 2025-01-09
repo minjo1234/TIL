@@ -11,5 +11,9 @@
 
 암시적 Intent : 
 
+```kotlin
+val intent = Intent(this, LoginActivity::class.java)
+startActivity(intent)
+```
 
 명시적 Intent : 
