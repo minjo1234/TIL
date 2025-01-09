@@ -45,4 +45,15 @@ Intent intent = new Intent(CurrentActivity.this, NextActivity.class); intent.put
 
 ----
 
-Navigation : 
+Navigation : 단일 Activity 내에서 여러 fragment 간의 이동을 관리하거나, 복잡한 화면 흐름을 쉽게 처리할 수 있다.
+
+---
+
+
+|**항목**|**Intent**|**Navigation**|
+|---|---|---|
+|**주 사용 대상**|Activity 간 이동|Fragment 간 이동|
+|**데이터 전달**|`putExtra()`로 key-value 전달|Safe Args를 통한 타입 안전한 데이터 전달|
+|**백스택 관리**|수동으로 처리 (`finish()` 등 호출 필요)|자동으로 백스택 관리|
+|**사용 편의성**|단순한 경우에 적합|복잡한 네비게이션 흐름에 적합|
+|**기능 확장성**|다른 앱 호출 가능 (암시적 Intent 사용)|앱 내부의 화면 이동에 특화|
