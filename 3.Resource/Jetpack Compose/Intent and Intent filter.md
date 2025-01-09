@@ -37,4 +37,12 @@ if (sendIntent.resolveActivity9packageManager) != null) {
 
 ### Intent vs Navigation 
 
-새로운 Activity
+Intent : 새로운 `Activity`를 시작하거나 다른 앱의 특정 기능을 호출할 때 사용
+
+```
+Intent intent = new Intent(CurrentActivity.this, NextActivity.class); intent.putExtra("key", "value"); // 데이터 전달 startActivity(intent);
+```
+
+----
+
+Navigation : 
