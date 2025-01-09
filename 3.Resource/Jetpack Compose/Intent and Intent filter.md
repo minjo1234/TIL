@@ -11,12 +11,15 @@
 
 암시적 Intent : 
 
+startActivity를 이용하여 Intent 객체로 화면 이동을 할 수 있다.
+
 ```kotlin
 val intent = Intent(this, LoginActivity::class.java)
 startActivity(intent)
 ```
 
 명시적 Intent : 
+
 
 ```kotlin
 val sendIntent = Intent().apply {
@@ -25,5 +28,7 @@ val sendIntent = Intent().apply {
 } 
 
 // verify that the intent will resolve to an activity
-if (sendIntent.resolveActivity9packageManager) != null
+if (sendIntent.resolveActivity9packageManager) != null) {
+	startActivity(sendIntent)
+}
 ```
