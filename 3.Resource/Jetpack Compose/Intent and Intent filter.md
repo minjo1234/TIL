@@ -32,3 +32,9 @@ if (sendIntent.resolveActivity9packageManager) != null) {
 	startActivity(sendIntent)
 }
 ```
+
+---
+
+### Intent vs Navigation 
+
+새로운 Activity
