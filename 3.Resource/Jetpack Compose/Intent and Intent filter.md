@@ -17,3 +17,6 @@ startActivity(intent)
 ```
 
 명시적 Intent : 
+
+```kotl
+```
