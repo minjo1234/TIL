@@ -18,3 +18,5 @@ https://june0122.tistory.com/14 : navigation 관련 정보
 
 호스트는 single context 또는 NavController를 통해 탐색하기 위한 컨테이너이다. 
 
+
+### NavHostController가 NavController의 더 하위 클래스이다 .
