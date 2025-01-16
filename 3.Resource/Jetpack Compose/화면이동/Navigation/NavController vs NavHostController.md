@@ -12,7 +12,8 @@ https://june0122.tistory.com/14 : navigation 관련 정보
 
 
 ----
-영업본부 -> department_record isSales -> 1 
+영업본부 -> department_record isSales -> 1
+
 
 ### NavHost 
 
