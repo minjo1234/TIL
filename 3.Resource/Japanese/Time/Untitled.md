@@ -40,4 +40,5 @@
 じてんしゃ　자전거
 じゅうしょ　주소
 
-fiscalYear /  contractDate / salesType
+
+
