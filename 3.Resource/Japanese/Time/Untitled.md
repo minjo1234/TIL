@@ -40,6 +40,7 @@
 じてんしゃ　자전거
 じゅうしょ　주소
 
+わらえる
 
 
 해당 사업의 saleCostSum - saleIssuanceSum 과 일치한다면 발행완료사업
