@@ -80,7 +80,9 @@ private val viewModel = GameViewModel()
 private val viewModel: GameViewModel by viewModels()
 ```
 
-속성 위임ㅇ바
+	속성 위임 방식으로 Viewmodel 객체의 책임을 viewModels라는 별도 클래스에  위임을 하게 되면 
+객체는 대리자 클래스인 viewModels에 의해 처리된다. 
+첫번 
 
 
 참고문서 :
