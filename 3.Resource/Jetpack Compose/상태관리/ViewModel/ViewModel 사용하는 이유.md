@@ -54,6 +54,12 @@ ViewModel의 유일한 책임은 UI의 데이터를 관리하는 것입니다. ,
 
 3.ViewModel 사용법
 
+![[Pasted image 20250203215615.png]]
+
+ViewModel은 UI에 필요한 모든 데이터를 보유하고 처리한다.
+
+데이터를 관리하려고 ViewModel을 작성하려고 하는데 먼저 Kotlin의 속성위임(property dele)
+
 
 참고문서 :
 
