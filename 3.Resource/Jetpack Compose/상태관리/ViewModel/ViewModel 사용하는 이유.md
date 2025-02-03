@@ -34,9 +34,9 @@ UI 상태에 대한 사용자 기대와 상태 보존에 사용할 수 있는 �
 UI 상태를 동일하게 유지하기 위해 사용되는 것들
 
 ViewModel
-rememberSaveable
-onSaveInstanceState
-SavedStateHandle
+제트팩 컴포즈 rememberSaveable
+조회수 onSaveInstanceState
+뷰모델 : SavedStateHandle
 
 
 참고문서 :
