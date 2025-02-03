@@ -92,6 +92,22 @@ private val sharedViewModel: OrderViewModel by activityViewModels()
 ```
 
 
+### ViewModel의 데이터 안전하게 보호하기(**backing property**)
+
+잊지 말자. ViewModel의 데이터를 **다른 클래스에서 수정할 수 없도록** 해야한다. 그러려면 데이터를 public으로 노출하지 말아야 한다.
+
+- ViewModel 내부에서는 데이터를 수정할 수 있어야 한다. 그래서 `privat var`이어야 한다.
+- ViewModel 외부에서는 데이터 읽기만 가능하고 수정하면 안 되기 때문에 `public val`이어야 한다.
+
+|내부에서 활용하는 데이터|외부에서 활용하는 데이터|
+|---|---|
+|private|public|
+|var|val|
+
+
+그래서 **지원 속성(backing property)**를 이용한다. 이렇게 하면 **앱 데이터가 외부 클래스로부터 원치 않게 변경되지 않게 보호**할 수 있다.
+
+
 
 참고문서 :
 
