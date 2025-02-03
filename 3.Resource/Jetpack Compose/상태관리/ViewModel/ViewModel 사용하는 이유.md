@@ -82,7 +82,15 @@ private val viewModel: GameViewModel by viewModels()
 
 	속성 위임 방식으로 Viewmodel 객체의 책임을 viewModels라는 별도 클래스에  위임을 하게 되면 
 객체는 대리자 클래스인 viewModels에 의해 처리된다. 
-첫번 
+첫번째 액서스 시에는 자동으로 viewModel을 만들어주고,
+구성이 변경되어도 값을 유지하다가 반환해준다.
+
+cf) Fragment 간 데이터 전달할 수 있는 공유 ViewModel
+
+```kotlin
+private val sharedViewModel: OrderViewModel by activityViewModels()
+```
+
 
 
 참고문서 :
