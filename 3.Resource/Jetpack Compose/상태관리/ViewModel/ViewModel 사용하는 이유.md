@@ -38,6 +38,14 @@ ViewModel
 조회수 onSaveInstanceState
 뷰모델 : SavedStateHandle
 
+----
+
+ViewModel
+
+Activity, Fragment에 대한 데이터를 처리하고 관리하는 클래스
+Activity와 Fragment간의 통신도 처리한다.
+
+
 
 참고문서 :
 
