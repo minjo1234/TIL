@@ -99,13 +99,15 @@ private val sharedViewModel: OrderViewModel by activityViewModels()
 - ViewModel 내부에서는 데이터를 수정할 수 있어야 한다. 그래서 `privat var`이어야 한다.
 - ViewModel 외부에서는 데이터 읽기만 가능하고 수정하면 안 되기 때문에 `public val`이어야 한다.
 
-|내부에서 활용하는 데이터|외부에서 활용하는 데이터|
-|---|---|
-|private|public|
-|var|val|
+| 내부에서 활용하는 데이터 | 외부에서 활용하는 데이터 |
+| ------------- | ------------- |
+| private       | public        |
+| var           | val           |
 
 
 그래서 **지원 속성(backing property)**를 이용한다. 이렇게 하면 **앱 데이터가 외부 클래스로부터 원치 않게 변경되지 않게 보호**할 수 있다.
+
+-> 해당 내역을 이해하기 위해서는 객체의 생명주기 방식을 이해해야한다.
 
 
 
@@ -117,3 +119,6 @@ UI 상태저장 : https://developer.android.com/topic/libraries/architecture/sav
 ViewModel을 안전하게 사용하자 : https://velog.io/@hs0204/ViewModel%EC%9D%84-%EC%95%88%EC%A0%84%ED%95%98%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EC%9E%90
 
 ---------
+
+
+
