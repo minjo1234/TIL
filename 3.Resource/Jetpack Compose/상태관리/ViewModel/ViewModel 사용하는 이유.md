@@ -45,6 +45,10 @@ ViewModel
 Activity, Fragment에 대한 데이터를 처리하고 관리하는 클래스
 Activity와 Fragment간의 통신도 처리한다.
 
+ViewModel의 목적은 Activity 또는 Fragment에 필요한 정보를 수집하고 보관하는 것입니다.
+ViewModel의 유일한 책임은 UI의 데이터를 관리하는 것입니다. , 
+계층 구조에 액세스하거나 Activity또는 Fragment에 대한 참조를 보유해서는 안된다.
+
 
 
 참고문서 :
