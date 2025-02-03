@@ -63,7 +63,9 @@ ViewModel은 UI에 필요한 모든 데이터를 보유하고 처리한다.
 `var`은 값을 할당할 때 setter, 속성 값을 읽을 때 getter를 호출한다.
 `val`은 read-only기 때문에 기본적으로 getter만 생성된다.
 
-`kotlin`에서 by를 활용해 속성 위임을 사용하면 getter-setter으
+`kotlin`에서 by를 활용해 속성 위임을 사용하면 getter-setter의 역할을 다른 클래스에 넘길 수 있다.
+다른 클래스를 대리자 클래스(delegate class)라고 한다.
+
 
 
 참고문서 :
