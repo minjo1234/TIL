@@ -14,4 +14,10 @@
 
 ---
 
+ViewModel : UI에 상태를 노출하고 관련 비즈니스 로직을 캡슐화한다.
 
+
+
+참고문서 :
+
+Jetpack Compose 공식문서 : https://developer.android.com/topic/libraries/architecture/viewmodel
