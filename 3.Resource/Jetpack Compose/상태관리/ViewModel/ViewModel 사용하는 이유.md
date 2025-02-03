@@ -73,10 +73,14 @@ ViewModel은 UI에 필요한 모든 데이터를 보유하고 처리한다.
 private val viewModel = GameViewModel()
 ```
 
+이렇게 기본 생성자를 사용해 초기화하면 참조상태를 읽게되는데, 기기를 회전하여 Activity가 소멸할 경우 다시
+초기 상태의 액티비티가 실행된다.
+
 ```kotlin
 private val viewModel: GameViewModel by viewModels()
 ```
 
+속성 위임ㅇ바
 
 
 참고문서 :
