@@ -67,6 +67,17 @@ ViewModel은 UI에 필요한 모든 데이터를 보유하고 처리한다.
 다른 클래스를 대리자 클래스(delegate class)라고 한다.
 
 
+### 왜 속성을 위임하는데 ? 
+
+```kotlin
+private val viewModel = GameViewModel()
+```
+
+```kotlin
+private val viewModel: GameViewModel by viewModels()
+```
+
+
 
 참고문서 :
 
