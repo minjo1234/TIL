@@ -58,7 +58,10 @@ ViewModel의 유일한 책임은 UI의 데이터를 관리하는 것입니다. ,
 
 ViewModel은 UI에 필요한 모든 데이터를 보유하고 처리한다.
 
-데이터를 관리하려고 ViewModel을 작성하려고 하는데 먼저 Kotlin의 속성위임(property dele)
+데이터를 관리하려고 ViewModel을 작성하려고 하는데 먼저 Kotlin의 속성위임(property delegate)과 delefate class 
+
+`var`은 값을 할당할 때 setter, 속성 값을 읽을 때 getter를 호출한다.
+`val`은 read-only기 때문에 기본적으로 getter만 생성된다.
 
 
 참고문서 :
