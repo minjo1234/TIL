@@ -122,3 +122,4 @@ ViewModel을 안전하게 사용하자 : https://velog.io/@hs0204/ViewModel%EC%9
 
 
 
+https://chatgpt.com/c/67a0c004-d420-8003-8fd6-b28dac212ae3
