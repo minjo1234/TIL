@@ -55,3 +55,5 @@ ViewModel의 유일한 책임은 UI의 데이터를 관리하는 것입니다. ,
 
 Jetpack Compose 공식문서 : https://developer.android.com/topic/libraries/architecture/viewmodel
 UI 상태저장 : https://developer.android.com/topic/libraries/architecture/saving-states#onsaveinstancestate
+
+ViewModel을 안전하게 사용하자 : https://velog.io/@hs0204/ViewModel%EC%9D%84-%EC%95%88%EC%A0%84%ED%95%98%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EC%9E%90
