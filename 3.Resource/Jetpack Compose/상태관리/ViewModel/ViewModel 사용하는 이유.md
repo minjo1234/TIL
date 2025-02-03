@@ -31,3 +31,5 @@ UI 상태저장
 Jetpack Compose 공식문서 : https://developer.android.com/topic/libraries/architecture/viewmodel
 UI 상태저장 : https://developer.android.com/topic/libraries/architecture/saving-states#onsaveinstancestate
 
+
+발행완료현황을 조회할때 '영업본부가 존재하게 되는데' 
