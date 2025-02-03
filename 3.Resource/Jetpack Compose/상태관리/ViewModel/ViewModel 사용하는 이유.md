@@ -23,9 +23,11 @@ ViewModel의 역할
 
 UI에 표시하는 데이터를 보관하는 일반 클래스 
 
-UI 상태저장 
+UI 상태저장  
 
 
 참고문서 :
 
 Jetpack Compose 공식문서 : https://developer.android.com/topic/libraries/architecture/viewmodel
+UI 상태저장 : https://developer.android.com/topic/libraries/architecture/saving-states#onsaveinstancestate
+
