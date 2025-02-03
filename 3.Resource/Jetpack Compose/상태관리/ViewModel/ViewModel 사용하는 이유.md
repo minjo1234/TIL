@@ -23,26 +23,14 @@ ViewModel의 역할
 
 UI에 표시하는 데이터를 보관하는 일반 클래스 
 
-UI 상태저장  
+----
+
+2.UI 상태저장  
+
+
 
 
 참고문서 :
 
 Jetpack Compose 공식문서 : https://developer.android.com/topic/libraries/architecture/viewmodel
 UI 상태저장 : https://developer.android.com/topic/libraries/architecture/saving-states#onsaveinstancestate
-
-
-발행완료현황을 조회할때 '영업본부가 존재하게 되는데' 
-
-
-id IN (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 39, 101, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 121, 122, 130, 131, 132, 154, 156, 158, 175)
-
-id IN (11, 12, 13, 14, 15, 40, 116, 117, 118, 119, 120, 159, 176, 177, 183)
-
-id IN (38, 39, 40, 42, 105, 109, 115, 117, 153, 158, 159, 171, 183)
-
-153을 제외하고 모두 기타가 있어서는 안된다.
-
-solutionId IN (105, 117, 158, 159, 171)
-
-정렬,
