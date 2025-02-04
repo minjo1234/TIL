@@ -118,8 +118,8 @@ UI 상태저장 : https://developer.android.com/topic/libraries/architecture/sav
 
 ViewModel을 안전하게 사용하자 : https://velog.io/@hs0204/ViewModel%EC%9D%84-%EC%95%88%EC%A0%84%ED%95%98%EA%B2%8C-%EC%82%AC%EC%9A%A9%ED%95%98%EC%9E%90
 
+VieModel 속성위임 : https://chatgpt.com/c/67a0c004-d420-8003-8fd6-b28dac212ae3
+
 ---------
 
 
-
-https://chatgpt.com/c/67a0c004-d420-8003-8fd6-b28dac212ae3
