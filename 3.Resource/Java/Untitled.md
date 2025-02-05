@@ -10,3 +10,6 @@ case when :#{#condition.orderColumn} = 'cost' THEN SUM(si.cost) else null end :#
 case when :#{#condition.orderColumn} = 'notComplete' THEN MAX(bd.projectName) else null end :#{#condition.direction},  
 case when :#{#condition.orderColumn} = 'revenueType' THEN MAX(bd.revenueType) else null end :#{#condition.direction}
 
+
+
+and (:#{#condition.salesManagerId} is null or bd.salesManagerId = :#{#condition.salesManagerId})
