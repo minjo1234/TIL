@@ -13,3 +13,5 @@ case when :#{#condition.orderColumn} = 'revenueType' THEN MAX(bd.revenueType) el
 
 
 and (:#{#condition.salesManagerId} is null or bd.salesManagerId = :#{#condition.salesManagerId})
+
+departmentId는 매년변경된다.
