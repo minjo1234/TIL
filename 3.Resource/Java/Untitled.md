@@ -18,3 +18,5 @@ departmentId는 매년변경된다.
 
 
 mysqldump --triggers --routines -u erp -p erp > mysqldump2.sql
+
+productTypeId IN (1, 2, 4, 42, 11, 196)
