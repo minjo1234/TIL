@@ -22,3 +22,8 @@ mysqldump --triggers --routines -u erp -p erp > mysqldump2.sql
 productTypeId IN (1, 2, 4, 42, 11, 196)
 
 ![[Pasted image 20250206110241.png]]
+
+![[Pasted image 20250206111549.png]]
+
+
+![[Pasted image 20250206111558.png]]
