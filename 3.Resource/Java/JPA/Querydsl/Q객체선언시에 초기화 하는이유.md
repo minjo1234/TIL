@@ -28,5 +28,7 @@ SQL 쿼리를 타입 안전하게 출력하며
 엔티티의 구조와 필드정보를 담은 쿼리 메타모델 
 
 
-1.버튼을 
-2.
+1.버튼을 누름
+2.salesmanagerRecord조회 -> fiscalYear, departmentIds
+3.uses테이블과 비교해서 기존에 존재하는 salesmanagerRecord의 userId 값이 user의 id값과 다른것만 insert
+4.insert이후에 
