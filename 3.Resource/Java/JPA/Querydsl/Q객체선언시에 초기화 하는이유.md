@@ -26,3 +26,7 @@ public static final QUserEntity userEntity = new QUserEntity("userEntity");
 SQL 쿼리를 타입 안전하게 출력하며
 컴파일 타임에 오류를 해결 
 엔티티의 구조와 필드정보를 담은 쿼리 메타모델 
+
+
+1.버튼을 
+2.
