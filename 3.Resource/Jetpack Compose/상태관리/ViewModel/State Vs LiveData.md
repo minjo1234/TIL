@@ -1,6 +1,7 @@
 
-UI가 활성화 된 경우에만 데이터를 업데이트함 ( 메모리 누수를 빙자힌다.)
-
+- UI가 활성화 된 경우에만 데이터를 업데이트함 ( 메모리 누수를 빙자힌다.)
+- MutableLiveData - 변경가능 
+- 
 ```kotlin
 class HomeViewModel : ViewModel() {
 	private val _allPostList = MutableLiveData<List<Post>>()  // 내부에서 변경
@@ -11,5 +12,9 @@ class HomeViewModel : ViewModel() {
 
 ```
 @Compoable
-fun PostScreen(homeViewModel)
+fun PostScreen(homeViewModel: HomeViewModel) {
+	val postList by homeviewModel.allPostList.observeAsState(emptyList()) // LiveData
+	}
 ```
+
+
