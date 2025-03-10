@@ -36,15 +36,20 @@ List<UserDTO> users = queryFactory
 	.fetch();
 ```
 
+- 매핑하는 컬럼명과 
 ---
 
 #### 2-2 Projection.bean() 
 
 ```java
 List<UserDTO> users = queryFactory
-
+	.select(Projections.bean(UserDTO.class), user.id, user.name, user.email)
+	.from(user)
+	.fetch()
+	
 ```
 
+- 
 
 ------
 
