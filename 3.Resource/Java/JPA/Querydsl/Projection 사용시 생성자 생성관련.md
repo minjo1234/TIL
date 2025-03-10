@@ -40,7 +40,8 @@ List<UserDTO> users = queryFactory
 **주의점**
 
 - 매핑하는 컬럼명과 이름이 동일해야한다. 
-- 필드명과 컬럼명ㅇ
+- 필드명과 컬럼명이 다르다면 Expression.as 를 사용하여 별칭사용
+- setter를 사용하지않는다면 컬럼이 privete로 설정이 되어있지 않아야함. (Setter를 이용하여 값을 매핑)
 ---
 
 #### 2-2 Projection.bean() 
