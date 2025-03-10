@@ -41,7 +41,7 @@ List<UserDTO> users = queryFactory
 
 - 매핑하는 컬럼명과 이름이 동일해야한다. 
 - 필드명과 컬럼명이 다르다면 Expression.as 를 사용하여 별칭사용
-- Se
+
 ---
 
 #### 2-2 Projection.bean() 
@@ -59,6 +59,12 @@ List<UserDTO> users = queryFactory
 
 ------
 
+#### 요약 
 
+| Projections 방식                  | private 필드 접근 가능 여부 | Setter 필요 여부 | 주입 방식                                 |
+| ------------------------------- | ------------------- | ------------ | ------------------------------------- |
+| **`Projections.fields()`**      | ✅ 가능                | ❌ 필요 없음      | **리플렉션을 사용하여 private 필드에 직접 값 주입**    |
+| **`Projections.bean()`**        | ❌ 불가능               | ✅ 필요         | **기본 생성자로 객체 생성 후 Setter를 이용하여 값 주입** |
+| **`Projections.constructor()`** | ❌ 불가능               | ❌ 필요 없음      | **생성자를 호출하여 값 주입**                    |
 
 
