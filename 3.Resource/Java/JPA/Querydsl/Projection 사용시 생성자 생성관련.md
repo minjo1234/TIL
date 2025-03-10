@@ -20,8 +20,13 @@ List<UserDTO> users = queryFactory
 ### 2.Projection 쓰면서 생성자 작성 안하는 법 -> Projection.fields(), Projection.bean() 
 
 
-> [!NOTE] Projec
-> Contents
+> [!Projection 사용 시 추가 생성자 생성 안하는 법] 
+> 
+> - Projection.fields()
+> - Projection.bean() 
+
+
+
 
 #### 2-1 Projection.fields
 
