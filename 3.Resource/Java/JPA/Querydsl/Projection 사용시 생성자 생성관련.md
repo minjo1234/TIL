@@ -68,3 +68,8 @@ List<UserDTO> users = queryFactory
 | **`Projections.constructor()`** | ❌ 불가능               | ❌ 필요 없음      | **생성자를 호출하여 값 주입**                    |
 
 
+
+---
+
+
+### + 리플렉션이란 ?
