@@ -36,7 +36,11 @@ List<UserDTO> users = queryFactory
 	.fetch();
 ```
 
-- 매핑하는 컬럼명과 
+
+**주의점**
+
+- 매핑하는 컬럼명과 이름이 동일해야한다. 
+- 필드명과 컬럼명ㅇ
 ---
 
 #### 2-2 Projection.bean() 
