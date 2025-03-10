@@ -5,8 +5,14 @@ querydsl의 Projection을 사용하다보니 쿼리문에 따라서 늘어나는
 
 ```java
 
-List<UserDTO> 
+List<UserDTO> users = queryFactory
+	.select(Projections.constructor(UserDTO.class, user.id, user.name, user.email))
+	.from(user)
+	.fetch();
 ```
+
+
+해당 쿼리처럼 use
 
 
 ----
