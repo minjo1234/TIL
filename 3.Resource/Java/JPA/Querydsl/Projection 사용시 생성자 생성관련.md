@@ -12,7 +12,9 @@ List<UserDTO> users = queryFactory
 ```
 
 
-해당 쿼리처럼 use
-
+해당 쿼리처럼 작성하게 될 경우 QueryDSL에서 해당 DTO를 찾아서 매핑하려고 합니다.
+만약 UserDTO에 Long id, String name, String email을 가진 생성자가 존재하지 않을 경우 오류가 발생함.
 
 ----
+
+### Projection 
