@@ -17,4 +17,15 @@ List<UserDTO> users = queryFactory
 
 ----
 
-### Projection 
+### 2.Projection 쓰면서 생성자 작성 안하는 법 -> Projection.fields(), Projection.bean() 
+
+
+
+2-1 
+
+### 
+
+
+
+
+------
