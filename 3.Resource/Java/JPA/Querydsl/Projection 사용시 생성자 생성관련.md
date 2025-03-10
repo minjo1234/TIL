@@ -54,6 +54,7 @@ List<UserDTO> users = queryFactory
 	
 ```
 
+- Java Bean의 규칙을 따른다.
 - 
 
 ------
