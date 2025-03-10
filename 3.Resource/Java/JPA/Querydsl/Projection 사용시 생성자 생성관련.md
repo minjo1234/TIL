@@ -27,15 +27,27 @@ List<UserDTO> users = queryFactory
 
 
 
-#### 2-1 Projection.fields
+#### 2-1 Projection.fields()
 
 ```java
 List<UserDTO> users = queryFactory
 	.select(Projections.fields(UserDTO.class, user.id, user.name, user.email))
-	
+	.from(user)
+	.fetch();
+```
+
+---
+
+#### 2-2 Projection.bean() 
+
+```java
+List<UserDTO> users = queryFactory
+
 ```
 
 
-
-
 ------
+
+
+
+
