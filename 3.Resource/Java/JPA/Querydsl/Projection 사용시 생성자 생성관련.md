@@ -17,7 +17,7 @@ List<UserDTO> users = queryFactory
 
 ----
 
-### 2.Projection 쓰면서 생성자 작성 안하는 법 -> Projection.fields(), Projection.bean() 
+### 2.Projection 쓰면서 생성자 작성 안하는 법 
 
 
 > [!Projection 사용 시 추가 생성자 생성 안하는 법] 
@@ -27,10 +27,12 @@ List<UserDTO> users = queryFactory
 
 
 
-
 #### 2-1 Projection.fields
 
-```
+```java
+List<UserDTO> users = queryFactory
+	.select(Projections.fields(UserDTO.class, user.id, user.name, user.email))
+	
 ```
 
 
