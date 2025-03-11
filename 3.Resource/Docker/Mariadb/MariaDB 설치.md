@@ -22,7 +22,7 @@ docker exec -it mariadb /bin/bash
 ---
 ### 4.mariadb 접속
 
-```mariadb /bin/bash
+```sql
 mariadb -u root -p 
 ```
 ----

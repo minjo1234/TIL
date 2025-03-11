@@ -1,11 +1,20 @@
 
 ### 1.유저생성
 
-```mariadb
+```sql
 create user 'erp'@'%' identified by 'cmp3775*'
 ```
-
+---
 ### 2.특정 DB 권한부여
 
+```sql
+grant all PRIVILEGES ON erp.* to 'erp'@'%' identified by 'cmp3775*';
+```
 
+### 3.새로고침
+
+```sql
+FLUSH PRIVILEGES;
+```
 ---
+
