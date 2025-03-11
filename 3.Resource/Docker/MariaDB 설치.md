@@ -6,23 +6,24 @@ docker pull mariadb
 ```
 
 ---
-
 ### 2.docker 컨테이너 실행
 
 ```docker 
 docker run --name mariadb -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=1234 mariadb 
 ```
 
+---
 ### 3.컨테이너 접속
 
 ```docker
 docker exec -it mariadb /bin/bash 
 ```
 
+---
+### 4.mariadb 접속
 
-### 4.Mariadb 접속
-
-
-```mariadb /
+```mariadb /bin/bash
+mariadb -u root -p 
 ```
 ----
+
