@@ -10,5 +10,6 @@ docker pull mariadb
 ### 2.docker 컨테이너 실행
 
 ```docker 
-docker run 
+docker run --name mariadb -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=1234 mariadb 
 ```
+
