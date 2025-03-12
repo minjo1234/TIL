@@ -54,8 +54,13 @@ BEM만 잘 이해해도 좋다.
 > #### 레이아웃 
 > - 대부분 flexbox로 가능하다. (과도기가 있었지만)
 > - margin을 적당히 사용하자. (framework에 margin이 있다면 컴포넌트 배치가 어려울 수 있다.)
-> - overlay 공부 ( z추)
+> - overlay 공부 ( z축 관련)
 
+
+`row` | `column` 보다는 `horizontal` | `vertical`로  
+`align-items` | `justify-content` 보다는 `top+right`로
+
+------
 
 
 
