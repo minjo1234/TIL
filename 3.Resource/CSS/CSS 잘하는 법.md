@@ -59,6 +59,8 @@ BEM만 잘 이해해도 좋다.
 
 `row` | `column` 보다는 `horizontal` | `vertical`로  
 `align-items` | `justify-content` 보다는 `top+right`로
+hbox와 달리 vbox는 `align-items: stretch`으로 만드는 것이 좋기 때문에 저는 아래와 같이 만들어서 사용하고 있습니다.
+
 
 ------
 
