@@ -61,6 +61,11 @@ BEM만 잘 이해해도 좋다.
 `align-items` | `justify-content` 보다는 `top+right`로
 hbox와 달리 vbox는 `align-items: stretch`으로 만드는 것이 좋기 때문에 저는 아래와 같이 만들어서 사용하고 있습니다.
 
+### vbox는 숙제입니다.
+
+어렵지 않으실 거예요. vbox는 hbox와 방향만 다를 뿐 동일합니다.  
+hbox와 달리 vbox는 `align-items: stretch`으로 만드는 것이 좋기 때문에 저는 아래와 같이 만들어서 사용하고 있습니다.
+
 
 ------
 
