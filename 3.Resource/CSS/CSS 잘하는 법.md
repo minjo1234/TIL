@@ -8,8 +8,29 @@
 
 BEM만 잘 이해해도 좋다.
 
+```html
+<div class="header">
+  <div class="nav"></div>
+</div>
+
+<style>
+.header .nav { (X) } /* 이렇게 하면 nav가 header 구조에 종속이 된다. */
+</style>
+```
 
 
+```html
+<div class="header">
+  <div class="header__nav"></div>
+</div>
+
+<style>
+.header__nav { (O) } /* 구조도 표현하면서 종속 관계가 없다. */
+</style>
+```
+
+
+-- 는 하나만 사용하는 것을 권장하며
 
 
 -------
