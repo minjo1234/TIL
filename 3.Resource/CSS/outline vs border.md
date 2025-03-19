@@ -10,4 +10,4 @@
 
 
 
-border는 공간을 차지하기 때문에, transition을 사용하는 경우에는 
+border는 공간을 차지하기 때문에, transition을 사용하는 경우에는 layout-paint-compositie 
