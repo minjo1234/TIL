@@ -10,4 +10,6 @@
 
 
 
-border는 공간을 차지하기 때문에, transition을 사용하는 경우에는 layout이 매번 변경되어 성능에 좋지 
+border는 공간을 차지하기 때문에, transition을 사용하는 경우에는 layout이 매번 변경되어 성능에 좋지 않은 영향을 줄 것이다.
+
+outline을 항상 none으로 해두는 것이 아닌 상황에 맞춰서 border, outline중에서 골라서 사용하는 것이 중요하다.
