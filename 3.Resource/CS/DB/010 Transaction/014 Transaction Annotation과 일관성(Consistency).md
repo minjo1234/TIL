@@ -30,7 +30,7 @@ public void saveService(MyServiceDTO dto) {
 ```
 
 더욱 상세하면 설명하자면
-- `saveService`라는 메소드는 Springdml d
+- `saveService`라는 메소드는 Spring의 어노테이션을 이용하여 트랜잭션이 되었고
 - 코드 상에서 에러(Exception)이 발생하거나 
 - DB작업(쿼리)가 실패하면 트랜잭션은 `ROLLBACK` 된다.
 - 모든 코드와 DB 쿼리가 정상적으로 작동하여야 트랜잭션이 커밋(Commit) 된다.
