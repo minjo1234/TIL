@@ -26,4 +26,14 @@ created: 2025-04-26
 트랜잭션 = DB의 상태를 변경시키는 작업의 단위 
 한 꺼번에 수행되어야할 연산을 모아둔다.
 
-나는 공부하기전에 SELECT 는 하나의 Trnasaction이라고 생각하지 않았지만, 
+나는 공부하기전에 SELECT 는 하나의 Trnasaction이라고 생각하지 않았지만, 트랜잭션을 공부하기 시작한 이후  user 테이블을 조회한다는 가정하에 
+
+
+```sql
+Select * from user; 
+```
+
+```sql 
+Begin 
+
+```
