@@ -10,8 +10,11 @@ created: 2025-04-26
 
 # 011 트랜잭션의 격리 수준(Isolation Level)
 ----
+개요 : DB 트랜잭션을 관리하던 도중  
 
-1.Transaction  
+
+### 트랜잭션 
+
 
 
 
