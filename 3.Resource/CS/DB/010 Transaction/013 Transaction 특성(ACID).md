@@ -32,10 +32,12 @@ ex) 스트리밍 데이터 소스가 갑자기 오류를 일으키더라도 데�
 
 ```java 
 @Transactional 
-public class MyService(MyServiceDTO dto) {
+public void saveService(MyServiceDTO dto) {
 		if(dto.size() < 0) {
-			throw new Illegal
+			throw new IllegalArgumentException("아무것도 존재하지 않음");
 		}
+		
+		save(dto);
 	}
 ```
 
