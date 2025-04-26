@@ -59,6 +59,6 @@ COMMIT;
   →`대부분의 DB에서 Auto Commit으로 설정되어, 내부적으로 트랜잭션을 시작하고 바로 종료된다. 
 - `INSERT`, `UPDATE`, `DELETE` 
    → Auto commit 모드에서는 자동으로 트랜잭션이 종료된다.
-   → 수동 트랜잭션 모드에서는 명시적인  `COMMIT`, `ROLLBACK`
+   → 수동 트랜잭션 모드에서는 명시적인  `COMMIT`, `ROLLBACK` 이 필요하다.
 
 ---
