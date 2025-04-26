@@ -80,7 +80,7 @@ saveService라는 메소드를 하나의 트랜잭션으로 여기며,
 
 `readOnly = true` 옵션을 주면
 
-- 성능 최적화(DB가 dirty checking 같은 걸 안 함 -> JPA를 사용하는 경우)
+- 성능 최적화(DB가 dirty checking 같은 걸 안 함 → JPA를 사용하는 경우)
 - 읽기 작업이라는 걸 명시적으로 표시할 수 있다.
 
 3.트랜잭션이 필요 없는 경우
