@@ -17,7 +17,7 @@ Transaction의 특성중 C(Consistency)를 공부하는 도중 Transactional 어
 ### 1.@Transactional
 
 ```java
-# 개발자 입장에서 하나의 메소드를 어노테이션을 이용하여 Transaction의 트랜잭
+# 개발자 입장에서 하나의 메소드를 @Transactional 어노테이션을 이용하여 하나의 트랜잭션으로 보는 것이다.
 
 @Transactional 
 public void saveService(MyServiceDTO dto) {
@@ -27,13 +27,10 @@ public void saveService(MyServiceDTO dto) {
 		
 		save(dto);
 	}
-
-
-saveService라는 메소드를 하나의 트랜잭션으로 여기며, 
-
 ```
 
 더욱 상세하면 설명하자면
+- `saveService`라는 메소드는 Springdml d
 - 코드 상에서 에러(Exception)이 발생하거나 
 - DB작업(쿼리)가 실패하면 트랜잭션은 `ROLLBACK` 된다.
 - 모든 코드와 DB 쿼리가 정상적으로 작동하여야 트랜잭션이 커밋(Commit) 된다.
