@@ -1,11 +1,8 @@
 ---
 aliases:
-  - Cloud
+  - Network
 tags:
-  - Cloud
+  - Network
 author: Min Jo
 created: 2025-04-26
----
-
-# Cloud 
 ---
