@@ -29,7 +29,11 @@ ex) 스트리밍 데이터 소스가 갑자기 오류를 일으키더라도 데�
 - 스키마 정의(데이터 타입, 제약사항)
 - 비즈니스 로직 상의 규칙(Transactional Annotation)
 
-- 
+```java 
+@Transactional 
+public class 
+```
+
 
 ### 고립성
 
