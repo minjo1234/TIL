@@ -70,6 +70,15 @@ public void saveService(MyServiceDTO dto) {
 - 그런데 여러 테이블을 join 하거나 도중에 상태가 변할 위험이 있는 경우는 
     ex) A 테이블 조회 -> B 테이블 조회 -> A 테이블의 상태가 다른 작업에 의해서 변할 수 있는경우 
 
+```java
+@Transactional(readOnly = true)
+public List<Product> getProductsAndOrders(Long customerId) {
+    List<Product> products = productRepository.findByCustomerId(customerId);
+    // 여기서 Order 상태를 같이 조회하고, 그 사이에 상태 변동이 있을 수 있는 경우
+    return products;
+}
+```
+
 이러한 경우에는 특별하게 "읽기 전용 트랜잭션" 을 이용한다.
 
 ```java
@@ -103,4 +112,4 @@ public void saveService(MyServiceDTO dto) {
 
 
 읽기 작업에 대해서는 **DB가 더 효율적으로 동작**하게 만든다는 점을 추가할 수 있어. 
--> 읽기작업에 대해서 어떻게 내부가 돌아가서 DB가  더 효율적으로 동작하는지에 대해서 설
+-> 읽기작업에 대해서 어떻게 내부가 돌아가서 DB가  더 효율적으로 동작하는지에 대해서 설명을 듣고싶다.
