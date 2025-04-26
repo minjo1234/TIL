@@ -18,6 +18,7 @@ Transaction의 특성중 C(Consistency)를 공부하는 도중 Transactional 어
 
 ```java
 # 개발자 입장에서 볼때의 Transaction의 단위를 어노테이션을 이용하여 구현하는 것이다.
+# 코드와 DB 작업이 모두 오류없이 작동하여야 트랜잭션이 종료하게된다.
 
 @Transactional 
 public void saveService(MyServiceDTO dto) {
@@ -32,6 +33,8 @@ public void saveService(MyServiceDTO dto) {
 saveService라는 메소드를 하나의 트랜잭션으로 여기며, 
 
 ```
+
+더욱 정확히 
 
 
 ---
