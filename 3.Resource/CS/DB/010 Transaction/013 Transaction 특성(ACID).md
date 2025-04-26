@@ -30,6 +30,7 @@ ex) 스트리밍 데이터 소스가 갑자기 오류를 일으키더라도 데�
 - 비즈니스 로직 상의 규칙(Transactional Annotation)
   
 
+ 개발을 할 때 
 ```java 
 @Transactional 
 public void saveService(MyServiceDTO dto) {
@@ -40,6 +41,8 @@ public void saveService(MyServiceDTO dto) {
 		save(dto);
 	}
 ```
+
+
 
 
 ### 고립성
