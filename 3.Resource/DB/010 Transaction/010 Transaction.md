@@ -36,6 +36,8 @@ created: 2025-04-26
 
 나는 공부하기전에 SELECT 는 하나의 Trnasaction이라고 생각하지 않았지만, 트랜잭션을 공부하기 시작한 이후  user 테이블을 조회한다는 가정하에 
 
+---
+
 
 ```sql
 SELECT * FROM user; 
