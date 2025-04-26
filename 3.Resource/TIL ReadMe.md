@@ -18,7 +18,7 @@ created: 2025-04-26
 
 # Table of Contents 
 ---
-- ### [[000 CS]]
+- ### [CS](https://github.com/minjo1234/TIL/tree/main/3.Resource)
 	- ### [[DB]]
 	- ### [[Cloud]]
 		- #### [[k8s]]
