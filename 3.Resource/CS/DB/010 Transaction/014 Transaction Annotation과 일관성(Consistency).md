@@ -47,13 +47,6 @@ saveService라는 메소드를 하나의 트랜잭션으로 여기며,
 - **DB 레벨 에러**(ex. 제약조건 위반, Deadlock 등)가 발생하면 → 역시 롤백돼.
 
 
-
-
-
-
-`rollbackFor`, `propagation`, `isolation` 같은 고급 옵션도 알려줄게. (트랜잭션 진짜 제대로 쓰려면 이것들도 알아야 하거든!)
-
-
 ---
 
 
@@ -87,7 +80,7 @@ saveService라는 메소드를 하나의 트랜잭션으로 여기며,
 
 `readOnly = true` 옵션을 주면
 
-- 성능 최적화(DB가 dirty checking 같은 걸 안 함)
+- 성능 최적화(DB가 dirty checking 같은 걸 안 함 -> JPA를 사용하는 경우)
 - 읽기 작업이라는 걸 명시적으로 표시할 수 있다.
 
 3.트랜잭션이 필요 없는 경우
@@ -104,4 +97,10 @@ saveService라는 메소드를 하나의 트랜잭션으로 여기며,
 | 단순 select            | ❌ 불필요                | 읽기 전용             |
 | 복잡한 select + 일관성 필요  | ✅ 필요 (readOnly 트랜잭션) | join/동시성 이슈 있을 때  |
 | 계산, API 호출 등         | ❌ 불필요                | DB 작업 없으면 안 걸어도 됨 |
+
+
+
+
+
+`rollbackFor`, `propagation`, `isolation` 같은 고급 옵션도 알려줄게. (트랜잭션 진짜 제대로 쓰려면 이것들도 알아야 하거든!)
 
