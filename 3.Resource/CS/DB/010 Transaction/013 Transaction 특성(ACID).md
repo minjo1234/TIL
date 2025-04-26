@@ -24,9 +24,12 @@ created: 2025-04-26
 ex) 스트리밍 데이터 소스가 갑자기 오류를 일으키더라도 데이터 손실과 손상이 방지 
 
 ### 일관성(Consistency) - 테이블에 변경 사항을 적용할 때 미리 적용된, 예측할 수 있는 방식만 취득(feat:) 트랜잭션 annotation) 
+
 - DB 자체의 무결성 제약조건(NOT NULL, FOREIGN KEY, UNIQUE 등)
 - 스키마 정의(데이터 타입, 제약사항)
-- 비즈니스 로직 상의 규칙 
+- 비즈니스 로직 상의 규칙(Transactional Annotation)
+
+- 
 
 ### 고립성
 
