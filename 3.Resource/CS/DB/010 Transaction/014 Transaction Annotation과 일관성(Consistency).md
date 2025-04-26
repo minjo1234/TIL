@@ -42,7 +42,7 @@ public void saveService(MyServiceDTO dto) {
 - **런타임 예외(RunTimeException)가** 발생하면 트랜잭션은 자동으로 `ROLLBACK`
 - **체크 예외(Exception)은** 자동으로 `ROLLBACK`되지 않음
   → 필요하면 `@Transactional(rollbackFor = Exception.class)` 이렇게 설정
-- **DB 레벨 에러**(ex. 제약조건 위반, Deadlock 등)가 발생하면 → 역시 롤백돼.
+- **DB 레벨 에러**(ex. 제약조건 위반, Deadlock 등)가 발생하면 → 역시 롤백된다.
 
 
 ---
