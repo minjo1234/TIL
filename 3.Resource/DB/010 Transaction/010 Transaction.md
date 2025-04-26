@@ -53,9 +53,11 @@ COMMIT;
 ----
 
 ✅ 트랜잭션 정리 요약
-- `COMMIT`, `Rollback `- 사용자의 입장에서 트랜잭션을 직접 다루는 단위
-- `SELECT`
-- `INSERT`, `UPDATE`, `DELETE`
+- `COMMIT`, `Rollback `
+  → 사용자의 입장에서 트랜잭션을 직접 다루는 단위
+- `SELECT
+  →`대부분의 DB에서 Auto Commit으로 설정되어, 내부적으로 트랜잭션을 시작하고 바로 종료된다. 
+- `INSERT`, `UPDATE`, `DELETE` - 
 
 
 ---
