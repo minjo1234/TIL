@@ -66,6 +66,3 @@ COMMIT;
    → 수동 트랜잭션 모드에서는 명시적인  `COMMIT`, `ROLLBACK` 이 필요하다.
 ---
 
-
-
-ddd
