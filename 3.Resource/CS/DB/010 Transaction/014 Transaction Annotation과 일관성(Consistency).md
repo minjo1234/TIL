@@ -40,7 +40,10 @@ saveService라는 메소드를 하나의 트랜잭션으로 여기며,
 
 
 🚨 조심할 점
-- 런타임 예외(RunTimeException)
+- 런타임 예외(RunTimeException)가 발생하면 트랜잭션은 자동으로 `ROLLBACK`
+- 체크 예외(Exception)은 자동으로 `ROLLBACK`되지 않음
+  → 필요하면 `@Transactional(rollbackFor = Exception.class)` 이렇게 설정
+- 
 
 
 
