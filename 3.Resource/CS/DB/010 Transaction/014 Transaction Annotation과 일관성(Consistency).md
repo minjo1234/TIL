@@ -99,8 +99,3 @@ saveService라는 메소드를 하나의 트랜잭션으로 여기며,
 | 계산, API 호출 등         | ❌ 불필요                | DB 작업 없으면 안 걸어도 됨 |
 
 
-
-
-
-`rollbackFor`, `propagation`, `isolation` 같은 고급 옵션도 알려줄게. (트랜잭션 진짜 제대로 쓰려면 이것들도 알아야 하거든!)
-
