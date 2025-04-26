@@ -13,4 +13,5 @@ created: 2025-04-26
 - ### [[011 트랜잭션의 격리 수준(Isolation Level)|011 트랜잭션의 격리 수준]]
 - ### [[012 Transaction 공부 로드맵]]
 - ### [[013 Transaction 특성(ACID)]]
+- ### [[014 Transaction Annotation과 일관성(Consistency)]]
 
