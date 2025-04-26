@@ -28,10 +28,15 @@ ex) 스트리밍 데이터 소스가 갑자기 오류를 일으키더라도 데�
 - DB 자체의 무결성 제약조건(NOT NULL, FOREIGN KEY, UNIQUE 등)
 - 스키마 정의(데이터 타입, 제약사항)
 - 비즈니스 로직 상의 규칙(Transactional Annotation)
+  
 
 ```java 
 @Transactional 
-public class 
+public class MyService(MyServiceDTO dto) {
+		if(dto.size() < 0) {
+			throw new Illegal
+		}
+	}
 ```
 
 
