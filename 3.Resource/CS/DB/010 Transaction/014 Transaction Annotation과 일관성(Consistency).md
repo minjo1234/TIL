@@ -39,19 +39,21 @@ saveService라는 메소드를 하나의 트랜잭션으로 여기며,
 - 모든 코드와 DB 쿼리가 정상적으로 작동하여야 트랜잭션이 커밋(Commit) 된다.
 
 
-🚨 조심할 점
-- 런타임 예외(RunTimeException)가 발생하면 트랜잭션은 자동으로 `ROLLBACK`
-- 체크 예외(Exception)은 자동으로 `ROLLBACK`되지 않음
+#### 🚨  조심할 점
+
+- **런타임 예외(RunTimeException)가** 발생하면 트랜잭션은 자동으로 `ROLLBACK`
+- **체크 예외(Exception)은** 자동으로 `ROLLBACK`되지 않음
   → 필요하면 `@Transactional(rollbackFor = Exception.class)` 이렇게 설정
-- 
+- **DB 레벨 에러**(ex. 제약조건 위반, Deadlock 등)가 발생하면 → 역시 롤백돼.
 
+
+
+
+
+
+`rollbackFor`, `propagation`, `isolation` 같은 고급 옵션도 알려줄게. (트랜잭션 진짜 제대로 쓰려면 이것들도 알아야 하거든!)
 
 
 ---
-
-
-
----
-
 
 
