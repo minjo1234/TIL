@@ -30,10 +30,14 @@ created: 2025-04-26
 
 
 ```sql
-Select * from user; 
+SELECT * FROM user; 
 ```
 
 ```sql 
-Begin 
-
+BEGIN;
+SELECT * FROM user;
+COMMIT;
 ```
+
+
+대부분의 DBMS에서는 ㅇ
