@@ -13,6 +13,9 @@ created: 2025-04-26
 Transaction의 특성중 C(Consistency)를 공부하는 도중 Transactional 어노테이션을 이용하면 
 단순히 DB에서뿐만아니라 비즈니스로직과의 연결을 이용하여 하나의 메소드를 트랜잭션의 단위로 본다는 것을 알게되었다.
 
+---
+### 1.@Transactional
+
 ```java
 # 개발자 입장에서 볼때의 Transaction의 단위를 어노테이션을 이용하여 구현하는 것이다.
 
@@ -26,9 +29,16 @@ public void saveService(MyServiceDTO dto) {
 	}
 
 
+saveService라는 메소드를 하나의 트랜잭션으로 여기며, 
 
 ```
 
+
+---
+
+
+
+---
 
 
 
