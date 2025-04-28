@@ -52,3 +52,4 @@ https://www.databricks.com/kr/glossary/acid-transactions
 
 
 
+자동화
