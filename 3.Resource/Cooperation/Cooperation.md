@@ -1,0 +1,6 @@
+---
+aliases:
+  - Cooperation
+tags:
+  - Cooperation
+---
