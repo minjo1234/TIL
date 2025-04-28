@@ -51,3 +51,4 @@ ex) 스트리밍 데이터 소스가 갑자기 오류를 일으키더라도 데�
 https://www.databricks.com/kr/glossary/acid-transactions
 
 
+
