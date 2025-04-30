@@ -21,6 +21,8 @@ groovy groovy 기반 : groovy 코드로 테스트 작성
 |**호환성**|Java 프로젝트 기본 테스트 프레임워크|Groovy를 사용하는 JVM 기반 프로젝트에서 사용 가능|
 |**Spring 통합**|Spring Boot에서 기본 지원|Spring Boot와도 통합 가능 (설정 필요)|
 
+**Groovy = Java와 100% 호환되면서, 문법은 더 간단하고 유연한 JVM 언어**입니다.
+
 ---
 
 
