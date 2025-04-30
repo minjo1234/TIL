@@ -1,12 +1,10 @@
 ---
 aliases:
-  - Test
+  - Test 도구
+author: Min Jo
 tags:
   - Test
-author: Min Jo
 created: 2025-04-30
 ---
-# Test
+# Test 도구 
 ---
-[[Test 도구]]
-
