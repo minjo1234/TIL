@@ -9,7 +9,20 @@ created: 2025-04-30
 # Test 도구 
 ---
 junit은 java 기반  : java 코드로 테스트 작성
-groovy groovy 기
+groovy groovy 기반 : groovy 코드로 테스트 작성
+
+### 🔹 다시 정리하면:
+
+|항목|JUnit|Spock|
+|---|---|---|
+|**언어 기반**|**Java**|**Groovy**|
+|**작성 언어**|Java 코드로 테스트 작성|Groovy 코드로 테스트 작성|
+|**스타일**|전통적인 단위 테스트 스타일|BDD(Given-When-Then) 스타일|
+|**호환성**|Java 프로젝트 기본 테스트 프레임워크|Groovy를 사용하는 JVM 기반 프로젝트에서 사용 가능|
+|**Spring 통합**|Spring Boot에서 기본 지원|Spring Boot와도 통합 가능 (설정 필요)|
+
+---
+
 
 # 내가 Junit 대신에 Spock을 선택한 이유 
 
