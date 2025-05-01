@@ -146,8 +146,11 @@ COMMIT;
 - 고립성은 트랜잭션 간 간섭을 막아 데이터 정합성을 보장하지만, 성능 저하 요인이 될 수 있음.
 - MariaDB(InnoDB)는 **MVCC + Row Lock**을 통해 **읽기/쓰기 분리 전략**으로 이 문제를 해결함.
 - 개발자는 **상황에 따라 적절한 Isolation Level**을 선택하여 **정합성과 성능의 균형**을 조절할 수 있다.
+- 자바 개발자는 @Transactional의 고립성을 결정하여 사용하면된다 
   
-```
+```java
+ @Transactional(isolation = Isolation.REPEATABLE_READ) 
+ 
 ```
 
-
+---
