@@ -56,10 +56,11 @@ ex) 스트리밍 데이터 소스가 갑자기 오류를 일으키더라도 데�
 - Repeatable Read
 - Serializable
 
-DBMS는 Lock MVCC 타임스탬프 방식으로 동시성을 제어하는데 해당 기법과 강도에 따라서 Isolation Level을 선택한 이후에 여러 현상들이 발생할 수 있다는거야 ?
+DBMS는 Lock MVCC 타임스탬프 방식으로 동시성을 제어하는데 해당 기법과 강도에 따라서 Isolation Level을 선택한 이후에 여러 현상들이 발생할 수 있다는거다.
 
 
 ex) 필자는 MariaDB를 사내에서 사용중인데 
+
 
 
 
