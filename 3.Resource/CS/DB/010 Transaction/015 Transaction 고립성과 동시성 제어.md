@@ -41,17 +41,20 @@ Isolation(고립성) - 하나의 트랜잭션이 실행될 때 다른 트랜잭�
 |                      |               |                                    |                        |
 
 필자는 현재 MariaDB를 사용하여 서비스를 개발하고 있기때문에 MariaDB로 예시를 든다. 
-
 MariaDB는 읽기와 쓰기에 다른 동시성 제어방식을 택한다.
 
 읽기 (SELECT)
 	- MVCC 사용 
 	- 스냅샷(snapshop)을 기반으로 데이터를 기록한다.
 	- 락을 걸지 않기 때문에 동시성이 높고, 읽기 성능이 좋습니다.
-#### 쓰기 (INSERT / UPDATE / DELETE)
+
+ 쓰기 (INSERT / UPDATE / DELETE)
 - **레코드 단위 Lock (Row-Level Lock)** 사용
 - 충돌을 방지하기 위해 해당 레코드에 **X (Exclusive) Lock**을 걸어야 하고, 이로 인해 **대기나 충돌**, **Deadlock**이 발생할 수 있습니다.
 - 쓰기가 많아질수록 성능 병목이 발생할 수 있습니다.
+
+
+SELECt
 
 
 ### ✅ 1. **MVCC 덕분에 락을 걸지 않음 (읽기 락 없음)**
