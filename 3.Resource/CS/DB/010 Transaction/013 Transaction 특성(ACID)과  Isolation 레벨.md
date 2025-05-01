@@ -57,7 +57,14 @@ DBMS(Oracle, Mariadb, PostgreSQL)에서 동시성 방법을 정해 놓는 방식
 
 하지만 이렇게 DBMS에서 미리 선택해 둔 동시성 제어 방식을 사용한다면 1차로 사용자가 현재
 사용하는 DBMS에서의 동시성을 제어하는 방식을 이해하고 DB를 사용하면 되지만
-특이한 경우로 다르게 트랜잭션을 제어하고 싶다면 Isolatio
+특이한 경우로 다르게 트랜잭션을 제어하고 싶다면 개발자가 Isolation Level을 선택하여 
+DBMS를 다루면 되는것이다.
+
+## ✅ 상관관계 핵심 요약
+
+> **동시성 제어 방식은 "어떻게" 고립성을 구현할지에 대한 내부 메커니즘이고,  
+> Isolation Level은 "얼마나" 고립시킬지를 개발자가 조절하는 외부 설정입니다.**
+
 
 #### 2. **Isolation Level (개발자가 선택)**
 
@@ -65,8 +72,6 @@ DBMS(Oracle, Mariadb, PostgreSQL)에서 동시성 방법을 정해 놓는 방식
 - Read Committed
 - Repeatable Read
 - Serializable
-
-DBMS는 Lock MVCC 타임스탬프 방식으로 동시성을 제어하는데 해당 기법과 강도에 따라서 Isolation Level을 선택한 이후에 여러 현상들이 발생할 수 있다는거다.
 
 
 ex) 필자는 MariaDB를 사내에서 사용중인데 
