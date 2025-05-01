@@ -133,9 +133,10 @@ SELECT * FROM user WHERE id = 1; -- A가 데이터를 읽음
 -- 트랜잭션 B
 START TRANSACTION;
 UPDATE user SET name = 'Kim' WHERE id = 1; -- B가 데이터를 업데이트
+COMMIT; -- B가 커밋을 실행
 
 -- 트랜잭션 A
-SELECT * FROM user WHERE id = 1; -- A가 다시 데이터를 읽음 (변경된 값은 영향을 미치지 않음)
+SELECT * FROM user WHERE id = 1; -- A는 이제 B가 커밋한 변경된 값을 읽음
 COMMIT;
 ```
 
