@@ -45,11 +45,11 @@ ex) 스트리밍 데이터 소스가 갑자기 오류를 일으키더라도 데�
 
 ### 3.Transaction 특성 요약 
 
-| **Atomity**     | 원장성 | 결과가 반영되거나 안 되거나    |
-| --------------- | --- | ------------------ |
-| **Consistency** | 일관성 | 스키마 제약조건을 해칠수는 없다. |
-| **Isolation**   | 고립성 |                    |
-| **Durability**  | 영속성 |                    |
+| **Atomity**     | 원자성 | 결과가 반영되거나 안 되거나     |
+| --------------- | --- | ------------------- |
+| **Consistency** | 일관성 | 스키마 제약조건을 해칠수는 없다.  |
+| **Isolation**   | 고립성 | 트랜잭션은 독립적으로 실행되야한다. |
+| **Durability**  | 영속성 |                     |
 
 
 https://www.databricks.com/kr/glossary/acid-transactions
