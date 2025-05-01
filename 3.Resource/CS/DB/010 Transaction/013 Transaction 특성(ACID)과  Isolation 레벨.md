@@ -141,3 +141,23 @@ ex) 필자는 MariaDB를 사내에서 사용중인데
 
 https://www.databricks.com/kr/glossary/acid-transactions
 
+
+
+---
+
+## 💡 시나리오 예시
+
+sql
+
+CopyEdit
+
+`-- 트랜잭션 A (SELECT) SELECT balance FROM account WHERE id = 1;  -- 동시에 트랜잭션 B (UPDATE) UPDATE account SET balance = balance + 1000 WHERE id = 1;`
+
+---
+
+## 📌 관건은?
+
+**트랜잭션 A가 balance를 읽을 때**,  
+트랜잭션 B가 **업데이트한 값**을 **읽을 수 있느냐 없느냐**입니다.
+
+
