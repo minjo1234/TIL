@@ -49,7 +49,17 @@ ex) 스트리밍 데이터 소스가 갑자기 오류를 일으키더라도 데�
 |**MVCC (다중 버전 동시성 제어)**|트랜잭션마다 데이터의 스냅샷을 제공하여 락 없이도 읽기 가능 (예: PostgreSQL, Oracle 일부 등)|
 |**타임스탬프 기반 제어**|트랜잭션 시작 시간을 기준으로 순서를 관리해 충돌 방지|
 
+#### 2. **Isolation Level (개발자가 선택)**
+
+- Read Uncommitted
+- Read Committed
+- Repeatable Read
+- Serializable
+
 DBMS는 Lock MVCC 타임스탬프 방식으로 동시성을 제어하는데 해당 기법과 강도에 따라서 Isolation Level을 선택한 이후에 여러 현상들이 발생할 수 있다는거야 ?
+
+
+ex) 필자는 MariaDB를 사내에서 사용중인데 
 
 
 
