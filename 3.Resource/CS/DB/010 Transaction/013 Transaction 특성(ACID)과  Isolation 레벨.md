@@ -75,6 +75,10 @@ ex) 필자는 MariaDB를 사내에서 사용중인데
 
 > **MariaDB의 InnoDB 엔진은 MVCC + Lock을 함께 사용합니다.**  
 > → 읽기: MVCC (비차단) / 쓰기: Lock 사용 (차단)
+> Oracle 
+> → 읽기 : Lock 사용 (차단) / 쓰기 : Lock 사용 (차단)
+
+
 
 
 
