@@ -119,6 +119,25 @@ SELECT * FROM user WHERE id = 1; -- A가 다시 데이터를 읽음 (변경된 �
 COMMIT;
 ```
 
+**READ COMMITTED** (또 다른 고립성 수준)
+
+- 트랜잭션 A가 데이터를 읽을 때, **트랜잭션 B가 데이터를 커밋하기 전까지는 그 값을 읽지 않습니다.**
+- 즉, **트랜잭션 A는 다른 트랜잭션의 커밋된 데이터만 볼 수 있습니다.**
+- 트랜잭션 B가 커밋되면 트랜잭션 A가 **B가 커밋한 값을 읽을 수 있게** 됩니다. 이는 **Non-repeatable Read**를 발생시킬 수 있습니다.
+
+```sql
+-- 트랜잭션 A
+START TRANSACTION;
+SELECT * FROM user WHERE id = 1; -- A가 데이터를 읽음
+
+-- 트랜잭션 B
+START TRANSACTION;
+UPDATE user SET name = 'Kim' WHERE id = 1; -- B가 데이터를 업데이트
+
+-- 트랜잭션 A
+SELECT * FROM user WHERE id = 1; -- A가 다시 데이터를 읽음 (변경된 값은 영향을 미치지 않음)
+COMMIT;
+```
 
 만약 고립성의 레벨이 READ COMMITTED로 달라진다면 다음과 같은 결과가 일어날 수 있다.
 
