@@ -132,7 +132,9 @@ ex) 필자는 MariaDB를 사내에서 사용중인데
 
 ---
 
-일반적으로 
+일반적으로 개발자들은 트랜잭션을 직접 제어하기보다는 프레임워크(Spring, JPA) 또는 자동 커밋에 맡기기 때문에 
+
+	개발자 입장에서는 "명시적인 트랜잭션 "
 
 https://www.databricks.com/kr/glossary/acid-transactions
 
