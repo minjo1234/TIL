@@ -44,15 +44,16 @@ Isolation은 하나의 트랜잭션이 수행 중일 때, **다른 트랜잭션�
 ---
 ### Isolation Level - 고립성의 단계
 
-#### 고립성 레벨(개발자가 선택)
+개발자가 선택할 수 있는 고립성 수준은 다음과 같습니다:
 
-| Isolation Level      | 읽기 동작         | InnoDB 내부 처리 방식                    | 발생 가능 현상               |
-| -------------------- | ------------- | ---------------------------------- | ---------------------- |
-| **READ UNCOMMITTED** | 변경 전 값까지 읽음   | 거의 제약 없음, MVCC로 undo 로그도 무시        | Dirty Read 발생 가능       |
-| **READ COMMITTED**   | 커밋된 값만 읽음     | MVCC를 사용하여 undo 로그에서 최신 커밋만 반영     | Non-repeatable Read 가능 |
-| **REPEATABLE READ**  | 트랜잭션 내에서 동일값  | MVCC로 Snapshot 고정, Phantom Read 막음 | 기본값, 성능-일관성 균형         |
-| **SERIALIZABLE**     | 트랜잭션 직렬 실행 수준 | Lock을 더 많이 사용 (읽기도 공유락)            | 가장 안전하지만 느림            |
-|                      |               |                                    |                        |
+|Level|설명|MariaDB(InnoDB) 처리 방식|발생 가능한 문제|
+|---|---|---|---|
+|READ UNCOMMITTED|커밋되지 않은 데이터까지 읽을 수 있음 (가장 낮은 수준)|거의 제약 없음|Dirty Read 발생 가능|
+|READ COMMITTED|커밋된 데이터만 읽음|MVCC를 사용하여 Undo 로그 참조|Non-repeatable Read 가능|
+|REPEATABLE READ|트랜잭션 내에서는 동일한 쿼리 결과 보장|MVCC로 스냅샷 고정, 팬텀 리드도 방지|**MySQL 기본값**, 균형적|
+|SERIALIZABLE|트랜잭션을 직렬 처리 수준으로 강하게 고립|공유 락까지 사용|가장 안전하지만 **가장 느림**|
+
+> 📎 **Note**: MySQL(InnoDB)은 REPEATABLE READ에서도 팬텀 리드를 방지하지만, 대부분의 DB는 그렇지 않습니다.
 
 필자는 현재 MariaDB를 사용하여 서비스를 개발하고 있기때문에 MariaDB로 예시를 든다. 
 MariaDB는 읽기와 쓰기에 다른 동시성 제어방식을 택한다.
