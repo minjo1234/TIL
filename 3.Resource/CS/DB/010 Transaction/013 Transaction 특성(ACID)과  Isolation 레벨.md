@@ -66,6 +66,18 @@ DBMS를 다루면 되는것이다.
 > Isolation Level은 "얼마나" 고립시킬지를 개발자가 조절하는 외부 설정입니다.**
 
 
+필자는 현재 MariaDB를 사용하고 있기에 MariaDB를 기준으로 Isolation Level을 정의하고자 한다.
+## 🔁 예를 들어 보자 (MariaDB 기준)
+
+| Isolation Level        | 읽기 동작         | InnoDB 내부 처리 방식                    | 발생 가능 현상               |
+| ---------------------- | ------------- | ---------------------------------- | ---------------------- |
+| **READ UNCOMMITTED**   | 변경 전 값까지 읽음   | 거의 제약 없음, MVCC로 undo 로그도 무시        | Dirty Read 발생 가능       |
+| **READ COMMITTED**     | 커밋된 값만 읽음     | MVCC를 사용하여 undo 로그에서 최신 커밋만 반영     | Non-repeatable Read 가능 |
+| **REPEATABLE READ** ⭐️ | 트랜잭션 내에서 동일값  | MVCC로 Snapshot 고정, Phantom Read 막음 | 기본값, 성능-일관성 균형         |
+| **SERIALIZABLE**       | 트랜잭션 직렬 실행 수준 | Lock을 더 많이 사용 (읽기도 공유락)            | 가장 안전하지만 느림            |
+
+---
+
 #### 2. **Isolation Level (개발자가 선택)**
 
 - Read Uncommitted
