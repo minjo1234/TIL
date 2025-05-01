@@ -132,6 +132,7 @@ ex) 필자는 MariaDB를 사내에서 사용중인데
 
 ---
 
+일반적으로 
 
 https://www.databricks.com/kr/glossary/acid-transactions
 
