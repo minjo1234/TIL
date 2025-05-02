@@ -1,5 +1,13 @@
+---
+aliases:
+  - JWT
+tags:
+  - JWT
+author: Min Jo
+created: 2025-05-02
+---
 
-### JWT 방식 인증의 일반적인 흐름
+### JWT(Json Web Token) 방식 인증의 일반적인 흐름
 
 #### 1.토큰 요청 
 - 먼저 POST 요청을 통해 로그인 또는 인증을 수행하고, 인증 정보를 제공하여 JWT 토큰을 받습니다.
