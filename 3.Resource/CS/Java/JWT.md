@@ -53,3 +53,10 @@ SSO는 “한 번 로그인하면 여러 서비스에서 인증된 것처럼 동
 |**SAML**|기업용 SSO에서 전통적으로 많이 사용됨|XML 기반|
 |**OAuth2.0 + OpenID Connect**|현대적인 웹, 모바일 앱에서 많이 사용|JWT 기반|
 |**JWT (JSON Web Token)**|자체적으로도 인증에 쓰일 수 있고, 위 프로토콜에서 내부적으로 사용됨|JSON 기반|
+
+## 🔐 왜 Refresh Token과 Access Token을 나눴을까?
+
+|구분|역할|
+|---|---|
+|**Refresh Token**|오랫동안 유효함. Access Token을 재발급받기 위한 용도로만 사용|
+|**Access Token**|짧은 시간 동안 유효함. 실제 API 요청 시 사용|
