@@ -25,4 +25,4 @@ cursor-talk-to-figma-mcp : IDE와 FIGMA간의 연결을 해주고
 
 1.명령어 차례대로 진행
 2.Figma 상태를 anyone 누구나 가능하도록 설정하기.
-3.Figma와 연동(import from Manifest) - cursor 
+3.Figma와 연동(import from Manifest) - cursor project 내부에 manifest.json과 연동한다.
