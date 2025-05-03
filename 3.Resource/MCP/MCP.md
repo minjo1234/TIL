@@ -21,3 +21,7 @@ cursor-talk-to-figma-mcp : IDE와 FIGMA간의 연결을 해주고
 ## Figma 
 
 ![[Pasted image 20250503232736.png]]
+
+
+1.명령어 차례대로 진행
+2.Figma 상태를 anyone 누구나 가능하도록 설정하기.
