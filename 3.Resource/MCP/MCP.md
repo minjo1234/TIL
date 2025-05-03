@@ -11,4 +11,4 @@ created: 2025-05-03
 ----
 실무적 입장에서 설명 : 
 
-cursor-talk-to-figma-mcp : IDE와 FIGMA간의 연결을 해주고  
+cursor-talk-to-figma-mcp : IDE와 FIGMA간의 연결을 해주고 
