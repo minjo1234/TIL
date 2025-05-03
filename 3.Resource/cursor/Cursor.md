@@ -14,4 +14,6 @@ Download : https://www.cursor.com/
 
 python Version : Python 3.12.0
 
-코드상의 AI 작동법 : command + K를 이용하면 AI에게 요청이 가능하다.
+코드상의 AI 작동법 : 
+command + K : AI에게 코드질문
+command + L : AI 모델설정 
