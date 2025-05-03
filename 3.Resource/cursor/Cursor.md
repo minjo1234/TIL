@@ -19,3 +19,12 @@ command + K : AI에게 코드질문
 command + L : AI 모델설정 
 
 tailwind.css 란 ?
+
+270
+
+6070
+50 생활비
+150 
+
+80
+70
