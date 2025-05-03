@@ -12,3 +12,4 @@ created: 2025-05-03
 
 Download : https://www.cursor.com/
 
+python Version : Python 3.12.0
