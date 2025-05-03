@@ -13,3 +13,5 @@ created: 2025-05-03
 Download : https://www.cursor.com/
 
 python Version : Python 3.12.0
+
+코드상의 AI 작동법 : command + K를 이용하면 AI에게 요청이 가능하다.
