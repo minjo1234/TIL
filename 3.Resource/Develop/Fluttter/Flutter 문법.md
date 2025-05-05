@@ -50,6 +50,19 @@ firbase는 서버역할을 해준다.
 
 그냥 Text 적으면 되는데 child까지 적는 이유가 뭘까 ?
 
+### 2. ✅ 이렇게는 됩니다:
+
+dart
+
+CopyEdit
+
+`Container(   child: Text('안녕') )`
+
+여기서 `child:`는 **Container라는 위젯이 갖고 있는 '속성(property)' 중 하나**예요.  
+그래서 Flutter는 "아~ 이 Text는 Container 안에 들어가는 자식이구나" 하고 이해합니다.
+
+
+child는 이 위젯이 누구의 자식이 누구인지 `Flutter에게 알려`
 
 ---
 
