@@ -62,7 +62,8 @@ CopyEdit
 그래서 Flutter는 "아~ 이 Text는 Container 안에 들어가는 자식이구나" 하고 이해합니다.
 
 
-child는 이 위젯이 누구의 자식이 누구인지 `Flutter에게 알려`
+child는 이 위젯이 누구의 자식이 누구인지 `Flutter에게 알려주는 약속된 문법`
+
 
 ---
 
