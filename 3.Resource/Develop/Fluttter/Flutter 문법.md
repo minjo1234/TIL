@@ -39,4 +39,15 @@ firbase는 서버역할을 해준다.
 
 ---
 
-### C
+### Column (children)
+  ㄴ Container (child)
+	  ㄴ Center (child)
+			ㄴ Text
+
+
+
+### 의문 1 
+
+
+---
+
