@@ -67,3 +67,14 @@ child는 이 위젯이 누구의 자식이 누구인지 `Flutter에게 알려주
 
 ---
 
+
+### 2. **자식이 하나만 가능한 위젯이면 → `child:`로**
+
+- 예: `Container`, `Center`, `Padding`, `Align`, `SizedBox`, `Card` 등
+dart
+CopyEdit
+
+`Container(   child: Text('child: 로 하나만 넣기') // ✅ 필요 )`
+
+
+### 3.자식이 여러 개인 위젯
