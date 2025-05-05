@@ -77,4 +77,5 @@ CopyEdit
 `Container(   child: Text('child: 로 하나만 넣기') // ✅ 필요 )`
 
 
-### 3.자식이 여러 개인 위젯
+### 3.자식이 여러 개인 위젯 -> children: [] 리스트
+ 예: `Column`, `Row`, `Stack`, `ListView`, `Wrap` 등
