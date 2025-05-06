@@ -4,5 +4,7 @@ aliases:
 ---
 
 ```
+appBar: AppBar(
 
+)
 ```
