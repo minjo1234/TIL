@@ -4,11 +4,26 @@ aliases:
 ---
 
 ```
-appBar: AppBar(
-   leading: (
-     icon: const Icon()
-   )
-)
+appBar: AppBar(  
+  leading:  
+    IconButton(  
+      icon: const Icon(Icons.backspace),  
+      onPressed: () {  
+  
+      },    ),  title: const Text('연모'),  
+  actions: [  
+    IconButton(  
+      icon: const Icon(Icons.search),  
+      onPressed: () {  
+        // 검색 기능 구현  
+      },  
+    ),    IconButton(  
+      icon: const Icon(Icons.notifications_none),  
+      onPressed: () {  
+        // 알림 기능 구현  
+      },  
+    ),  ],  
+),
 ```
 
 ---
