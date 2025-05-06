@@ -6,7 +6,7 @@ aliases:
 ```
 appBar: AppBar(
    leading: (
-   
+     icon: const Icon()
    )
 )
 ```
