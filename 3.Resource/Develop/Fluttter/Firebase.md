@@ -80,3 +80,6 @@ created: 2025-05-05
 
 
 ---
+
+
+FireStore모드 DataStore <-> Natvie 
