@@ -5,6 +5,9 @@ aliases:
 
 ```
 appBar: AppBar(
+   title: Text('인연'),
+),
+actions: [
 
-)
+],
 ```
