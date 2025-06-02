@@ -22,5 +22,7 @@ actionType = "power"
 callbackFunction = null
 
 
-AbstractEventProducer -> 
-AriaVmProducer
+AriaVmPowerEvent 
+AriaVmPowerConsumer 
+AriaVmPowerConsumer 
+AriaVmProducer ar
