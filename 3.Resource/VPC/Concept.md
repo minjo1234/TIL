@@ -12,5 +12,6 @@ Private IP :
 ---
 ### VPC
 
-VPC is compusing network and 
+VPC is a service that compusing network and mountable resource using private network 
+
 
