@@ -17,4 +17,6 @@
 
 ###  Feature 
 - Asynchronous processing 
-- 
+	- proc
+- flexibility and scalability 
+- loose coupling 
