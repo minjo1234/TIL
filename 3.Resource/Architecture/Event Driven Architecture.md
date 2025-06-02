@@ -37,3 +37,6 @@ VM.ShutdownGuest
 
 
 [2025.06.02 13:15:09.381] [http-nio-8086-exec-6] | -WARN  64170 --- c.c.m.DatabaseMessageSource : ### 메세지 code를 찾을 수 없습니다. code : btn_close, locale : ko 
+
+1
+2
