@@ -14,5 +14,5 @@ Private IP :
 
  hierachy 
  Edge VM(cluster)
- VPC(, VIP, Load balancer)
+ VPC(VIP, Load balancer)
  VMs(AccessIP)
