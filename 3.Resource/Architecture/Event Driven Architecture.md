@@ -2,6 +2,7 @@
 
 ---
 ### Component : 
+
 - Event Producer 
 	- create event and occur 
 	- example user clicks the button then make the click event 
@@ -9,8 +10,11 @@
 	- transmit event, management role
 - Event Consumer 
 	- Subscribe event and process event 
-	- when an event occu, receive it and perform an action 
+	- when an event occur, receive it and perform an action 
+
+----
 
 
-
-##Feature 
+###  Feature 
+- Asynchronous processing 
+- 
