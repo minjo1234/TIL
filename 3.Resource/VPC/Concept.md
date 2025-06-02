@@ -16,4 +16,4 @@ VPC is a service that uses a private network to compute networks and mountable r
 
 Example) EC2, ELB, RDS, Security Group, Network ACL
 
-VPC resource have a unique private IP and interface, if resource to be released externally has a 
+VPC resource have a unique private IP and interface, if resource to be released externally has a public IP
