@@ -10,4 +10,7 @@ Private IP :
 
 
 
-Load Balencer 
+Load Balancer 
+
+
+Client  ->  VPC     AccessIP - VM(VIP)
