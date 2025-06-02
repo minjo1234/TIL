@@ -6,4 +6,5 @@ Component :
 - Event Broker 
 	- 
 - Event Consumer 
-	- 
+	- Subscribe event and process event 
+	- when an event occu, receive it and perform a
