@@ -1,5 +1,5 @@
 
-IP(Internet Protocol)
+### IP(Internet Protocol)
 
 Public  IP : 
 - Connectable from one terminal to another 
@@ -9,16 +9,6 @@ Private IP :
 - Result : publid IPs do not use this bandwidth and are only used for internal private 
   networks networks that are not connected to the external internet
 
+---
 
 
-
- hierachy 
- Edge VM(cluster)
- VPC(VIP, Load balancer)
- VMs(AccessIP)
-
-
-stand 
-padding,
-inner 
-bodsod 
