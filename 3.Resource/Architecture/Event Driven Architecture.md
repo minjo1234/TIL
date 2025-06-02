@@ -1,1 +1,1 @@
-Define :  Compuse system of make event, deliver 
+Define :  Configure systems that generate, transmit, and react to events 
