@@ -12,8 +12,7 @@ Private IP :
 
 
 
-Client  ->   AccessIP    VPC(Load balancer) inner (AccessIP - VM(VIP))
-
-
  hierachy 
-
+ Edge VM(cluster)
+ VPC(, VIP, Load balancer)
+ VMs(AccessIP)
