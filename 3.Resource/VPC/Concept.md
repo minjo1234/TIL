@@ -12,6 +12,6 @@ Private IP :
 ---
 ### VPC
 
-VPC is a service that compusing network and mountable resource using private network 
+VPC is a service that uses a private network to compute networks and mountable resources 
 
-
+Example) EC2, ELB, RDS, Security Group, Network ACL
