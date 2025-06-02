@@ -6,3 +6,4 @@
 
 
 참조 : [Playwright 설치 및 Claude AI](https://americanopeople.tistory.com/475)
+
