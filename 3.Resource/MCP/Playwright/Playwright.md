@@ -20,3 +20,7 @@ roles = null
 actionUrl = "/api/aria/vm/power?subCategory=VM.ShutdownGuest"
 actionType = "power"
 callbackFunction = null
+
+
+AbstractEventProducer -> 
+AriaVmProducer
