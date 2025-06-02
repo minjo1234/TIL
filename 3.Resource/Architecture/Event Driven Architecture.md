@@ -26,6 +26,7 @@
 
 ### Example 
 
-Broker : event create, publish, subscribe 
+Broker : event  , publish, subscribe 
 Producer : event create, publish through broker
-Consumer : process event registered event broker 
+Consumer : process event that registered event broker 
+
