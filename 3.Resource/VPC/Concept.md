@@ -6,11 +6,11 @@ Public  IP :
 Private IP :
 - Purpose : Cut out IP Address waste, interior resources protection
 - Concept  : it is a band designated as a private network within the public Ip band  
-- Result : the public ip does not ues that band, and are 
+- Result : publid IPs do not use this bandwidth and are only used for internal private 
+  networks networks that are not connected to the external internet
 
 
-
-Load Balancer 
 
 
 Client  ->  AccessIP    VPC inner (AccessIP - VM(VIP))
+
