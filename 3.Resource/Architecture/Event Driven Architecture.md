@@ -17,6 +17,7 @@
 
 ###  Feature 
 - Asynchronous processing 
-	- proc
+	- After the event is created, it is not processed immediately, event consumer process asynchronous 
 - flexibility and scalability 
+	- 
 - loose coupling 
