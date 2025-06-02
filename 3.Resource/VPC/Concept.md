@@ -12,5 +12,5 @@ Private IP :
 ---
 ### VPC
 
-VPC is 
+VPC is compusing network and 
 
