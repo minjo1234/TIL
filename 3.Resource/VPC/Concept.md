@@ -12,5 +12,8 @@ Private IP :
 
 
 
-Client  ->  AccessIP    VPC inner (AccessIP - VM(VIP))
+Client  ->   AccessIP    VPC(Load balancer) inner (AccessIP - VM(VIP))
+
+
+ hierachy 
 
