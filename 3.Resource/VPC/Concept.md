@@ -16,3 +16,9 @@ Private IP :
  Edge VM(cluster)
  VPC(VIP, Load balancer)
  VMs(AccessIP)
+
+
+stand 
+padding,
+inner 
+bodsod 
