@@ -21,4 +21,5 @@
 - flexibility and scalability 
 	- new event producer and consumer append easily, so scalability useful 
 - loose coupling 
-	- producer does not  
+	- producer does not connect consumer directly, so connect indirectly through event broker 
+
