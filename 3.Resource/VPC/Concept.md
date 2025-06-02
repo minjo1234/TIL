@@ -13,4 +13,4 @@ Private IP :
 Load Balancer 
 
 
-Client  ->  VPC     AccessIP - VM(VIP)
+Client  ->  AccessIP    VPC inner (AccessIP - VM(VIP))
