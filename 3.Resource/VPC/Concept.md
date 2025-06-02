@@ -1,5 +1,5 @@
 
 IP(Internet Protocol)
 
-Public Figure IP : one terminal connect another terminal 
+Public Figure IP : Connectable from one terminal 
 Editorial IP : 
