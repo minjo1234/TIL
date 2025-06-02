@@ -23,6 +23,5 @@ callbackFunction = null
 
 
 AriaVmPowerEvent 
+AriaVmProducer 
 AriaVmPowerConsumer 
-AriaVmPowerConsumer 
-AriaVmProducer ar
