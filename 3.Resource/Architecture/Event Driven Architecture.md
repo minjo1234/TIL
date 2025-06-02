@@ -19,5 +19,6 @@
 - Asynchronous processing 
 	- After the event is created, it is not processed immediately, event consumer process asynchronous 
 - flexibility and scalability 
-	- 
+	- new event producer and consumer append easily, so scalability useful 
 - loose coupling 
+	- producer does not  
