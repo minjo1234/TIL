@@ -42,7 +42,7 @@ azure 1개
 
 aws - solution architect(professional)  associate
 cka
-devops 
+aws devops 
 
 
 
