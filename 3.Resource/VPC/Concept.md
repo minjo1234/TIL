@@ -40,10 +40,8 @@ azure 1개
 
 
 
-aws - solution architect(professional)  associate
-cka
-aws devops 
+aws - solution architect(professional)  associate 9월 
+cka 12월 
+aws devops 3월 
 
 
-
-associate 
