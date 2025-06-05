@@ -33,4 +33,8 @@ AWS has regions where VPCs are located and AZs(Availability Zones = Subnets)
 
 
 cka 1개
-aws 2개 
+aws 1개 
+azure 1개  
+
+9월 12월 2월 
+
