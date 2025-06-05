@@ -40,9 +40,9 @@ azure 1개
 
 
 
-aws - solution architect, pro 
+aws - solution architect(professional)  associate
 cka
-ckad 
+devops 
 
 
 
