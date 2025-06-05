@@ -38,3 +38,10 @@ azure 1개
 
 8월 11월 2월 
 
+
+
+aws - solution architect 
+cka 
+
+
+associate 
