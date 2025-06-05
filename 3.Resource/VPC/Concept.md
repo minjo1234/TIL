@@ -9,7 +9,7 @@ Private IP :
   networks networks that are not connected to the external internet
 
 ---
-### VPC
+### VPC - cake 
 
 VPC is a service that uses a private network to compute networks and mountable resources 
 
@@ -20,6 +20,9 @@ Can be released externally using public IP
 
 ---
 ### Segment (piece of cake)
+
+AWS has a region that 
+
 
 
 ---
