@@ -26,3 +26,8 @@ AWS has regions where VPCs are located and AZs(Availability Zones = Subnets)
 
 ---
 
+
+### Routing Table 
+
+### Internet Gateway 
+
