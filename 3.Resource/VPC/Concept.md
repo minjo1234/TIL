@@ -21,7 +21,8 @@ Can be released externally using public IP
 ---
 ### Segment (piece of cake)
 
-AWS has a region that has a VPC has a AZ(availability zone = Subnet)
+AWS has regions where VPCs are located and AZs(Availability Zones = Subnets)
+
 
 ---
 
