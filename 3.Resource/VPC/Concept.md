@@ -18,11 +18,8 @@ Example) EC2, ELB, RDS, Security Group, Network ACL
 vpc resources have their own IP and interfaces 
 Can be released externally using public IP 
 
-
-
 ---
-
-### Segment 
+### Segment (piece of cake)
 
 
 ---
