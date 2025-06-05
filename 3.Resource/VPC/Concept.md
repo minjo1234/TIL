@@ -31,3 +31,6 @@ AWS has regions where VPCs are located and AZs(Availability Zones = Subnets)
 
 ### Internet Gateway 
 
+
+cka 1개
+aws 2개 
