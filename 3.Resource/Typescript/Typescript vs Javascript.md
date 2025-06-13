@@ -7,7 +7,13 @@ Differences in whether the type exists or not
 
 #### 1.Compile Error 
 #### 2.IDE boudedness
-#### 3.
+#### 3.Readability 
+
+------
+
+### Javascript Advantages 
+
+
 
 
 
