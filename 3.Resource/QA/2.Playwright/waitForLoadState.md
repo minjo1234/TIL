@@ -3,6 +3,10 @@
 wait until 'load', 'domcontentloaded', 'entworkidle' complete 
 
 
-```
+```typescript 
+await page.getByRole('button').click();
+await page.waitForLoadState(); 
 ```
 
+
+---
