@@ -14,6 +14,8 @@ Differences in whether the type exists or not
 ### Javascript Advantages 
 
 
+https://won-percent.tistory.com/213
+
 
 
 
