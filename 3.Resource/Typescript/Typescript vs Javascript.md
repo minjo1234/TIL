@@ -14,7 +14,8 @@ Differences in whether the type exists or not
 ### Javascript Advantages 
 
 
-https://won-percent.tistory.com/213
+Typescript vs Javascript 정리  https://won-percent.tistory.com/213
+
 
 
 
