@@ -92,3 +92,5 @@
     DB(예: MariaDB)로 Session 기록 가능.
 - 여기에 중앙 로그(ELK, Splunk) 붙이면 **누가 언제 어디 접속했는지 추적** 가능.
 - SSH 세션 레코딩은 Guacamole로는 기본 제공 안 되니 → `ttyrec`, `auditd` 같이 써도 좋고.
+
+---
