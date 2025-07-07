@@ -73,4 +73,22 @@
 - Guacamole 서버가 죽으면 터널링 자체가 끊김 → SSH 접근 단일 장애지점(SPOF).
 - 그래서 실무에선 Guacamole HA(다중 서버 + Sticky Session + DB Cluster) 같이 운영.
 
+->  맞아요! 핵심이 **모든 VM에 Public IP를 무조건 붙일 필요는 없다**는 거니까,
+- 중요한 VM 몇 개만 AIP 붙여서 **직접 SSH fallback 경로 확보** → 단일 장애지점 보완.
+- 이건 클라우드 비용/보안 밸런스 잘 잡는 실무 방식이에요.
+
+
+## 5️⃣ 네트워크 트래픽 모니터링/감사 필요
+
+- 내부 SSH 터널링은 외부 로깅이 어려움.
+- 누가 어떤 VM에 붙었는지 Guacamole Audit + 로그 서버로 중앙화 안 하면 추적 불가.
+- 실무에선 Guacamole Session Logging Plugin, SSH Session Record 따로 붙임.
+
 -> 
+### ✅ 5️⃣ 트래픽 모니터링/감사 → 지금이 도입 타이밍
+
+- 정말 맞아요.
+- `Guacamole`은 자체 Audit Log도 있고,  
+    DB(예: MariaDB)로 Session 기록 가능.
+- 여기에 중앙 로그(ELK, Splunk) 붙이면 **누가 언제 어디 접속했는지 추적** 가능.
+- SSH 세션 레코딩은 Guacamole로는 기본 제공 안 되니 → `ttyrec`, `auditd` 같이 써도 좋고.
