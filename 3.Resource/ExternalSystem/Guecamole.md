@@ -61,4 +61,6 @@
 
 ---
 ### 수평 확장 어려움
-VM이 많아지면 Guacamole가 같은 세그먼트에 계속 붙어야 하고,
+
+- VM이 많아지면 Guacamole가 같은 세그먼트에 계속 붙어야 하고,
+- Guacamole 서버도 늘어나면 **Load Balancer + 여러 대 Guacamole + SSH Proxy** → 네트워크 설계가 복잡해짐.
