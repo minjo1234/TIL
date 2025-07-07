@@ -84,7 +84,7 @@
 - 누가 어떤 VM에 붙었는지 Guacamole Audit + 로그 서버로 중앙화 안 하면 추적 불가.
 - 실무에선 Guacamole Session Logging Plugin, SSH Session Record 따로 붙임.
 
--> 
+-> 해결방안
 ### ✅ 5️⃣ 트래픽 모니터링/감사 → 지금이 도입 타이밍
 
 - 정말 맞아요.
