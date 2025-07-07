@@ -24,4 +24,28 @@
 
 ---
 
+```scss
+ ┌────────────┐       ┌───────────────┐       ┌────────────┐
+ │   Portal   │ <---> │  Guacamole     │ <---> │    VM      │
+ │ (Admin UI) │       │ (Terminal Proxy) │     │ (Linux etc)│
+ └────────────┘       └───────────────┘       └────────────┘
+         │
+   (Same Subnet / Same VPC)
 
+```
+
+- **포탈**은 Guacamole에 API 호출만 함 (토큰 생성, 세션 관리)
+- **Guacamole 서버**는 VM으로 SSH 연결 Proxy 역할.
+- **VM**은 Private IP만 가지고 있음 (Public IP 불필요).
+- 이 3개가 같은 서브넷(VLAN, Subnet, VPC 세그먼트 등) 안에 있으면,
+    - Guacamole → VM 으로 **내부망 SSH** 가능.
+    - 방화벽만 열려 있으면 됨.
+- 외부에서 접근은 포탈(또는 Guacamole)에만 HTTPS로.
+---
+
+
+## ✅ 이런 식이면 좋은 점 (장점)
+
+- **Public IP 할당 비용 없음** → 대량 VM 운영 시 비용↓
+- SSH 직접 노출 안됨 → 보안↑
+- Bastion 따로 두는 것보다 구조 단순 (Guacamole 자체가 Bastion 역할)
