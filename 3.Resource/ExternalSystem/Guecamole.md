@@ -64,3 +64,13 @@
 
 - VM이 많아지면 Guacamole가 같은 세그먼트에 계속 붙어야 하고,
 - Guacamole 서버도 늘어나면 **Load Balancer + 여러 대 Guacamole + SSH Proxy** → 네트워크 설계가 복잡해짐.
+
+---
+
+## ✅ 4️⃣ 외부에서 직접 붙을 수 없음
+
+- Private IP 기반이라 Guacamole 서버가 반드시 Proxy 역할을 해야 함.
+- Guacamole 서버가 죽으면 터널링 자체가 끊김 → SSH 접근 단일 장애지점(SPOF).
+- 그래서 실무에선 Guacamole HA(다중 서버 + Sticky Session + DB Cluster) 같이 운영.
+
+-> 
