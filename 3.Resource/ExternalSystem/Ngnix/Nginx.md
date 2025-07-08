@@ -20,7 +20,12 @@ Nginx has two functions
 
 - HTTP request arrived Nginx 
 
-#### 2.Reverse Proxy -> 
+#### 2.Reverse Proxy -> Backend (Application Server)
+
+#### 3.Back end -> Reverse Proxy 
+
+#### 4. Reverse Proxy -> Clients
+
 
 
 ---
