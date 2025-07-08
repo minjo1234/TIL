@@ -18,14 +18,10 @@ Nginx has two functions
 
 #### 1.Client -> Reverse Proxy 
 
-- HTTP request arrived Nginx 
-
 #### 2.Reverse Proxy -> Backend (Application Server)
 
 #### 3.Back end -> Reverse Proxy 
 
 #### 4. Reverse Proxy -> Clients
-
-
 
 ---
