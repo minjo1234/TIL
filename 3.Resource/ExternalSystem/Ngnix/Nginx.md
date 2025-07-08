@@ -43,3 +43,10 @@ Nginx has two functions
 ✅ `server` : 각 도메인/백엔드 매핑  
 ✅ `proxy_pass` : 내부 `guacamole:8080` 으로 연결  
 ✅ `WebSocket` 헤더 : Guacamole은 **웹소켓 터널링** 필수라 반드시 필요!
+
+외부에서 접속하는 호스트는 알아야한다.
+> **“이 도메인 이름을 어느 IP로 보내줄까?”만 결정**
+
+
+- **포트 번호는 hosts랑 아무 상관 없음!**
+- 포트는 `브라우저 요청`이나 `Nginx 설정`에서 따로 결정됨.
