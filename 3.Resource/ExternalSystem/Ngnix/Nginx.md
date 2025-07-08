@@ -25,3 +25,10 @@ Nginx has two functions
 #### 4. Reverse Proxy -> Clients
 
 ---
+
+
+[Browser] 
+  ↓
+[Docker Nginx] :80 (컨테이너)
+  ↓
+[Guacamole] :8080 (컨테이너)
