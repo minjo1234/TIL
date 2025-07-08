@@ -1,4 +1,4 @@
-Ngnix has two functions 
+Nginx has two functions 
 
 - Web server 
 - Reverse Proxy 
@@ -16,6 +16,11 @@ Ngnix has two functions
 
 ### Reverse Proxy 
 
-- Client -> Reverse Proxy 
-- HTTP request  
-- 
+#### 1.Client -> Reverse Proxy 
+
+- HTTP request arrived Nginx 
+
+#### 2.Reverse Proxy -> 
+
+
+---
