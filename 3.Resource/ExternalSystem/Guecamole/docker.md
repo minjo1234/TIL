@@ -20,4 +20,7 @@ docker run --rm guacamole/guacamole /opt/guacamole/bin/initdb.sh --mysql > initd
 ```
 
 ```
+docker exec -it guac_db bash
+mysql -u root -p guacamole_db < /initdb.sql
 ```
+
