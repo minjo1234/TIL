@@ -19,4 +19,7 @@
 ### 4.Dependency Minimize 
 
  - DB, Redis, Mq external system easy append to `compose`
- - 
+
+### 5.Scaling Apply 
+
+- `docker compose up --scale` option makes the sev
