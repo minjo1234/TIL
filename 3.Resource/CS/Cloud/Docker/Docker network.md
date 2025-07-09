@@ -21,7 +21,6 @@
 
 예:
 
-CopyEdit
 
 `guacamole.example.com → proxy_pass → guacamole:8080 clovirone.example.com → proxy_pass → clovirone2.0:8080`
 
@@ -30,9 +29,7 @@ CopyEdit
 ## ✅ 핵심 원리
 
 - **포트가 다르면 다른 서비스로 라우팅할 수 있고**,
-    
 - **도메인이 다르면 (Host 헤더)** 하나의 포트(예: 80)로 들어와도 다른 컨테이너로 프록시할 수 있음.
-    
 
 ---
 
@@ -44,3 +41,6 @@ CopyEdit
 ✔ **같은 호스트 포트 (예: 80)**  
 ✔ **Nginx가 도메인에 따라 내부 컨테이너로 분기**  
 ✔ 내부는 bridge 네트워크라서 같은 포트(`8080`) 사용해도 충돌 없음
+
+
+when user connec
