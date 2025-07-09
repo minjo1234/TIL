@@ -43,4 +43,5 @@
 ✔ 내부는 bridge 네트워크라서 같은 포트(`8080`) 사용해도 충돌 없음
 
 
-when user connec
+
+- when user connect physical ip then server response logical ip 
