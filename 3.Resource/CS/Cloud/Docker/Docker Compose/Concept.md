@@ -22,4 +22,5 @@
 
 ### 5.Scaling Apply 
 
-- `docker compose up --scale` option makes the sev
+- `docker compose up --scale` option makes the several instance of the same service 
+
