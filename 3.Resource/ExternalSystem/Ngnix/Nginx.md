@@ -12,10 +12,18 @@ Nginx has two functions
 ### 1.defind nginx.conf file 
 
 
+
+
+---
+
+
 ```bash
 docker run -d   --name nginx-proxy   -p 80:80   -v ~/nginx/conf/nginx.conf:/etc/nginx/nginx.conf:ro   nginx:alpine
 
 ```
+
+
+### 2.
 
 
 ---
