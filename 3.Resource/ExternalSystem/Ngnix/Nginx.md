@@ -9,7 +9,13 @@ Nginx has two functions
 
 ---
 
+### 1.defind nginx.conf file 
 
+
+```bash
+docker run -d   --name nginx-proxy   -p 80:80   -v ~/nginx/conf/nginx.conf:/etc/nginx/nginx.conf:ro   nginx:alpine
+
+```
 
 
 ---
@@ -50,3 +56,5 @@ Nginx has two functions
 
 - **포트 번호는 hosts랑 아무 상관 없음!**
 - 포트는 `브라우저 요청`이나 `Nginx 설정`에서 따로 결정됨.
+
+---
