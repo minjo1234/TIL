@@ -40,3 +40,6 @@ docker run -d   --name guacamole   --network clovirone_network   -p 8080:8080   
 
 
 Internal": false
+
+
+docker run -d \ --name guacamole \ --network clovirone_network \ -e GUACD_HOSTNAME=guacd \ -p 8080:8080 \ -v /root/guac/user-mapping.xml:/etc/guacamole/user-mapping.xml \ guacamole/guacamole
