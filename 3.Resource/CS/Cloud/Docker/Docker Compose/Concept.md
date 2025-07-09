@@ -13,4 +13,7 @@
 
 ### 3.Easy Setting Management 
 
-- Network, Volume, Dependency declare `yml` file 
+- Network, Volume, Dependency declare `yml` file -> not use `docker run`
+- ray all of the contents that affected by application 
+
+### 4.Dependency Minimize 
