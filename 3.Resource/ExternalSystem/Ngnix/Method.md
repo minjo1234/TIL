@@ -35,4 +35,5 @@ docker run -d   --name nginx-proxy   --network clovirone_network   -p 80:80   -v
 ### Guacamole 
 
 ```
+docker run -d   --name guacamole   --network clovirone_network   -p 8080:8080   guacamole/guacamole
 ```
