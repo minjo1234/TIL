@@ -45,3 +45,10 @@
 
 
 - when user connect physical ip then server response logical ip 
+
+---
+
+
+컨테이너마다 **독립된 네트워크 네임스페이스**가 있기 때문입니다.
+- **컨테이너 내부에서는 자기만의 IP + 자기만의 포트 테이블**이 있습니다.
+- 같은 네트워크 안에 있어도 내부 IP가 다르기 때문에:
