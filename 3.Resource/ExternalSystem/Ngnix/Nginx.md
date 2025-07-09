@@ -72,7 +72,6 @@ http {
 ✅ `proxy_pass` : 내부 `guacamole:8080` 으로 연결  
 ✅ `WebSocket` 헤더 : Guacamole은 **웹소켓 터널링** 필수라 반드시 필요!
 
-
 ---
 
 ### 2.docker run 
@@ -82,18 +81,13 @@ docker run -d   --name nginx-proxy   -p 80:80   -v ~/nginx/conf/nginx.conf:/etc/
 
 ```
 
-
-
 ---
 
 ### Reverse Proxy 
 
 #### 1.Client -> Reverse Proxy 
-
 #### 2.Reverse Proxy -> Backend (Application Server)
-
 #### 3.Back end -> Reverse Proxy 
-
 #### 4. Reverse Proxy -> Clients
 
 ---
