@@ -46,3 +46,6 @@ docker run -d \ --name guacamole \ --network clovirone_network \ -e GUACD_HOSTNA
 
 
 vra.gooddi.lab:10.100.64.62 --add-host=vro.gooddi.lab:10.100.64.64
+
+
+
