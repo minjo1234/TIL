@@ -17,3 +17,6 @@
 - ray all of the contents that affected by application 
 
 ### 4.Dependency Minimize 
+
+ - DB, Redis, Mq external system easy append to `compose`
+ - 
