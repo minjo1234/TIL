@@ -22,5 +22,14 @@ docker run -d \
 
 
 ### 1.docker - volumn
+
 ```docker 
+
+docker run -d \
+  -p 8081:8081 \
+  -v /내_서버_경로/nexus-data:/nexus-data \
+  --name nexus \
+  sonatype/nexus3
 ```
+
+---
