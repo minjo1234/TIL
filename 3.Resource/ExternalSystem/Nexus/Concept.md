@@ -21,7 +21,7 @@ docker run -d \
 ```
 
 
-### 1.docker - volumn
+### 1.docker - volume
 
 ```docker 
 
