@@ -20,4 +20,8 @@ reference document
 
 ---
 
-### Docke 
+### Docker volume vs Mount point 
+
+`Docker Volume`
+
+- 독립적인 데이터 ㅈ
