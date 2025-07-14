@@ -32,9 +32,10 @@ reference document
 `Mount point`
 
 - connect file system to external path 
-- 
 
-> 
+> Real-time reflection of source code or configuration files during development 
+
+
 ---
 
 
