@@ -24,4 +24,7 @@ reference document
 
 `Docker Volume`
 
-- 독립적인 데이터 ㅈ
+- Docker management independent storage 
+- backup, restoration, share goood
+
+
