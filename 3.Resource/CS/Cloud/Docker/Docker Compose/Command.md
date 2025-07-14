@@ -1,2 +1,6 @@
 
-### 1.D
+> Down 
+
+```bash
+docker compose down 
+```
