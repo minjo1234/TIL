@@ -11,3 +11,7 @@ reference document
 | 3️⃣ `DB` (MySQL or PostgreSQL) | User account, Connection Info, Authority | `mysql:5.7` or `postgres:13` |
 
 ---
+
+
+
+`-v`: 모든 named volume 포함 삭제 (`db-data` 포함)
