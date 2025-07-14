@@ -15,3 +15,6 @@ reference document
 
 
 `-v`: 모든 named volume 포함 삭제 (`db-data` 포함)
+
+`entrypoint  : It must be executed when starting the container 
+
