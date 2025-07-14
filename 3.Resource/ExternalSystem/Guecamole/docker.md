@@ -27,11 +27,14 @@ reference document
 - Docker management independent storage 
 - backup, restoration, share goood
 
+> Data that requires long-term storage and sharing (e.g. DB log): -> volume
+
 `Mount point`
 
 - connect file system to external path 
 - 
 
+> 
 ---
 
 
