@@ -2,5 +2,5 @@
 ### Concept 
 
 System monitoring management pack 
-Thie means  Specific application, Servie, Infra 
+Thie means composition information and logics that  Specific application, Servie, Infra 
 
