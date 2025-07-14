@@ -22,9 +22,16 @@ reference document
 
 ### Docker volume vs Mount point 
 
-`Docker Volume`
+`Docker volume`
 
 - Docker management independent storage 
 - backup, restoration, share goood
+
+`Mount point`
+
+- connect file system to external path 
+- 
+
+---
 
 
