@@ -1,2 +1,2 @@
 
-kubernetes is a 
+kubernetes is a orchestarion platform
