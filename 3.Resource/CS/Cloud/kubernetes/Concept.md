@@ -32,3 +32,8 @@ The **Worker Node** is where the actual work happens. It runs the **Pods** (whic
 ## Ctr 
 
 ctr stands for Container Runtime CLI, and it is the command-line interface for containerd, a popular container runtime.
+
+
+## Containerd 
+
+containered is a container runtime a core piece of software that runs containers 
