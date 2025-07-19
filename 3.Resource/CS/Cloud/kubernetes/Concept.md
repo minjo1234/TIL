@@ -67,3 +67,30 @@ containerd
 runc
    ↓
 [실제 컨테이너 실행]
+
+
+
+### General docker use flow 
+
+# 사용자는 docker CLI 사용
+docker run nginx
+
+# 내부 동작
+→ docker CLI  
+→ dockerd (Docker Daemon)  
+→ containerd  
+→ runc  
+→ 실제 컨테이너 실행
+
+---
+
+### nerdctl 
+
+# Docker 없이도
+nerdctl run nginx
+
+# 내부 동작
+→ nerdctl CLI  
+→ containerd  
+→ runc  
+→ 실제 컨테이너 실행
