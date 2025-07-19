@@ -39,7 +39,6 @@ ctr stands for Container Runtime CLI, and it is the command-line interface for c
 - Run containers 
 - Inpsect, pause, or stop container 
 - Manage namespace and snapshots 
-- 
 
 
 ---
