@@ -26,3 +26,7 @@ The **Worker Node** is where the actual work happens. It runs the **Pods** (whic
 - **kube-proxy**: Handles networking, making sure traffic reaches the right Pod.
     
 - **Container Runtime**: The actual software that runs containers (e.g., Docker, containerd).
+
+----
+
+### Ctr 
