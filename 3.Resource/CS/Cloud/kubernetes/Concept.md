@@ -44,7 +44,8 @@ ctr stands for Container Runtime CLI, and it is the command-line interface for c
 
 ---
 
+## dockered (Docker Daemon)
+
 ## Containerd 
 
 containered is a container runtime a core piece of software that runs containers 
-]
