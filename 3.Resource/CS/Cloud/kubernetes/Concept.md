@@ -3,5 +3,8 @@ kubernetes is a orchestarion platform that helps you distribute and operate mult
 
 ---
 
+
 ## **🧠 Master Node (Control Plane)**
+
+The Master Node is the brain of the kubernetes cluster. It manages and controls the entire system - **scheduling workloads, maintaining cluster state, and handling updates.**
 
