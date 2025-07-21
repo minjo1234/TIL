@@ -138,3 +138,6 @@ crictl inspect <container-id>
 crictl logs <container-id>
 crictl exec -it <container-id> /bin/sh
 ```
+
+
+ctr vs nodectl vs crictl 
