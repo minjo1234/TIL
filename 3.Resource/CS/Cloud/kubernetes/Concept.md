@@ -107,7 +107,9 @@ crictl pull busybox
 
 crictl images 
 
-critcl exec -i -t 
+crictl exec -i -t 
 
-criticl logs 
+crictl logs 
+
+crictl pods
 ```
