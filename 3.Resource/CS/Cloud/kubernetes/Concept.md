@@ -141,3 +141,25 @@ crictl exec -it <container-id> /bin/sh
 
 
 ctr vs nodectl vs crictl 
+
+
+---
+
+### Docker deprecated 
+
+## **🧭 무엇이 deprecated 되었는가?**
+
+
+Kubernetes는 **Docker 자체를** deprecated한 게 아니라,
+
+**Kubelet이 Docker를 직접 사용하는 기능(DockerShim)**을 deprecated하고 제거했습니다.
+
+- 🔧 **기존:**
+    
+    Kubelet이 내부적으로 Docker를 직접 호출하여 컨테이너 관리
+    (dockershim 사용)
+    
+- 🔄 **이후:**
+    
+    Kubelet은 **Container Runtime Interface(CRI)** 를 사용해서
+    **containerd나 CRI-O 같은 런타임**과 통신
