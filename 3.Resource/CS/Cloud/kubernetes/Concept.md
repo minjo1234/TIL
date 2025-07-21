@@ -197,3 +197,11 @@ Kubelet → CRI → containerd → runc
 
 
 rkt(발음: _로켓_, 과거 명칭: CoreOS Rocket)는 **컨테이너 런타임(runtime)** 중 하나였습니다. 하지만 **현재는 더 이상 유지되지 않으며, 공식적으로 deprecated 상태**입니다.
+
+
+
+-----------
+
+
+
+
