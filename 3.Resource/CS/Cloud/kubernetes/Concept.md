@@ -94,3 +94,20 @@ nerdctl run nginx
 → containerd  
 → runc  
 → 실제 컨테이너 실행
+
+
+---
+
+crictl 
+
+```
+crictl 
+
+crictl pull busybox 
+
+crictl images 
+
+critcl exec -i -t 
+
+criticl logs 
+```
