@@ -190,3 +190,10 @@ Kubelet → CRI → containerd → runc
 - **개발:** docker는 그대로 써도 됨 (docker build, docker push)
 - **운영 (Kubernetes 노드):** containerd or CRI-O 사용
 - **디버깅:** crictl, nerdctl (containerd-friendly CLI) 사용
+
+
+
+----
+
+
+rkt(발음: _로켓_, 과거 명칭: CoreOS Rocket)는 **컨테이너 런타임(runtime)** 중 하나였습니다. 하지만 **현재는 더 이상 유지되지 않으며, 공식적으로 deprecated 상태**입니다.
