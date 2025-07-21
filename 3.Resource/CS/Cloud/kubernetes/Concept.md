@@ -125,9 +125,16 @@ crictl pods
 |레벨|클러스터 수준|노드 수준 (kubelet 밑)|
 
 
-```
+```bash
 kubectl get pods
 kubectl logs my-pod
 kubectl describe pod my-pod
 kubectl exec -it my-pod -- /bin/sh
+```
+
+```bash
+crictl ps
+crictl inspect <container-id>
+crictl logs <container-id>
+crictl exec -it <container-id> /bin/sh
 ```
