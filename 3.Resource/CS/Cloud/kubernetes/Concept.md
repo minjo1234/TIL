@@ -113,3 +113,21 @@ crictl logs
 
 crictl pods
 ```
+
+---
+
+|**항목**|kubectl|crictl|
+|---|---|---|
+|목적|Kubernetes 클러스터 전체 관리|개별 노드의 컨테이너 런타임 디버깅|
+|사용 대상|API 서버 → 클러스터 리소스 (Pod, Node, etc.)|노드의 container runtime (containerd, cri-o)|
+|연결 대상|Kubernetes API 서버|노드의 CRI 소켓 (/run/containerd/containerd.sock 등)|
+|용도|애플리케이션 배포, 상태 확인 등|Pod 내부 컨테이너 디버깅, crash 원인 확인 등|
+|레벨|클러스터 수준|노드 수준 (kubelet 밑)|
+
+
+```
+kubectl get pods
+kubectl logs my-pod
+kubectl describe pod my-pod
+kubectl exec -it my-pod -- /bin/sh
+```
