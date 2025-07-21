@@ -163,3 +163,30 @@ Kubernetes는 **Docker 자체를** deprecated한 게 아니라,
     
     Kubelet은 **Container Runtime Interface(CRI)** 를 사용해서
     **containerd나 CRI-O 같은 런타임**과 통신
+
+---
+
+|                  |           |                                  |
+| ---------------- | --------- | -------------------------------- |
+| kubectl 사용       | ❌ 없음      | 그대로 사용 가능                        |
+| Dockerfile / 이미지 | ❌ 없음      | 여전히 docker build, docker push 가능 |
+| 컨테이너 실행          | ⚠️ 일부 있음  | 노드에서 docker 대신 containerd 사용     |
+| 노드에 Docker 설치    | ❌ 권장되지 않음 | 더 이상 필요 없음 (containerd 사용 권장)    |
+
+
+### **🔴 과거 방식 (deprecated)**
+
+Kubelet → Dockershim → Docker → containerd → runc
+
+### **✅ 현재 방식 (권장)**
+
+Kubelet → CRI → containerd → runc
+
+---
+
+
+## **💡 대체 방안**
+
+- **개발:** docker는 그대로 써도 됨 (docker build, docker push)
+- **운영 (Kubernetes 노드):** containerd or CRI-O 사용
+- **디버깅:** crictl, nerdctl (containerd-friendly CLI) 사용
