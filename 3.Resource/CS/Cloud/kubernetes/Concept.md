@@ -294,4 +294,5 @@ kubectl은 **Kubernetes의 추상화된 API를 통해 안전하게 접근**하�
 
 ### Kubelet 
 
-kubelet is a node agent 
+kubelet is a node agent that operations on kubernetes node  
+(pod create, operation, monitoring essential role)
