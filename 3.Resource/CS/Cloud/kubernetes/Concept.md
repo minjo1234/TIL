@@ -289,3 +289,9 @@ kubectl은 **Kubernetes의 추상화된 API를 통해 안전하게 접근**하�
 |디버깅 범위|kubelet이나 runtime 문제까지 확인 가능|Kubernetes 정상 작동 전제|
 |위험도|실수로 컨테이너/노드 망가뜨릴 수 있음|상대적으로 안전하게 제어|
 |사용 목적|**장애 분석, deep-level 디버깅**|일반적인 앱 운영, 배포, 로그 확인 등|
+
+---
+
+### Kubelet 
+
+kubelet is a node agent 
