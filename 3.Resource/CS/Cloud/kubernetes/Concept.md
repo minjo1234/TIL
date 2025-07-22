@@ -296,3 +296,12 @@ kubectl은 **Kubernetes의 추상화된 API를 통해 안전하게 접근**하�
 
 kubelet is a node agent that operations on kubernetes node  
 (pod create, operation, monitoring essential role)
+
+manage node state and resource, communicate ControlPlane 
+
+### Kubelet composition 
+
+1.
+2.Kubelet APIserver. 
+3.
+4.
