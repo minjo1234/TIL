@@ -256,3 +256,9 @@ runc → 컨테이너 실행
 - 지금은 Docker 없이 containerd 같은 **CRI 호환 런타임**을 Kubernetes가 직접 제어함 
 - 
 ---
+
+
+> Kubernetes에서 **컨테이너에 직접 접근하거나 디버깅할 때**,
+> 일반 유저는 kubectl exec 같은 명령어를 주로 쓰고,
+> 시스템 레벨에서 **노드 내부에서 직접 접근**할 땐 crictl을 사용합니다.
+>
