@@ -220,3 +220,7 @@ rkt(발음: _로켓_, 과거 명칭: CoreOS Rocket)는 **컨테이너 런타임(
 
 
 crictl 
+
+- **주 용도**: Kubernetes 노드에서 컨테이너 상태 확인, 디버깅, 이미지 확인 등
+- Kubernetes는 **CRI(Container Runtime Interface)** 를 통해 컨테이너 런타임과 통신합니다.
+docker는 더 이상 Kubernetes의 기본 런타임이 아니며, 대신 **containerd**나 **CRI-O**를 사용합니다.
