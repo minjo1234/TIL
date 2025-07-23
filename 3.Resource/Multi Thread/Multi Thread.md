@@ -4,7 +4,8 @@
 - bulk head pattern  - architecture 
 
 
-- outbox pattern  - transaction 
+- outbox pattern  - transaction
+	- task outbox(cash, db) 저장패턴  
 
 
 - virtual thread (java 21 - webflux)
