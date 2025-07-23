@@ -8,6 +8,9 @@
 
 
 - virtual thread (java 21 - webflux)
+	- mvc  - sync 
+	- webflux - async  -> virtual thread  이걸로 하면 디버깅쉬움 
+
 - 
 
 
