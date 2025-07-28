@@ -30,4 +30,10 @@ Example
 - Machines connect to WWW using a NAT + internet gateway ( a proxy )
 - Only a specified range of IPS can be used as priavte IP
   
+
+
+## Elastic IPS 
+
+- When you stop and then start an EC2 instance, it can change its public IP.
+- If you need to have a fixed public IP for your instance, you need an Elastic IP 
 - 
