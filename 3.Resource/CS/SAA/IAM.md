@@ -20,5 +20,13 @@
 ## IAM Policies Structure 
 
 ### Consists of 
+
 - Version: Policy language version, always include '2012-10-17'
+- Id: an identifier for the policy (optional)
+- Statement: one or more individual statements (required)
+
+----
+
+### Statements consists of 
+
 - 
