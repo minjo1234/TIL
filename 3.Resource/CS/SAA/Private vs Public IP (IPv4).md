@@ -40,3 +40,8 @@ Example
 - You can attach it to one instance at a time 
 
 - With an Elastic address, you can mask the failure of an instance or software by rapidly remapping the address to another instance in your account 
+
+- You can only have 5 Elastic IP in your account ( you can ask AWS to increase that).
+
+- Overall, try to avoid using Elastic IP.
+	- 
