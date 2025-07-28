@@ -19,4 +19,7 @@
 
 - It's locked to an Availability Zone (AZ)
 	- An EBS Volume in us-east a cannot be attached to us-ease | b 
-	- To move a volume acc
+	- To move a volume across, you first need to snapshot it 
+
+- Have a provisioned capacity (size in GBS, and IOPS)
+	- You get billed for all the provi
