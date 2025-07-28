@@ -7,4 +7,11 @@
 - IPv4 is still the most common format used online.
 - IPv6 is newer and solves problems for the Internet of Things (loT).
 
-- IPv4 allows for 3.7 billion different addresses in the public 
+- IPv4 allows for 3.7 billion different addresses in the public space 
+- IPv4: [0-255].[0-255].[0-255].[0-255]
+
+
+## Private vs Public IP (IPv4)
+
+Example 
+- Web Server <-> www 
