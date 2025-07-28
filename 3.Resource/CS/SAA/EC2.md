@@ -59,4 +59,7 @@ Multi Factor Authentication - MFA
 - Users have access to your account and can possibly change
 configurations or delete resources in your AWS account 
 - You want to protect your root Accounts and IAM users
-- MFA 
+- MFA = password you know + security device you own 
+
+### Main benefit of MFA
+ if a password is stolen or hacked, the account is not compromised 
