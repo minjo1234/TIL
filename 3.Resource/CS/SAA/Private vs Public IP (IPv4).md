@@ -58,4 +58,5 @@ Example
 - A public IP, for the WWW 
 
 ### When we are doing, SSH into our EC2 machines.
-- We can't use a private IP, because 
+
+- We can't use a private IP, because we are not in the same network 
