@@ -29,4 +29,4 @@
 - what is network drive ?
 
 
-EC2 has ano
+EC2 has multiple EBS Volume, but EBS Volume have only one EC2
