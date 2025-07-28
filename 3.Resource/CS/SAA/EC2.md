@@ -93,4 +93,8 @@ configurations or delete resources in your AWS account
 - Bootstrap script (configure at first launch): EC2 User Data 
 
 
-## EC2
+## EC2 User Data 
+
+- It is possible to bootstrap our instances using an EC2 User data script 
+- bootstrapping means launching commands when a machine starts 
+- That script is only run once at the instance first
