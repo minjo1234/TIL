@@ -18,4 +18,10 @@ Example
 
 
 
-### Public IP:
+### Public IP: 
+- Public IP means the machine can be identified on the internet (WWW)
+- Must be unique across the whole web (not two machines can have the same public IP)
+- Can be geo-located easily 
+
+### Private IP:
+- Private IP means the machine ca o
