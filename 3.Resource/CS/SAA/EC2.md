@@ -36,7 +36,7 @@ Relational Database Service: RDBMS 클라우드 서비스. 아마존 오로라, 
 
 ---
 
-## IAM TemaMFA 
+## IAM - Password P
 
 
 user and user groups has two defence mechanisms
@@ -50,5 +50,5 @@ user and user groups has two defence mechanisms
 		- numbers 
 		- non-alphanumeric characters 
 	-  Allow all IAM users to change their own passwords 
-	-  Requires
-	- 
+	-  Require users to change their password after some time (password expiration)
+	- Prevent password re-use
