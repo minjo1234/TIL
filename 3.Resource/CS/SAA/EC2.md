@@ -71,4 +71,6 @@ configurations or delete resources in your AWS account
 ## Amazone EC2 
 
 - EC2 is one of the most popular of AWS offering 
-- EC2= Elastic Compute C
+- EC2= Elastic Compute Cloud = Infrastructure as a service 
+- It mainly consists in the capability of : 
+	- Renting virtual machines (EC2)
