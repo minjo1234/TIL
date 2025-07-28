@@ -102,4 +102,6 @@ configurations or delete resources in your AWS account
 	- Installing updates 
 	- Installing software 
 	- Downloading common files from the internet 
-	- Anything you can think o
+	- Anything you can think of 
+- The EC2 User Data Script runs with the root user 
+- 
