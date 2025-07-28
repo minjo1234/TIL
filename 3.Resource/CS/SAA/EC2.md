@@ -32,3 +32,9 @@ Relational Database Service: RDBMS 클라우드 서비스. 아마존 오로라, 
 
 
 ![[Pasted image 20250728165731.png]]
+
+
+---
+
+## IAM TemaMFA 
+
