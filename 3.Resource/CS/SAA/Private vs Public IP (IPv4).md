@@ -14,4 +14,6 @@
 ## Private vs Public IP (IPv4)
 
 Example 
-- Web Server <-> www 
+- Web Server <-> www <-> Server (public)
+
+
