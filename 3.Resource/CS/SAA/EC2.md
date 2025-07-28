@@ -56,4 +56,5 @@ user and user groups has two defence mechanisms
 
 Multi Factor Authentication - MFA 
 
-- Users have access to your account and can possibly
+- Users have access to your account and can possibly change
+confi
