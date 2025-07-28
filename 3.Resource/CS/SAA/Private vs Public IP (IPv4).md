@@ -27,4 +27,7 @@ Example
 - Private IP means the machine ca only be identified on a private network only 
 - The IP must be unique across the private network 
 - BUT two different private networks (two companies) can have the same IPS
-- Machines connect to WWW using a NAT + internet gateway( a)
+- Machines connect to WWW using a NAT + internet gateway ( a proxy )
+- Only a specified range of IPS can be used as priavte IP
+  
+- 
