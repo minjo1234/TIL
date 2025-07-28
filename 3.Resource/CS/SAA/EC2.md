@@ -46,3 +46,4 @@ user and user groups has two defence mechanisms
 	- Set a minimum password length
 	- Require specific character types: 
 		- including uppercase letters 
+		- lowercase 
