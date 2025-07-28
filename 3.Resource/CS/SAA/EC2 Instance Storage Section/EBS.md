@@ -39,3 +39,8 @@ EC2 has multiple EBS Volume, but EBS Volume have only one EC2
 - By default, any other attached EBS Volu,e is not deleted (attribute disabled)
 ### This can be controlled by the AWS console / AWS CLI
 ### Use case: preserve root volume when instance is terminated 
+
+
+text means root EBS volume deleted makes attribute enabled 
+but why use case preserver root volume ?
+
