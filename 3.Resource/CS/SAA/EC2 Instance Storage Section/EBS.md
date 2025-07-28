@@ -30,3 +30,8 @@
 
 
 EC2 has multiple EBS Volume, but EBS Volume have only one EC2
+
+
+## EBS - Delete on Termination attribute 
+
+### Controls the EBS behaviour when an 
