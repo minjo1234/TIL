@@ -17,3 +17,5 @@ Example
 - Web Server <-> www <-> Server (public)
 
 
+
+### Public IP:
