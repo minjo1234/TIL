@@ -46,4 +46,10 @@ Example
 - Overall, try to avoid using Elastic IP.
 	- They often reflect poor architectural decisions 
 	- Instead, use a random public IP and register a DNS name to it 
-	- Or,
+	- Or, as we'll see later, use a Load Balancer and don't use a public IP
+
+
+## Hands ON
+
+
+##
