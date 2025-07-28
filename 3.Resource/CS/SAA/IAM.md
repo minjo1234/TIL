@@ -2,4 +2,4 @@
 ## IAM : Users & Groups
 
 - IAM = Identify and Access Management, Global Service 
-- Roo
+- Root account created by default, shouldn't be used or shared 
