@@ -52,4 +52,10 @@ Example
 ## Hands ON
 
 
-##
+### By default, your EC2 machine comes with :
+
+- A private IP for the internal AWS Network 
+- A public IP, for the WWW 
+
+### When we are doing, SSH into our EC2 machines.
+- We can't use a private IP, because 
