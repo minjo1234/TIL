@@ -27,3 +27,8 @@ Simple Stroage Service. 파일 서버
 Relational Database Service: RDBMS 클라우드 서비스. 아마존 오로라, mysql, 마리아DB, PostgreSQL, 오라클 서버 등을 지원한다.
 
 - DynamoDB: AWS의 NoSQL 데이터베이스 서비스
+
+---
+
+
+![[Pasted image 20250728165731.png]]
