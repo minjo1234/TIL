@@ -12,7 +12,18 @@ It is the concept of renting a virtual computer from a region where Amazon provi
 
 -------
 
-##S3
+### S3
 
 Simple Stroage Service. 파일 서버
 
+- 정적 요소인 이미지나 동영상을 가지고 있다가 제공한다.
+- EC2와 다르게 무제한 저장이 가능해 주로 사용된다.
+
+
+---
+
+###  RDS
+
+Relational Database Service: RDBMS 클라우드 서비스. 아마존 오로라, mysql, 마리아DB, PostgreSQL, 오라클 서버 등을 지원한다.
+
+- DynamoDB: AWS의 NoSQL 데이터베이스 서비스
