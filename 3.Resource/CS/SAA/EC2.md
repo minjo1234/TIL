@@ -42,4 +42,7 @@ Relational Database Service: RDBMS 클라우드 서비스. 아마존 오로라, 
 user and user groups has two defence mechanisms
 
 - Strong passwords = higher security for your account 
-- In AWS, you can set
+- In AWS, you can setup a password policy 
+	- Set a minimum password length
+	- Require specific character types: 
+		- including uppercase letters 
