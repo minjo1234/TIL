@@ -44,4 +44,6 @@ Example
 - You can only have 5 Elastic IP in your account ( you can ask AWS to increase that).
 
 - Overall, try to avoid using Elastic IP.
-	- 
+	- They often reflect poor architectural decisions 
+	- Instead, use a random public IP and register a DNS name to it 
+	- Or,
