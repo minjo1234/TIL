@@ -14,4 +14,5 @@
 ## EBS Volume 
 
 - It's a network drive (i.e.not a physical drive)
-	- 
+	- it uses the network to communicate the instance, which means there might be a bit of latency 
+	- it can be detached from an EC2 instance and attached 
