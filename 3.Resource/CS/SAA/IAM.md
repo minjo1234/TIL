@@ -10,4 +10,5 @@
 
 ## IAM : Permissions
 
-- Users or G
+- Users or Groups can be assigned JSON documents called policies 
+
