@@ -63,3 +63,12 @@ configurations or delete resources in your AWS account
 
 ### Main benefit of MFA
  if a password is stolen or hacked, the account is not compromised 
+
+
+---
+
+
+## Amazone EC2 
+
+- EC2 is one of the most popular of AWS offering 
+- EC2= Elastic Compute C
