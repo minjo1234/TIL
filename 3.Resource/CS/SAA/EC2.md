@@ -46,4 +46,9 @@ user and user groups has two defence mechanisms
 	- Set a minimum password length
 	- Require specific character types: 
 		- including uppercase letters 
-		- lowercase 
+		- lowercase letters
+		- numbers 
+		- non-alphanumeric characters 
+	-  Allow all IAM users to change their own passwords 
+	-  Requires
+	- 
