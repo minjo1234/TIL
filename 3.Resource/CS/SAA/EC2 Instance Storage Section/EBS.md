@@ -8,3 +8,10 @@
 
 
 - Analogy: Think of them as a "network USB stick"
+- Free tier: 30 GB of free EBS storage of type General Purpose (SSD) or Magnetic per month 
+
+
+## EBS Volume 
+
+- It's a network drive (i.e.not a physical drive)
+	- 
