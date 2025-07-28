@@ -74,3 +74,7 @@ configurations or delete resources in your AWS account
 - EC2= Elastic Compute Cloud = Infrastructure as a service 
 - It mainly consists in the capability of : 
 	- Renting virtual machines (EC2)
+	- Distributing load across machines (ELB)
+	- Scaling the services using an autop-scaling group (ASG)
+
+- Knowing EC2 is fundamental to understand how the Cloud works 
