@@ -4,4 +4,7 @@
 
 
 - In this course, we will only be using IPv4
-- IPv4 is still ths 
+- IPv4 is still the most common format used online.
+- IPv6 is newer and solves problems for the Internet of Things (loT).
+
+- IPv4 allows for 3.7 billion different addresses in the public 
