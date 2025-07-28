@@ -78,3 +78,10 @@ configurations or delete resources in your AWS account
 	- Scaling the services using an autop-scaling group (ASG)
 
 - Knowing EC2 is fundamental to understand how the Cloud works 
+
+
+## EC2 sizing & configuration options 
+
+- Operating System (OS): Linux, Windows or Mac OS
+- How much compute power & cores (cpu)
+- How much random-acce
