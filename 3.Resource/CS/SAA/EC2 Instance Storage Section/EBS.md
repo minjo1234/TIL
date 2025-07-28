@@ -22,4 +22,11 @@
 	- To move a volume across, you first need to snapshot it 
 
 - Have a provisioned capacity (size in GBS, and IOPS)
-	- You get billed for all the provi
+	- You get billed for all the provisioned capacity 
+	- You can increase the capacity of the drive over time 
+
+
+- what is network drive ?
+
+
+EC2 has ano
