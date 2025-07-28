@@ -36,7 +36,7 @@ Relational Database Service: RDBMS 클라우드 서비스. 아마존 오로라, 
 
 ---
 
-## IAM - Password P
+## IAM - Password Policy 
 
 
 user and user groups has two defence mechanisms
@@ -52,3 +52,8 @@ user and user groups has two defence mechanisms
 	-  Allow all IAM users to change their own passwords 
 	-  Require users to change their password after some time (password expiration)
 	- Prevent password re-use
+
+
+Multi Factor Authentication - MFA 
+
+- Users have access to your account and can possibly
