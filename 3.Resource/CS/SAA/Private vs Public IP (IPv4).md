@@ -60,3 +60,9 @@ Example
 ### When we are doing, SSH into our EC2 machines.
 
 - We can't use a private IP, because we are not in the same network 
+
+
+- If your machine is stopped and then started,
+the public IP can change 
+
+
