@@ -38,3 +38,5 @@ Example
 - If you need to have a fixed public IP for your instance, you need an Elastic IP 
 - An Elastic IP is a public IPv4 IP you own as long as you don't delete it
 - You can attach it to one instance at a time 
+
+- With an Elastic address, you can mask the failure of an instance or software by rapidly remapping the address to another instance in your account 
