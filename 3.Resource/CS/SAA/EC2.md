@@ -104,4 +104,6 @@ configurations or delete resources in your AWS account
 	- Downloading common files from the internet 
 	- Anything you can think of 
 - The EC2 User Data Script runs with the root user 
-- 
+
+t2.micro is part of the AWS free tier (up to 750 hours per month)
+
