@@ -34,4 +34,7 @@ EC2 has multiple EBS Volume, but EBS Volume have only one EC2
 
 ## EBS - Delete on Termination attribute 
 
-### Controls the EBS behaviour when an 
+### Controls the EBS behaviour when an EC2 instance terminates 
+- By default, the root EBS volume is delete ( attribute deleted)
+- By default, any other attached EBS Volu,e is not deleted (attribute disabled)
+### This can be controlled by the AWS 
