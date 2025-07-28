@@ -15,3 +15,10 @@
 
 
 ## IAM Policies inheritance 
+
+
+## IAM Policies Structure 
+
+### Consists of 
+- Version: Policy language version, always include '2012-10-17'
+- 
