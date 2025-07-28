@@ -12,4 +12,6 @@
 
 - Users or Groups can be assigned JSON documents called policies 
 - Don't have to select regions 
-- 
+
+
+## IAM Policies inheritance 
