@@ -11,4 +11,5 @@
 ## IAM : Permissions
 
 - Users or Groups can be assigned JSON documents called policies 
-
+- Doesn't have to select regions 
+- 
