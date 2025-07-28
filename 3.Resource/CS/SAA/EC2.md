@@ -57,4 +57,6 @@ user and user groups has two defence mechanisms
 Multi Factor Authentication - MFA 
 
 - Users have access to your account and can possibly change
-confi
+configurations or delete resources in your AWS account 
+- You want to protect your root Accounts and IAM users
+- MFA 
