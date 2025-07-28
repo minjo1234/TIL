@@ -89,4 +89,8 @@ configurations or delete resources in your AWS account
 	- Network-attached (EBS & EFS)
 	- hardware (EC2 Instance Store)
 - Network card speed of the card, Public IP address 
-- Firewall rules: security 
+- Firewall rules: security group 
+- Bootstrap script (configure at first launch): EC2 User Data 
+
+
+## EC2
