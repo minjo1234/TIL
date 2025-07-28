@@ -15,4 +15,8 @@
 
 - It's a network drive (i.e.not a physical drive)
 	- it uses the network to communicate the instance, which means there might be a bit of latency 
-	- it can be detached from an EC2 instance and attached 
+	- it can be detached from an EC2 instance and attached to another one quickly 
+
+- It's locked to an Availability Zone (AZ)
+	- An EBS Volume in us-east a cannot be attached to us-ease | b 
+	- To move a volume acc
