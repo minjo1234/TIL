@@ -48,4 +48,10 @@
 	- numbers 
 	- non-alphanumeric characters 
 - Allow all IAM users to change their own passwords 
-- Require users to change their password after some time 
+- Require users to change their password after some time (password expiration)
+- Prevent password re-use 
+
+
+## Multi Factor Authentication - MFA 
+
+- Users hav
