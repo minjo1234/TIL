@@ -44,3 +44,6 @@
 
 
 ## AWS CloudShell
+curl -u "Jomin011208:ATBBDxnpP7WxGhuRCPRpFwYHFuxxC56C6308" \
+-X POST "https://api.bitbucket.org/2.0/repositories/goodmit1/posco_deployment/downloads" \
+--form files=@clovirone2.0.tar.gz.part_ad
