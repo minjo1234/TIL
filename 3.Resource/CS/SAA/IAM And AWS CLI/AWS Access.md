@@ -49,7 +49,7 @@
 
 - Select Region to Available CloudShell 
 - File Upload And Download Available 
-- 
+	- 
 
 
 curl -u "Jomin011208:ATBBDxnpP7WxGhuRCPRpFwYHFuxxC56C6308" \
