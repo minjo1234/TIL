@@ -38,3 +38,8 @@
 -----
 
 ## IAM Password Policy
+
+- Strong passwords = higher security for your account 
+- In AWS, you can setup a password policy 
+	- Set a minimum password length 
+	- Require specific character types:
