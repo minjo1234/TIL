@@ -32,18 +32,12 @@
 
 ------
 
-
-
-VDI_Deployment Key :
-ATBBCuD3Mxxw38DJ3yQXgK6Kq9hBE0136385
+## AWS CLI Access Key
 
 
 ![[Pasted image 20250729130019.png]]
 
-ATBBDxnpP7WxGhuRCPRpFwYHFuxxC56C6308
 
-Jomin011208
+---
 
-curl -u "Jomin011208:ATBBDxnpP7WxGhuRCPRpFwYHFuxxC56C6308" \
--X POST "https://api.bitbucket.org/2.0/repositories/goodmit1/posco_deployment/downloads" \
---form files=@clovirone2.0.tar.gz.part_ab
+#### **AWS CloudShell: 리전 가용성**
