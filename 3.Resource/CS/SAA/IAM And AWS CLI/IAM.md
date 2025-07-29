@@ -76,4 +76,5 @@ if a password is stolen or hacked, the account is not compromised
 
 ## IAM Roles for Service 
 
-- Some AWS service will need to  
+- Some AWS service will need to  perform actions on your behalf 
+- To do so, we will assign permissions to AWS services with IAM Roles 
