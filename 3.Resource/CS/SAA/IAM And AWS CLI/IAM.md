@@ -116,5 +116,7 @@ if a password is stolen or hacked, the account is not compromised
 **Policies** : JSON document that outlines permissions for users or groups 
 **Roles** : for EC2 instances AWS services 
 **Security** : MFA + Password Policy 
-AWS CLI: manage your AWS services using the command-line 
-AWS SDK: man
+**AWS CLI**: manage your AWS services using the command-line 
+**AWS SDK**: manage your AWS services using a programming language 
+Access Keys: access AWS using the CLI or SDK 
+Audit: IAM Credential Rep
