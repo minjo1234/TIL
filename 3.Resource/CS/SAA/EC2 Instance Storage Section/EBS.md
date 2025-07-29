@@ -44,3 +44,5 @@ EC2 has multiple EBS Volume, but EBS Volume have only one EC2
 text means root EBS volume deleted makes attribute enabled 
 but why use case preserver root volume ?
 
+
+pvdi.posco.net
