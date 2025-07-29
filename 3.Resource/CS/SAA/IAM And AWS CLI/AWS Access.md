@@ -9,7 +9,12 @@
 - Access Keys are generated through the AWS Console 
 - Users manage their own access keys 
 - Access Keys are secret, just like a password, Don't share them 
-- 
+- Access Key ID ~= username 
+- Secret Access Key ~= password 
+
+## Example (Fake) Access Keys 
+
+
 
 
 VDI_Deployment Key :
