@@ -66,6 +66,6 @@ if a password is stolen or hacked, the account is not compromised
 
 ## MFA devices options in AWS 
 
-**virtual MFA device**
-**Universal 2nd Factor (U2F) Security Key**
+**virtual MFA device** : Support for multiple tokens on a single device/
+**Universal 2nd Factor (U2F) Security Key** : Support for multiple root and IAM users 
 
