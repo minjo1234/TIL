@@ -98,4 +98,7 @@ if a password is stolen or hacked, the account is not compromised
   - Don't use the root account except for AWS account 
   - On physical user = One AWS usersA
   - Assign users to groups and assign permissions to groups 
-  - Create a strong password 
+  - Create a strong password policy 
+  - Use and enforce the use of Multi Factor Authentication (MFA)
+  - Create and use Roles for giving permissions to AWS services 
+  - Use Access Keys for Proga
