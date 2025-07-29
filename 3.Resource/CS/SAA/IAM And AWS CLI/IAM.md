@@ -101,4 +101,7 @@ if a password is stolen or hacked, the account is not compromised
   - Create a strong password policy 
   - Use and enforce the use of Multi Factor Authentication (MFA)
   - Create and use Roles for giving permissions to AWS services 
-  - Use Access Keys for Proga
+  - Use Access Keys for Programmatic Access (CLI / SDK )
+  - Audit permissions of your account using IAM Credentials Report & IAM 
+	  Access Advisor 
+	  
