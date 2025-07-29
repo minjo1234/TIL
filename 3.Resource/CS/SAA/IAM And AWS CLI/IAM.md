@@ -33,6 +33,7 @@
 - Effect: whether the statement allows or denies access (Allow, Deny)
 - Principal: account/user/role to which this policy applied to 
 - Action: list of actions this policy allows or denies 
+- Resource
 
 
 -----
@@ -132,3 +133,5 @@ if a password is stolen or hacked, the account is not compromised
 - IAM 정책 : AWS 서비스에 요청을 생성하기 위한 일련의 권한을 정의, IAM 사용자, 사용자 그룹 및 IAM 역할에게 사용하게 될 JOSN 문서
 
 - IAM 사용자 그룹은 IAM 사용자만을 포함할 수 있다.
+
+IAM CLI 퀴즈
