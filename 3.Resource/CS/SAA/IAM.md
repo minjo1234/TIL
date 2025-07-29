@@ -67,3 +67,5 @@ if a password is stolen or hacked, the account is not compromised
 ## MFA devices options in AWS 
 
 **virtual MFA device**
+**Universal 2nd Factor (U2F) Security Key**
+
