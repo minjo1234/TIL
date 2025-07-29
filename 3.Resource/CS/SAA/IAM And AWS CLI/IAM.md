@@ -82,3 +82,9 @@ if a password is stolen or hacked, the account is not compromised
 	- EC2 Instance Roles 
 	- Lambda Function Roles 
 	- Roles for CloudFormation 
+
+
+## IAM Security Tools 
+
+- IAM Credentials Report (account-level)
+	- a report that lists all your account's users and the status of their various crendentials 
