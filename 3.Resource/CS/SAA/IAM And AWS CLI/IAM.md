@@ -95,4 +95,6 @@ if a password is stolen or hacked, the account is not compromised
 
 ## IAM Guidelines & Best Practices 
 
- 
+  - Don't use the root account except for AWS account 
+  - On physical user = One AWS usersA
+  - 
