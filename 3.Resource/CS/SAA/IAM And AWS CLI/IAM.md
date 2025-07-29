@@ -113,4 +113,8 @@ if a password is stolen or hacked, the account is not compromised
 
  **Users** : mapped to a physical user, has a password for AWS Console 
 **Groups** : contains users only 
-Policies : JSON document that outlines permissions for users or groups 
+**Policies** : JSON document that outlines permissions for users or groups 
+**Roles** : for EC2 instances AWS services 
+**Security** : MFA + Password Policy 
+AWS CLI: manage your AWS services using the command-line 
+AWS SDK: man
