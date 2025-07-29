@@ -61,4 +61,9 @@ configurations or delete resources in your AWS account
 - MFA = password you know + security device you own 
 
 - Main benefit of MFA :
-if a 
+if a password is stolen or hacked, the account is not compromised 
+
+
+## MFA devices options in AWS 
+
+virtual MFA d
