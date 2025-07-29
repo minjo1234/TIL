@@ -59,3 +59,6 @@ configurations or delete resources in your AWS account
 
 - You want to protect your Root Accounts and IAM users 
 - MFA = password you know + security device you own 
+
+- Main benefit of MFA :
+if a 
