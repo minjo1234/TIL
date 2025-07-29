@@ -97,4 +97,5 @@ if a password is stolen or hacked, the account is not compromised
 
   - Don't use the root account except for AWS account 
   - On physical user = One AWS usersA
-  - 
+  - Assign users to groups and assign permissions to groups 
+  - Create a strong password 
