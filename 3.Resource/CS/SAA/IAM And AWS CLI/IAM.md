@@ -104,4 +104,11 @@ if a password is stolen or hacked, the account is not compromised
   - Use Access Keys for Programmatic Access (CLI / SDK )
   - Audit permissions of your account using IAM Credentials Report & IAM 
 	  Access Advisor 
-	  
+	Never share IAM users & Access Keys 
+
+---
+
+## IAM Section - Summary 
+
+
+### Users: mapped to a physical user, has a password for AWS Console 
