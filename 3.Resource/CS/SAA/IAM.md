@@ -69,3 +69,4 @@ if a password is stolen or hacked, the account is not compromised
 **virtual MFA device** : Support for multiple tokens on a single device/
 **Universal 2nd Factor (U2F) Security Key** : Support for multiple root and IAM users 
 
+
