@@ -91,6 +91,7 @@ if a password is stolen or hacked, the account is not compromised
 
 - IAM Access Advisor (user-level)
 	- Access advisor shows the service permissions granted to a user and when those services were last accessed 
+- 
 ---
 
 ## IAM Guidelines & Best Practices 
