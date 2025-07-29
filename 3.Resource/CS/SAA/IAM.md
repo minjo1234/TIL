@@ -46,4 +46,6 @@
 	- including uppercase letters 
 	- lowercase letters 
 	- numbers 
-	- non-alphanumeric cha
+	- non-alphanumeric characters 
+- Allow all IAM users to change their own passwords 
+- Require users to change their password after some time 
