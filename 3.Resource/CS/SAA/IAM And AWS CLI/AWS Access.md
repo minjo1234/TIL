@@ -19,7 +19,12 @@
 
 ## What's the AWS SDK ? 
 
-- AWS Software Develo
+- AWS Software Development Kit (AWS SDK)
+- Language-specific APIS (set of libraries)
+- Enables you to access and manage AWS services programmatically 
+- Embedded within your application 
+- Supports 
+	- SDKs (Javascript, Python,)
 
 
 
