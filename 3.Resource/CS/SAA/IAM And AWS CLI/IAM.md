@@ -129,4 +129,4 @@ if a password is stolen or hacked, the account is not compromised
 
 - IAM 사용자들은 자신만의 자격증명 (샤용자 이름, 비밀번호, 엑세스 키)를 통해 AWS 서비스에 엑세스한다.  (관리자 x , root x)
  
-
+- IAM 정책 : AWS 서비스에 요청을 생성하기 위한 일련의 권한을 정의, IAM 사용자, 사용자 그룹 및 IAM 역할에게 사용하게 도
