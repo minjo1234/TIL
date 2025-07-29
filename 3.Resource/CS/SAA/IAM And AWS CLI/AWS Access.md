@@ -24,7 +24,9 @@
 - Enables you to access and manage AWS services programmatically 
 - Embedded within your application 
 - Supports 
-	- SDKs (Javascript, Python,)
+	- SDKs (Javascript, Python, PHP, NET, Ruby, java, GO, Node.js, C++)
+	- Mobile SDKS (Android, iOS)
+	- 
 
 
 
