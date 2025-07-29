@@ -33,4 +33,8 @@
 - Effect: whether the statement allows or denies access (Allow, Deny)
 - Principal: account/user/role to which this policy applied to 
 - Action: list of actions this policy allows or denies 
-- 
+
+
+-----
+
+## IAM Password Policy
