@@ -91,7 +91,7 @@ if a password is stolen or hacked, the account is not compromised
 
 - IAM Access Advisor (user-level)
 	- Access advisor shows the service permissions granted to a user and when those services were last accessed 
-- 
+
 ---
 
 ## IAM Guidelines & Best Practices 
@@ -121,4 +121,12 @@ if a password is stolen or hacked, the account is not compromised
 **AWS SDK**: manage your AWS services using a programming language 
 **Access Keys**: access AWS using the CLI or SDK 
 **Audit**: IAM Credential Reports & IAM Access Advisor 
+
+
+
+---
+
+
+- IAM 사용자들은 자신만의 자격증명 (샤용자 이름, 비밀번호, 엑세스 키)를 통해 AWS 서비스에 엑세스한다.  (관리자 x , root x)
+ 
 
