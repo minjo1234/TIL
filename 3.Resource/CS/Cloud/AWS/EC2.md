@@ -13,7 +13,8 @@
 - You can launch EC2 instances from 
 	- A Public AMI : AWS provided 
 	- Your own AMI : you make and maintain them yourself 
-	- An AWS Marketplace AMI : an AMI someone else made 
+	- An AWS Marketplace AMI : an AMI someone else made (and potentially sells)
+
 
 
 
