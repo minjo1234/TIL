@@ -97,11 +97,10 @@ it forwards traffic to are available to reply to requests
 Types of load balancer on AWS 
 
 - AWS has 4 kinds of managed Load Balancers 
-- Classic Load Balancer 
+- **Classic Load Balancer** 
    HTTP, HTTPS, TCP, SSL (secure TCP)
-- Application Load Balancer (v2 - new generation )
-
-
-
+- **Application Load Balancer** (v2 - new generation)
+- **Network Load Balancer** 
+- **Gateway Load Balancer** 
 
 
