@@ -46,7 +46,7 @@ echo "<h1>Hello World from ${hostname -f)</h1>"> /var/www/html/index.html
 
 ----
 
-EBS Multi-Attach - io l/io2 family 
+**EBS Multi-Attach - io l/io2 family** 
 
 - Attach the same EBS volume multiple EC2 instances in the same AZ 
 - Each instance has full read & write permissions 
@@ -57,3 +57,9 @@ to the high-performance volume
 - Up to **16 EC2** Instances at a time 
 - Must use a file system that's cluster-aware (not XFS, EX4, etc...)
 
+---
+
+EBS Encryption 
+
+- When you create an encrypted EBS volume, you get the following 
+	- Dat
