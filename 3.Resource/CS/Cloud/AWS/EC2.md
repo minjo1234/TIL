@@ -50,4 +50,9 @@ EBS Multi-Attach - io l/io2 family
 
 - Attach the same EBS volume multiple EC2 instances in the same AZ 
 - Each instance has full read & write permissions 
-- 
+to the high-performance volume 
+- Use case: 
+	- Achieve higher application availability in clustered Linux Applications 
+	- Applications must manage concurrent write operations 
+
+- Up to 16 EC2 Instances at a time 
