@@ -47,3 +47,5 @@ system in at least 2 data centers ( == Availability Zones)
 - Horizontal Scaling: Increase number of instances ( = scale out / in a)
 	- Auto Scaling Group 
 	- Load Balancer 
+
+- High Availability 
