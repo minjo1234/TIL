@@ -59,7 +59,7 @@ to the high-performance volume
 
 ---
 
-EBS Encryption 
+**EBS Encryption** 
 
 - When you create an encrypted EBS volume, you get the following 
 	- Data at rest is encrypted inside the volume 
@@ -71,3 +71,11 @@ EBS Encryption
 - EBS Encryption leverages keys from KMS (AES-256)
 - Copying an unencrypted snapshot allows encryption 
 - Snapshots of encrypted volumes are encrypted 
+
+---
+
+Encryption: encrypt an unencrypted EBS volume 
+
+- Create an EBS snapshot of the volume 
+- Encrypt the EBS snapshot ( using copy )
+- Create new ebs volume from
