@@ -33,4 +33,8 @@ offerings such as Amazon EC2
 
 - High Availability usually goes hand in hand with horizontal scaling 
 - High availability means running your application / 
-system in at least 2 data centers ( == Availa Zones)
+system in at least 2 data centers ( == Availability Zones)
+- The goal of high availability is to survive a data center loss 
+
+- The high availability can be passive 
+- The high availability can be active 
