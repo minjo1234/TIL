@@ -41,4 +41,5 @@ system in at least 2 data centers ( == Availability Zones)
 
 
 - Vertical Scaling: Increase instance size ( = scale up / down)
-	- From: t2.nano - 0.5G 
+	- From: t2.nano - 0.5G of RAM, I vCPU 
+	- To: u-l 2tbl.metal - I 2.3TB of RAM, 448 vCPUs 
