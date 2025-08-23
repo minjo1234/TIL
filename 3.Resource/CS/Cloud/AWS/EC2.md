@@ -55,4 +55,4 @@ to the high-performance volume
 	- Achieve higher application availability in clustered Linux Applications 
 	- Applications must manage concurrent write operations 
 
-- Up to 16 EC2 Instances at a time 
+- Up to **16 EC2** Instances at a time 
