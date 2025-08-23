@@ -94,6 +94,14 @@ it forwards traffic to are available to reply to requests
 - if the response is not 200 (OK), then the instance is unhealthy
 
 
-Types of 
+Types of load balancer on AWS 
+
+- AWS has 4 kinds of managed Load Balancers 
+- Classic Load Balancer 
+   HTTP, HTTPS, TCP, SSL (secure TCP)
+- Applica
+
+
+
 
 
