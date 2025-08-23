@@ -30,4 +30,5 @@ Have a provisioned capacity (size in GBS, and IOPS)
 
 **EBS Snapshots**
 
-- Mek
+- Make a backup (snapshot) of your EBS volume at point in time 
+- 
