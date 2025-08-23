@@ -94,4 +94,5 @@ to the high-performance volume
 - Uses security group to control access to EFS 
 - **Compatible with Linux bases AMI (not Windows)**
 
-- POSIX file system (~Li)
+- POSIX file system (~Linux) that has a standard file API 
+- File system scales automatically, pay-per-use, no capacity planning 
