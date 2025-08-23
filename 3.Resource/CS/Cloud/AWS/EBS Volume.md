@@ -33,3 +33,10 @@ Have a provisioned capacity (size in GBS, and IOPS)
 - Make a backup (snapshot) of your EBS volume at point in time 
 - Not necessary to detach volume to do, but recommended 
 - Can copy snapshots across AZ or Region 
+
+
+**features**
+
+- EBS Snapshot Archive 
+- Recycle Bin for EBS Snapshots 
+- Fast Snapshot Restore (FSR)
