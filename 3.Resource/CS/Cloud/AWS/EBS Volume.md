@@ -12,5 +12,6 @@
 **locked to an availability zone (AZ)**
 - An EBS Volume in us-east-la cannot be attached to us-east-lb
 
-Have a provisioned capacity (size i)
+Have a provisioned capacity (size in GBS, and IOPS)
+
 
