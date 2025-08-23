@@ -38,3 +38,7 @@ system in at least 2 data centers ( == Availability Zones)
 
 - The high availability can be passive 
 - The high availability can be active 
+
+
+- Vertical Scaling: Increase instance size ( = scale up / down)
+	- From: t2.nano - 0.5G 
