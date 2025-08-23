@@ -15,4 +15,8 @@
 Have a provisioned capacity (size in GBS, and IOPS)
 
 
-EBS - Delete on Termination attribute  
+---
+
+**EBS - Delete on Termination attribute**  
+
+- 
