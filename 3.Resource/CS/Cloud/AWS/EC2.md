@@ -87,4 +87,4 @@ to the high-performance volume
 
 - Managed NFS (network file system) that can be mounted on many EC2 
 - EFS works with EC2 instances in multi-AZ
-- Hi
+- Highly available, scalable, expensive (3xgp2), pay per use 
