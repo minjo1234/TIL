@@ -119,4 +119,8 @@ to the high-performance volume
 	- Standard: for frequently accessed files 
 	- Infrequent access (EFS-IA): cost to retrieve files, lower prvie to store 
 	- Archive: rarely accessed data (few times each year), 50% cheaper 
-	- Implement lifecycle 
+	- Implement lifecycle policies to move files between storage tiers 
+
+- Availability and durability 
+	- Standard: Multi-AZ, great for prod 
+	- One Zone: One AZ, great for dev, backup enabled by default, compatible
