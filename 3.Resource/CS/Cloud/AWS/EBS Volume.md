@@ -20,5 +20,8 @@ Have a provisioned capacity (size in GBS, and IOPS)
 **EBS - Delete on Termination attribute**  
 
 - Controls the EBS behavior when an EC2 instance terminates 
-	- By default, the root EBS volume is deleted (attribute enalbed)
-	- By default, any other attached EBS volume is not deleted (att)
+	- By default, the root EBS volume is deleted (attribute enabled)
+	- By default, any other attached EBS volume is not deleted (attribute disabled)
+
+- This can be controlled by the AWS console / AWS CLI
+- Use case: preserve root volume when instance is terminated 
