@@ -23,4 +23,8 @@
 
 - EC2 instances (can be managed by an Auto Scaling Group) - HTTP 
 - ECS tasks 
-- Lamb
+- Lambda functions 
+- IP Addresses - must be private IPs 
+
+- ALB can route to multiple target groups 
+- Health checks are at the target group level 
