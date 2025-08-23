@@ -90,7 +90,10 @@ system in at least 2 data centers ( == Availability Zones)
 - Health Checks are crucial for Load Balancers 
 - They enable the load balancer to know if instances 
 it forwards traffic to are available to reply to requests 
-- The health check is done on a
+- The health check is done on a port and a route
+- if the response is not 200 (OK), then the instance is unhealthy
 
+
+Types of 
 
 
