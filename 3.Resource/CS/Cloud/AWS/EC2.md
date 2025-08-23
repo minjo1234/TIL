@@ -138,3 +138,5 @@ EBS vs EFS - Elastic Block Storage
 	- are locked at the Availability Zone (AZ) level 
 	- gp2: IO increases if the disk size independently 
 	- gp3 & io I : can increase IO independently 
+- To migrate an EBS volume across AZ 
+	- Take a snapshot 
