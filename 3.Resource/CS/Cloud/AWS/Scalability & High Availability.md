@@ -61,3 +61,7 @@ system in at least 2 data centers ( == Availability Zones)
 - Expose a single point of access (DNS) to your application 
 - Seamlessly handle failures of downstream instances 
 - Do regular health checks to your instances 
+- Provide SSL termination (HTTPS) for your websites 
+- Enforce stickiness with cookies 
+- High availability across zones 
+- Separ 
