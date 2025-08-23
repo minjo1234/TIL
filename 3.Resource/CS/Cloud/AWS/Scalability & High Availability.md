@@ -15,3 +15,7 @@
 - Vertical scalability is very common for non distributed systems, such as a database 
 - RDS, ElastiCache are services that can scale vertically 
 - There's usually a limit to how much you can vertically scale (hardware limit)
+
+### Horizontal Scalability 
+
+- Horiz
