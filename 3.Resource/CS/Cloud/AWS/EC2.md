@@ -96,3 +96,5 @@ to the high-performance volume
 
 - POSIX file system (~Linux) that has a standard file API 
 - File system scales automatically, pay-per-use, no capacity planning 
+
+EFS - Performance & Storage Cl
