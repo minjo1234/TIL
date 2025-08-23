@@ -142,3 +142,8 @@ EBS vs EFS - Elastic Block Storage
 	- Take a snapshot 
 
 
+- EFS - Elasitc File System 
+	- Mounting 100s of instances across AZ 
+	- EFS share website files (WordPress)
+	- Only for Linux Instances (POSIX)
+- EFS has a higher price point t
