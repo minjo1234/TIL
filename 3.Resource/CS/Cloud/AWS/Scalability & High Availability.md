@@ -40,14 +40,14 @@ system in at least 2 data centers ( == Availability Zones)
 - The high availability can be active 
 
 
-- Vertical Scaling: Increase instance size ( = scale up / down)
+- **Vertical Scaling**: Increase instance size ( = scale up / down)
 	- From: t2.nano - 0.5G of RAM, I vCPU 
 	- To: u-l 2tbl.metal - I 2.3TB of RAM, 448 vCPUs 
 
-- Horizontal Scaling: Increase number of instances ( = scale out / in a)
+- **Horizontal Scaling**: Increase number of instances ( = scale out / in a)
 	- Auto Scaling Group 
 	- Load Balancer 
 
-- High Availability: Run instances for the same application across multi AZ 
+- **High Availability**: Run instances for the same application across multi AZ 
 	- Auto Scaling Group multi AZ
 	- Load Balancer multi AZ 
