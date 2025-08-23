@@ -15,4 +15,5 @@
 	- Routing based on Query String, Headers 
 
 - ALB are a great fit for micro services & container-based application 
-- Has a port mapping feature to redirect to a dy
+- Has a port mapping feature to redirect to a dynamic port in ECS
+- In comparison, we'd need multiple Classic Load Balancer per application 
