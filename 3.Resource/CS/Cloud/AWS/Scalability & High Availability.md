@@ -76,4 +76,7 @@ system in at least 2 data centers ( == Availability Zones)
 
 - It costs less to setup your own load balancer but it will be a lot more effort on your end 
 
-- It is intergrat
+- It is integrated with many AWS offerings / services 
+	- EC2, EC2 Auto Scaling Groups, Amazon ECS
+	- AWS Certificate Manager (ACM), CloudWatch 
+	- R
