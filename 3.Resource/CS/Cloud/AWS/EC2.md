@@ -89,4 +89,7 @@ to the high-performance volume
 - EFS works with EC2 instances in multi-AZ
 - Highly available, scalable, expensive (3xgp2), pay per use 
 
-- Use cases: content management
+- Use cases: content management, web serving, data sharing, Wordpress 
+- Uses NFSv4, I protocol
+- Uses security group to control access to EFS 
+- **Compatible with Linux bases AMI (not Windows)**
