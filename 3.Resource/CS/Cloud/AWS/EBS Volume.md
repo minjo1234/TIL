@@ -3,5 +3,12 @@
 
 - They are bound to a specific availability zone 
 (Inner AZ , not other AZ )
-- network drive (not a physical drive)
-- 
+
+
+
+- network drive (not a physical drive
+(detach from an EC2 instance and attached to another and quickly)
+
+- locked to an availability zone (AZ)
+
+
