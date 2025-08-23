@@ -72,4 +72,8 @@ system in at least 2 data centers ( == Availability Zones)
 - An Elastic Load Balancer is a managed load balancer 
 	- AWS guarantees that it will be working 
 	- AWS takes care of upgrades, maintenance, high availability 
-	- AWS provides only a few configuration 
+	- AWS provides only a few configuration knobs 
+
+- It costs less to setup your own load balancer but it will be a lot more effort on your end 
+
+- It is intergrat
