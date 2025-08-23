@@ -74,7 +74,7 @@ to the high-performance volume
 
 ---
 
-Encryption: encrypt an unencrypted EBS volume 
+**Encryption: encrypt an unencrypted EBS volume** 
 
 - Create an EBS snapshot of the volume 
 - Encrypt the EBS snapshot ( using copy )
