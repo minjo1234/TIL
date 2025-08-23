@@ -28,3 +28,8 @@
 
 - ALB can route to multiple target groups 
 - Health checks are at the target group level 
+
+- Fixed hostname (XXX.region.elb.amazonaws.com)
+- The application servers don't see the IP of the client directly 
+	- The true IP of the client is inserted in the header X-Forwarded-For 
+- 
