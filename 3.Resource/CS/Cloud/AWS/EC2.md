@@ -36,3 +36,9 @@ echo "<h1>Hello World from ${hostname -f)</h1>"> /var/www/html/index.html
 - Good for buffer / cache / scratch data / temporary content 
 - Risk of data loss if hardware fails 
 - Backups and Replication are your responsibility 
+
+---
+
+**EBS Volume Types** 
+
+- 
