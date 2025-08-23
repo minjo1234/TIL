@@ -3,5 +3,5 @@
 
 - They are bound to a specific availability zone 
 (Inner AZ , not other AZ )
-- network drive 
+- network drive (not a physical drive)
 - 
