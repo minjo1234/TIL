@@ -46,3 +46,6 @@ echo "<h1>Hello World from ${hostname -f)</h1>"> /var/www/html/index.html
 
 ----
 
+EBS Multi-Attach - io l/io2 family 
+
+- Attach the same EBS volume multiple EC2 instances in the same AZ 
