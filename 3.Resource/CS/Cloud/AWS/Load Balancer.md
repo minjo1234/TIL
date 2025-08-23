@@ -7,4 +7,5 @@
 - Load balancing to multiple applications on the same machine (ex: containers)
 - Support for HTTP/2 and WebSocket 
 - Support redirects (from HTTP to HTTPS for example)
-- Routing tables to different target 
+- Routing tables to different target groups 
+	- Routing based on path in URL 
