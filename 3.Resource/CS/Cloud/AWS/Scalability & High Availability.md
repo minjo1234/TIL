@@ -48,4 +48,6 @@ system in at least 2 data centers ( == Availability Zones)
 	- Auto Scaling Group 
 	- Load Balancer 
 
-- High Availability 
+- High Availability: Run instances for the same application across multi AZ 
+	- Auto Scaling Group multi AZ
+	- Load Balancer multi AZ 
