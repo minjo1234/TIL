@@ -93,3 +93,5 @@ to the high-performance volume
 - Uses NFSv4, I protocol
 - Uses security group to control access to EFS 
 - **Compatible with Linux bases AMI (not Windows)**
+
+- POSIX file system (~Li)
