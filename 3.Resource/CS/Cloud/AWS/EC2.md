@@ -43,6 +43,7 @@ echo "<h1>Hello World from ${hostname -f)</h1>"> /var/www/html/index.html
 
 - EBS Volumes come in 6 types 
 - memorize differences 6 types 
+(gp2, gp3, st1, sc1, io1)
 
 ----
 
