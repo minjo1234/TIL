@@ -6,9 +6,11 @@
 
 
 
-- network drive (not a physical drive
-(detach from an EC2 instance and attached to another and quickly)
+**network drive (not a physical drive)**
+- detach from an EC2 instance and attached to another and quickly
 
-- locked to an availability zone (AZ)
+**locked to an availability zone (AZ)**
+- An EBS Volume in us-east-la cannot be attached to us-east-lb
 
+Have a provisioned capacity (size i)
 
