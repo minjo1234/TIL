@@ -78,4 +78,5 @@ Encryption: encrypt an unencrypted EBS volume
 
 - Create an EBS snapshot of the volume 
 - Encrypt the EBS snapshot ( using copy )
-- Create new ebs volume from
+- Create new ebs volume from the snapshot  ( the volume will also be encrypted )
+- Now you can attach the encrypted volume to the original instnace 
