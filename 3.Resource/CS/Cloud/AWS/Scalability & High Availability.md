@@ -51,3 +51,9 @@ system in at least 2 data centers ( == Availability Zones)
 - **High Availability**: Run instances for the same application across multi AZ 
 	- Auto Scaling Group multi AZ
 	- Load Balancer multi AZ 
+
+---
+
+### What is load balancing ? 
+
+- Load Balances are servers that forward traffic to multiple servers 
