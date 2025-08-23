@@ -79,4 +79,10 @@ system in at least 2 data centers ( == Availability Zones)
 - It is integrated with many AWS offerings / services 
 	- EC2, EC2 Auto Scaling Groups, Amazon ECS
 	- AWS Certificate Manager (ACM), CloudWatch 
-	- R
+	- Route 53, AWS WAF, AWS Global Accelerator
+
+
+---
+
+### Health Checks 
+
