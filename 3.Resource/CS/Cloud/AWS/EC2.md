@@ -42,5 +42,7 @@ echo "<h1>Hello World from ${hostname -f)</h1>"> /var/www/html/index.html
 **EBS Volume Types** 
 
 - EBS Volumes come in 6 types 
+- memorize differences 6 types 
 
-memorize differences 6 types 
+----
+
