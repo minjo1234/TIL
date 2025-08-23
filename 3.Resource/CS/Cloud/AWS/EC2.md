@@ -140,3 +140,5 @@ EBS vs EFS - Elastic Block Storage
 	- gp3 & io I : can increase IO independently 
 - To migrate an EBS volume across AZ 
 	- Take a snapshot 
+
+
