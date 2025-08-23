@@ -116,4 +116,7 @@ to the high-performance volume
 **EFS - Storage Classes** 
 
 - Storage Tiers (lifecycle management feature - move file after N days)
-	- St
+	- Standard: for frequently accessed files 
+	- Infrequent access (EFS-IA): cost to retrieve files, lower prvie to store 
+	- Archive: rarely accessed data (few times each year), 50% cheaper 
+	- Implement lifecycle 
