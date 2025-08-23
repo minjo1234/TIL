@@ -128,3 +128,10 @@ to the high-performance volume
 
 
 NFS vs Storage
+
+---
+
+EBS vs EFS - Elastic Block Storage 
+
+- EBS volumes 
+	- one instance (except multi-attach io l /)
