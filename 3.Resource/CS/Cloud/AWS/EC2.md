@@ -134,4 +134,7 @@ NFS vs Storage
 EBS vs EFS - Elastic Block Storage 
 
 - EBS volumes 
-	- one instance (except multi-attach io l /)
+	- one instance (except multi-attach io l /io2)
+	- are locked at the Availability Zone (AZ) level 
+	- gp2: IO increases if the disk size independently 
+	- gp3 &
