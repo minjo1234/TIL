@@ -28,4 +28,7 @@ echo "<h1>Hello World from ${hostname -f)</h1>"> /var/www/html/index.html
 
 **EC2 Instance Store** 
 
+- EBS Volumes are network drives with good but "limited" performance 
+- If you need a high-performance hardware disk, EC2 instance Store 
 
+- Better I/O performan
