@@ -64,4 +64,9 @@ system in at least 2 data centers ( == Availability Zones)
 - Provide SSL termination (HTTPS) for your websites 
 - Enforce stickiness with cookies 
 - High availability across zones 
-- Separ 
+- Separate public traffic from private traffic  
+
+
+### Why use an Elastic Load Balancer 
+
+- An Elastic Load Balancer is 
