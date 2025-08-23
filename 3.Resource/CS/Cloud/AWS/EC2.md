@@ -69,4 +69,5 @@ EBS Encryption
 - Encryption and decryption are handled transparently (you have nothing to do)
 - Encryption has a minimal impact on latency 
 - EBS Encryption leverages keys from KMS (AES-256)
-- Cop
+- Copying an unencrypted snapshot allows encryption 
+- Snapshots of encrypted volumes are encrypted 
