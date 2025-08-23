@@ -29,4 +29,8 @@ offerings such as Amazon EC2
 
 ---
 
-### High
+### High Availability 
+
+- High Availability usually goes hand in hand with horizontal scaling 
+- High availability means running your application / 
+system in at least 2 data centers ( == Availa Zones)
