@@ -104,5 +104,8 @@ EFS - Performance & Storage Classes
 	- Grow to Petabyte -scale network file system, automatically 
 - Performance Mode (set at EFS creation time)
 	- General Purpose 
-	- Max I/O
-- Throughput Mod
+	- Max I/O - higher latency, throughput, highly parallel (big data, media processing)
+- Throughput Mode 
+	- Bursting 1TB = 
+	- Provisioned - set your throughput regardless of storage size 
+
