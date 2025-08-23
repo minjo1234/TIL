@@ -25,3 +25,8 @@ Have a provisioned capacity (size in GBS, and IOPS)
 
 - This can be controlled by the AWS console / AWS CLI
 - Use case: preserve root volume when instance is terminated 
+
+---
+
+**EBS Snapshots**
+
