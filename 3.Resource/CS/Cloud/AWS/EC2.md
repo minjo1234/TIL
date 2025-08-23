@@ -97,4 +97,12 @@ to the high-performance volume
 - POSIX file system (~Linux) that has a standard file API 
 - File system scales automatically, pay-per-use, no capacity planning 
 
-EFS - Performance & Storage Cl
+EFS - Performance & Storage Classes 
+
+- EFS Scale 
+	- 1000s of concurrent NFS clients, 10 GB+ /s throughput 
+	- Grow to Petabyte -scale network file system, automatically 
+- Performance Mode (set at EFS creation time)
+	- General Purpose 
+	- Max I/O
+- Throughput Mod
