@@ -85,3 +85,6 @@ to the high-performance volume
 
 **Amazon EFS - Elastic File System** 
 
+- Managed NFS (network file system) that can be mounted on many EC2 
+- EFS works with EC2 instances in multi-AZ
+- Hi
