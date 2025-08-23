@@ -65,4 +65,4 @@ EBS Encryption
 	- Data at rest is encrypted inside the volume 
 	- All the data in flight moving between the instance and the volume is encrypted 
 	- All snapshots are encrypted 
-	- Al
+	- All volumes created from the snapshot 
