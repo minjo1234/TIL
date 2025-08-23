@@ -80,3 +80,8 @@ to the high-performance volume
 - Encrypt the EBS snapshot ( using copy )
 - Create new ebs volume from the snapshot  ( the volume will also be encrypted )
 - Now you can attach the encrypted volume to the original instnace 
+
+---
+
+**Amazon EFS - Elastic File System** 
+
