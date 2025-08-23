@@ -56,4 +56,4 @@ system in at least 2 data centers ( == Availability Zones)
 
 ### What is load balancing ? 
 
-- Load Balances are servers that forward traffic to multiple servers 
+- Load Balances are servers that forward traffic to multiple servers (e.g., EC2 instances) downstream 
