@@ -69,4 +69,7 @@ system in at least 2 data centers ( == Availability Zones)
 
 ### Why use an Elastic Load Balancer 
 
-- An Elastic Load Balancer is 
+- An Elastic Load Balancer is a managed load balancer 
+	- AWS guarantees that it will be working 
+	- AWS takes care of upgrades, maintenance, high availability 
+	- AWS provides only a few configuration 
