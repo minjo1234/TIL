@@ -123,4 +123,5 @@ to the high-performance volume
 
 - Availability and durability 
 	- Standard: Multi-AZ, great for prod 
-	- One Zone: One AZ, great for dev, backup enabled by default, compatible
+	- One Zone: One AZ, great for dev, backup enabled by default, compatible with IA (EFS ONE ZONE-IA)
+- Over 90 % in cost savings
