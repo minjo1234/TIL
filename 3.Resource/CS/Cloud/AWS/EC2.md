@@ -62,4 +62,7 @@ to the high-performance volume
 EBS Encryption 
 
 - When you create an encrypted EBS volume, you get the following 
-	- Dat
+	- Data at rest is encrypted inside the volume 
+	- All the data in flight moving between the instance and the volume is encrypted 
+	- All snapshots are encrypted 
+	- Al
