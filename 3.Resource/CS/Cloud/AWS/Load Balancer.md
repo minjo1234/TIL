@@ -17,3 +17,10 @@
 - ALB are a great fit for micro services & container-based application 
 - Has a port mapping feature to redirect to a dynamic port in ECS
 - In comparison, we'd need multiple Classic Load Balancer per application 
+
+
+**Target Groups** 
+
+- EC2 instances (can be managed by an Auto Scaling Group) - HTTP 
+- ECS tasks 
+- Lamb
