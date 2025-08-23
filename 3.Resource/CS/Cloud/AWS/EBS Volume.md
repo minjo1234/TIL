@@ -31,4 +31,5 @@ Have a provisioned capacity (size in GBS, and IOPS)
 **EBS Snapshots**
 
 - Make a backup (snapshot) of your EBS volume at point in time 
-- Not necessary to detach volume to do 
+- Not necessary to detach volume to do, but recommended 
+- Can copy snapshots across AZ or Region 
