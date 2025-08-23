@@ -99,7 +99,7 @@ Types of load balancer on AWS
 - AWS has 4 kinds of managed Load Balancers 
 - Classic Load Balancer 
    HTTP, HTTPS, TCP, SSL (secure TCP)
-- Applica
+- Application Load Balancer (v2 - new generation )
 
 
 
