@@ -37,6 +37,7 @@ echo "<h1>Hello World from ${hostname -f)</h1>"> /var/www/html/index.html
 - Risk of data loss if hardware fails 
 - Backups and Replication are your responsibility 
 - local cache
+- large scale IOPS (example 310,000)
 
 ---
 
