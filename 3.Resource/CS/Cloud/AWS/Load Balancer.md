@@ -93,4 +93,6 @@ Gateway Load Balancer - Target Groups
 - This works for **Classic Load Balancer, Application Load Balancer, and Network Load Balancer** 
 - The "cookie" use for stickiness has an expiration date you control 
 - Use case: make sure the user doesn't lose his session data 
-- Enabling stickiness may brind im
+- Enabling stickiness may bring imbalance to the load over the backend EC2 instances 
+
+### Sticky Session - Cookie Names 
