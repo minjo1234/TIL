@@ -8,7 +8,6 @@
 - Support for HTTP/2 and WebSocket 
 - Support redirects (from HTTP to HTTPS for example)
 
-
 - Routing tables to different target groups 
 	- Routing based on path in URL 
 	- Routing based on hostname in URL
@@ -17,6 +16,8 @@
 - ALB are a great fit for micro services & container-based application 
 - Has a port mapping feature to redirect to a dynamic port in ECS
 - In comparison, we'd need multiple Classic Load Balancer per application 
+
+Client IP bring X-Forwarded-For header 
 
 
 **Target Groups** 
