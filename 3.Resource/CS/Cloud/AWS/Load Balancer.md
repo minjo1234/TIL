@@ -124,4 +124,8 @@ node of the Elastic Load Balancer
 
 
 Application Load Balancer 
-- Enabled by default (can be disabled )
+- Enabled by default (can be disabled at the Target Group level)
+- No charges for inter AZ data 
+
+Network Load Balancer & Gateway Load Balancer 
+- 
