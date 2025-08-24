@@ -64,3 +64,10 @@ echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 - IP Addresses - must be private IPS 
 - Application Load Balancer 
 - Health Checks support the TCP,HTTP and HTTPS Protocols 
+
+---
+
+### Gateway Load Balancer 
+
+- Deploy, scale, and manage a fleet of 3rd party 
+network virtual appliances in AWS 
