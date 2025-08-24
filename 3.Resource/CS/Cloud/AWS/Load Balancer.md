@@ -230,3 +230,6 @@ when the user sometimes has a error, that check the ELB health check
 
 
 when ASG make up ALB health check then EC2 is not health, that ASG   ec2 terminated
+
+
+backend - database connect 'minute request' does not exists CloudWatch, To make CloudWatch Alarm at first making a user specify 
