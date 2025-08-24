@@ -141,3 +141,8 @@ Class Load Balancer
 ### SSL/TLS - Basics 
 
 - An SSL Certificate allows traffic between your clients and your load balancer to be encrypted in transit (in-flight encryption)
+
+
+- SSL refers to Secure Sockets Layer, used to encrypt connections 
+- TLS refers to Transport Layer Security, which is a newer version 
+- Nowadays, TLS certificates are mainly used, 
