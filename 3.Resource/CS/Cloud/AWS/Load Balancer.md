@@ -146,3 +146,7 @@ Class Load Balancer
 - SSL refers to Secure Sockets Layer, used to encrypt connections 
 - **TLS** refers to Transport Layer Security, which is a newer version 
 - Nowadays, **TLS certificates are mainly used**, but people still refer as SSL
+
+Server Name Indication 
+- SNI solves the problem of loading multiple SSL 
+certificates onto one web server (to server multiple websites)
