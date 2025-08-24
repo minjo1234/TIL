@@ -76,3 +76,10 @@ network virtual appliances in AWS
 - Operates at Layer 3 (Network Layer) - IP Packets
 - Combines the following functions : 
 	- **Transparent Network Gateway** - single entry/exit for all traffic 
+	- Load Balancer - distributes traffic to your virtual appliances 
+- Uses the **GENEVE** protocol port **6081** 
+
+
+Gateway Load Balancer - Target Groups 
+
+- EC2 instances 
