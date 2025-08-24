@@ -97,7 +97,7 @@ Gateway Load Balancer - Target Groups
 
 
 the same user same instance 
-if you don't use sticky session, user authenticate
+if you don't use sticky session, user authenticate all page changes
 
 ### Sticky Session - Cookie Names 
 
