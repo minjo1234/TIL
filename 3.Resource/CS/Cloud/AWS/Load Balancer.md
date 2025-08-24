@@ -140,3 +140,4 @@ Class Load Balancer
 
 ### SSL/TLS - Basics 
 
+- An SSL Certificate allows traffic between your clients and 
