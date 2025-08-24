@@ -150,3 +150,5 @@ Class Load Balancer
 Server Name Indication 
 - SNI solves the problem of loading multiple SSL 
 certificates onto one web server (to server multiple websites)
+
+- It's 
