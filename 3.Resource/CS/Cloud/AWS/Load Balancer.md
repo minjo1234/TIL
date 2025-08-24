@@ -134,3 +134,9 @@ Network Load Balancer & Gateway Load Balancer
 Class Load Balancer 
 - Disabled by default 
 - No charges for inter AZ data if enabled 
+
+
+---
+
+### SSL/TLS - Basics 
+
