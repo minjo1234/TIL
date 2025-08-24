@@ -83,3 +83,5 @@ network virtual appliances in AWS
 Gateway Load Balancer - Target Groups 
 
 - EC2 instances 
+- IP Addresses - must be private IPs 
+- 
