@@ -194,4 +194,9 @@ instance which is de-registering
 	- Scale in (remove EC2 instances) to match a decreased load 
 	- Ensure we have a minimum and maximum number of EC2 instances running 
 	- Automatically register new instances to a load balancer 
-	- Re-create an EC2 
+	- Re-create an EC2 instance in case a previous one is terminal 
+
+ASG are free (you only pay for the underlying EC2 instances )
+
+
+---
