@@ -74,3 +74,5 @@ network virtual appliances in AWS
 - Example: Firewalls, Intrusion Detection and Prevention Systems, Deep Packet Inspection Systems, payload manipulation 
 
 - Operates at Layer 3 (Network Layer) - IP Packets
+- Combines the following functions : 
+	- **Transparent Network Gateway** - single entry/exit for all traffic 
