@@ -59,6 +59,7 @@ echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 	- Forward TCP & UDP traffic to your instances 
 	- Handle millions of request per seconds 
 	- **Ultra-low latency** 
+	- make firewall rule
 
 - NLB has one static IP per AZ, and supports assigning Elastic IP (helpful for whitelisting specific IP)
 
