@@ -84,4 +84,9 @@ Gateway Load Balancer - Target Groups
 
 - EC2 instances 
 - IP Addresses - must be private IPs 
-- 
+
+---
+
+### Sticky Session (Session Affinity )
+
+- It is possible to implement stickiness so that the s
