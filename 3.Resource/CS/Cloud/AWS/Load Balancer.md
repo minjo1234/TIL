@@ -128,4 +128,9 @@ Application Load Balancer
 - No charges for inter AZ data 
 
 Network Load Balancer & Gateway Load Balancer 
-- 
+- Disabled by default 
+- You pay charges ($) for inter AZ data if enabled 
+
+Class Load Balancer 
+- Disabled by default 
+- No charges for inter AZ data if enabled 
