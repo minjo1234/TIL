@@ -140,4 +140,4 @@ Class Load Balancer
 
 ### SSL/TLS - Basics 
 
-- An SSL Certificate allows traffic between your clients and 
+- An SSL Certificate allows traffic between your clients and your load balancer to be encrypted in transit (in-flight encryption)
