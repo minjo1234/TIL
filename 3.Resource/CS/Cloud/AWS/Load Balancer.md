@@ -144,5 +144,5 @@ Class Load Balancer
 
 
 - SSL refers to Secure Sockets Layer, used to encrypt connections 
-- TLS refers to Transport Layer Security, which is a newer version 
-- Nowadays, TLS certificates are mainly used, 
+- **TLS** refers to Transport Layer Security, which is a newer version 
+- Nowadays, **TLS certificates are mainly used**, but people still refer as SSL
