@@ -173,4 +173,11 @@ certificates onto one web server (to server multiple websites)
 ### Connection Draining 
 
 - Feature naming 
-	- Connection 
+	- Connection Draining - for CLB
+	- Deregistraion Delay - for ALB & NLB
+
+- Time to complete "in-flight-request" while the 
+instances is de-registering or unhealthy 
+
+- Stops sending new requests to the EC2 
+instance which is de-registering 
