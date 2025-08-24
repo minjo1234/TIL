@@ -215,3 +215,11 @@ ASG are free (you only pay for the underlying EC2 instances )
 - Example: increase the min capacity to 10 at 5 pm on Fridays
 
 **Predictive scaling**
+
+
+---
+
+Question 
+
+
+when the user sometimes has a error, that check the ELB health check 
