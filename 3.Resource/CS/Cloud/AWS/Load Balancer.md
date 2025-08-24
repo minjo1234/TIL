@@ -186,4 +186,9 @@ instance which is de-registering
 
 ### Auto Scaling Group ? 
 
-- In real-life, t
+- In real-life, the load on your websites and application can change 
+- In the cloud, you can create and get rid of servers very quickly 
+
+- The goal of an Auto Scaling Group (ASG) is to:
+	- Scale out (add EC2 instances) to match an increased load 
+	- Sca
