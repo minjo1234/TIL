@@ -229,4 +229,4 @@ Question
 when the user sometimes has a error, that check the ELB health check 
 
 
-when ASG  ec2 terminated
+when ASG make up ALB health check then EC2 is not health, that ASG   ec2 terminated
