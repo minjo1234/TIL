@@ -206,3 +206,5 @@ ASG are free (you only pay for the underlying EC2 instances )
 - Simple / Step Scaling 
 
 **Scheduled Scaling** 
+- Anticipate a scaling based on known usage patterns
+- Example: increase the min capacity to 10 at 5 pm on Fridays
