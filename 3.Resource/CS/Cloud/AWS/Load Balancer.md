@@ -191,4 +191,7 @@ instance which is de-registering
 
 - The goal of an Auto Scaling Group (ASG) is to:
 	- Scale out (add EC2 instances) to match an increased load 
-	- Sca
+	- Scale in (remove EC2 instances) to match a decreased load 
+	- Ensure we have a minimum and maximum number of EC2 instances running 
+	- Automatically register new instances to a load balancer 
+	- Re-create an EC2 
