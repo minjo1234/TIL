@@ -60,5 +60,6 @@ echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 
 
 **Target Groups**
-
-- EC2 
+- EC2 instances 
+- IP Addresses - must be private IPS 
+- Application Load Balancer 
