@@ -147,9 +147,10 @@ Class Load Balancer
 - **TLS** refers to Transport Layer Security, which is a newer version 
 - Nowadays, **TLS certificates are mainly used**, but people still refer as SSL
 
-Server Name Indication 
+Server Name Indication (SNI)
 - SNI solves the problem of loading multiple SSL 
 certificates onto one web server (to server multiple websites)
+- The server will then find the correct certificate, or return the de
 
 
 ### Elastic Load Balancers - SSL Certificates 
@@ -157,4 +158,5 @@ certificates onto one web server (to server multiple websites)
 - Classic Load Balancer 
 	- Support only one SSL certificate 
 	- Must use multiple CLB for multiple hostname with multiple SSL certificates 
-- Application Load B
+- Application Load Balancer (v2)
+	- Supports multiple listeners with multiple SSL certificates  
