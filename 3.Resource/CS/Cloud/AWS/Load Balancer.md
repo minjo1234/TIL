@@ -72,3 +72,5 @@ echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 - Deploy, scale, and manage a fleet of 3rd party 
 network virtual appliances in AWS 
 - Example: Firewalls, Intrusion Detection and Prevention Systems, Deep Packet Inspection Systems, payload manipulation 
+
+- Operates at Layer 3 (Network Layer) - IP Packets
