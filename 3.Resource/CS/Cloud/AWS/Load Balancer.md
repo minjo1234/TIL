@@ -95,6 +95,10 @@ Gateway Load Balancer - Target Groups
 - Use case: make sure the user doesn't lose his session data 
 - Enabling stickiness may bring imbalance to the load over the backend EC2 instances 
 
+
+the same user same instance 
+if you don't use sticky session, user authenticate
+
 ### Sticky Session - Cookie Names 
 
 - Application-based Cookies 
