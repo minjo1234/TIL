@@ -200,3 +200,9 @@ ASG are free (you only pay for the underlying EC2 instances )
 
 
 ---
+
+- **Dynamic Scaling** 
+- Target Tracking Scaling 
+- Simple / Step Scaling 
+
+- 
