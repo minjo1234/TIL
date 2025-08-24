@@ -49,4 +49,8 @@ echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 
 ---
 
-### Network Load Balancer (v)
+### Network Load Balancer (v2)
+
+- Network load balancers (Layer 4) allow to :
+	- Forward TCP & UDP traffic to your instances 
+	- Handle millions
