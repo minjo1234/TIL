@@ -181,3 +181,9 @@ instances is de-registering or unhealthy
 
 - Stops sending new requests to the EC2 
 instance which is de-registering 
+
+---
+
+### Auto Scaling Group ? 
+
+- In real-life, t
