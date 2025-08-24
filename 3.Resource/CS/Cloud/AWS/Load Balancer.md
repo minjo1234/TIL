@@ -7,12 +7,13 @@
 - Load balancing to multiple applications on the same machine (ex: containers)
 - Support for HTTP/2 and WebSocket 
 - Support redirects (from HTTP to HTTPS for example)
-- Apply HTTP, HTTPS, WebSocket 
+- Apply **HTTP, HTTPS, WebSocket** 
 
 - Routing tables to different target groups 
-	- Routing based on path in URL 
-	- Routing based on hostname in URL
+	- Routing based on **path** in URL 
+	- Routing based on **hostname** in URL
 	- Routing based on Query String, Headers 
+	- Source IP 
 
 - ALB are a great fit for micro services & container-based application 
 - Has a port mapping feature to redirect to a dynamic port in ECS
