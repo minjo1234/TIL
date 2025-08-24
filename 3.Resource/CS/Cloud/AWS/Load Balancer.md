@@ -228,3 +228,5 @@ Question
 
 when the user sometimes has a error, that check the ELB health check 
 
+
+when ASG  ec2 terminated
