@@ -13,7 +13,7 @@
 	- Routing based on **path** in URL 
 	- Routing based on **hostname** in URL
 	- Routing based on Query String, Headers 
-	- Source IP 
+	- **Source IP** 
 
 - ALB are a great fit for micro services & container-based application 
 - Has a port mapping feature to redirect to a dynamic port in ECS
