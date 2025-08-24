@@ -17,7 +17,7 @@
 - Has a port mapping feature to redirect to a dynamic port in ECS
 - In comparison, we'd need multiple Classic Load Balancer per application 
 
-Client IP bring X-Forwarded-For header 
+Client IP bring using Backend that has X-Forwarded-For header 
 
 
 **Target Groups** 
