@@ -163,3 +163,7 @@ certificates onto one web server (to server multiple websites)
 	- Must use multiple CLB for multiple hostname with multiple SSL certificates 
 - Application Load Balancer (v2)
 	- Supports multiple listeners with multiple SSL certificates  
+	- User Server Name Indication (SNI) to make it work 
+
+- Network Load Balancer (v2)
+	- Supports multiple listeners with multiple SSL certificates 
