@@ -121,3 +121,7 @@ each load balancer instance distributes evenly
 **Without Cross Zone Load Balancing** : 
 Requests are distributed in the instances of the 
 node of the Elastic Load Balancer 
+
+
+Application Load Balancer 
+- Enabled by default (can be disabled )
