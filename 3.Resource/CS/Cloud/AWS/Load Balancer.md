@@ -56,4 +56,4 @@ echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 	- Handle millions of request per seconds 
 	- Ultra-low latency 
 
-- NLB has one static IP per AZ, and supports assigning Elastic IP 
+- NLB has one static IP per AZ, and supports assigning Elastic IP (helpful for whitelisting specific IP)
