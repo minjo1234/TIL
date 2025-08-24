@@ -114,7 +114,10 @@ Gateway Load Balancer - Target Groups
 
 ### Cross-Zone Load Balancing 
 
-With Cross Zone Load Balancing : 
+**With Cross Zone Load Balancing** : 
 each load balancer instance distributes evenly 
 	across all registered instances in all AZ 
-	
+
+**Without Cross Zone Load Balancing** : 
+Requests are distributed in the instances of the 
+node of the Elastic Load Balancer 
