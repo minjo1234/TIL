@@ -151,4 +151,10 @@ Server Name Indication
 - SNI solves the problem of loading multiple SSL 
 certificates onto one web server (to server multiple websites)
 
-- It's 
+
+### Elastic Load Balancers - SSL Certificates 
+
+- Classic Load Balancer 
+	- Support only one SSL certificate 
+	- Must use multiple CLB for multiple hostname with multiple SSL certificates 
+- Application Load B
