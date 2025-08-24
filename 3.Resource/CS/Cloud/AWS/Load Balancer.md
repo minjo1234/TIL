@@ -113,3 +113,8 @@ Gateway Load Balancer - Target Groups
 ---
 
 ### Cross-Zone Load Balancing 
+
+With Cross Zone Load Balancing : 
+each load balancer instance distributes evenly 
+	across all registered instances in all AZ 
+	
