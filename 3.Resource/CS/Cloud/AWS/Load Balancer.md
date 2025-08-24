@@ -92,3 +92,5 @@ Gateway Load Balancer - Target Groups
 - It is possible to implement stickiness so that the same client is always redirected to the same instance behind a load balancer 
 - This works for **Classic Load Balancer, Application Load Balancer, and Network Load Balancer** 
 - The "cookie" use for stickiness has an expiration date you control 
+- Use case: make sure the user doesn't lose his session data 
+- Enabling stickiness may brind im
