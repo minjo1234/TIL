@@ -150,8 +150,11 @@ Class Load Balancer
 Server Name Indication (SNI)
 - SNI solves the problem of loading multiple SSL 
 certificates onto one web server (to server multiple websites)
-- The server will then find the correct certificate, or return the de
+- The server will then find the correct certificate, or return the default one
 
+**Note** : 
+- Only works for ALB &. NLB (newer generation), CloudFront 
+- Does not work for CLB (older gen) 
 
 ### Elastic Load Balancers - SSL Certificates 
 
