@@ -48,3 +48,4 @@ Same Region, Different AZ
 	- A new DB is restored from the snapshot in a new AZ
 	- Synchronization is established between the two database 
  
+
