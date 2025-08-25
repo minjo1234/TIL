@@ -19,4 +19,7 @@ But you can't SSH into your instances
 
 - when RDS detects you are running out of free database storage, it scales automatically 
 
-RDS Read Replicas for read scala
+**RDS Read Replicas for read scalability** 
+
+- Up to 15 Read Replicas 
+- 
