@@ -23,4 +23,4 @@ But you can't SSH into your instances
 
 - Up to 15 Read Replicas 
 - Within AZ, Cross AZ or Cross Region 
-- 
+- Replicas can be promoted to the
