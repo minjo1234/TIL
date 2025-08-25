@@ -35,4 +35,6 @@ Same Region, Different AZ
 
 **RDS Multi AZ (Disaster Recovery)**
 
-
+- SYNC replication 
+- One DNS name 
+- Increase availability 
