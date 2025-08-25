@@ -11,4 +11,7 @@ RDS is a managed service:
 - Maintenance windows for upgrades
 - Scaling capacity (vertical and horizontal)
 - Storage backed by EBS 
-But you can't SSH into your
+But you can't SSH into your instances 
+
+
+RDS - Storage Auto Scaling 
