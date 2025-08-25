@@ -32,3 +32,7 @@ But you can't SSH into your instances
 - **For RDS Read Replicas within the same region, you don't pay that fee**
 
 Same Region, Different AZ 
+
+**RDS Multi AZ (Disaster Recovery)**
+
+
