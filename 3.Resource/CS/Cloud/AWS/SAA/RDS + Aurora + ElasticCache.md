@@ -49,9 +49,12 @@ Same Region, Different AZ
 	- Synchronization is established between the two database 
  
 
-RDS Custom
-
+**RDS Custom**
 
 - RDS : entire database and the OS to be managed by AWS 
-- RDS Custom: full admin access to the underlying OS and the database 
-- 
+- RDS Custom: full admin access to the underlying OS and the database (Oracle, Microsoft SQL)
+
+---
+
+**Amazon Aurora** 
+
