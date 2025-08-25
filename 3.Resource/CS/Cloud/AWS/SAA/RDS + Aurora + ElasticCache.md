@@ -15,3 +15,6 @@ But you can't SSH into your instances
 
 
 RDS - Storage Auto Scaling 
+
+when RDS detects you are running out of free database storage, it scales automatically 
+
