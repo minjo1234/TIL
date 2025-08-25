@@ -70,3 +70,8 @@ Aurora High Availability and Read Scaling
 - Automated failover for master in less than 30 seconds 
 - Master + up. to 15 Aurora Read Replicas serve reads 
 - Support for Cross Region Replication 
+
+Aurora DB Cluster 
+
+- Writer endpoint 
+- Reader endpoint 
