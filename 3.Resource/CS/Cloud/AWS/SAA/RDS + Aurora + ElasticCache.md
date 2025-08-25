@@ -67,4 +67,6 @@ Aurora High Availability and Read Scaling
 	- Self healing with peer-to-peer replication 
 	- Storage is stripped across 100s of volumes 
 - One Aurora Instance takes writes (master)
-- Automated failover 
+- Automated failover for master in less than 30 seconds 
+- Master + up. to 15 Aurora Read Replicas serve reads 
+- Support for Cross Region Replication 
