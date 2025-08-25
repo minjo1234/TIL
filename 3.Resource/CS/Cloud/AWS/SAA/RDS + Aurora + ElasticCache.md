@@ -28,4 +28,7 @@ But you can't SSH into your instances
 
 **RDS Read Replicas - Network Cost** 
 
-- In AWS there's network cost when data from 
+- In AWS there's network cost when data from one AZ to another 
+- **For RDS Read Replicas within the same region, you don't pay that fee**
+
+Same Region, Different AZ 
