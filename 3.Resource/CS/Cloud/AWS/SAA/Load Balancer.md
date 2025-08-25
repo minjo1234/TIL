@@ -207,6 +207,7 @@ instance which is de-registering
 
 ASG are free (you only pay for the underlying EC2 instances )
 
+Health Check - HTTP, TCP available 
 
 ---
 
