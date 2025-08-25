@@ -62,4 +62,9 @@ Same Region, Different AZ
 
 Aurora High Availability and Read Scaling 
 - 6 copies of your data access 3 AZ :
-	- 4 copies out of 6
+	- 4 copies out of 6 needed for writes 
+	- 3 copies out of 6 need for reads 
+	- Self healing with peer-to-peer replication 
+	- Storage is stripped across 100s of volumes 
+- One Aurora Instance takes writes (master)
+- Automated failover 
