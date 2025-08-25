@@ -1,2 +1,3 @@
 
-- RDS stands for Relational Database Service 
+- RDS stands for Relational Database Service
+- Aurora (AWS Proprietary d) 
