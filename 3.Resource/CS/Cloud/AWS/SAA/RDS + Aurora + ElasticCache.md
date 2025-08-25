@@ -38,3 +38,7 @@ Same Region, Different AZ
 - SYNC replication 
 - One DNS name 
 - Increase availability 
+
+**RDS - From Single-AZ to Multi AZ** 
+
+- Zero downtime operation
