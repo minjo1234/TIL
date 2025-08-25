@@ -51,4 +51,7 @@ Same Region, Different AZ
 
 RDS Custom
 
+
+- RDS : entire database and the OS to be managed by AWS 
+- RDS Custom: full admin access to the underlying OS and the database 
 - 
