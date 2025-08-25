@@ -22,4 +22,5 @@ But you can't SSH into your instances
 **RDS Read Replicas for read scalability** 
 
 - Up to 15 Read Replicas 
+- Within AZ, Cross AZ or Cross Region 
 - 
