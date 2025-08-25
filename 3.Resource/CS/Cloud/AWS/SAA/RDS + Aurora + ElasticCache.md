@@ -49,3 +49,6 @@ Same Region, Different AZ
 	- Synchronization is established between the two database 
  
 
+RDS Custom
+
+- 
