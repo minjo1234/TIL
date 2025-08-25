@@ -25,3 +25,7 @@ But you can't SSH into your instances
 - Within AZ, Cross AZ or Cross Region 
 - Replicas can be promoted to their own DB
 - Replication is ASYNC, so read are eventually consistent 
+
+**RDS Read Replicas - Network Cost** 
+
+- In AWS there's network cost when data from 
