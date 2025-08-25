@@ -42,3 +42,6 @@ Same Region, Different AZ
 **RDS - From Single-AZ to Multi AZ** 
 
 - Zero downtime operation
+- Just click on "modify" for the database 
+- The following happens internally 
+	- A snapshot is taken 
