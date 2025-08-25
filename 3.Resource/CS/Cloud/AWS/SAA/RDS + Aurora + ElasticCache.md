@@ -59,3 +59,7 @@ Same Region, Different AZ
 **Amazon Aurora** 
 
 - Aurora is a proprietary technology from AWS (not open sourced)
+
+Aurora High Availability and Read Scaling 
+- 6 copies of your data access 3 AZ :
+	- 4 copies out of 6
