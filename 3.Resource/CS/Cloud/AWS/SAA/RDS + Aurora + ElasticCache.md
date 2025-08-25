@@ -8,4 +8,7 @@ RDS is a managed service:
 - Monitoring dashboards 
 - Read replicas for improved read performance 
 - Multi AZ setup for DR (Disaster Recovery)
-	- Maintenance windows 
+- Maintenance windows for upgrades
+- Scaling capacity (vertical and horizontal)
+- Storage backed by EBS 
+But you can't SSH into your
