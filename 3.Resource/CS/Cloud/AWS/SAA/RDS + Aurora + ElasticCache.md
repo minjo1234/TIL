@@ -58,3 +58,4 @@ Same Region, Different AZ
 
 **Amazon Aurora** 
 
+- Aurora is a proprietary technology from AWS (not open sourced)
