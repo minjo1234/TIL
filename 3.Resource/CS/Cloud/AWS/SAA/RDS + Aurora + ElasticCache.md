@@ -119,3 +119,15 @@ Aurora Global Database
 **Trick: in a stopped RDS database, you will still pay for storage, If you plan to stopping it for a long time, you should snapshot & restore instead** 
 
 
+---
+
+**Aurora Backups** 
+
+Automated backups 
+- 1 to 35 days ()
+
+
+
+RDS & Aurora Restore options 
+
+Restoring a RDS / Aurora backup or a snapshot creates a new database 
