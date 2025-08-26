@@ -92,4 +92,8 @@ The Reader Endpoint is generally not used after defining Custom Endpoints
 
 **Aurora Serverless** 
 
- Good for infrequent nitermittent of 
+ Good for infrequent intermittent or unpredictable workload 
+
+**Global Aurora** 
+
+Aurora Cross Region Read Replicas 
