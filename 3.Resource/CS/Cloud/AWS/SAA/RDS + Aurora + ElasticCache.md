@@ -168,3 +168,5 @@ RDS & Aurora Security
 ---
 
 Amazon RDS Proxy 
+
+- Improving database efficiency by reducing the stress on database resources 
