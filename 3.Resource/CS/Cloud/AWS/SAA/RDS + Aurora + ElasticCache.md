@@ -88,4 +88,8 @@ Aurora - Custom Endpoints
 **Aurora - Custom Endpoints** 
 
 Define a subset of Aurora Instances as a Custom Endpoint 
+The Reader Endpoint is generally not used after defining Custom Endpoints 
 
+**Aurora Serverless** 
+
+ 
