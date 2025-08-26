@@ -78,6 +78,9 @@ Aurora DB Cluster
 
 ---
 
-Aurora Replicas - Auto Scaling 
+**Aurora Replicas - Auto Scaling** 
 
-Writer Endpoint , Read End
+Writer Endpoint , Read Endpoint 
+					- Replicas Auto Scaling 
+
+Aurora - Custom Endpoints 
