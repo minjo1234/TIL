@@ -162,4 +162,9 @@ RDS & Aurora Security
 - IAM Authentication: 
 - Security Group 
 - No SSH available : except on RDS Custom
-- Audit Logs can be enabled 
+- **Audit Logs can be enabled** and send to CloudWatch Logs for longer retention  
+
+
+---
+
+Amazon RDS Proxy 
