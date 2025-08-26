@@ -75,3 +75,8 @@ Aurora DB Cluster
 
 - Writer endpoint 
 - Reader endpoint 
+
+
+
+- 비밀번호 관련 
+
