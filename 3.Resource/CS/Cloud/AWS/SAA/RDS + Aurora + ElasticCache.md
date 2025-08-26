@@ -159,3 +159,7 @@ RDS & Aurora Security
 	- If the master is not encrypted, the read replicas cannot be encrypted 
 	- To encrypt an un-encrypted database, go through DB snapshot & restore as encrypted 
 - In flight encryption : 
+- IAM Authentication: 
+- Security Group 
+- No SSH available : except on RDS Custom
+- Audit Logs can be enabled 
