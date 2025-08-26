@@ -84,3 +84,8 @@ Writer Endpoint , Read Endpoint
 					- Replicas Auto Scaling 
 
 Aurora - Custom Endpoints 
+
+**Aurora - Custom Endpoints** 
+
+Define a subset of Aurora Instances as a Custom Endpoint 
+
