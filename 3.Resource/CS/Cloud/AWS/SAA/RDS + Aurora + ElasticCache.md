@@ -108,11 +108,14 @@ Aurora Global Database
 	- Amazon Comprehend 
 ---
 
-
-RDS Backupds 
+**RDS Backupds** 
 
 - Automated backups 
 	- Daily full backup of the database 
 	- Transaction logs are backed-up by RDS every 5 minutes 
 - Manual DB Snapshots 
-- 
+
+
+**Trick: in a stopped RDS database, you will still pay for storage, If you plan to stopping it for a long time, you should snapshot & restore instead** 
+
+
