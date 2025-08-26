@@ -101,6 +101,8 @@ Aurora Cross Region Read Replicas
 Aurora Global Database 
 - **Typical cross-region replication takes less than 1 second** 
 
-Aurora Machine Learning 
+**Aurora Machine Learning** 
 
-- E
+- Supported services 
+	- Amazon SageMaker 
+	- Amazon Comprehend 
