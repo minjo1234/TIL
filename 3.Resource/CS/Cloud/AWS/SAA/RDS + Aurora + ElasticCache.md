@@ -174,3 +174,6 @@ Amazon RDS Proxy
 - Serverless, autoscaling, highly available (multi-AZ)
 - **Enforce IAM Authentication for DB, and securely store credentials in AWS Secrets Manager** 
 - **RDS Proxy is never publicly accessible (must be accessed from VPC)**
+
+
+프록시가 중간에서 **연결을 풀링·재사용하고, 트랜잭션 단위로 다중화(multiplexing)** 해서 **많은 클라이언트 연결을 소수의 DB 연결**로 돌려줍니다. 그래서 DB 입장에서는 필요한 만큼의 세션만 유지하면 되고, 로그인/스레드/메모리 오버헤드가 크게 줄어요.
