@@ -92,4 +92,4 @@ The Reader Endpoint is generally not used after defining Custom Endpoints
 
 **Aurora Serverless** 
 
- 
+ Good for infrequent nitermittent of 
