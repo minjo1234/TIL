@@ -152,3 +152,8 @@ Uses **copy-on-write** protocol
 
 ---
 
+RDS & Aurora Security 
+
+- At-rest encryption:
+	- Database master & replicas encryption AWS KMS - must be defined as launch time 
+	- If the master is not 
