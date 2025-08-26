@@ -170,4 +170,5 @@ RDS & Aurora Security
 Amazon RDS Proxy 
 
 - **Improving database efficiency by reducing the stress on database resources (e,g CPM, RAM) and minimize open connections (and timeouts)**
-- Reduces RDS & Aurora 
+- **Reduces RDS & Aurora failover time by up 66%**
+- Serverless, autoscaling, highly available (multi-AZ)
