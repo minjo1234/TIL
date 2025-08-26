@@ -143,6 +143,7 @@ Restoring MySQL RDS database from S3
 Restoring MySQL Aurora cluster from S3
 
 
-Aurora Database Cloning 
+**Aurora Database Cloning** 
 
-Create a new Aurora DB Cluster from an 
+Create a new Aurora DB Cluster from an existing one 
+Faster than snapshot & store
