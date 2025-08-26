@@ -113,4 +113,6 @@ RDS Backupds
 
 - Automated backups 
 	- Daily full backup of the database 
-	- Transaction logs are b
+	- Transaction logs are backed-up by RDS every 5 minutes 
+- Manual DB Snapshots 
+- 
