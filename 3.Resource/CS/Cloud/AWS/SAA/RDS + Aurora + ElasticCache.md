@@ -97,3 +97,6 @@ The Reader Endpoint is generally not used after defining Custom Endpoints
 **Global Aurora** 
 
 Aurora Cross Region Read Replicas 
+
+Aurora Global Database 
+- **Typical cross-region replication takes less than 1 second** 
