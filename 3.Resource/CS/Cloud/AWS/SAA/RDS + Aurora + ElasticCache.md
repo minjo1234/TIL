@@ -124,9 +124,12 @@ Aurora Global Database
 **Aurora Backups** 
 
 Automated backups 
-- 1 to 35 days ()
+- 1 to 35 days (cannot be disabled)
+- point-in-time recovery in that timeframe 
 
-
+Manual DB Snapshots 
+- Manually triggered by the user 
+- Retention of backup for as long as you want 
 
 RDS & Aurora Restore options 
 
