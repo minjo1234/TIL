@@ -106,3 +106,11 @@ Aurora Global Database
 - Supported services 
 	- Amazon SageMaker 
 	- Amazon Comprehend 
+---
+
+
+RDS Backupds 
+
+- Automated backups 
+	- Daily full backup of the database 
+	- Transaction logs are b
