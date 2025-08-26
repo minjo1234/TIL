@@ -147,3 +147,8 @@ Restoring MySQL Aurora cluster from S3
 
 Create a new Aurora DB Cluster from an existing one 
 Faster than snapshot & store
+Uses **copy-on-write** protocol
+
+
+---
+
