@@ -76,7 +76,8 @@ Aurora DB Cluster
 - Writer endpoint 
 - Reader endpoint 
 
+---
 
+Aurora Replicas - Auto Scaling 
 
-- 비밀번호 관련 
-
+Writer Endpoint , Read End
