@@ -173,4 +173,4 @@ Amazon RDS Proxy
 - **Reduces RDS & Aurora failover time by up 66%**
 - Serverless, autoscaling, highly available (multi-AZ)
 - **Enforce IAM Authentication for DB, and securely store credentials in AWS Secrets Manager** 
-- RDS 
+- **RDS Proxy is never publicly accessible (must be accessed from VPC)**
