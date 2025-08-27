@@ -15,4 +15,7 @@ Write Session -> Amazon Elastic Cache
 Retrieve Session <- Amazon Elastic Cache 
 
 
-Elastic Cache - Redis Vs Meme
+Elastic Cache - Redis Vs Memcached 
+
+Redis - Replication 
+Memcached - sharding 
