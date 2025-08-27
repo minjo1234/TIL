@@ -32,3 +32,6 @@ https://api.www.example.com
 
 Amazon Route 53
 
+- How you want to route traffic for a domain
+- Each Record contains : 
+	- Domain/
