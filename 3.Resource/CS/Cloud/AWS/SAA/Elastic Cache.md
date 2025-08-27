@@ -34,3 +34,4 @@ Patterns for ElasticCache
 
  - Lazy loading 
  - Write Through 
+ - Session Store 
