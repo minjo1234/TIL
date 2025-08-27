@@ -32,6 +32,6 @@ Memcached - sharding
 
 Patterns for ElasticCache 
 
- - Lazy loading 
+ - Lazy loading : when the cache does not exists, application read from db 
  - Write Through 
  - Session Store 
