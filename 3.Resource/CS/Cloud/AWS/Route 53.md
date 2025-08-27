@@ -49,4 +49,5 @@ Record Type
 - CNAME - maps a hostname to another hostname 
 	- The target is a domain name which must have an A or AAAA record 
 	- Can't create a CNAME record for the top node of a DNS namespace (ZONE APEX)
-	- Example : you can't create for example.com, but you can create for www.example.com  
+	- Example : you can't create for example.com, but you can create for www.example.com 
+- NS - Name Servers for the Hosted Zone  
