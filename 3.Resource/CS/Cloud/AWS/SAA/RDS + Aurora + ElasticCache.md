@@ -177,3 +177,20 @@ Amazon RDS Proxy
 
 
 프록시가 중간에서 **연결을 풀링·재사용하고, 트랜잭션 단위로 다중화(multiplexing)** 해서 **많은 클라이언트 연결을 소수의 DB 연결**로 돌려줍니다. 그래서 DB 입장에서는 필요한 만큼의 세션만 유지하면 되고, 로그인/스레드/메모리 오버헤드가 크게 줄어요.
+
+---
+
+
+
+java.util.logging.ErrorManager: 4
+java.io.FileNotFoundException: /opt/tomcat/logs/localhost.2025-08-27.log (Permission denied)
+        at java.base/java.io.FileOutputStream.open0(Native Method)
+        at java.base/java.io.FileOutputStream.open(FileOutputStream.java:295)
+        at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:236)
+        at org.apache.juli.FileHandler.openWriter(FileHandler.java:447)
+        at org.apache.juli.FileHandler.publish(FileHandler.java:223)
+        at org.apache.juli.AsyncFileHandler.publishInternal(AsyncFileHandler.java:138)
+        at org.apache.juli.AsyncFileHandler$1.run(AsyncFileHandler.java:131)
+        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+        at java.base/java.lang.Thread.run(Thread.java:1589)
