@@ -79,3 +79,8 @@ What's the most cost effective solution ?
 A power outage occurs specific region, I plan to disaster recovery strategy that read and write other aws region
 
 - How to ? : make a read only replicas other region, that activate multi-az
+
+---
+
+Read only Replicas - async 
+Multi AZ - sync 
