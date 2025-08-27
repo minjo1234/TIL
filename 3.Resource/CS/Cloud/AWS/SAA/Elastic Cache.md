@@ -1,1 +1,3 @@
-- ElasticCache is to get managed Redis or Memch
+- ElasticCache is to get managed Redis or Memcached 
+- Caches are in-memory databases with really high performance, low latency 
+- Helps reduce load off of 
