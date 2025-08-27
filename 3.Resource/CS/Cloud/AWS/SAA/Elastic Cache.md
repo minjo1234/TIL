@@ -90,4 +90,5 @@ Multi AZ - sync
 - non encryption RDS - how to encryption ? make a snapshot - encryption - RDS 
 - non encryption RDS instance is able to encryption RDS read only replicas -  X
 - Aurora serverless has a useful situation that 
-- Aurora support 
+- Aurora support MySQL and postgrsSQL
+- Real time Player rank - Redis Elastic Cache 
