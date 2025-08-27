@@ -7,3 +7,6 @@
 
 Catch hit  -> elastic cache 
 Catch miss  -> rds 
+
+
+Elastic Cache Solution Architecture - 
