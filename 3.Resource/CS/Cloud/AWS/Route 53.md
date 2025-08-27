@@ -45,4 +45,7 @@ Amazon Route 53
 Record Type
 
 - A - maps a hostname to IPv4
-- AAAA - maps a hostname to I 
+- AAAA - maps a hostname to IPv6
+- CNAME - maps a hostname to another hostname 
+	- The target is a domain name which must have an A or AAAA record 
+	- Can't create a CNAME record for a top node  
