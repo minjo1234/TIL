@@ -30,8 +30,15 @@ Memcached - sharding
 - Memcached 
 	- Support SASL-based 
 
-Patterns for ElasticCache 
+**Patterns for ElasticCache** 
 
  - Lazy loading : when the cache does not exists, application read from db 
  - Write Through 
  - Session Store 
+
+
+**Redis Use Case** 
+
+- Gaming Leaderboards are computationally complex 
+- Redis Sorted sets guarantee both uniqueness and element ordering 
+- Each time 
