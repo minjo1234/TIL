@@ -1,0 +1,1 @@
+- ElasticCache is to get managed Redis or Memch
