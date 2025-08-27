@@ -8,4 +8,7 @@ Domain Name System which translates the human friendly hostname into the machine
 ---
 **DNS Terminologies**
 
-- Domain Register: Amazon Route S3, GoD
+- Domain Register: Amazon Route S3, GoDaddy 
+- DNS Records : A, AAAA, CNAME, NS, ...
+- Zone File: contains DNS records 
+- Name Server: resolves DNS queries (Authoritative or Non-Autho)
