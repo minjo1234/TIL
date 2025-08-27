@@ -71,4 +71,7 @@ Memcached - sharding
 cost effective solution 
 
 
-The company use RDS MySQL 5.6 that plan to analyze 
+The company use RDS MySQL 5.6 that plan to process analyzing workload 
+What's the most cost effective solution ? 
+
+- Create a 
