@@ -19,3 +19,8 @@ Elastic Cache - Redis Vs Memcached
 
 Redis - Replication 
 Memcached - sharding 
+
+
+**ElasticCache - Cache Security** 
+
+- ElasticCache 
