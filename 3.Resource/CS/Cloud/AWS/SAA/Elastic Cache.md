@@ -41,4 +41,21 @@ Memcached - sharding
 
 - Gaming Leaderboards are computationally complex 
 - Redis Sorted sets guarantee both uniqueness and element ordering 
-- Each time 
+- Each time a new element added, it's ranked in real time, then added in correct order 
+
+**중요한 포트:**
+
+- FTP: 21
+- SSH: 22
+- SFTP: 22 (SSH와 같음)
+- HTTP: 80
+- HTTPS: 443
+
+**vs RDS 데이터베이스 포트:**
+
+- PostgreSQL: 5432
+- MySQL: 3306
+- Oracle RDS: 1521
+- MSSQL Server: 1433
+- MariaDB: 3306 (MySQL과 같음)
+- Aurora: 5432 (PostgreSQL와 호환될 경우) 또는 3306 (MySQL과 호환될 경우)
