@@ -65,4 +65,4 @@ Memcached - sharding
 
 ---
 
-Read Replicas repli
+because read replicas replicate async, user don't read recent data, read 
