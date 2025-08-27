@@ -9,4 +9,7 @@ Catch hit  -> elastic cache
 Catch miss  -> rds 
 
 
-Elastic Cache Solution Architecture - 
+**Elastic Cache Solution Architecture - User Session Store**
+
+Write Session -> Amazon Elastic Cache 
+Retrieve Session 
