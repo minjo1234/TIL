@@ -34,4 +34,9 @@ Amazon Route 53
 
 - How you want to route traffic for a domain
 - Each Record contains : 
-	- Domain/
+	- Domain/subdomain Name - e.g,example.com
+	- RecordType - e,g,.A or AAA 
+	- Value - e,g., 123.456.789.123
+	- Routing Policy - how route 53 response to queries 
+	- TTL 
+- 
