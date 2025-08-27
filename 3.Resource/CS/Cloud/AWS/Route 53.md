@@ -55,4 +55,6 @@ Record Type
   
 Hosted Zones
 
-A container for records that define how to route traffic to a domain and its 
+A container for records that define how to route traffic to a domain and its subdomains 
+
+- Public Hosted Zones - contains records that specify how to route traffic on the internet (public domain names)  
