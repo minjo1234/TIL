@@ -29,3 +29,8 @@ Memcached - sharding
 	- SSL in flight encryption
 - Memcached 
 	- Support SASL-based 
+
+Patterns for ElasticCache 
+
+ - Lazy loading 
+ - Write Through 
