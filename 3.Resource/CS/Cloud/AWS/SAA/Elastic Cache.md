@@ -59,3 +59,8 @@ Memcached - sharding
 - MSSQL Server: 1433
 - MariaDB: 3306 (MySQL과 같음)
 - Aurora: 5432 (PostgreSQL와 호환될 경우) 또는 3306 (MySQL과 호환될 경우)
+
+
+
+
+---
