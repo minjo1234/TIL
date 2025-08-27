@@ -1,9 +1,10 @@
 
 - EC2  - VM (ENI)
-- EBS 
 - EFS
-- ELB
+- Load Balancer(ELB, ALB, NLB)
 -  ASG
 - RDS, Aurora ElasticCache - DB
 - Route 53 - Domain 
 - IAM 
+- S3
+- Storage(EBS)
