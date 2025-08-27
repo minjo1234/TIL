@@ -22,4 +22,5 @@ https://api.www.example.com
 
 **How DNS Works** 
 
-- 
+
+Web server -> Local DNS Server -> Root Dns Server (ICANN)
