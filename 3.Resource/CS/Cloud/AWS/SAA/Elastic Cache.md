@@ -73,3 +73,7 @@ The company use RDS MySQL 5.6 that plan to process analyzing workload
 What's the most cost effective solution ? 
 
 - Create a Read only Replicas other AZ, execute analyzing workload from database replicas 
+
+---
+
+A power outage occurs specific region, I plan to disaster recovery strategy that read 
