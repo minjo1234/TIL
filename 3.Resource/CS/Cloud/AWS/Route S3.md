@@ -23,4 +23,6 @@ https://api.www.example.com
 **How DNS Works** 
 
 
-Web server -> Local DNS Server -> Root Dns Server (ICANN)
+1.Web Browser -> Local DNS Server -> Root Dns Server (ICANN) - TLD - SLD  - DNS 
+
+Web Se
