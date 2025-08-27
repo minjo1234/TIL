@@ -182,23 +182,5 @@ Amazon RDS Proxy
 
 
 
-java.util.logging.ErrorManager: 4
-java.io.FileNotFoundException: /opt/tomcat/logs/localhost.2025-08-27.log (Permission denied)
-        at java.base/java.io.FileOutputStream.open0(Native Method)
-        at java.base/java.io.FileOutputStream.open(FileOutputStream.java:295)
-        at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:236)
-        at org.apache.juli.FileHandler.openWriter(FileHandler.java:447)
-        at org.apache.juli.FileHandler.publish(FileHandler.java:223)
-        at org.apache.juli.AsyncFileHandler.publishInternal(AsyncFileHandler.java:138)
-        at org.apache.juli.AsyncFileHandler$1.run(AsyncFileHandler.java:131)
-        at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-        at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-        at java.base/java.lang.Thread.run(Thread.java:1589)
-
-
-
------
-
-
 
 
