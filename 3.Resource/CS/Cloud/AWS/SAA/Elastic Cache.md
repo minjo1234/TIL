@@ -92,3 +92,6 @@ Multi AZ - sync
 - Aurora serverless has a useful situation that 
 - Aurora support MySQL and postgrsSQL
 - Real time Player rank - Redis Elastic Cache 
+- long time backup - Aurora Database replicate 
+- maximum access Aurora Database read and write - Aurora Database replicate
+- Too much time connection RDS (because too many ec2 instance how to solve ? - RDS Proxy)
