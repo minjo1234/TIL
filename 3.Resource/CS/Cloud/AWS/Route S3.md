@@ -14,4 +14,12 @@ Domain Name System which translates the human friendly hostname into the machine
 - Name Server: resolves DNS queries (Authoritative or Non-Authoritative)
 - Top Level Domain (TLD) com, us, in
 - Second Level Domain (SLD) : amazon.com
+
+https://api.www.example.com
+			SLD. TLD. ROOT
+		Sub Domain 
+	Domain Name 
+
+**How DNS Works** 
+
 - 
