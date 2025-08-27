@@ -67,11 +67,9 @@ Memcached - sharding
 2.multi AZ don't has to changed multiple string 
 3.AWS region level vs AZ level 
 
-
-cost effective solution 
-
+---
 
 The company use RDS MySQL 5.6 that plan to process analyzing workload 
 What's the most cost effective solution ? 
 
-- Create a 
+- Create a Read only Replicas other AZ, execute analyzing workload from database replicas 
