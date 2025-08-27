@@ -64,3 +64,5 @@ Memcached - sharding
 
 
 ---
+
+Read Replicas repli
