@@ -84,3 +84,7 @@ A power outage occurs specific region, I plan to disaster recovery strategy that
 
 Read only Replicas - async 
 Multi AZ - sync 
+
+
+- RDS maximum replicas  - 15 
+- non encryption RDS - how to encryption ? make a snapshot - encryption - RDS 
