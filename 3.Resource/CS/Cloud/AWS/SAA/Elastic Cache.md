@@ -88,3 +88,4 @@ Multi AZ - sync
 
 - RDS maximum replicas  - 15 
 - non encryption RDS - how to encryption ? make a snapshot - encryption - RDS 
+- non encryption RDS instance is able to encryption 
