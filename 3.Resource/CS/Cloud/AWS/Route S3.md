@@ -24,5 +24,10 @@ https://api.www.example.com
 
 
 1.Web Browser -> Local DNS Server -> Root Dns Server (ICANN) - TLD - SLD  - DNS 
+2.Web Browser <- IP 
+3.Web Browser -> IP
 
-Web Se
+
+---
+
+Amazon Route S3
