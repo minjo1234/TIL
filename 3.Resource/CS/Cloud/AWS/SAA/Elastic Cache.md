@@ -26,4 +26,6 @@ Memcached - sharding
 - ElasticCache supports IAM Authentication for Redis 
 - IAM policies on ElasticCache are only used for AWS API-level security 
 - **Redis Auth**
-- 
+	- SSL in flight encryption
+- Memcached 
+	- Support SASL-based 
