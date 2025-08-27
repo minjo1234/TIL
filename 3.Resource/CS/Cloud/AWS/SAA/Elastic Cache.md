@@ -61,9 +61,8 @@ Memcached - sharding
 - Aurora: 5432 (PostgreSQL와 호환될 경우) 또는 3306 (MySQL과 호환될 경우)
 
 
-
-
 ---
 
 1.because read replicas replicate async, user don't read recent data, read past data 
 2.multi AZ don't has to changed multiple string 
+3.AWS region level vs AZ level 
