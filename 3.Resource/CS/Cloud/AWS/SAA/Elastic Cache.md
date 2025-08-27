@@ -14,3 +14,5 @@ Catch miss  -> rds
 Write Session -> Amazon Elastic Cache 
 Retrieve Session <- Amazon Elastic Cache 
 
+
+Elastic Cache - Redis Vs Meme
