@@ -23,4 +23,7 @@ Memcached - sharding
 
 **ElasticCache - Cache Security** 
 
-- ElasticCache 
+- ElasticCache supports IAM Authentication for Redis 
+- IAM policies on ElasticCache are only used for AWS API-level security 
+- **Redis Auth**
+- 
