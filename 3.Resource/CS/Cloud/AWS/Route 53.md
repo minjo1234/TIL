@@ -39,4 +39,10 @@ Amazon Route 53
 	- Value - e,g., 123.456.789.123
 	- Routing Policy - how route 53 response to queries 
 	- TTL 
-- 
+- Route 53 supports the following DNS Record Types: 
+	- (must know) A / AAAA / CNAME / NS 
+
+Record Type
+
+- A - maps a hostname to IPv4
+- AAAA - maps a hostname to I 
