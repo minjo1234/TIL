@@ -66,3 +66,6 @@ Memcached - sharding
 1.because read replicas replicate async, user don't read recent data, read past data 
 2.multi AZ don't has to changed multiple string 
 3.AWS region level vs AZ level 
+
+
+cost effective solution 
