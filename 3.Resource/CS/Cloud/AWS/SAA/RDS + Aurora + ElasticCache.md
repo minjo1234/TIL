@@ -194,3 +194,7 @@ java.io.FileNotFoundException: /opt/tomcat/logs/localhost.2025-08-27.log (Permis
         at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
         at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
         at java.base/java.lang.Thread.run(Thread.java:1589)
+
+
+
+-----
