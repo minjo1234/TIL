@@ -66,4 +66,4 @@ Memcached - sharding
 ---
 
 1.because read replicas replicate async, user don't read recent data, read past data 
-2.multi AZ does not changed 
+2.multi AZ don't has to changed multiple string 
