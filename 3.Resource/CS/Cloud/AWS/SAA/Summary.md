@@ -8,3 +8,9 @@
 - IAM 
 - S3
 - Storage(EBS)
+
+---
+
+### Purpose 
+
+I work as a cloud engineer that manages private cloud 
