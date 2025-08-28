@@ -6,3 +6,6 @@ github : https://github.com/Iamrushabhshahh/AWS-Certified-Solutions-Architect-As
 
 ![[Pasted image 20250828130839.png]]
 
+
+- **Thin provisioned**
+- 
