@@ -18,4 +18,9 @@ then private cloud and public cloud concept is the same
 so I guess the public cloud, 
 so I want to acquire qulification named SAA Solution Archiecture Assoaction 
 
-I use github workbook 
+I used github workbook, but its commentary is not kind, 
+so I make a LLM Programming with Gemini 
+
+It helps SAA and later helps this kinds of workbook 
+
+See you 
