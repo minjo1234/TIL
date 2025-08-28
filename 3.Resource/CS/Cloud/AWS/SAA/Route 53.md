@@ -62,3 +62,6 @@ A container for records that define how to route traffic to a domain and its sub
   one or more VPCs (private domain names)
   application.company.internal
 
+
+thin - 4 GB
+
