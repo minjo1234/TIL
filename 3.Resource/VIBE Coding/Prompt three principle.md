@@ -11,5 +11,8 @@
 - Which Library must have to use ?
 - Should I write test code ?
 - In what order should I work ? 
+- What will be included in the output ?
 
-### 3. 
+### 3. Tool Express 
+
+- Which mcp 
