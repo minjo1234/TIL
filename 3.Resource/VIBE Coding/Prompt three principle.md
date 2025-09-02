@@ -8,6 +8,8 @@
 -> Context Engineering 
 ### 2.Requirements ambiguity delete 
 
-- Which Lib
+- Which Library must have to use ?
+- Should I write test code ?
+- In what order should I work ? 
 
 ### 3. 
