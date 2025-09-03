@@ -49,3 +49,26 @@ RealtionShip
 - Mount Point = LV+FS를 실제 디렉토리에 연결
 
 ---
+
+```
+lsblk -f
+```
+
+```
+sda4      LVM2_m LVM2 ...
+
+└─ubuntu--vg-data   ext4  UUID=7ddeb29d-be96-47b1-8e63-4f6a9525ea80
+```
+
+```
+### **3. Create a mount point**
+
+sudo mkdir -p /mnt/data
+```
+
+```
+### **4. Mount manually (test)**
+
+sudo mount /dev/ubuntu--vg/data /mnt/data
+```
+
