@@ -104,3 +104,6 @@ df -h | grep /mnt/data
 
 ### Linux FileSystem (/etc/fstab)
 
+Linux FileSystem : https://meongj-devlog.tistory.com/134#google_vignette
+
+/etc/fstab 
