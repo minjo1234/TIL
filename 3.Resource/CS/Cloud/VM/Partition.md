@@ -101,10 +101,7 @@ df -h | grep /mnt/data
 
 ---
 
-
 ### Linux FileSystem (/etc/fstab)
-
-Linux FileSystem : https://meongj-devlog.tistory.com/134#google_vignette
 
 /etc/fstab 
 
@@ -116,3 +113,12 @@ Linux FileSystem : https://meongj-devlog.tistory.com/134#google_vignette
 
 출처: [https://meongj-devlog.tistory.com/134#google_vignette](https://meongj-devlog.tistory.com/134#google_vignette) [기록하는 습관.:티스토리]
 ```
+
+---
+
+
+Links : 
+
+
+
+Linux FileSystem : https://meongj-devlog.tistory.com/134#google_vignette
