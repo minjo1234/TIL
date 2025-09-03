@@ -169,3 +169,7 @@ continuous improvement
 
 1. error explanation instruction
 2. prevent recurrence instruction rule write 
+
+
+![[Pasted image 20250903091451.png]]
+
