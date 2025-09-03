@@ -14,3 +14,6 @@ when they resizing
 
 ```
 ```
+
+
+lsblk -f
