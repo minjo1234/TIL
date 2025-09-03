@@ -36,4 +36,5 @@ sudo mkdir -p /mnt/data
 ### MountPoint 
 
 - it is a location that filesystems connect to directory
-- in linux disk(ex) partition) -> make a filesystem and format -> mount
+- to use in linux disk(ex) partition) -> make a filesystem and format -> must have to mount in directory
+- Mount point is a connect point a "what about directory "
