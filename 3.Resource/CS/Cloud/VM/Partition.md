@@ -92,5 +92,7 @@ root@vm-uw4m:/mnt/data# sudo mount /dev/mapper/ubuntu--vg-data
 
 # specific directories mount check
 findmnt /mnt/data
+df -h | grep /mnt/data
 ```
+
 
