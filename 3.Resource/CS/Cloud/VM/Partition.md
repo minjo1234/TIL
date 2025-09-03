@@ -30,3 +30,10 @@ sudo mkdir -p /mnt/data
 
 2.vi etc/fstab 
 
+
+
+
+### MountPoint 
+
+- it is a location that filesystems connect to directory
+- 
