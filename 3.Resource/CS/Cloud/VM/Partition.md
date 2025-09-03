@@ -20,9 +20,13 @@ lsblk -f
 
 
 
-1.choose a mountpoin mountpoint 
+1.choose a mountpoint mountpoint 
 
 ```bash
 sudo mkdir -p /mnt/data
 
 ```
+
+
+2.vi etc/fstab 
+
