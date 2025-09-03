@@ -17,3 +17,12 @@ when they resizing
 
 
 lsblk -f
+
+
+
+1.choose a mountpoin mountpoint 
+
+```bash
+sudo mkdir -p /mnt/data
+
+```
