@@ -3,7 +3,9 @@
 
 LVM is a part of kernel that management space efficiently and flexible 
 
-LV
+in case that does not LVM, operation after mount Disk on the OS region 
+
+
 
 
 
