@@ -76,3 +76,14 @@ sudo mount /dev/ubuntu--vg/data /mnt/data
 ```
 root@vm-uw4m:/mnt/data# sudo mount /dev/mapper/ubuntu--vg-data 
 ```
+
+
+- /dev/mapper/ubuntu--vg-data
+    
+    → 이건 **장치 파일(디바이스 노드)** 이름. **무엇을 어디에 붙일지**에서 “무엇(=장치)”에 해당.
+    
+    → 1.LVM은 보통 /dev/mapper/VG-LV 경로를 제공합니다. 
+- 어떤 배포판은 /dev/VG/LV(예: /dev/ubuntu--vg/data) **심볼릭 링크**도 같이 만들어주는데, 환경마다 없을 수 있어요. 
+- 2.그래서 이전에 /dev/ubuntu--vg/data로는 “없음” 오류가 났던 겁니다.
+
+
