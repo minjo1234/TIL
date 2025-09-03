@@ -37,4 +37,15 @@ sudo mkdir -p /mnt/data
 
 - it is a location that filesystems connect to directory
 - to use in linux disk(ex) partition) -> make a filesystem and format -> must have to mount in directory
-- Mount point is a connect point a "what about directory "
+- Mount point is a connect point a "what about directory connect to directory"
+
+
+RealtionShip
+
+[Physical Disk] --> [LVM: VG → LV] --> [Filesystem] --> [Mount Point (/data, /mnt/data, ...)]
+
+- LVM = 저장 공간을 논리적으로 쪼갬
+- Filesystem = 데이터를 관리할 구조(ext4, xfs 등)
+- Mount Point = LV+FS를 실제 디렉토리에 연결
+
+---
