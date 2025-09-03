@@ -107,3 +107,7 @@ df -h | grep /mnt/data
 Linux FileSystem : https://meongj-devlog.tistory.com/134#google_vignette
 
 /etc/fstab 
+
+- when the use change partition information and append disk, the user must have to register this file 
+- composed 6 fields - 
+- 
