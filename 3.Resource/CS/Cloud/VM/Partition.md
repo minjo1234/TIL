@@ -123,3 +123,4 @@ Links :
 
 Linux FileSystem : https://meongj-devlog.tistory.com/134#google_vignette
 MountInfo Command : https://codinghero.tistory.com/143#google_vignette
+lsblk : https://bookfriend.tistory.com/entry/%EB%A6%AC%EB%88%85%EC%8A%A4Linux-lsblk-%EB%AA%85%EB%A0%B9%EC%96%B4-%EC%82%AC%EC%9A%A9%EB%B2%95%EA%B8%B0%EB%B3%B8-%EC%98%B5%EC%85%98%EB%A7%8C
