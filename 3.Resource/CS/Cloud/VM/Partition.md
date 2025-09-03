@@ -87,3 +87,10 @@ root@vm-uw4m:/mnt/data# sudo mount /dev/mapper/ubuntu--vg-data
 - 2.그래서 이전에 /dev/ubuntu--vg/data로는 “없음” 오류가 났던 겁니다.
 
 
+
+```bash
+
+# specific directories mount check
+findmnt /mnt/data
+```
+
