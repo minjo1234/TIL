@@ -96,3 +96,11 @@ df -h | grep /mnt/data
 ```
 
 
+/etc/fstab
+
+
+---
+
+
+### Linux FileSystem (/etc/fstab)
+
