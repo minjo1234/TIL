@@ -152,3 +152,20 @@ Always, Manual 유형이 있다.
 
 초안은 Generate Cursor Rules, 
 이후엔 스스로 개선시킨다.
+
+
+---
+
+
+How to write 
+
+1.grasp code structure using Ask mode 
+2.Generate Cursor Rules 로 생성 
+- write use english 
+- prompt engineering 
+- include core keyword 
+
+continuous improvement 
+
+1. error explanation instruction
+2. prevent recurrence instruction rule write 
