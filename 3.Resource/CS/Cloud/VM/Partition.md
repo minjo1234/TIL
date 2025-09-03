@@ -1,7 +1,8 @@
 
 **LVM(Logical Volume Manager) Concept and Setting Rule** 
 
-LVM is a part of kernel that 
+LVM is a part of kernel that management space efficiently and flexible 
+
 
 
 
