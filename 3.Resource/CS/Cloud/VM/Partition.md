@@ -110,4 +110,9 @@ Linux FileSystem : https://meongj-devlog.tistory.com/134#google_vignette
 
 - when the use change partition information and append disk, the user must have to register this file 
 - composed 6 fields - 
-- 
+
+```
+[파일_시스템_장치]  [마운트_포인트]  [파일_시스템_종류] [옵션] [덤프] [파일체크_옵션]
+
+출처: [https://meongj-devlog.tistory.com/134#google_vignette](https://meongj-devlog.tistory.com/134#google_vignette) [기록하는 습관.:티스토리]
+```
