@@ -72,3 +72,7 @@ sudo mkdir -p /mnt/data
 sudo mount /dev/ubuntu--vg/data /mnt/data
 ```
 
+
+```
+root@vm-uw4m:/mnt/data# sudo mount /dev/mapper/ubuntu--vg-data 
+```
