@@ -160,5 +160,3 @@ return RegexUtil.getKeyValueToString(searchFields);
 |변경 의미|"어떤 알고리즘을 사용할까?"|"어떤 구현체를 사용할까?"|
 |변경 결과|완전히 다른 처리 방식|같은 구조, 다른 내용|
 |예시|VM 처리 vs Segment 처리|VM 검색 vs Segment 검색|
-
- 
