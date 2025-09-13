@@ -65,6 +65,8 @@ EventWatcher -EventAuditor(감사 로그)
 
 ### 언제 RabbitMQ나, Kafka등이 적절한지 ? 
 
+ **분산 시스템**
+
 ```
 // 여러 애플리케이션 간 통신
 // 마이크로서비스 아키텍처
@@ -76,6 +78,14 @@ EventWatcher -EventAuditor(감사 로그)
 // 메시지 손실 방지
 // 장애 복구 필요
 ```
+
+ **복잡한 라우팅**
+
+```
+// 조건부 메시지 전달
+// 메시지 변환 필요
+```
+
 ---
 
 **overall action flow** 
@@ -102,3 +112,4 @@ EventWatcher -EventAuditor(감사 로그)
 ---
 
 
+### 모놀리식 vs 
