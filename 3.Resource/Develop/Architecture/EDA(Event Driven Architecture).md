@@ -102,6 +102,7 @@ AbstractEvent -  abstract class
 
 
 ```
-eventChannel - subscribe, unsubcribe, sendEvent, removeAll()
-
+EventChannel - subscribe, unsubcribe, sendEvent, removeAll()
+EventWatcher
+Event
 ```
