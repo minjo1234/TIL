@@ -4,7 +4,6 @@
 
 **structure** 
 
-> ApplicationEvent(interface)
-   AbstractApplicationEvent(abstract class)
-   AbstractEventProducer
+> AbstractEventProducer
+> 구현체Producer
    
