@@ -144,6 +144,7 @@ EventWatcher -EventAuditor(감사 로그)
 | 특징     | 간단, 순차적, 예측 가능 (단점: Consumer 처리 시간이 길면 Producer도 블로킹됨) | 고성능, 병렬 처리 가능 (단점: 순서 보장 어려움, 스레드 관리 필요) |
 | 사용 예시  | 이벤트 수가 적고, Consumer 처리 시간이 짧은 경우                       | Consumer가 오래 걸리거나, 이벤트가 빈번하게 발생하는 경우     |
 
+---
 EventChannel 
 
 - evnetKey, async 를 만들어 확장성 고려 
