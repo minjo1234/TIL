@@ -106,3 +106,13 @@ EventChannel - subscribe, unsubcribe, sendEvent, removeAll()
 EventWatcher
 Event
 ```
+
+
+
+
+
+
+
+----
+
+
