@@ -37,7 +37,7 @@ EventChannel
 
 **overall action flow** 
 
-> Producer.produce(event)
-> 
+> 1️⃣ Producer.produce(event)
+> 	↓
 
 ---
