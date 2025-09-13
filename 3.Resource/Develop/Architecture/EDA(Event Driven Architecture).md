@@ -81,21 +81,6 @@ eventBus.post(createAppEvent);
 
 
 
-구성 : 
-
-```
-AbstractApplicationEvent,
-AbstractEventConsumer - abstract class - evnetChannel register, subscribe 
-AbstractEventProducer - abstract class - isAsync()
-AbstractEventBroker - 
-AbstractEvent -  abstract class 
-```
-
-
-```
-EventChannel - subscribe, unsubcribe, sendEvent, removeAll()
-EventWatcher
-Event
 ```
 
 
@@ -130,8 +115,6 @@ Event
 ```
 
 
-Guaba EvnetBus 
-- EventBus는 이벤트를 처리할 각 이벤트 리스너를 등록하고 각 리스너에게 이벤트를 전파하는 역할을 수행한다.
 
 
 Event(met)
