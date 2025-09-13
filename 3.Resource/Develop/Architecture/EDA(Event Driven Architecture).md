@@ -1,3 +1,7 @@
+**Present Project Implementation Method** 
+- 
+
+
 
 **composition** 
 - Producer - `AbstractEventProducer`
@@ -6,7 +10,7 @@
 - Event - `AbstractApplicationEvent`
 
 add option 
-- EventWatcher()
+- EventWatcher(event monitoring)
 - EventTasker(complex event process)
 
 
