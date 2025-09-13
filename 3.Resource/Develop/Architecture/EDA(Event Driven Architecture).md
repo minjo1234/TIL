@@ -37,6 +37,11 @@ EventChannel
 
 **overall action flow** 
 
+Spring Load 시 
+
+- ㅁ
+
+
 > 1️⃣ Producer.produce(event)
 > 	↓
 > 2️⃣ EventChannel.sendEvent()
