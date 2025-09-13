@@ -29,7 +29,8 @@
 **add option** 
 - EventWatcher(event monitoring)
 - EventTasker(complex event process)
-- EventAuditor 
+- EventAuditor  - 이벤트 감사 
+- EventBus - 이벤트 전달 
 - EvnetOrchestrator 
 
 
