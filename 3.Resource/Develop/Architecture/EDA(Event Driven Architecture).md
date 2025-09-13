@@ -94,7 +94,8 @@ EventChannel을 공유한다.
 
 ```
 AbstractApplicationEvent,
-AbstractEventConsumer
-AbstractEventProducer
-
+AbstractEventConsumer - abstract class 
+AbstractEventProducer - abstract class 
+AbstractEventBroker
+AbstractEvent -  abstract class 
 ```
