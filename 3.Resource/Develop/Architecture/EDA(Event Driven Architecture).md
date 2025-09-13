@@ -148,3 +148,5 @@ EventWatcher -EventAuditor(감사 로그)
 EventChannel 
 
 - evnetKey, async 를 만들어 확장성 고려 
+- 서비스 로직(단일 트랜잭션)
+- EventBus(다중 트랜잭션)
