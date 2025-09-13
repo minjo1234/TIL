@@ -156,4 +156,11 @@ EventChannel
 
 ---
 
-ThreadPoolTaskExecutor
+### ThreadPoolTaskExecutor.- 쓰레드 관리
+
+|구분|ThreadPoolTaskExecutor|기본 Executor|
+|---|---|---|
+|스레드 수 제한|✅ 최대 30개|❌ 무제한|
+|자동 제거|✅ 60초 후 제거|❌ 제거 안됨|
+|메모리 관리|✅ 효율적|❌ 누적됨|
+|리소스 절약|✅ 자동 절약|❌ 낭비|
