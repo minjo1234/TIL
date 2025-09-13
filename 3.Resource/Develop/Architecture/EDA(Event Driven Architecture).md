@@ -14,9 +14,7 @@ eventBus.post(createAppEvent);
 - Publisher-Subscriber Pattern: Producer → EventBus(EventListener) → Consumer
 
 ```
-
-
-EventListener - EventConsumer(API용도 복잡한 로직은 Takser) - EventTasker  
+EventListener - EventConsumer(API용도 복잡한 로직은 Takser) EventTasker  
 EventWatcher -EventAuditor(감사 로그)
 ```
 
