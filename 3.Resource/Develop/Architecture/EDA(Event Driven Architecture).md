@@ -1,13 +1,15 @@
-- Observer Pattern  
-	- Subject: EventBus (이벤트를 발행하는 주체)
-	- Observer: @Subscribe 메서드를 가진 리스너들 
-	- Notification: eventBus.post() 호출 시 모든 관찰자에게 알림
+- Observer Pattern: EventBus → @Subscribe 리스너들
+- Publisher-Subscriber Pattern: Producer → EventBus → Consumer
 
 - Publish-Subscriber Pattern 
 	- Publisher: EventProducer (이벤트를 발행 )
 	- Subscriber : EventConsumer ( 이벤트를 구독 )
 	- Message Broker : EventBus (메시지 라우팅)
 
+
+
+
+---
 
 **Present project implementation method** 
 - Guava EventBus Library 
