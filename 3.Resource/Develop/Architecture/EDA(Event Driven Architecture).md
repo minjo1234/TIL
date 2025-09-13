@@ -63,7 +63,7 @@ EventChannel
 > 	↓
 > 3️⃣ DefaultEventBroker - GuavaEventChannel 
 > 	 EventBus.post(event) 
->	
+> GuavaEventListener	
 > 	 EvnetWatcherList.sendEvent(event)
 
 ---
