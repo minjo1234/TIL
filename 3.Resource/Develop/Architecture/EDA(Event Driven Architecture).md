@@ -1,18 +1,17 @@
 **Present project implementation method** 
 - Guava EventBus Library 
 
-
-
 **composition** 
 - Producer - `AbstractEventProducer`
 - Broker - `DefaultEventBroker` - `AbstractEventBroker`
 - Consumer  - `AbstractEventConsumer`
 - Event - `AbstractApplicationEvent`
 
-add option 
+**add option** 
 - EventWatcher(event monitoring)
 - EventTasker(complex event process)
-
+- EventAuditor 
+- EvnetOrchestrator 
 
 ### EventProducer (이벤트 발행)
 
@@ -22,3 +21,5 @@ add option
 > AbstractEventProducer
 > 구현체Producer
    
+
+---
