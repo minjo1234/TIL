@@ -54,7 +54,6 @@ EventChannel
 7️⃣ EventChannel 생성 및 등록
 ```
 
-
 ------
 
 
