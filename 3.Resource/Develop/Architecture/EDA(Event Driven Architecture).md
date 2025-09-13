@@ -63,28 +63,19 @@ EventWatcher -EventAuditor(감사 로그)
 ```
 
 
-언제
+### 언제 RabbitMQ나, Kafka등이 적절한지 ? 
 
+```
+// 여러 애플리케이션 간 통신
+// 마이크로서비스 아키텍처
+```
 
+**높은 안정성 요구**
 
-----
-
-**add option** 
-- EventWatcher(event monitoring)
-- EventTasker(complex event process)
-- EventAuditor  - 이벤트 감사 
-- EventBus - 이벤트 전달 
-- EvnetOrchestrator 
-
----
-### EventProducer (이벤트 발행)
-
-
-**structure** 
-
-> AbstractEventProducer
-> 구현체Producer
-
+```
+// 메시지 손실 방지
+// 장애 복구 필요
+```
 ---
 
 **overall action flow** 
