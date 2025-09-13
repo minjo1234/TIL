@@ -25,6 +25,7 @@
 	- 이벤트에 필요한 메타데이터 포함
 	- 추적 가능성 
 	- 타입 안정성 
+----
 
 **add option** 
 - EventWatcher(event monitoring)
@@ -80,10 +81,10 @@ EventChannel
 
 ---
 
-
 EventChannel을 공유한다.
 
 1. Consumer 생성 시: EventChannel 생성 및 Consumer 등록
 2. Producer 생성 시: 기존 EventChannel 조회 및 참조 획득
 
 ---
+
