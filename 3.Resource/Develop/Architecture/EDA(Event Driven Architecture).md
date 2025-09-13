@@ -1,7 +1,12 @@
 - Observer Pattern  
 	- Subject: EventBus (이벤트를 발행하는 주체)
-	- Observer: 
+	- Observer: @Subscribe 메서드를 가진 리스너들 
+	- Notification: eventBus.post() 호출 시 모든 관찰자에게 알림
+
 - Publish-Subscriber Pattern 
+	- Publisher: EventProducer (이벤트를 발행 )
+	- Subscriber : EventConsumer ( 이벤트를 구독 )
+	- Message Broker 
 
 
 **Present project implementation method** 
