@@ -61,6 +61,8 @@ EventChannel
 > 	↓
 > 2️⃣ EventChannel.sendEvent(event)
 > 	↓
-> 3️⃣ DefaultEventBroker -  EventBus, EvnetChannel 
+> 3️⃣ DefaultEventBroker - 
+> 	 EventBus.post(event)
+> 	 EvnetWatcherList.sendEvent(event)
 
 ---
