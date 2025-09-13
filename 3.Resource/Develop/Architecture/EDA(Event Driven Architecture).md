@@ -39,5 +39,8 @@ EventChannel
 
 > 1️⃣ Producer.produce(event)
 > 	↓
+> 2️⃣ EventChannel.sendEvent()
+> 	↓
+> 3️⃣ 
 
 ---
