@@ -1,9 +1,9 @@
 
 **composition** 
-- Producer
+- Producer 
 - Broker 
-- Consumer 
-- Event 
+- Consumer  - `AbstractEventConsumer`
+- Event - `AbstractApplicationEvent`
 
 
 ### EventProducer (이벤트 발행)
