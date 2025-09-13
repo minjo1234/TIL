@@ -150,3 +150,5 @@ EventChannel
 - evnetKey, async 를 만들어 확장성 고려 
 - 서비스 로직(단일 트랜잭션)
 - EventBus(다중 트랜잭션)
+	- Consumer 비동기로 작동 
+	- EventAuditor 다른 트랜잭션
