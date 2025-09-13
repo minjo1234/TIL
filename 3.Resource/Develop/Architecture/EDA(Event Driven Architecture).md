@@ -1,4 +1,6 @@
 - Observer Pattern  
+	- Subject: EventBus (이벤트를 발행하는 주체)
+	- Observer: 
 - Publish-Subscriber Pattern 
 
 
