@@ -6,7 +6,7 @@
 - Publish-Subscriber Pattern 
 	- Publisher: EventProducer (이벤트를 발행 )
 	- Subscriber : EventConsumer ( 이벤트를 구독 )
-	- Message Broker 
+	- Message Broker : EventBus (메시지 라우팅)
 
 
 **Present project implementation method** 
