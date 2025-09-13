@@ -4,7 +4,7 @@
 **composition** 
 - Producer - `AbstractEventProducer` 
 	- 이벤트 발행자
-- Broker - `DefaultEventBroker` - `AbstractEventBroker`
+- Broker - `DefaultEventBroker` - `AbstractEventBroker`, ``
 	- 채널 관리자
 	- 채널 관리: EvnetKey별로 독립적인 채널 생성/관리
 	- 동기/비동기 처리: AsyncEventBus vs EventBus 
@@ -20,6 +20,10 @@
 - EventTasker(complex event process)
 - EventAuditor 
 - EvnetOrchestrator 
+
+
+EventChannel 
+
 
 ### EventProducer (이벤트 발행)
 
