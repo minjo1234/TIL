@@ -124,3 +124,13 @@ EventWatcher -EventAuditor(감사 로그)
 
 ### MQ
 
+```
+// Message Queue = 메시지 큐
+// 애플리케이션 간 비동기 통신을 위한 중간 저장소
+// 메시지를 임시로 저장하고 전달하는 시스템
+
+// FIFO (First In, First Out) 구조
+// 먼저 들어온 메시지가 먼저 처리됨
+// 은행 대기줄과 같은 개념
+```
+
