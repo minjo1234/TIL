@@ -1,5 +1,20 @@
 - Observer Pattern: EventBus → @Subscribe 리스너들
+
+```
+// Producer에서 이벤트 발행
+producer.produce(createAppEvent);
+↓
+// EventBus.post() 호출
+eventBus.post(createAppEvent);
+↓
+// Guava EventBus가 자동으로 @Subscribe 메서드 탐지
+// 매칭되는 Consumer의 consume() 메서드 자동 호출
+```
+
 - Publisher-Subscriber Pattern: Producer → EventBus → Consumer
+
+```
+```
 
 ---
 
