@@ -57,13 +57,10 @@ EventChannel
 ------
 
 
-
-
-
 > 1️⃣ Producer.produce(event)
 > 	↓
-> 2️⃣ EventChannel.sendEvent()
+> 2️⃣ EventChannel.sendEvent(event)
 > 	↓
-> 3️⃣ 
+> 3️⃣ E
 
 ---
