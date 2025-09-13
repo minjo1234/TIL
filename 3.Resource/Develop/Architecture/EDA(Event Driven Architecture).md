@@ -1,3 +1,7 @@
+- Observer Pattern  
+- Publish-Subscriber Pattern 
+
+
 **Present project implementation method** 
 - Guava EventBus Library 
 
