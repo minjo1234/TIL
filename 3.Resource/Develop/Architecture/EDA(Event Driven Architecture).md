@@ -37,9 +37,28 @@ EventChannel
 
 **overall action flow** 
 
-Spring Load 시 
 
-- ㅁ
+```
+1️⃣ Spring 컨테이너 시작
+   ↓
+2️⃣ @Component 스캔으로 Producer Bean들 발견
+   ↓
+3️⃣ 각 Producer Bean 생성 (의존성 주입)
+   ↓
+4️⃣ AbstractEventProducer 생성자 호출
+   ↓
+5️⃣ getChannelKey()와 isAsync() 호출
+   ↓
+6️⃣ EventBroker.getOrCreateEventChannel() 호출
+   ↓
+7️⃣ EventChannel 생성 및 등록
+```
+
+
+------
+
+
+
 
 
 > 1️⃣ Producer.produce(event)
