@@ -79,3 +79,6 @@ EventChannel
 > 	 EvnetWatcherList.sendEvent(event)
 
 ---
+
+
+EventChannel을 공유한다.
