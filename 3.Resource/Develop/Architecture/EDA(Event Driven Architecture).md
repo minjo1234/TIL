@@ -2,15 +2,15 @@
 - Guava EventBus Library 
 
 **composition** 
-- Producer - `AbstractEventProducer` 
+- Producer - `AbstractEventProducer` **라우팅만 담당**``
 	- 이벤트 발행자
-- Broker - `DefaultEventBroker` - `AbstractEventBroker`, ``
+- Broker - `DefaultEventBroker` - `AbstractEventBroker`,  - 
 	- 채널 관리자
 	- 채널 관리: EvnetKey별로 독립적인 채널 생성/관리
 	- 동기/비동기 처리: AsyncEventBus vs EventBus 
 	- 모니터링: EventWatcher를 통한 이벤트 감시 
-- Consumer  - `AbstractEventConsumer`
-- Event - `AbstractApplicationEvent`
+- Consumer  - `AbstractEventConsumer` - **처리만 담당**
+- Event - `AbstractApplicationEvent`  - **데이터만 담당**
 	- 이벤트에 필요한 메타데이터 포함
 	- 추적 가능성 
 	- 타입 안정성 
