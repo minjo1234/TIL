@@ -61,6 +61,6 @@ EventChannel
 > 	↓
 > 2️⃣ EventChannel.sendEvent(event)
 > 	↓
-> 3️⃣ E
+> 3️⃣ EventBus, EvnetChannel 
 
 ---
