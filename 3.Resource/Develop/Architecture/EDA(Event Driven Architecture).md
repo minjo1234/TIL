@@ -152,4 +152,6 @@ EventChannel
 - EventBus(다중 트랜잭션)
 	- Consumer 비동기로 작동 
 	- EventAuditor 다른 트랜잭션
-	- 
+
+
+ThreadPoolTaskExecutor
