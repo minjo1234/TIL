@@ -14,7 +14,11 @@ eventBus.post(createAppEvent);
 - Publisher-Subscriber Pattern: Producer → EventBus → Consumer
 
 ```
+
 ```
+
+
+
 
 ---
 
@@ -34,6 +38,7 @@ eventBus.post(createAppEvent);
 	- 이벤트에 필요한 메타데이터 포함
 	- 추적 가능성 
 	- 타입 안정성 
+
 ----
 
 **add option** 
