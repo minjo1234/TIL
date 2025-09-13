@@ -33,6 +33,11 @@ EventChannel
 
 > AbstractEventProducer
 > 구현체Producer
-   
+
+
+**overall action flow** 
+
+> Producer.produce(event)
+> 
 
 ---
