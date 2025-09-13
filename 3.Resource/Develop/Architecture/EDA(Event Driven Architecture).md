@@ -17,9 +17,6 @@ eventBus.post(createAppEvent);
 
 ```
 
-
-
-
 ---
 
 **Present project implementation method** 
@@ -48,11 +45,7 @@ eventBus.post(createAppEvent);
 - EventBus - 이벤트 전달 
 - EvnetOrchestrator 
 
-
-EventChannel 
-EventConsumer 
-EventChannel 
-
+---
 ### EventProducer (이벤트 발행)
 
 
@@ -61,16 +54,9 @@ EventChannel
 > AbstractEventProducer
 > 구현체Producer
 
+---
 
 **overall action flow** 
-
-
-
-Producer - produce()
-Consumer  - consume() 
-Broker(subscribe, evnetChannel)
-EvnetBus
-
 
 ```
 1. Producer.produce(event)
@@ -84,22 +70,9 @@ EvnetBus
 5. EventAuditor → 감사 로그 저장 + 알람 발송
 ```
 
-
-------
-
-
-> 1️⃣ Producer.produce(event)
-> 	↓
-> 2️⃣ EventChannel.sendEvent(event)
-> 	↓
-> 3️⃣ DefaultEventBroker - GuavaEventChannel 
-> 	 EventBus.post(event) 
-> GuavaEventListener	
-> 	 EvnetWatcherList.sendEvent(event)
-
 ---
 
-EventChannel을 공유한다.
+**EventChannel을 공유한다.**
 
 1. Consumer 생성 시: EventChannel 생성 및 Consumer 등록
 2. Producer 생성 시: 기존 EventChannel 조회 및 참조 획득
