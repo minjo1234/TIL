@@ -65,21 +65,25 @@ EventChannel
 **overall action flow** 
 
 
+
+Producer - produce()
+Consumer  - consume() 
+Broker(subscribe, evnetChannel)
+EvnetBus
+
+
 ```
-1️⃣ Spring 컨테이너 시작
+1. Producer.produce(event)
    ↓
-2️⃣ @Component 스캔으로 Producer Bean들 발견
+2. EventChannel.sendEvent(event)
    ↓
-3️⃣ 각 Producer Bean 생성 (의존성 주입)
+3. EventBus.post(event) + EventWatcher.eventSent(event)
    ↓
-4️⃣ AbstractEventProducer 생성자 호출
+4. @Subscribe → Consumer.consume(event)
    ↓
-5️⃣ getChannelKey()와 isAsync() 호출
-   ↓
-6️⃣ EventBroker.getOrCreateEventChannel() 호출
-   ↓
-7️⃣ EventChannel 생성 및 등록
+5. EventAuditor → 감사 로그 저장 + 알람 발송
 ```
+
 
 ------
 
