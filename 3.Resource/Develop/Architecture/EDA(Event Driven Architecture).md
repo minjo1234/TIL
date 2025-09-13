@@ -15,9 +15,9 @@ eventBus.post(createAppEvent);
 
 ```
 
-EventTasker 
-EventConsumer 
-EventWatcher 
+
+EventListener - EventConsumer(API용도 복잡한 로직은 Takser) - EventTasker  
+EventWatcher -EventAuditor(감사 로그)
 ```
 
 ---
