@@ -170,6 +170,6 @@ return RegexUtil.getKeyValueToString(searchFields);
 ---
 
 저희 프로젝트에서는:
-- 전략 패턴: 외부 시스템 연결 테스트 (AD, LDAP 등)
+- 전략 패턴: 외부 시스템 연결 - ConnectionInfo 테스트 (AD, LDAP 등)
 - 템플릿 메서드 패턴: 이메일 발송 (공통 흐름 + 타입별 차이)
-으로 활용했습니다."
+으로 활용했습니다." - sendEmail 
