@@ -101,3 +101,31 @@ VM (마스터 테이블) ← 여전히 존재
 │   ├── dimension_project
 │   ├── dimension_organization
 │   └── dimension_zone
+
+
+```
+-- 1. 시간 기반 인덱스 (가장 중요)
+
+CREATE INDEX idx_fact_vm_metric_day_createdTime ON fact_vm_metric_day(createdTime);
+
+-- 2. 외래키 인덱스 (조인용)
+
+CREATE INDEX idx_fact_vm_metric_day_vmId ON fact_vm_metric_day(vmId);
+
+CREATE INDEX idx_fact_vm_metric_day_projectId ON fact_vm_metric_day(projectId);
+
+CREATE INDEX idx_fact_vm_metric_day_organizationId ON fact_vm_metric_day(organizationId);
+```
+
+
+```
+-- 자주 함께 사용되는 조건들의 조합
+
+CREATE INDEX idx_fact_vm_metric_day_composite ON fact_vm_metric_day(createdTime, projectId, organizationId);
+```
+
+```
+-- 자주 조회되는 컬럼들을 인덱스에 포함
+
+CREATE INDEX idx_fact_vm_metric_day_covering ON fact_vm_metric_day(createdTime, projectId, organizationId, cpuUsage, memoryUsage);
+```
