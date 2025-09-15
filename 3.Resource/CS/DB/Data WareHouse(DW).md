@@ -134,4 +134,32 @@ CREATE INDEX idx_fact_vm_metric_day_covering ON fact_vm_metric_day(createdTime, 
 
 - 커버링 인덱스란 무엇인지
 - 시간에다가 설정하는 이유
-``
+
+
+```
+-- 월별 파티셔닝 예시
+
+CREATE TABLE fact_vm_metric_day (
+
+vmId BIGINT,
+cpuUsage DOUBLE,
+createdTime TIMESTAMP
+
+) PARTITION BY RANGE (YEAR(createdTime) * 100 + MONTH(createdTime)) (
+PARTITION p202401 VALUES LESS THAN (202402),
+PARTITION p202402 VALUES LESS THAN (202403),
+PARTITION p202403 VALUES LESS THAN (202404)
+);
+```
+
+```
+-- 쿼리: 2024년 1월 데이터만 조회
+
+SELECT * FROM fact_vm_metric_day
+WHERE createdTime BETWEEN '2024-01-01' AND '2024-01-31';
+
+-- 실행 과정:
+-- 1. 파티션 프루닝: p202401 파티션만 접근
+-- 2. 인덱스 사용: 해당 파티션 내에서 createdTime 인덱스 활용
+-- 3. 결과: 전체 테이블 스캔 없이 필요한 부분만 접근
+```
