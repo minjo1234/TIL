@@ -8,7 +8,12 @@
 https://pearlluck.tistory.com/275
 
 
-DB
+DB = 
 DW = 데이터를 분석하기 좋은 구조로 설계한다.
 
-대표적인 구조 : 스타 스키마, 스노우 
+대표적인 구조 : 
+- 스타(star) 스키마,
+-  스노우 플레이크(snowflake) 스키마
+
+
+
