@@ -8,15 +8,18 @@
 https://pearlluck.tistory.com/275
 
 
-DB = 
+DB  = 
 DW = 데이터를 분석하기 좋은 구조로 설계한다.
 
 **대표적인 구조 :**
 
-- 스타(star) 스키마, - 
+- 스타(star) 스키마, - star schema 
 -  스노우 플레이크(snowflake) 스키마 - 눈송이 schema 
 
 스타 스키마는 정규화를 사용하지 않고, 
 스노우 플레이크 스키마는 데이터의 중복을 제거하기 위해 정규화를 사용한다.
 
+Star schema vs. Snowflake schema
 
+Star 스키마 차원 테이블은 정규화되지 않고 Snowflake 스키마 차원 테이블은 정규화된다.  
+: 눈송이 스키마는 정규화를 통해 데이터 중복성을 제거한다. 이에 반해 스타 스키마에서는 정규화가 수행되지 않아 데이터가 중복된다.
