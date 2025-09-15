@@ -129,3 +129,9 @@ CREATE INDEX idx_fact_vm_metric_day_composite ON fact_vm_metric_day(createdTime,
 
 CREATE INDEX idx_fact_vm_metric_day_covering ON fact_vm_metric_day(createdTime, projectId, organizationId, cpuUsage, memoryUsage);
 ```
+
+
+
+- 커버링 인덱스란 무엇인지
+- 시간에다가 설정하는 이유
+``
