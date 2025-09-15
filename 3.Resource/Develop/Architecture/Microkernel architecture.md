@@ -17,3 +17,5 @@
 StandAlone ? 
 point-to-point 란 
 entry-point class 
+runtime-based  plugin-add one 방식말고 다른것도 있나 찾아보자.
+
