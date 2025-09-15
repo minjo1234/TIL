@@ -159,17 +159,4 @@ return RegexUtil.getKeyValueToString(searchFields);
 |예시|VM 처리 vs Segment 처리|VM 검색 vs Segment 검색|
 
 
-### 면접질문 
 
-> "전략 패턴은 인터페이스 기반으로 전체 알고리즘을 교체하는 패턴이고,
-템플릿 메서드 패턴은 추상 클래스 기반으로 공통 로직은 상위에서,
-변하는 부분만 하위에서 구현하는 패턴입니다.
-
-
-
----
-
-저희 프로젝트에서는:
-- 전략 패턴: 외부 시스템 연결 - ConnectionInfo 테스트 (AD, LDAP 등)
-- 템플릿 메서드 패턴: 이메일 발송 (공통 흐름 + 타입별 차이)
-으로 활용했습니다." - sendEmail 
