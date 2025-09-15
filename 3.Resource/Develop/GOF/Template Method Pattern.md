@@ -1,7 +1,7 @@
 
 ```java
-// 추상 클래스 (공통 메서드 + 추상 메서드)
 
+// 추상 클래스 (공통 메서드 + 추상 메서드)
 public abstract class AbstractMailSender<T> {
 
 // 공통 로직 (Template Method)
@@ -21,15 +21,13 @@ protected abstract EmailSendingInfo createEmailSendingInfo(T parameter);
 public class FindMyIdMailSender extends AbstractMailSender<User> {
 
 @Override
-
 protected Map<String, Object> createTemplateModel(User user) { }
-
 @Override
-
 protected EmailSendingInfo createEmailSendingInfo(User user) { }
-
 }
+
 ```
+
 ### 상위 클래스(추상 클래스)
 
 
