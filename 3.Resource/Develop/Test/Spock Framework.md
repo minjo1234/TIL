@@ -54,3 +54,24 @@ Spock 의 장점
 | expect | 기대하는 수행 동작                                                                |
 | where  | 검증하고 싶은 파라미터 값을 추가하여, 조건과 결과만 바꿔가며 테스트 할 수 있다.                            |
 |        |                                                                           |
+
+where 조건이 존재하기 때문에 ㅌ
+
+```groovy 
+def "테스트 1번"() {  
+    given:  
+    def testValue = 1  
+  
+    when:  
+    def returnValue = testValue + param  
+  
+    then:  
+    returnValue == result  
+  
+    where:  
+    param | result  
+    0     | 1  
+    10    | 11  
+    100   | 101  
+}
+```
