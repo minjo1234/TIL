@@ -29,7 +29,7 @@ Spock 의 장점
 
 - Junit - java의 퓨어 자바 코드에 비해 **간결한 Spock - groovy로 작성** 
 - Junit은 단위 테스트만 지원한다면, Spock은 **유닛테스트, 통합 테스트, Mocking, Stubbing을 함께 지원**한다.
-- **가독성이 좋다.** (given when then 구조), junit은 명시적으로 구분한다
+- **가독성이 좋다.** (given when then 구조), junit은 주석을 이용하여 명시적으로 구분한다.
 
 ---
 
@@ -37,3 +37,10 @@ Spock 의 장점
 
 - BDD의 full name은 무엇인지 
 - java 퓨어코드 vs groovy 문법의 차이 
+
+---
+
+### Basic Grammer 
+
+- def : 동적 타입을 선언하는 예약어 
+- setup() 텟
