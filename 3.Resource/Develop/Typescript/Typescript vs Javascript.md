@@ -18,3 +18,4 @@ Typescript vs Javascript 정리  https://won-percent.tistory.com/213
 
 
 
+현재 내
