@@ -43,4 +43,7 @@ Spock 의 장점
 ### Basic Grammer 
 
 - def : 동적 타입을 선언하는 예약어 
-- setup() 텟
+
+- setup() 테스트 클래스가 생성될 때에 setup() 안에 메서드 안의 코드가 가장 먼저 실행된다. (유닛 테스트가 실행되기 전에 선행되어야 할 코드를 작성해준다.)
+
+- given, when, then, expect 
