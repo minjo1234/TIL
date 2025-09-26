@@ -24,3 +24,7 @@ Typescript vs Javascript 정리  https://won-percent.tistory.com/213
 
 eventViewRepo
 근데 repository들은 왜 의존성을 저렇게 주입해줘야해?
+
+Mock 객체는 스프링에서 관리하지않기때문에 의존성을 직접 주입해줘야한다. 그래서 Mock(의존성주입을 요한다.)
+
+그렇다면 mock객체로 insert된 값을 
