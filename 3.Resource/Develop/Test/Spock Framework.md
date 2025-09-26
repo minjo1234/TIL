@@ -81,8 +81,8 @@ def "테스트 1번"() {
 
 ### Object  (Mock vs Stub)
 
-- mock (stubbing vs mocking) - 메서드에서 수신하는 호출을 등록해서 실제 호출이 잘 되었느닞 
-- stub (stubbing )
+- mock (stubbing vs mocking) - 메서드에서 수신하는 호출을 등록해서 실제 호출이 잘 되었는지(호출여부, 호출 횟수, 호출 인자)
+- stub (stubbing ) - 호출 결과를 고정된 값으로 미리 정의, 실제 호출 여부나 횟수를 신경 쓰지 않는다.
 
 stub은 몇 번 호출되었는지 물어볼 수 없는 차이가 존재한다.
 
