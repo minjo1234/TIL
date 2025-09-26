@@ -108,4 +108,4 @@ stub은 몇 번 호출되었는지 물어볼 수 없는 차이가 존재한다.
 
 대
 
-Mock vs Stub (I)
+Mock vs Stub (Inflearn) : https://www.inflearn.com/community/questions/1257985/mock과-stub의-차이가-아직-잘-구분되지-않습니다?srsltid=AfmBOorP4zYvDdbFegNlNvvkM3Noypue7QIC5zpycdo8SOxtpKG0CEvc
