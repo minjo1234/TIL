@@ -33,13 +33,6 @@ Spock 의 장점
 
 ---
 
-### Question 
-
-- BDD의 full name은 무엇인지 
-- java 퓨어코드 vs groovy 문법의 차이 
-
----
-
 ### Basic Grammer 
 
 - def : 동적 타입을 선언하는 예약어 
@@ -90,3 +83,20 @@ def "테스트 1번"() {
 
 - mock (stubbing vs mocking)
 - stub (stubbing )
+
+stub은 몇 번 호출되었는지 물어볼 수 없는 차이가 존재한다.
+
+
+
+
+
+
+
+---
+
+
+### Question 
+
+- BDD의 full name은 무엇인지 
+- java 퓨어코드 vs groovy 문법의 차이 
+- stubbing vs mocking 
