@@ -127,3 +127,14 @@ Mock 이 에러가 나는 경우
 - 메서드가 파라미터를 요구했는데 매핑이 잘못된 경우
 - 리턴 타입과 다른 타입을 지정한 경우 (String <-> int)
 
+
+---
+
+실제 테스트 대상은 new로 객체를 생성한다.
+
+```groovy 
+
+EventViewSaver eventViewSaver = new EventViewSaver();
+
+
+```
