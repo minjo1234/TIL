@@ -27,8 +27,9 @@ Spock은 BDD 기반 - 비즈니스 요구사항에 집중하여 테스트 케이
 
 Spock 의 장점
 
-- Junit - java의 퓨어 자바 코드에 비해 간결한 Spock - groovy로 작성 
-
+- Junit - java의 퓨어 자바 코드에 비해 **간결한 Spock - groovy로 작성** 
+- Junit은 단위 테스트만 지원한다면, Spock은 **유닛테스트, 통합 테스트, Mocking, Stubbing을 함께 지원**한다.
+- **가독성이 좋다.** (given when then 구조), junit은 명시적으로 구분한다
 
 ---
 
