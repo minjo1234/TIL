@@ -1,4 +1,3 @@
-
 ### The difference between Javascript and Typescript 
 
 Differences in whether the type exists or not 
@@ -13,10 +12,7 @@ Differences in whether the type exists or not
 
 ### Javascript Advantages 
 
-
 Typescript vs Javascript 정리  https://won-percent.tistory.com/213
-
-
 
 
 
