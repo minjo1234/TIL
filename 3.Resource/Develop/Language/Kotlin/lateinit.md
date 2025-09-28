@@ -24,11 +24,20 @@ fun main() {
 
 #### 사용법
 
-1. 먼저 lateinit 으로 사용하려고 하는 형태만 지정한다.
+	1.먼저 lateinit 으로 사용하려고 하는 형태만 지정한다.
 
 ```kotlin
 lateinit var text: String 
 ```
 
-1.  val로 변수로 값을 지정 
-2. 변수 값에 수정이 필요하다면 다시 지정이 가능하다.
+	2.val로 변수로 값을 지정 
+
+```kotlin
+val result1 = 30 
+```
+
+	3.변수 값에 수정이 필요하다면 다시 지정이 가능하다.
+
+```kotlin
+val result2 = 30 
+```
