@@ -162,6 +162,8 @@ return RegexUtil.getKeyValueToString(searchFields);
 
 ---
 
+### Strategy Pattern 부분
+
 ```java
 // 1. 인터페이스 정의
 
@@ -191,3 +193,32 @@ public CollectedResource convert(...) {
 Map<AriaResourceType, AriaResourceHandler> handlerMap = ...;
 AriaResourceHandler handler = handlerMap.get(resourceType); // 동적 할당!
 ```
+
+### Template Method Pattern 부분
+
+```java
+// 추상 클래스에서 공통 유틸리티 메서드 제공
+public abstract class AbstractAriaResourceHandler implements AriaResourceHandler {
+
+// 공통 로직 (템플릿 메서드들)
+protected String extractUuidFromUrl(String resourceUrl) { ... }
+protected List<String> extractAdditionalDeploymentUuids(...) { ... }
+
+}
+
+  
+
+// 각 구현체에서 공통 메서드들을 상속받아 사용
+public class AriaProjectHandler extends AbstractAriaResourceHandler {
+@Override
+public CollectedResource convert(...) {
+
+// 공통 메서드들을 상속받아 사용
+String uuid = extractUuidFromUrl(resource.getPropertiesStringItem("vpcProfile"));
+
+List<String> additionalIds = extractAdditionalDeploymentUuids(resource);
+// ...
+	}
+}
+```
+---
