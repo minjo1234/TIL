@@ -90,8 +90,8 @@ List<String> additionalIds = extractAdditionalDeploymentUuids(resource);
 | 일관성   | 낮음 (각자 다름)       | 높음 (구조 동일)              |
 |       | 예측하기 어려움         | 일관성 보장                  |
 |       |                  | 유연성 제한                  |
-공통된 부모의 객체로 묶이면서 공통된 메서드를 가지지만 일관성이 낮은 경우 -> strategy 
-공통된 부모의 객체로 묶이면서 공통된 메서드를 가지지만 일관성이 높은 경우 -> template method 
+공통된 부모의 객체로 묶이면서 공통된 메서드를 가지지만 일관성이 낮은 경우, 동적할당 -> strategy 
+공통된 부모의 객체로 묶이면서 공통된 메서드를 가지지만 일관성이 높은 경우, 정적할당 -> template method 
 
 
 
