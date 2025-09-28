@@ -1,5 +1,9 @@
 
-**Blog Name : 실무에서 보는 디자인 패턴: Template Method vs Strategy Pattern**
+**Blog Name : Template Method vs Strategy Pattern: 언제 어떤 패턴을 사용할까?**
+
+**Background** 
+
+- 실무에서 자연스럽게 로직을 구현하는중 
 
 
 #### ❌ 단점
