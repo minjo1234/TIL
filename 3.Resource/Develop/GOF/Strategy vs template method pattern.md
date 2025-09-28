@@ -110,17 +110,11 @@ public class CollectedResourceSegment implements CollectedResource {
 
 ```java
 @JsonIgnore
-
 @Override
-
 public String getSearchField() {
-
 Map<String,Object> searchFields = new HashMap<>();
-
 searchFields.put("cidr", networkCidr);
-
 return RegexUtil.getKeyValueToString(searchFields);
-
 }
 ```
 
@@ -134,24 +128,13 @@ return RegexUtil.getKeyValueToString(searchFields);
 |       | 예측하기 어려움         | 일관성 보장                  |
 |       |                  | 유연성 제한                  |
 
-구조제약이 있냐 없냐의 차이 
 
-
-
-
-완전히 다른 방식이 필요한 경우 
-런타임에 전략 변경이 필요한지
-각 전략이 독립적으로 진화 
-
-공통 구조
-일관성 
-공통 로직
-
-|구분|Strategy Pattern|Template Method Pattern|
-|---|---|---|
-|변경 의미|"어떤 알고리즘을 사용할까?"|"어떤 구현체를 사용할까?"|
-|변경 결과|완전히 다른 처리 방식|같은 구조, 다른 내용|
-|예시|VM 처리 vs Segment 처리|VM 검색 vs Segment 검색|
+| 구분    | Strategy Pattern    | Template Method Pattern |
+| ----- | ------------------- | ----------------------- |
+| 변경 의미 | "어떤 알고리즘을 사용할까?"    | "어떤 구현체를 사용할까?"         |
+| 변경 결과 | 완전히 다른 처리 방식        | 같은 구조, 다른 내용            |
+| 예시    | VM 처리 vs Segment 처리 | VM 검색 vs Segment 검색     |
+|       |                     |                         |
 
 
 
