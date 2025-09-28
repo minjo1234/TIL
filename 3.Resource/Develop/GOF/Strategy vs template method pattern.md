@@ -160,3 +160,34 @@ return RegexUtil.getKeyValueToString(searchFields);
 
 
 
+---
+
+```java
+// 1. 인터페이스 정의
+
+public interface AriaResourceHandler {
+	AriaResourceType getType();
+	CollectedResource convert(AriaResourceResponse.ResourceContent resource);
+}
+
+// 2. 각 전략 구현체들이 독립적으로 convert 메서드 구현
+public class AriaProjectHandler implements AriaResourceHandler {
+
+@Override
+public CollectedResource convert(...) {
+// Project 전용 변환 로직
+	}
+}
+
+public class AriaVPCHandler implements AriaResourceHandler {
+
+@Override
+public CollectedResource convert(...) {
+// VPC 전용 변환 로직
+	}
+}
+
+// 3. 런타임에 동적으로 전략 선택
+Map<AriaResourceType, AriaResourceHandler> handlerMap = ...;
+AriaResourceHandler handler = handlerMap.get(resourceType); // 동적 할당!
+```
