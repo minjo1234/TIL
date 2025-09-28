@@ -136,12 +136,7 @@ return RegexUtil.getKeyValueToString(searchFields);
 
 구조제약이 있냐 없냐의 차이 
 
-#### 1. 완전히 다른 처리 방식이 필요한 경우
 
-### Strategy Pattern을 선택해야 하는 경우
-
-#### 2. 런타임에 전략 변경이 필요한 경우
-#### 3. 각 전략이 독립적으로 진화해야 하는 경우
 
 
 완전히 다른 방식이 필요한 경우 
@@ -193,6 +188,12 @@ public CollectedResource convert(...) {
 Map<AriaResourceType, AriaResourceHandler> handlerMap = ...;
 AriaResourceHandler handler = handlerMap.get(resourceType); // 동적 할당!
 ```
+
+선택하는 경우 
+#### 1. 완전히 다른 처리 방식이 필요한 경우
+#### 2. 런타임에 전략 변경이 필요한 경우
+#### 3. 각 전략이 독립적으로 진화해야 하는 경우
+
 
 ### Template Method Pattern 부분
 
