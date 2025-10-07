@@ -40,6 +40,11 @@ Prefetching이란 Instant Loading(즉시 전환)을 가능하게 해주는 Next.
 
 이것을 극복하기 위해   [streaming](https://nextjs.org/docs/app/getting-started/linking-and-navigating#streaming). streaming 을 사용할 수 있다.
 
+---
+
+### Streaming 
+
+
 
 ---
 ### Client-Side Transitions 
