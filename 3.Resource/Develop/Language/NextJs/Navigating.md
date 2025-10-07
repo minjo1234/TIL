@@ -1,7 +1,7 @@
 
 Next.js offer four options for waiting people 
 
-- prefetching 
+- prefetching (미리 데이터가 로드되어 페이지 로드시간을 단축)
 - streaming 
 - client-side transitions 
 - server-rendering 
@@ -15,4 +15,7 @@ Traditionally, server-rendered page triggers a full page load,
 Next.js avoids this with client-side transitions using the `<Link>` component 
 
 -  Keeping any shared layouts and UI.
-- Replacing the current page with the prefetched loading state or a new page if available.
+- Replacing the current page with the prefetched loading state or a new page if available. 
+
+
+Client-side transitions 
