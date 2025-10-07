@@ -35,7 +35,9 @@ Prefetching이란 Instant Loading(즉시 전환)을 가능하게 해주는 Next.
 ```
 
 - Static Route : 전체 route prefetching 
-- Dynamic Route : prefetching
+- Dynamic Route : prefetching은 스킵되고 부분적인 prefetched를 이용한다.
+	(부분적인 prefetched를 스킵하게 되면, Next.js는 )
+
 
 
 ---
