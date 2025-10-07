@@ -55,4 +55,4 @@ Client-side transitions are what makes a server-rendered apps feel like client-r
 ---
 
 
-Next.js 공ㅅ
+Next.js 공식문서 : https://nextjs.org/docs/app/getting-started/linking-and-navigating#client-side-transitions
