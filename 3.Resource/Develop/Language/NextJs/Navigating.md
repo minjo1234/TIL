@@ -45,7 +45,8 @@ Prefetching이란 Instant Loading(즉시 전환)을 가능하게 해주는 Next.
 ### Streaming 
 
 동적 라우트(dynamic route)에서 전체의 렌더링을 기다리다 보면 느릴 수 있다. 
-이를 극복하기 위해 partially prefetched를 이용하여 서버 낭비를 줄이고, 화면중에서 어떠한 부분은 곧 바로 보이게 
+이를 극복하기 위해 partially prefetched를 이용하여 서버 낭비를 줄이고, 화면중에서 어떠한 부분은 곧 바로 보이게 되고, 다른 부분은 나중에 보이게 되는 구조를 지니게된다.)
+
 
 ---
 ### Client-Side Transitions 
