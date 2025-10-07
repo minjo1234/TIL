@@ -9,6 +9,6 @@ Next.js offer four options for waiting people
 
 
 ---
+### Client-Side Transitions 
 
-
-### C
+Traditionally, server-rendered page 
