@@ -21,6 +21,13 @@ client must wait for the servers to respond before the new route can be shown,
 this delay by  [prefetching](https://nextjs.org/docs/app/getting-started/linking-and-navigating#prefetching) routes and visit the performing client-side-transitions 
 
 ---
+### Prefeching 
+
+
+
+
+
+---
 ### Client-Side Transitions 
 
 Traditionally, server-rendered page triggers a full page load,
