@@ -16,8 +16,9 @@ rendaring has a two types
 
 
 The trade off(하나를 가지기 위해서 하나를 포기해야 하는) server rendaring is that the 
-client must 
+client must wait for the servers to respond before the new route can be shown,
 
+this delay by  [prefetching](https://nextjs.org/docs/app/getting-started/linking-and-navigating#prefetching) routes and visit the performing client-side-transitions 
 
 ---
 ### Client-Side Transitions 
