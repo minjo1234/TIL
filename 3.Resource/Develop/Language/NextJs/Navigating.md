@@ -34,6 +34,9 @@ Prefetching이란 Instant Loading(즉시 전환)을 가능하게 해주는 Next.
 <a href="/contact">Contact</a> 
 ```
 
+- Static Route : 전체 route prefetching 
+- Dynamic Route : prefetching
+
 
 ---
 ### Client-Side Transitions 
