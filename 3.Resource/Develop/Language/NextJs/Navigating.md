@@ -36,8 +36,9 @@ Prefetching이란 Instant Loading(즉시 전환)을 가능하게 해주는 Next.
 
 - Static Route : 전체 route prefetching 
 - Dynamic Route : prefetching은 스킵되고 부분적인 prefetched를 이용한다.
-	(부분적인 prefetched를 스킵하게 되면, Next.js는 )
+	(부분적인 prefetched를 스킵하게 되면, Next.js는 유저가 방문하지 않아도 될 페이지의 불필요한 작업을 피할 수 있다, 그러나 사용자 입장에서는 앱이 작동하지 않는것처럼 느낄 수 있다. (느려서)
 
+이것을 극복하기 위해   [streaming](https://nextjs.org/docs/app/getting-started/linking-and-navigating#streaming). streaming 을 사용할 수 있다.
 
 
 ---
@@ -52,3 +53,6 @@ Next.js avoids this with client-side transitions using the `<Link>` component
 Client-side transitions are what makes a server-rendered apps feel like client-rendered apps 
 
 ---
+
+
+Next.js 공ㅅ
