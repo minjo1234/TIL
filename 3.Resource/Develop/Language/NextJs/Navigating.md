@@ -12,7 +12,11 @@ Next.js offer four options for waiting people
 rendaring has a two types 
 
 - Static  Rendaring - revalidation (cached data)
-- Dynamic  Rendaring  
+- Dynamic  Rendaring  - clicnet request 
+
+
+The trade off(하나를 가지기 위해서 하나를 포기해야 하는) server rendaring is that the 
+client must 
 
 
 ---
