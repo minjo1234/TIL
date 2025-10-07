@@ -6,6 +6,13 @@ Next.js offer four options for waiting people
 - client-side transitions 
 - server-rendering 
 
+---
+### Server-Rendaring 
+
+rendaring has a two types 
+
+- Static  Rendaring - revalidation (cached data)
+- Dynamic  Rendaring  
 
 
 ---
