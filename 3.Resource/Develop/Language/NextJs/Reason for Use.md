@@ -6,3 +6,5 @@
 - Image, Font Optimize 
 
 
+
+- App vs Page Routing : https://www.jadru.com/diffrent-approuter-and-pagerouter
