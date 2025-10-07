@@ -23,7 +23,9 @@ this delay by  [prefetching](https://nextjs.org/docs/app/getting-started/linkin
 ---
 ### Prefeching 
 
-Prefetching이란 Instant Loading을 가느
+Prefetching이란 Instant Loading(즉시 전환)을 가능하게 해주는 Next.js의 특징이다.
+새로운 페이지로의 로드전에 클라이언트가 prefetch 신호를 보내 서버로부터 데이터를 가져오는 것이다.
+
 
 
 ---
