@@ -23,7 +23,7 @@ this delay by  [prefetching](https://nextjs.org/docs/app/getting-started/linkin
 ---
 ### Prefeching 
 
-Prefetching이란 
+Prefetching이란 Instant Loading을 가느
 
 
 ---
