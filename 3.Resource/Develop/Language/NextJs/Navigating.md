@@ -23,8 +23,7 @@ this delay by  [prefetching](https://nextjs.org/docs/app/getting-started/linkin
 ---
 ### Prefeching 
 
-the data to render the next route is already available client side.
-
+Prefetching이란 
 
 
 ---
