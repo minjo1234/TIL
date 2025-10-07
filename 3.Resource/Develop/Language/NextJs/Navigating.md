@@ -17,5 +17,6 @@ Next.js avoids this with client-side transitions using the `<Link>` component
 -  Keeping any shared layouts and UI.
 - Replacing the current page with the prefetched loading state or a new page if available. 
 
+Client-side transitions are what makes a server-rendered apps feel like client-rendered apps 
 
-Client-side transitions 
+---
