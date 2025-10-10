@@ -143,8 +143,15 @@ List<String> additionalIds = extractAdditionalDeploymentUuids(resource);
 공통된 부모,  메서드를 가지지만 일관성이 낮은 경우, 동적할당 -> strategy 
 공통된 부모, 메서드를 가지지만 일관성이 높은 경우, 정적할당 -> template method 
 
+PortFolio를 하나의 블로그로 올리기. 경로만 주면되니까 좋을듯 ?
 
 
 ---
 
 제어흐름 : https://happy-coding-day.tistory.com/93
+
+---
+
+
+
+
