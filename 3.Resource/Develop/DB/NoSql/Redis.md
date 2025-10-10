@@ -83,15 +83,20 @@ redis:
 
 
 
-### Docker 실행 명령어
+### Docker 실행 명령어 - local 
 
 
+
+ 
 ```
 docker run -d \
   --name redis_commander \
+  --network net \
   -p 8082:8081 \
   -e REDIS_HOSTS=local:redis:6379 \
   rediscommander/redis-commander:latest
 ```
+
+
 ---
 
