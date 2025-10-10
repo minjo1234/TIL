@@ -185,5 +185,7 @@ ConcurrentHashMap은 이를 고려하여 설계가 되어있다. CAS(Compare-And
 
 5.Spring Batch 
 - 30개 이상의 @Scheduled가 존재한다.
-- 스케쥴러 실행 이력 관리
-- 모니터링
+- 스케쥴러 간 의존성 불명확 - ? 
+- 스케쥴러 실행 이력 관리 - ? 
+- 모니터링 - ? 
+
