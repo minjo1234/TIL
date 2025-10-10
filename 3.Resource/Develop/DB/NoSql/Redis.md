@@ -36,7 +36,7 @@ implementation group: 'org.springframework.boot', name: 'spring-boot-starter-dat
 
 
 Redis에서 데이터를 가져올때는 LinkedHashMap으로 역직렬화 된다.
-
+타입정
 
 ---
 ### Docker-Compose 구성
