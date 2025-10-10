@@ -35,6 +35,9 @@ implementation group: 'org.springframework.boot', name: 'spring-boot-starter-dat
 - 캐시 체크 등 캐시관련 로직 존재 시 - RedisTemplate를 이용한다.
 
 
+Redis에서 데이터를 가져올때는 LinkedHashMap으로 역직렬화 된다.
+
+
 ---
 ### Docker-Compose 구성
 
