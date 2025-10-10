@@ -189,3 +189,6 @@ ConcurrentHashMap은 이를 고려하여 설계가 되어있다. CAS(Compare-And
 - 스케쥴러 실행 이력 관리 - ? 
 - 모니터링 - ? 
 
+6.Monitoring 
+
+Spring Boot Actuator -> Prometheus -> Grafana 
