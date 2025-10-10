@@ -1,6 +1,14 @@
 
 
 
+
+
+
+
+
+
+---
+
 ### Docker-Compose 구성
 
 
@@ -26,6 +34,7 @@ redis:
       interval: 10s
       timeout: 3s
       retries: 3
+      
   # Redis Commander - GUI 관리 도구 (선택사항, 개발 환경에서만 사용 권장)
   redis-commander:
     image: rediscommander/redis-commander:latest
@@ -42,3 +51,4 @@ redis:
     profiles:
       - dev  # 개발 환경에서만 실행
 ```
+
