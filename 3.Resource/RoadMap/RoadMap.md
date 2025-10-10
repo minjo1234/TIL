@@ -9,6 +9,10 @@
 
 ### Infra 
 
+- k8s 
+- virtual machine 
+- 
+
 
 ### Monitoring 
 
