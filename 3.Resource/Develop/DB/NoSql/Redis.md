@@ -16,7 +16,7 @@ implementation group: 'org.springframework.boot', name: 'spring-boot-starter-dat
 
 사용법 : @Cacheable vs RedisTemplate 
 
-@Cacheable 선언적 캐싱 
+@Cacheable 선언적 캐싱  
 
 **장점**
 
@@ -28,7 +28,11 @@ implementation group: 'org.springframework.boot', name: 'spring-boot-starter-dat
 
 - 조건부 캐싱이 복잡하다.
 - 캐시가 있는지 없는지 체크가 어렵다 - ?
-- 
+
+그럼 언제 @Cacheable을 사용할까 ?
+
+- 단순 조회 결과 캐싱 - @Cacheable 
+- 캐시 체크 등 체크관련 로직이 
 
 
 ---
