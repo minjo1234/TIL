@@ -193,3 +193,6 @@ Road Map
 6.Monitoring 
 
 Spring Boot Actuator -> Prometheus -> Grafana 
+
+
+7.플러그인 동적 로딩 
