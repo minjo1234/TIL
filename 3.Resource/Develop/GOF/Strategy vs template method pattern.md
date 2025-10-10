@@ -171,4 +171,5 @@ Redis 도입
 현재 : ConcurrentHashMap 기반 인메모리 캐시를 이용중 
 
 HashMap은 동시성 제어가 고려되어 있지않게 설계가 되어있지만
-ConcurrentHashMap은 이를 고려하여 설계가 되어있다.
+ConcurrentHashMap은 이를 고려하여 설계가 되어있다. CAS(Compare-And-Swap) 같은 비동기적인 동시성 제어 기업을 사용한다.
+
