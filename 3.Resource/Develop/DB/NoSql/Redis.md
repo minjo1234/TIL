@@ -39,7 +39,7 @@ implementation group: 'org.springframework.boot', name: 'spring-boot-starter-dat
 기본적으로 Spring.data.redis 에서도 RedisTemplate를 제공하지만 
 커스텀한 RedisTemplate를 @Bean을 이용해서 구현하도록 한다.
 
-커스텀하게 구현하는 이유은
+커스텀하게 구현하는 이유는 LocalDateTime - 추후 작성예정 
 
 
 Redis에서 데이터를 가져올때는 LinkedHashMap으로 역직렬화 된다.
