@@ -35,3 +35,9 @@ ObjectsUtils.isEmpty
 
 LinkedHashSet - 순서유지, HashSet보다 성능은 느림, 중복은 허용하지않음
 HashSet - 순서를 보장하지 않음**, 접근 속도 빠르다.
+
+---
+
+### SingleTonList 
+
+- 크기작음 Immuable  - https://prohannah.tistory.com/85
