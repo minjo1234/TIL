@@ -41,3 +41,13 @@ HashSet - 순서를 보장하지 않음**, 접근 속도 빠르다.
 ### SingleTonList 
 
 - 크기작음 Immuable  - https://prohannah.tistory.com/85
+
+
+---
+
+### Enum vs Static final 
+
+특정 집합이 존재, 연관된 상수들  
+static final : 
+특정 집합이 존재하지 않고, 
+원시타입(단순 문자열 숫자 타입)
