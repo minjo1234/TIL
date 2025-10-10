@@ -34,9 +34,15 @@ implementation group: 'org.springframework.boot', name: 'spring-boot-starter-dat
 - 단순 조회 결과 캐싱 - @Cacheable 
 - 캐시 체크 등 캐시관련 로직 존재 시 - RedisTemplate를 이용한다.
 
+**RedisTemplate 구현**
+
+기본적으로 
+
 
 Redis에서 데이터를 가져올때는 LinkedHashMap으로 역직렬화 된다.
 타입정보를 같이 저장시켜 직렬화시 객체로 받아들인다.
+
+
 
 ---
 ### Docker-Compose 구성
@@ -82,16 +88,15 @@ redis:
 ```
 
 
-
 ### Docker 실행 명령어 - local 
 
 > redis 
 > 
 ```
 docker run -d \
-  --name redis 
-  --network net \
-  -p 6379:6379
+   --name redis 
+   -p 6379:6379 
+   redis:latest
 ```
 
  > redis-commander 
