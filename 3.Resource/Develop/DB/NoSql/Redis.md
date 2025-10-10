@@ -32,7 +32,7 @@ implementation group: 'org.springframework.boot', name: 'spring-boot-starter-dat
 그럼 언제 @Cacheable을 사용할까 ?
 
 - 단순 조회 결과 캐싱 - @Cacheable 
-- 캐시 체크 등 체크관련 로직이 
+- 캐시 체크 등 캐시관련 로직 존재 시 - RedisTemplate를 이용한다.
 
 
 ---
