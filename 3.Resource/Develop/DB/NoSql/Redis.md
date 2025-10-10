@@ -85,9 +85,16 @@ redis:
 
 ### Docker 실행 명령어 - local 
 
+> redis 
+> 
+```
+docker run -d \
+  --name redis 
+  --network net \
+  -p 6379:6379
+```
 
-
- 
+ > redis-commander 
 ```
 docker run -d \
   --name redis_commander \
