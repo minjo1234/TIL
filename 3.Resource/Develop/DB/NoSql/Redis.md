@@ -27,7 +27,8 @@ implementation group: 'org.springframework.boot', name: 'spring-boot-starter-dat
 **단점**
 
 - 조건부 캐싱이 복잡하다.
-- 캐시가 있는지 없는지 
+- 캐시가 있는지 없는지 체크가 어렵다 - ?
+- 
 
 
 ---
