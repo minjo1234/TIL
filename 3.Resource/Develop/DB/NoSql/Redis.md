@@ -6,16 +6,19 @@
 
 
 
+---
 ### Spring - Redis 사용법 
 
-``
+```gradle
+implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-redis', version: '3.3.0' 
+```
+
+
 
 
 
 ---
-
 ### Docker-Compose 구성
-
 
 ```yaml 
 
@@ -56,6 +59,5 @@ redis:
     profiles:
       - dev  # 개발 환경에서만 실행
 ```
-
 
 ---
