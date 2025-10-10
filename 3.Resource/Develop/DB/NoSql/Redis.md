@@ -16,9 +16,18 @@ implementation group: 'org.springframework.boot', name: 'spring-boot-starter-dat
 
 사용법 : @Cacheable vs RedisTemplate 
 
+@Cacheable 선언적 캐싱 
 
+**장점**
 
+- 간결하게 캐시를 제어할 수 있다.
+- Spring이 자동으로 캐시를 관리한다.
+- 비즈니스 로직과 캐싱의 분리 
 
+**단점**
+
+- 조건부 캐싱이 복잡하다.
+- 캐시가 있는지 없는지 
 
 
 ---
