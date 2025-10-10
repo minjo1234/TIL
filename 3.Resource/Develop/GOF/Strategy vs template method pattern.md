@@ -164,3 +164,8 @@ PortFolio를 하나의 블로그로 올리기. 경로만 주면되니까 좋을�
 
 
 
+
+
+Redis 도입
+
+현재 : ConcurrentHashMap 기반 인메모리 캐시를 이용중 
