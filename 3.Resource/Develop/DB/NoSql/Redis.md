@@ -9,9 +9,13 @@
 ---
 ### Spring - Redis 사용법 
 
+> buidl.gradle 세팅 
 ```gradle
 implementation group: 'org.springframework.boot', name: 'spring-boot-starter-data-redis', version: '3.3.0' 
 ```
+
+사용법 : @Cacheable vs RedisTemplate 
+
 
 
 
