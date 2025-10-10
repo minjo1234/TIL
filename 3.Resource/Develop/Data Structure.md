@@ -9,6 +9,28 @@
 
 Optional.empty() 란 // 값 자체없음
 
+
+
+string.isEmpty 빈 문자열인경우, null 인경우 true - npe 발생
+
+```
+// 문제: NPE 발생 가능
+
+vm.getPrimaryIp().isEmpty()
+
+
+// 해결: null 체크 후 isEmpty() 호출
+
+vm.getPrimaryIp() == null || vm.getPrimaryIp().isEmpty()
+```
+
+null 체크와 , ""문자열 확인한번에 
+
+ObjectsUtils.isEmpty
+
+
+---
+
 ### Set 
 
 LinkedHashSet - 순서유지, HashSet보다 성능은 느림, 중복은 허용하지않음
