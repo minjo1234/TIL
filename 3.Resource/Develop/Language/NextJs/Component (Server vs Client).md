@@ -1,4 +1,7 @@
 
+참고 : https://velog.io/@kcj_dev96/%EC%84%9C%EB%B2%84-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8server-component%EC%99%80-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8client-component-%EC%B0%A8%EC%9D%B4nextjs-14-version
+
+
 Next.js 14의 App Router에서 서버 컴포넌트가 도입되어 클라이언트 컴포넌트와 구분하여 사용이 가능한데, 서버 컴포넌트와 클라이언트 컴포넌트의 차이가 무엇일까?
 
 
