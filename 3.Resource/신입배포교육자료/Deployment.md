@@ -1,5 +1,6 @@
 
 ### 1.설정파일(properties) 수정
+---
 
 서버의 properties를 설정한다(IP, Port)
 
@@ -9,8 +10,8 @@ DB : domain-infra-product.xml
 WEB : webapp-product.properties 
 	(server.port)
 
----
 ### 2.Docker File Build 
+---
 
 **web** 
 
@@ -53,6 +54,8 @@ docker save -o clovirone_nginx.tar clovirone_nginx:latest
 ```bash
 docker save -o clovirone_db.tar clovirone_db:latest
 ```
+
+### 4.docker-compose.yml 
 
 
 
