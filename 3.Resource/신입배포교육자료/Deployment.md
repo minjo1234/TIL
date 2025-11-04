@@ -58,30 +58,11 @@ docker save -o clovirone_db.tar clovirone_db:latest
 ### 4.docker-compose.yml 
 ---
 
-dockerc-
+docker-compose.yml (nginx X)
 
 ```
 services:
-  nginx:
-    image: clovirone_nginx
-    container_name: clovirone_nginx
-    ports:
-      - "8086:8086"
-    volumes:
-      # logrotate 어디 위치시킬지 내일 고민해보자 쩝쩝 
-      - nginx-logs:/var/log/nginx
-      - ./nginx/logs-archive:/var/log/nginx-archive
-      - ./nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf
-      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
-      - ./nginx/ssl:/etc/nginx/ssl
-      - /usr/share/zoneinfo/Asia/Seoul:/etc/localtime:ro
-    restart: unless-stopped
-    networks:
-      - net
-    depends_on:
-      - clovirone
-
-  clovirone:
+  web:
     image: clovirone
     container_name: clovirone
     volumes:
@@ -101,7 +82,7 @@ services:
     depends_on:
       - db
     extra_hosts:
-      - "gooddi-vcsa01.gooddi.lab:10.100.64.4"
+    
 
   db:
     image: clovirone_db
@@ -120,8 +101,6 @@ volumes:
   backups:
     driver: local
   db_data:
-    driver: local
-  nginx-logs:
     driver: local
 
 networks:
