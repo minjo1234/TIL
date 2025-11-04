@@ -22,16 +22,16 @@ docker build -t clovirone:latest
 **nginx**
 
 ```bash
-# 프로젝트 루트 경로에서
-docker build -f  ocker-files/nginx/Nginx_Dockerfile -t clovirone_nginx:latest .               
+
+docker build -f  docker-files/nginx/Nginx_Dockerfile -t clovirone_nginx:latest .               
 ```
 
  **db**
-  
-- ```
-  # 프로젝트 루트 경로에서
-  ```
 
+```bash
+# 프로젝트 루트 경로에서
+ocker build -f docker-files/db/DB_Dockerfile -t clovirone_db:latest .
+```
 
 ### 3.Image to Tar 
 
@@ -39,9 +39,15 @@ docker build -f  ocker-files/nginx/Nginx_Dockerfile -t clovirone_nginx:latest .
 
 **web** 
 
+```
+docker 
+```
+
 **nginx** 
 
 **db** 
+
+
 
 
 (domain-infra-product.xml)
