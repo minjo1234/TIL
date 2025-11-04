@@ -185,8 +185,8 @@ networks:
 
 ---
 
-- 인사 DB - query plugin 
-- 
+
+- 인사 DB/AD - query plugin (데이터 받아서 사내테스트 후 운영에 반영)
 
 
 
