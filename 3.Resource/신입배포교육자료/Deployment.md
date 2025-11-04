@@ -239,3 +239,5 @@ WHERE k.TABLE_SCHEMA = 'clovirone'
 AND k.CONSTRAINT_NAME = 'PRIMARY';
 
 EOF
+
+fact 테이블에 데이터 존재하는지
