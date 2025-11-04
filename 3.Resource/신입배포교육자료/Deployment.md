@@ -1,12 +1,19 @@
 
-1.properties 수정
+### 1.설정파일(properties) 수정
 
 서버의 properties를 설정한다(IP, Port)
 
 DB : domain-infra-product.xml 
-	 (db)
+	 (url, username, password)
+	
 WEB : webapp-product.properties 
 	(server.port)
+
+---
+### 2.Docker File Build 
+
+
+
 
 
 (domain-infra-product.xml)
