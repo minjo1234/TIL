@@ -34,18 +34,26 @@ ocker build -f docker-files/db/DB_Dockerfile -t clovirone_db:latest .
 ```
 
 ### 3.Image to Tar 
-
 ---
 
 **web** 
 
-```
-docker 
+```bash
+docker save -o clovirone.tar clovirone:latest
 ```
 
 **nginx** 
 
+```
+docker save -o clovirone_nginx.tar clovirone_nginx:latest
+```
+
 **db** 
+
+```bash
+docker save -o clovirone_db.tar clovirone_db:latest
+```
+
 
 
 
