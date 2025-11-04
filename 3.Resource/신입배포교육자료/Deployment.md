@@ -15,20 +15,33 @@ WEB : webapp-product.properties
 **web** 
 
 ```bash
+# 프로젝트 루트 경로에서
+docker build -t clovirone:latest
 ```
 
 **nginx**
 
-```
-docker build -f --no-cache docker-files/nginx/Nginx_Dockerfile -t clovirone_nginx:latest .               
+```bash
+# 프로젝트 루트 경로에서
+docker build -f  ocker-files/nginx/Nginx_Dockerfile -t clovirone_nginx:latest .               
 ```
 
  **db**
   
 - ```
+  # 프로젝트 루트 경로에서
   ```
 
 
+### 3.Image to Tar 
+
+---
+
+**web** 
+
+**nginx** 
+
+**db** 
 
 
 (domain-infra-product.xml)
