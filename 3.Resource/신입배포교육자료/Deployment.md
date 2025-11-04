@@ -1,9 +1,13 @@
 
 1.properties 수정
 
-서버의 properties를 설정한다(IP, Port, .
+서버의 properties를 설정한다(IP, Port)
 
 DB : domain-infra-product.xml 
+	 (db)
+WEB : webapp-product.properties 
+	(server.port)
+
 
 (domain-infra-product.xml)
 (webapp-product.properties)
