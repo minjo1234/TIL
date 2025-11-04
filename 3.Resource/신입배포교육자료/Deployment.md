@@ -56,7 +56,149 @@ docker save -o clovirone_db.tar clovirone_db:latest
 ```
 
 ### 4.docker-compose.yml 
+---
 
+dockerc-
+
+```
+services:
+  nginx:
+    image: clovirone_nginx
+    container_name: clovirone_nginx
+    ports:
+      - "8086:8086"
+    volumes:
+      # logrotate 어디 위치시킬지 내일 고민해보자 쩝쩝 
+      - nginx-logs:/var/log/nginx
+      - ./nginx/logs-archive:/var/log/nginx-archive
+      - ./nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/ssl:/etc/nginx/ssl
+      - /usr/share/zoneinfo/Asia/Seoul:/etc/localtime:ro
+    restart: unless-stopped
+    networks:
+      - net
+    depends_on:
+      - clovirone
+
+  clovirone:
+    image: clovirone
+    container_name: clovirone
+    volumes:
+      - logs:/opt/tomcat/logs
+      - backups:/opt/tomcat/backups
+      - /usr/share/zoneinfo/Asia/Seoul:/etc/localtime:ro
+    environment:
+      - JAVA_OPTS=-Dspring.profiles.active=production -Duser.language=ko -Duser.country=KR -Dfile.encoding=UTF-8
+      - JAVA_TOOL_OPTIONS=-Dsaaj.use.cache=false
+      - CATALINA_OPTS=-Dspring.profiles.active=production -Duser.language=ko -Duser.country=KR -Dfile.encoding=UTF-8
+      - JASYPT_PWD=${JASYPT_PWD:-$(cat ./jasypt_pwd.txt)}
+    restart: unless-stopped
+    networks:
+      - net
+    security_opt:
+      - no-new-privileges:true
+    depends_on:
+      - db
+    extra_hosts:
+      - "gooddi-vcsa01.gooddi.lab:10.100.64.4"
+
+  db:
+    image: clovirone_db
+    container_name: clovirone_db
+    volumes:
+      - ./db/my.cnf:/etc/mysql/my.cnf:rw
+      - db_data:/var/lib/mysql
+      - /usr/share/zoneinfo/Asia/Seoul:/etc/localtime:ro
+    restart: unless-stopped
+    networks:
+      - net
+
+volumes:
+  logs:
+    driver: local
+  backups:
+    driver: local
+  db_data:
+    driver: local
+  nginx-logs:
+    driver: local
+
+networks:
+  net:
+    driver: bridge
+```
+
+docker-compose.yml (nginxr가 포함된 경우)
+
+```yml
+services:
+  nginx:
+    image: clovirone_nginx
+    container_name: clovirone_nginx
+    ports:
+      - "8086:8086"
+    volumes:
+      # logrotate 어디 위치시킬지 내일 고민해보자 쩝쩝 
+      - nginx-logs:/var/log/nginx
+      - ./nginx/logs-archive:/var/log/nginx-archive
+      - ./nginx/conf.d/default.conf:/etc/nginx/conf.d/default.conf
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/ssl:/etc/nginx/ssl
+      - /usr/share/zoneinfo/Asia/Seoul:/etc/localtime:ro
+    restart: unless-stopped
+    networks:
+      - net
+    depends_on:
+      - clovirone
+
+  clovirone:
+    image: clovirone
+    container_name: clovirone
+    volumes:
+      - logs:/opt/tomcat/logs
+      - backups:/opt/tomcat/backups
+      - /usr/share/zoneinfo/Asia/Seoul:/etc/localtime:ro
+    environment:
+      - JAVA_OPTS=-Dspring.profiles.active=production -Duser.language=ko -Duser.country=KR -Dfile.encoding=UTF-8
+      - JAVA_TOOL_OPTIONS=-Dsaaj.use.cache=false
+      - CATALINA_OPTS=-Dspring.profiles.active=production -Duser.language=ko -Duser.country=KR -Dfile.encoding=UTF-8
+      - JASYPT_PWD=${JASYPT_PWD:-$(cat ./jasypt_pwd.txt)}
+    restart: unless-stopped
+    networks:
+      - net
+    security_opt:
+      - no-new-privileges:true
+    depends_on:
+      - db
+    extra_hosts:
+      - "gooddi-vcsa01.gooddi.lab:10.100.64.4"
+
+  db:
+    image: clovirone_db
+    container_name: clovirone_db
+    volumes:
+      - ./db/my.cnf:/etc/mysql/my.cnf:rw
+      - db_data:/var/lib/mysql
+      - /usr/share/zoneinfo/Asia/Seoul:/etc/localtime:ro
+    restart: unless-stopped
+    networks:
+      - net
+
+volumes:
+  logs:
+    driver: local
+  backups:
+    driver: local
+  db_data:
+    driver: local
+  nginx-logs:
+    driver: local
+
+networks:
+  net:
+    driver: bridge
+```
 
 
 
