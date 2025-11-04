@@ -1,6 +1,7 @@
 
 - properties 수정
-(domain-infra.)
+(domain-infra-product.xml)
+()
 
 
 
