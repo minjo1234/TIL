@@ -1,7 +1,10 @@
 
 - properties 수정
 (domain-infra-product.xml)
-()
+
+
+DB Connecn(JasyptKeyMakeTest.groovy)
+
 
 
 
