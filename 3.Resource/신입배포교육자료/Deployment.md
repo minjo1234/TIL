@@ -3,7 +3,7 @@
 (domain-infra-product.xml)
 
 
-DB Connecn(JasyptKeyMakeTest.groovy)
+DB Connection 관련 password 설정 (JasyptKeyMakeTest.groovy)
 
 
 
