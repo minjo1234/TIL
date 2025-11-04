@@ -81,6 +81,8 @@ services:
       - no-new-privileges:true
     depends_on:
       - db
+    ports:
+	  - 8086:8086
     extra_hosts:
       - "domain:ip"
   db:
@@ -106,6 +108,10 @@ networks:
   net:
     driver: bridge
 ```
+
+---
+
+docker-compose.yml (nginx o )
 
 
 
