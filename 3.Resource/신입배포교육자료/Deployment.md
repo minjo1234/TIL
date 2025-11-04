@@ -1,7 +1,7 @@
 
 - properties 수정
 (domain-infra-product.xml)
-
+(webapp-product.properties)
 
 DB Connection 관련 password 설정 (JasyptKeyMakeTest.groovy)
 
