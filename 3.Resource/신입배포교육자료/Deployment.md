@@ -108,35 +108,19 @@ networks:
 ```
 
 
-그 외 파일들 
 
-db folder 
-
-
-
-
-
+db folder, db volume, serverTime 동기화 
 docker-compose.yml (nginxr가 포함된 경우)
 
 
 
 
-(domain-infra-product.xml)
-(webapp-product.properties)
 
 DB Connection 관련 password 설정 (JasyptKeyMakeTest.groovy)
 
 
 
 
-DockerFile 
-- web
-- db 
-- docker-compose.yml 
 
 
-
-
-
-배포테스트 오늘 진행예정 
-
+1. <p align="left"></p>
