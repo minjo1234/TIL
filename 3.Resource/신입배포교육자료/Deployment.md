@@ -220,3 +220,22 @@ EOF
   docker exec clovirone_db mariadb -u clovirone -pClovirone3775* clovirone -e \
     "SELECT \`$PK\`, COUNT(*) as cnt FROM \`$TABLE\` GROUP BY \`$PK\` HAVING cnt > 1 LIMIT 5;" 2>/dev/null
 done
+
+
+# 3369040-4 같은 값이 어느 테이블에 있는지 검색
+docker exec clovirone_db mariadb -u clovirone -pClovirone3775* clovirone <<'EOF'
+
+-- 모든 테이블에서 검색
+SET @search_value = '3369040-4';
+
+SELECT 'Searching in all tables for:', @search_value;
+
+-- 테이블별 검색 (PRIMARY KEY 컬럼에서)
+SELECT 
+    k.TABLE_NAME,
+    k.COLUMN_NAME as PK_COLUMN
+FROM information_schema.KEY_COLUMN_USAGE k
+WHERE k.TABLE_SCHEMA = 'clovirone'
+AND k.CONSTRAINT_NAME = 'PRIMARY';
+
+EOF
