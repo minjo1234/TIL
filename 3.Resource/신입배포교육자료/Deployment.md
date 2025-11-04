@@ -190,3 +190,18 @@ networks:
 
 
 
+
+
+# 한 줄로 실행
+docker exec db-container bash -c '
+mysql -u clovirone -pClovirone3775* clovirone <<EOF
+SELECT k.TABLE_NAME, k.COLUMN_NAME
+FROM information_schema.KEY_COLUMN_USAGE k
+WHERE k.TABLE_SCHEMA = "clovirone"
+AND k.CONSTRAINT_NAME = "PRIMARY";
+EOF
+' | tail -n +2 | while read TABLE PK; do
+  echo "Checking $TABLE.$PK..."
+  docker exec db-container mysql -u clovirone -pClovirone3775* clovirone -e \
+    "SELECT \`$PK\`, COUNT(*) as cnt FROM \`$TABLE\` GROUP BY \`$PK\` HAVING cnt > 1 LIMIT 5;" 2>/dev/null
+done
