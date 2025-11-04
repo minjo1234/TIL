@@ -12,6 +12,14 @@ WEB : webapp-product.properties
 ---
 ### 2.Docker File Build 
 
+- web: docker build --no-cache -t clovirone:latest
+- nginx: 
+```
+
+```
+- db: 
+- ```
+  ```
 
 
 
