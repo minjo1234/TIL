@@ -78,17 +78,21 @@ LocalStorage로 구현하도록 했다. (보안이 필요한 것은 아니므로
     toggleTheme: () => void;         // 테마 토글 함수
   }
 
+
 1.타입 정의 
 type Language = 'ko' | 'en'; 
+```
+type Language = 'ko' | 'en';
+```
 
 2.인터페이스 정의 
 ```
-```
-interface LanguageContextType {  
-  language: Language;  
-  setLanguage: (lang: Language) => void;  
-  toggleLanguage: () => void;  
+interface LanagueaContextType { 
+	language: Language; 
+	setLanguage: (lang: Language) => void;
+	toggleLanguage: () => void;
 }
+```
 
 
 
