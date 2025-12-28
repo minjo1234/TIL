@@ -270,3 +270,4 @@ mdx파일들은 서버에서만 실행, cookie, localstorage는 클라이언트�
   1. 서버 컴포넌트 (async 가능) → cookies()
   2. 클라이언트 컴포넌트 ('use client') → getCookie()
 
+QDVO 
