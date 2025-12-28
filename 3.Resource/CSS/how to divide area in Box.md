@@ -95,37 +95,20 @@ interface LanagueaContextType {
 }
 ```
 
-3.
+3.createContext
 
 ```
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 ```
 
+4.Provider 
 
-  ---
-  ✅ 2단계: createContext 생성
+```
 
-  목적: React Context 저장소 생성
+```
 
-  // ③ Context 생성
-  const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
-  //                                                    ↑↑↑↑↑↑↑↑↑
-  //                  초기값 undefined (Provider 없으면 에 러 발생시키기 위함)
 
-  왜 undefined로 초기화?
-  // ❌ 잘못된 방법: 기본값 제공
-  const ThemeContext = createContext<ThemeContextType>({
-    theme: 'light',
-    setTheme: () => {},
-    toggleTheme: () => {}
-  });
-  // → Provider 없이 사용해도 에러 안남 (위험!)
 
-  // ✅ 올바른 방법: undefined
-  const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
-  // → Provider 없으면 에러 발생 (안전!)
-
-  ---
   ✅ 3단계: Provider 컴포넌트 작성
 
   목적: 전역 상태와 로직을 관리하고 제공
