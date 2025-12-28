@@ -27,3 +27,13 @@ LocalStorage로 구현하도록 했다. (보안이 필요한 것은 아니므로
   1. localStorage: 브라우저에 영구 저장 (클라이언트 전용)
   2. Cookie: 서버+클라이언트 모두 접근 가능 (HTTP 요청 시  자동 전송)
   3. 이중 저장 이유: 서버 컴포넌트는 localStorage에 접근 불가 → 쿠키 필요
+
+
+⏺ ★ Insight ─────────────────────────────────────
+  Context + localStorage 설계 핵심 5단계
+  1. createContext: 전역 상태 저장소 생성
+  2. Provider: 상태와 함수를 제공하는 컴포넌트
+  3. Custom Hook: useContext를 감싸는 편리한 훅
+  4. Root Layout: 앱 최상위에 Provider 배치
+  5. 사용: 모든 컴포넌트에서 Hook으로 접근
+  ─────────────────────────────────────────────────
