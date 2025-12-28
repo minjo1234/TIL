@@ -147,3 +147,10 @@ const value = useMemo(
 - createContext() - 메모리에 방송 채널 생성
 - ② Provider 렌더링 - value를 채널에 방송 시작
 - ③ useContext() 호출 - 채널에서 value 수신
+
+1. 핵심 포인트:
+	- createContext는 한 번만 실행 (모듈 로드 시)
+	- Provider는 렌더링될 때마다 실행
+	- useContext는 호출할 때마다 최신 value 반환
+
+---
