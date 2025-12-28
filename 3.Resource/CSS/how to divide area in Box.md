@@ -109,4 +109,5 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 ---
 
-`useMemo`는 리액트 컴포넌트가 렌더링될 때, 
+`useMemo`는 리액트 컴포넌트가 렌더링될 때, 결과 값을 메모리(캐시)에 저장해두었다가 의존성 배열이 바뀔 때만 다시 계산, 의존성 배열이란 ?
+
