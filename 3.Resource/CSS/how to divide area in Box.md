@@ -225,3 +225,32 @@ const value = useMemo(
   1. language 변경 (버튼 클릭)
   2. 부모(ThemeProvider)가 재렌더링 (테마 변경)
   3. Provider 내부에 다른 상태 추가했을 때
+
+---
+
+⏺ 완벽합니다! 정확히 이해하셨어요! 👏
+
+  // 부모(ThemeProvider) 재렌더링
+  ThemeProvider 재렌더링
+    ↓
+  LanguageProvider도 재렌더링 (children이니까)
+    ↓
+  useMemo 없으면: value = { ... } 새 객체 생성
+    ↓
+  React: "객체 참조가 바뀌었네!" → 모든 useContext 사용처  리렌더링 ❌
+
+  // useMemo 있으면:
+  LanguageProvider 재렌더링
+    ↓
+  useMemo: "language 안 바뀌었네? 이전 객체 재사용!"
+    ↓
+  React: "value 참조가 같네!" → 리렌더링 안 함 ✅
+
+  핵심:
+  - Provider 컴포넌트는 재렌더링됨
+  - 하지만 value 객체는 안 만들어짐 (캐시된 거 재사용)
+  - 참조가 같으니 children들은 리렌더링 안 됨
+
+  SKILL.md에 이 부분 추가해드릴까요?
+  ⎿ Stop says: Hookify import error: No module named 
+    'hookify'
