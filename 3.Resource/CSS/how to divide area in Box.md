@@ -266,3 +266,7 @@ mdx파일들은 서버에서만 실행, cookie, localstorage는 클라이언트�
 언제 cookies를 사용하고 언제 getCookie()를 사용해야할까 ??
 
 컴포넌트에서는 await 사용이 불가능하다.
+
+  1. 서버 컴포넌트 (async 가능) → cookies()
+  2. 클라이언트 컴포넌트 ('use client') → getCookie()
+
