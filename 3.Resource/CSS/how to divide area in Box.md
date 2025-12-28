@@ -78,6 +78,10 @@ LocalStorage로 구현하도록 했다. (보안이 필요한 것은 아니므로
     toggleTheme: () => void;         // 테마 토글 함수
   }
 
+1.타입 정의 
+2.인터페이스 정의 
+
+
   왜 필요한가?
   - TypeScript 타입 안정성 확보
   - IDE 자동완성 지원
