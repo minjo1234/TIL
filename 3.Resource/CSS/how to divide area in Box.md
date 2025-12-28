@@ -80,13 +80,14 @@ LocalStorage로 구현하도록 했다. (보안이 필요한 것은 아니므로
 
 
 1.타입 정의 
-type Language = 'ko' | 'en'; 
-```
+
+```bash
 type Language = 'ko' | 'en';
 ```
 
-2.인터페이스 정의 
-```
+2.인터페이스 정의
+
+```bash
 interface LanagueaContextType { 
 	language: Language; 
 	setLanguage: (lang: Language) => void;
