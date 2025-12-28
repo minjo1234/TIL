@@ -95,12 +95,12 @@ interface LanagueaContextType {
 }
 ```
 
+3.
 
+```
+const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
+```
 
-  왜 필요한가?
-  - TypeScript 타입 안정성 확보
-  - IDE 자동완성 지원
-  - 실수 방지 (예: setTheme('red') → 컴파일 에러)
 
   ---
   ✅ 2단계: createContext 생성
