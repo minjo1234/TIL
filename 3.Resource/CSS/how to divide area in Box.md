@@ -122,3 +122,7 @@ const value = useMemo(
 ```
 
 // language, setLanguage, toggleLanguage 중 하나의 값이 변하면 함수가 작동한다.
+
+---
+
+### Context API가 데이터를 어떻게 포장해서 전달하는지 
