@@ -13,3 +13,6 @@
 ![[Pasted image 20251228160951.png]]
 
 LocalStorage로 구현하도록 했다. (보안이 필요한 것은 아니므로)
+
+- 변화가 가능한것은 Switch 라는 명으로 구현한다 -> LanguageSwitch 
+- 
