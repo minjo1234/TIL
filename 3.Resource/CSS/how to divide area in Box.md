@@ -138,5 +138,9 @@ const value = useMemo(
 - `useMemo`를 사용하면 자식 컴포넌트에서 사용한 값에 대한 변경에 대한 탐지를 자동으로 한다.
 - LanguageContext.Provider value=value 형식으로 자식에게 값을 전달한다.
 
-- createContext()
-- Provider 
+1.개발 시점 순서
+- createContext() - 컨텍스트 생성
+- Provider 컴포넌트  - 데이터 제공자 
+- useContext() - 데이터 사용자
+
+2.
