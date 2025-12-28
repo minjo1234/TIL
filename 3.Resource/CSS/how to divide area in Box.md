@@ -182,7 +182,7 @@ const value = useMemo(
   // → 안 바뀌면 이전 객체 재사용 (같은 참조)
   // → Provider value가 안 바뀐 것으로 인식
   // → 불필요한 리렌더링 방지 (최적화!)
- // useMemo가 없으면 다른 페이지가 로드될때 값의 변화가 없더라도, 매번 새 객체가 만들어진다.
+ // LanguageProvider 자체가 재렌더링될 때 useMemo가 없으면 다른 페이지가 로드될때 값의 변화가 없더라도, 매번 새 객체가 만들어진다.
 
   언제 Provider가 재렌더링될까?
   1. language 변경될 때 ← 이건 당연히 새 value 필요
