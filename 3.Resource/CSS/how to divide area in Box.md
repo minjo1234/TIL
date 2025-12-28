@@ -165,3 +165,20 @@ const value = useMemo(
   6. useContext를 사용하는 모든 컴포넌트가 자동 리렌더링
 
 ---
+
+  useMemo 없으면:
+  const value = { language, setLanguage, toggleLanguage };
+  // 매 렌더링마다 새 객체 생성
+  // → 객체 참조가 계속 바뀜
+  // → Provider value가 바뀐 것으로 인식
+  // → useContext 사용하는 모든 컴포넌트 매번 리렌더링 (낭 비!)
+
+  useMemo 있으면:
+  const value = useMemo(
+    () => ({ language, setLanguage, toggleLanguage }),
+    [language, setLanguage, toggleLanguage]
+  );
+  // language가 실제로 바뀔 때만 새 객체 생성
+  // → 안 바뀌면 이전 객체 재사용 (같은 참조)
+  // → Provider value가 안 바뀐 것으로 인식
+  // → 불필요한 리렌더링 방지 (최적화!)
