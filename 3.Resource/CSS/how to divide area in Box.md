@@ -254,3 +254,5 @@ const value = useMemo(
   SKILL.md에 이 부분 추가해드릴까요?
   ⎿ Stop says: Hookify import error: No module named 
     'hookify'
+
+mdxㅍ
