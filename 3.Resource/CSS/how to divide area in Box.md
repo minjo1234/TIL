@@ -198,3 +198,30 @@ const value = useMemo(
       <Footer />
     </LanguageProvider>
   </ThemeProvider>
+```typescript
+  // layout.tsx
+  <ThemeProvider>
+    <LanguageProvider>  {/* ← 이게 재렌더링될 때 */}
+      <Header />
+      <main>{children}</main>  {/* ← 페이지 전환 (children 바뀜) */}
+      <Footer />
+    </LanguageProvider>
+  </ThemeProvider>
+
+```
+
+
+  페이지 전환 시:
+  
+  / → /about 페이지 이동
+    ↓
+  children만 바뀜 (HomePage → AboutPage)
+    ↓
+  LanguageProvider는 재렌더링 안 됨 ✅
+    ↓
+  useMemo 실행 안 됨
+
+  LanguageProvider가 재렌더링되는 경우:
+  1. language 변경 (버튼 클릭)
+  2. 부모(ThemeProvider)가 재렌더링 (테마 변경)
+  3. Provider 내부에 다른 상태 추가했을 때
