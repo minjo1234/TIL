@@ -258,3 +258,8 @@ const value = useMemo(
 ---
 
 mdx파일들은 서버에서만 실행, cookie, localstorage는 클라이언트에서 제공 
+
+  서버에서 쿠키 읽기:
+  - getCookie()는 클라이언트용 (document.cookie)
+  - cookies()는 서버용 (Next.js 제공)
+
