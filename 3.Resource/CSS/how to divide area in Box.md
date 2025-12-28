@@ -263,3 +263,4 @@ mdx파일들은 서버에서만 실행, cookie, localstorage는 클라이언트�
   - getCookie()는 클라이언트용 (document.cookie)
   - cookies()는 서버용 (Next.js 제공)
 
+언제 cookies를 사용하고 언제 getCookie()를 사용해야할까 ??
