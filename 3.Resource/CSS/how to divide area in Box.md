@@ -126,3 +126,7 @@ const value = useMemo(
 ---
 
 ### Context API가 데이터를 어떻게 포장해서 전달하는지 
+
+`createContext`를 호출하는 순간, 리액트는 두 가지 특별한 컴포넌트를 생성합니다.
+- **`LanguageContext.Provider`**: 데이터를 주는 놈
+- **`LanguageContext.Consumer`**: 데이터를 받는 놈 (요즘은 `useContext`로 대체)
