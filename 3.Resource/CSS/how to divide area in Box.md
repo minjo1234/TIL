@@ -137,7 +137,7 @@ const value = useMemo(
 - 자식 컴포넌트에서 
 - `useMemo`를 사용하면 자식 컴포넌트에서 사용한 값에 대한 변경에 대한 탐지를 자동으로 한다.
 - LanguageContext.Provider value=value 형식으로 자식에게 값을 전달한다.
-- useMemo는 캐싱을 담당한다 (값이 변경되었는지를 )
+- useMemo는 캐싱을 담당한다 (값이 변경되었는지를 계속 참조)
 
 1.개발 시점 순서
 - createContext() - 컨텍스트 생성
@@ -153,5 +153,11 @@ const value = useMemo(
 	- createContext는 한 번만 실행 (모듈 로드 시)
 	- Provider는 렌더링될 때마다 실행
 	- useContext는 호출할 때마다 최신 value 반환
+
+  2. 핵심: React의 상태 변경 → 자동 리렌더링
+    - setLanguageState 호출 → React가 감지
+    - Provider 리렌더링 → 새 value 생성
+    - useContext 사용하는 컴포넌트들 자동 리렌더링
+
 
 ---
