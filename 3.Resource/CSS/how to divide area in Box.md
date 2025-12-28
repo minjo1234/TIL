@@ -23,3 +23,7 @@ LocalStorage로 구현하도록 했다. (보안이 필요한 것은 아니므로
 1.fs 모듈은 Node.js 서버 전용 : 브라우저에서 실행 불가 (서버 컴포넌트에서만 실행가능)
 2.'use client' 컴포넌트는 브라우저에서 실행되므로 fs를 사용할 수 없다.
 
+  LanguageContext 저장 시스템
+  1. localStorage: 브라우저에 영구 저장 (클라이언트 전용)
+  2. Cookie: 서버+클라이언트 모두 접근 가능 (HTTP 요청 시  자동 전송)
+  3. 이중 저장 이유: 서버 컴포넌트는 localStorage에 접근 불가 → 쿠키 필요
