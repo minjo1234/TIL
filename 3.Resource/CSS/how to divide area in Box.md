@@ -264,3 +264,5 @@ mdx파일들은 서버에서만 실행, cookie, localstorage는 클라이언트�
   - cookies()는 서버용 (Next.js 제공)
 
 언제 cookies를 사용하고 언제 getCookie()를 사용해야할까 ??
+
+컴포넌트에서는 await 사용이 불가능하다.
