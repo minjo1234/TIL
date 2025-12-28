@@ -143,4 +143,7 @@ const value = useMemo(
 - Provider 컴포넌트  - 데이터 제공자 
 - useContext() - 데이터 사용자
 
-2.
+2.실행 시점 순서 (앱 실행)
+- createContext() - 메모리에 방송 채널 생성
+- ② Provider 렌더링 - value를 채널에 방송 시작
+- ③ useContext() 호출 - 채널에서 value 수신
