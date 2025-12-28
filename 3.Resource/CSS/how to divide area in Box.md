@@ -116,7 +116,9 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 ```typescript 
 const value = useMemo(  
-  () => ({ language, setLanguage, toggleLanguage }),  
+() => ({ language, setLanguage, toggleLanguage }),  
   [language, setLanguage, toggleLanguage]  
 );
 ```
+
+// language, setLanguage, toggleLanguage 중 하나의 값이 변하면 함수가 작동한다.
