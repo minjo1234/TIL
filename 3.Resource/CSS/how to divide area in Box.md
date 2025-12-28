@@ -131,3 +131,7 @@ const value = useMemo(
 - **`LanguageContext.Provider`**: 데이터를 주는 놈
 - **`LanguageContext.Consumer`**: 데이터를 받는 놈 (요즘은 `useContext`로 대체)
 
+---
+
+### Provider 
+
