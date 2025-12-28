@@ -255,4 +255,6 @@ const value = useMemo(
   ⎿ Stop says: Hookify import error: No module named 
     'hookify'
 
-mdxㅍ
+---
+
+mdx파일들은 서버에서만 실행, cookie, localstorage는 클라이언트에서 제공 
