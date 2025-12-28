@@ -182,3 +182,4 @@ const value = useMemo(
   // → 안 바뀌면 이전 객체 재사용 (같은 참조)
   // → Provider value가 안 바뀐 것으로 인식
   // → 불필요한 리렌더링 방지 (최적화!)
+// useMemo가 없으
