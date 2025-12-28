@@ -159,5 +159,9 @@ const value = useMemo(
     - Provider 리렌더링 → 새 value 생성
     - useContext 사용하는 컴포넌트들 자동 리렌더링
 
+  3. React 내부에서 상태 변경 감지
+  4. LanguageProvider 전체가 다시 렌더링됨
+  5. Provider의 value가 새로 계산됨
+  6. useContext를 사용하는 모든 컴포넌트가 자동 리렌더링
 
 ---
