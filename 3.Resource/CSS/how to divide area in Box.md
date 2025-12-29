@@ -424,3 +424,6 @@ frontend, backend
   - ✅ 같은 도메인 (localhost)에서 작동
   - ✅ CORS 설정 불필요
   - ✅ next.config.js 프록시도 필요 없음
+
+---
+
