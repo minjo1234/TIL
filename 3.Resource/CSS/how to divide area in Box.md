@@ -358,4 +358,69 @@ nextjs, Spring CQRS  설정
 ---
 
 frontend, backend 
-- /
+
+
+  방식 1: 별도 컨테이너 + CORS (가장 단순)
+
+  # docker-compose.yml
+  services:
+    frontend:
+      image: frontend:latest
+      ports:
+        - "3000:3000"
+      environment:
+        NEXT_PUBLIC_API_URL: http://backend:8080
+
+    backend:
+      image: backend:latest
+      ports:
+        - "8080:8080"
+
+
+방식 2: Nginx 리버스 프록시 (권장) ⭐
+
+  # docker-compose.yml
+  services:
+    nginx:
+      image: nginx:latest
+      ports:
+        - "80:80"
+      volumes:
+        - ./nginx.conf:/etc/nginx/nginx.conf
+
+    frontend:
+      image: frontend:latest
+      expose:
+        - "3000"
+
+    backend:
+      image: backend:latest
+      expose:
+        - "8080"
+
+  # nginx.conf
+  upstream frontend {
+      server frontend:3000;
+  }
+
+  upstream backend {
+      server backend:8080;
+  }
+
+  server {
+      listen 80;
+      server_name localhost;
+
+      location / {
+          proxy_pass http://frontend;
+      }
+
+      location /api/ {
+          proxy_pass http://backend;
+      }
+  }
+
+  장점:
+  - ✅ 같은 도메인 (localhost)에서 작동
+  - ✅ CORS 설정 불필요
+  - ✅ next.config.js 프록시도 필요 없음
