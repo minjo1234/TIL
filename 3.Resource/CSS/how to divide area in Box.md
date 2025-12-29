@@ -307,9 +307,23 @@ QDVO
 ---
 
 
-nextjs와 
+nextjs와 spring boot를 같이 사용하려는 경우 프록시와 CQRS 설정을 해야한다고 한다.
 
 nextjs, Spring CQRS  설정 
 
-Next.js 프록시 (rewirtes/redirects)
-- 
+
+  Next.js 프록시 (rewrites/redirects)
+  - ✅ 개발 환경에서만 작동 (next dev)
+  - ✅ 클라이언트 → Next.js 서버 → Spring 백엔드 구조
+  - ✅ CORS 이슈를 개발 중에는 가립니다
+
+  프로덕션 환경
+  - ❌ Next.js 프록시가 작동하지 않음
+  - ❌ 브라우저가 직접 Spring에 요청
+  - ✅ Spring의 CORS 설정이 필수
+
+  개발 (next dev):
+  브라우저 → http://localhost:3000/api → Next.js 프록시 → Spring
+
+  프로덕션:
+  브라우저 → https://example.com/api → 직접 Spring 요청 (CORS 필요)
