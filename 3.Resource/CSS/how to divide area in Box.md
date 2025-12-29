@@ -357,4 +357,5 @@ nextjs, Spring CQRS  설정
 
 ---
 
+frontend, backend 
 - 
