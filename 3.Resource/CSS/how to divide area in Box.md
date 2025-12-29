@@ -327,3 +327,32 @@ nextjs, Spring CQRS  설정
 
   프로덕션:
   브라우저 → https://example.com/api → 직접 Spring 요청 (CORS 필요)
+
+  Spring CORS 설정 예시
+
+  @Configuration
+  public class CorsConfig {
+      @Bean
+      public WebMvcConfigurer corsConfigurer() {
+          return new WebMvcConfigurer() {
+              @Override
+              public void addCorsMappings(CorsRegistry registry) {
+                  registry.addMapping("/api/**")
+                      .allowedOrigins("https://example.com")
+                      .allowedMethods("GET", "POST", "PUT", "DELETE")
+                      .allowCredentials(true);
+              }
+          };
+      }
+  }
+
+  CQRS는?
+
+  CQRS(Command Query Responsibility Segregation)는 완전히 다른 아키텍처 패턴입니다:
+  - 읽기(Query)와 쓰기(Command)를 분리하는 것
+  - 프록시/CORS와는 무관
+
+  따라서 프로덕션 배포 시에는 반드시 Spring CORS 설정을 해야 합니다.
+  ⎿  Stop says: Hookify import error: No module named 'hookify'
+
+---
