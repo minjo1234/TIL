@@ -306,4 +306,10 @@ QDVO
 
 ---
 
-nextjs, Spring CQRS 
+
+nextjs와 
+
+nextjs, Spring CQRS  설정 
+
+Next.js 프록시 (rewirtes/redirects)
+- 
