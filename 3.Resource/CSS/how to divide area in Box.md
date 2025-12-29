@@ -276,3 +276,20 @@ QDVO
 
 국가 보조금 
 지자체 보조금
+
+---
+
+  ✅ Mock으로 만드는 경우
+
+  CommandEvent event = Mock()  // interface → 인스턴스 생성 불가
+
+  - 인터페이스나 추상 클래스: 직접 생성 불가능
+  - 복잡한 의존성: 생성하기 어려운 객체
+  - 행동(behavior) 검증: 메서드 호출을 확인해야 할 때
+
+  ✅ 실제 객체로 만드는 경우
+
+  AriaDeployRequest request = AriaDeployRequest.builder()
+      .id(1L)
+      .requestAction(RequestAction.CREATE)
+      .build()
