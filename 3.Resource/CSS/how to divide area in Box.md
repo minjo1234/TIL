@@ -296,3 +296,7 @@ QDVO
 
 
 ---
+
+|   |   |   |   |
+|---|---|---|---|
+|Microsoft Certified: Azure for SAP Workloads Specialty|CF47U6-9629EF|Dec 27, 2025|Dec 28, 2026|
