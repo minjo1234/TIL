@@ -437,3 +437,8 @@ UUID 형태 -> "externalId": "f4264fae-ca2a-4380-97c6-b6e909df4a20",
 1.Catalog 목록을 가져온다.
 2.DB에 저장된 lastUpdatedAt 보다 최신인 Blueprint 아이템만 선별한다.
 3.변경된 아이템에 대해서만 externalId를 통해 버전을 가져온다,
+
+---
+
+- https://vmapps.gooddi.lab/blueprint/api/blueprints?$top=3000
+- blueprint만 가져온다
