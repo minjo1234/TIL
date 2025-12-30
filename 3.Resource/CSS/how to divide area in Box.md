@@ -442,3 +442,10 @@ UUID 형태 -> "externalId": "f4264fae-ca2a-4380-97c6-b6e909df4a20",
 
 - https://vmapps.gooddi.lab/blueprint/api/blueprints?$top=3000
 - blueprint만 가져온다
+
+장점 - 휴식을 안함. 
+대신에 - 돈을 더받음
+
+- 6월 3일까지 쉰다고 가정했을떄 
+- 연차를 다 소진한다면 
+- 
