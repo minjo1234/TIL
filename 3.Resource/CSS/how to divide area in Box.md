@@ -428,3 +428,5 @@ frontend, backend
 ---
 
 깃 사내설치.  - 연구소 망에서 접속가능한 곳으로
+
+items(id) -> Blue_print(externalId) -> CatalogVersion
