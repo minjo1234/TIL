@@ -433,3 +433,6 @@ items(id) -> Blue_print(externalId) -> CatalogVersion
 URL 형태 ->  "externalId": "/blueprint/api/blueprints/d935f187-ecaa-4494-8175-2692ad46c121" (blueprint는 버전이 있고(주기적인 업데이트를 가정함), workflow는 버전이 없음)
 UUID 형태 -> "externalId": "f4264fae-ca2a-4380-97c6-b6e909df4a20",
 
+비교 
+1.Catalog 목록을 가져온다.
+2.DB에 저장된 lastUpdatedAt 보다 최신인 
