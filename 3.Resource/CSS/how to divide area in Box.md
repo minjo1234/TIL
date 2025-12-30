@@ -435,4 +435,5 @@ UUID 형태 -> "externalId": "f4264fae-ca2a-4380-97c6-b6e909df4a20",
 
 비교 
 1.Catalog 목록을 가져온다.
-2.DB에 저장된 lastUpdatedAt 보다 최신인 
+2.DB에 저장된 lastUpdatedAt 보다 최신인 Blueprint 아이템만 선별한다.
+3.변경된 아이템에 대해서만 externalId를 통해 버전을 가져온다,
