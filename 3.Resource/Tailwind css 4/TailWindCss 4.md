@@ -12,4 +12,5 @@
   in/resources/templates/clovirone/state/project/aria/index.ftl
   여기부터 변경하려고해 
 
-- 
+- OS 자동화도 추후 고려하여 MULTI_Select 시 고려한다.
+- VM List 컴포넌트에 태그 달아둔다.
