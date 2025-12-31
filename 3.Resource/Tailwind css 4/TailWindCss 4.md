@@ -4,4 +4,10 @@
 
 무한스크롤일때는 excludeIds가 필수적이다.
 - 전체 선택을 누르고 해당건만 제외한 다음에 보내면 되기 때문임.
-- 
+
+
+ MULTI_SELECT.md 파일을 살펴보고 selectedRow 를 selectedRows 로
+  현재 selectedRow를 사용하는
+  /Users/jomin/Desktop/clovirone/clovirone-base/clovircm-web/src/ma
+  in/resources/templates/clovirone/state/project/aria/index.ftl
+  여기부터 변경하려고해 
