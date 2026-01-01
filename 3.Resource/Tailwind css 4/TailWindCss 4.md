@@ -44,4 +44,5 @@ public class OrderService {
 /api/aria/request/multi-actionx
 
 - /api/gpu/vm/state/uuids -> 해당 메서드에 대한 controller 및 서비스 구현필요
+- gpuVm은 resourceUuid를 사용하지 않는 것으로 확인되었음.
 - 
