@@ -47,3 +47,4 @@ public class OrderService {
 - gpuVm은 resourceUuid를 사용하지 않는 것으로 확인되었음.
 
 우리 회사는 휴가쓴거랑 상관없이 동일임금
+- action 할ㄸ
