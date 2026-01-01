@@ -40,3 +40,5 @@ public class OrderService {
     }
 }
 ```
+
+/api/aria/request/multi-actionx
