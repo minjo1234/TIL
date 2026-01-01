@@ -18,3 +18,12 @@
 ---
 
 ``
+
+마이크로 서비스 
+save - Redis 
+save - RabbitMq 
+save - MariaDB 
+save - OracleDB 
+
+현재 구조에서 인프라적인 변화때문에 문제가 발생할 수 있다.
+save()로직의 많은 수정이 일어나기 때문읻
