@@ -47,6 +47,8 @@ public class OrderService {
 - gpuVm은 uuid를  사용하지 않는 것으로 확인되었음. ariaResourceUuid
 	- resourceUuid, deploymentUuid를 사용함
 	- action에서 resourceUuid, deploymentUuid중에서 뭐를 사용하는 지 파악해야한다.
+	- vmView.class에서 resourceUuid 가 없는데 어떻게 openChart(vm) 에서 resourceUuid를 가져와서 사용이 가능했던걸까 ?
+	- 
 
 우리 회사는 휴가쓴거랑 상관없이 동일임금
 - 
