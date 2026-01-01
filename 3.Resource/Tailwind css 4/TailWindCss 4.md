@@ -26,4 +26,17 @@ save - MariaDB
 save - OracleDB 
 
 현재 구조에서 인프라적인 변화때문에 문제가 발생할 수 있다.
-save()로직의 많은 수정이 일어나기 때문읻
+save()로직의 많은 수정이 일어나기 때문이다.
+하지만 Adpater를 둘 경우에 구현체에 따라서 작동하는 save()로직이 다르기 때문에 결합도가 낮아진다. 
+
+```java
+public class OrderService {
+    // 기술이 바뀔 때마다 이 부분을 계속 수정해야 함!
+    // private final MariaDbClient client; 
+    private final RedisClient client; // Redis로 바꾸느라 고생 중...
+
+    public void saveOrder(Order order) {
+        client.set(order.getId(), order); // 기술 전용 메서드에 종속됨
+    }
+}
+```
