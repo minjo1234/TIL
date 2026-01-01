@@ -45,4 +45,5 @@ public class OrderService {
 
 - /api/gpu/vm/state/uuids -> 해당 메서드에 대한 controller 및 서비스 구현필요
 - gpuVm은 resourceUuid를 사용하지 않는 것으로 확인되었음.
-- 
+
+우리 회사는 휴가쓴거랑 상관없이 동일임금
