@@ -83,4 +83,5 @@ public class OrderService {
 
 
 요구사항 -> PM <-> 팀원끼리 
-마켓컬리 TPM 
+마켓컬리 TPM <-> (PM + 팀원)
+
