@@ -51,4 +51,3 @@ public class OrderService {
 	- 
 
 우리 회사는 휴가쓴거랑 상관없이 동일임금
-- 
