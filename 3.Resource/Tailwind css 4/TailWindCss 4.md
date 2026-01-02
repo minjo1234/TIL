@@ -85,3 +85,6 @@ public class OrderService {
 요구사항 -> PM <-> 팀원끼리 
 마켓컬리 TPM <-> (PM + 팀원)
 
+
+- 스마일게이트 통합테스트
+- 새마을금고 MG (이거나네 ? ) 
