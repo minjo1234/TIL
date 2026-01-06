@@ -126,7 +126,7 @@ public class OrderService {
 - 배포 프로세스가 결정되지 않음. 
 
 - system_log -> 키위(kiwwiy) 
-- 14:00~15:00 공항청사에서 
+- 14:00~15:00 
 
 -----
 
