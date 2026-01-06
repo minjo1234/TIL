@@ -116,8 +116,9 @@ public class OrderService {
 - 6.운영망 배포일정
 
 - 금주 진행예정, 목요일 제외하기. 
-- DataCenter와 APIC을 연결하지 않고, 다른 API 
-- 
+- DataCenter와 APIC을 연결하지 않고, 다른 API를 사용해서 해결할 수 있는지 확인하기. 
+- 승인 프로세스가 현재 결정되지 않음. (공사, 시설)  
+	- 신청
 
 
 
