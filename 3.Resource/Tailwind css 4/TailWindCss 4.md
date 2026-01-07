@@ -162,3 +162,13 @@ public class OrderService {
 
 
 정확히 말씀드리면, **Controller, Spine, Leaf, Border-Leaf는 L4 장비 내부의 구성 요소가 아니라, 그 L4 장비가 연결되어 있는 'Cisco ACI 네트워크 전체 인프라'의 구성 요소**
+
+고객사에서 원하는게
+
+APIC에 연결된 CISCO ACI 네트워크 전체 인프라인지
+
+  
+
+APIC에 연결된 L4 장비가 연결되어 있는 Cisco ACI 네트워크 전체 인프라인지,
+L4 장비의 내부의 구성요소인지
+
