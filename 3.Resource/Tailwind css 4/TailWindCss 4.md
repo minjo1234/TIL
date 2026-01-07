@@ -124,7 +124,6 @@ public class OrderService {
 	- 시설 -> 자체 로그인으로 이용 
 	- 신청서 양식이 다르다. 
 - 배포 프로세스가 결정되지 않음. 
-
 - system_log -> 키위(kiwwiy) 
 - 14:00~15:00 
 
