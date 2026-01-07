@@ -160,3 +160,5 @@ public class OrderService {
 3.현재 resource도 많이 사용하고 있는 상태라서, 최대한 정책 추가를 지양하고 있다.
 4.
 
+
+정확히 말씀드리면, **Controller, Spine, Leaf, Border-Leaf는 L4 장비 내부의 구성 요소가 아니라, 그 L4 장비가 연결되어 있는 'Cisco ACI 네트워크 전체 인프라'의 구성 요소**
