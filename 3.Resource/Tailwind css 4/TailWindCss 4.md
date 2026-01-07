@@ -150,10 +150,7 @@ public class OrderService {
 14 새마을금고 
 15 암센터 
 
-
-
-
-
+노트북 인터넷진흥원, 
 
 
 
