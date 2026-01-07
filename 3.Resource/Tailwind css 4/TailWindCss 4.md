@@ -167,5 +167,3 @@ public class OrderService {
 2.enable 할 시에는 포트그룹이 할당이 되는데, 
 3.
 
-
-
