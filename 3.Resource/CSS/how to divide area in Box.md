@@ -468,5 +468,8 @@ Pod 최소 배포 단위, 쿠버네티스가 관리하는 가장 작은 단위
 1.Pod ->  pvc- >  PV (기본적으로 선택하지 않음.)
 2.PV -> Pod 
 
+PV , Storage Class  300GB 
+
+PV 
 
 
