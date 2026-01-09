@@ -475,7 +475,8 @@ pvc pv는 1대1대응이다. 명세서와 영수증
 - pvc PV (30GB)
 - 
 
-node, prometheus
+node
+- tanzu Good 
 
-
+prometheus
 
