@@ -501,3 +501,6 @@ prometheus
 
 한달에 한번 
 docker build 
+
+- 더미캐시 있는거 확인하기.
+- cron
