@@ -478,7 +478,14 @@ node
 - tanzu Good 
 
 prometheus
-- 
+
+
+
+
+
+
+-----
+
 
 1.인천공항 방문하여 L4 관련회의 및 요구사항 협의 진행, (해당내용은 notion에 공유)
 2.자원별 multiAction 기능 특정페이지에서 오류사항 해결 
