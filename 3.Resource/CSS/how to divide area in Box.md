@@ -573,3 +573,26 @@ target.setRetries(1);    // 실패 시 1번 재시도
 PDU pdu = new ScopedPDU();
 pdu.add(new VariableBinding(new OID(".1.3.6.1.4.1.1872.2.1.8.12.0"))); // CPU OID
 pdu.setType(PDU.GET); // "정보를 가져와라" 요청 타입
+
+{
+  "device": "Alteon_L4_01",
+  "metrics": [
+    {
+      "name": "CPU Usage",
+      "oid": ".1.3.6.1.4.1.1872.2.1.8.12.0",
+      "value": 35.5,
+      "unit": "%",
+      "status": "Normal"
+    },
+    {
+      "name": "Active Sessions",
+      "oid": ".1.3.6.1.4.1.1872.2.1.8.24.0",
+      "value": 1250,
+      "unit": "ea",
+      "status": "Normal"
+    }
+  ],
+  "updated_at": "2024-05-22 14:00:01"
+}
+
+---
