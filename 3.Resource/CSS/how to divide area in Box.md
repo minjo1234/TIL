@@ -602,3 +602,55 @@ snmpget -v 3 -u [사용자ID] -l authPriv -a SHA -A [인증비번] -x AES -X [�
 
 # 예시
 snmpget -v 3 -u alteon-admin -l authPriv -a SHA -A auth-pass-123 -x AES -X priv-pass-456 10.10.1.100 .1.3.6.1.4.1.1872.2.1.8.12.0
+
+---
+
+import org.snmp4j.*;
+import org.snmp4j.mp.SnmpConstants;
+import org.snmp4j.security.*;
+import org.snmp4j.smi.*;
+import org.springframework.stereotype.Service;
+
+@Service
+public class L4SnmpService {
+
+    public String getL4Data(String targetIp, String oid) throws Exception {
+        // 1. SNMP 세션 설정
+        TransportMapping<? extends Address> transport = new DefaultUdpTransportMapping();
+        Snmp snmp = new Snmp(transport);
+        USM usm = new USM(SecurityProtocols.getInstance(), new OctetString(MPv3.createLocalEngineID()), 0);
+        SecurityModels.getInstance().addSecurityModel(usm);
+        transport.listen();
+
+        // 2. SNMP v3 보안 사용자 추가 (표에 적으신 정보 입력)
+        snmp.getUSM().addUser(new OctetString("alteon-admin"),
+                new UsmUser(new OctetString("alteon-admin"),
+                        AuthSHA.ID, new OctetString("auth-pass-123"), // Auth 정보
+                        PrivAES128.ID, new OctetString("priv-pass-456"))); // Priv 정보
+
+        // 3. 요청 대상(L4) 설정
+        UserTarget target = new UserTarget();
+        target.setAddress(GenericAddress.parse("udp:" + targetIp + "/161"));
+        target.setRetries(1);
+        target.setTimeout(2000); // 2초 타임아웃
+        target.setVersion(SnmpConstants.version3);
+        target.setSecurityLevel(SecurityLevel.AUTH_PRIV);
+        target.setSecurityName(new OctetString("alteon-admin"));
+
+        // 4. 요청 PDU 생성 (GET 방식)
+        PDU pdu = new ScopedPDU();
+        pdu.add(new VariableBinding(new OID(oid)));
+        pdu.setType(PDU.GET);
+
+        // 5. 요청 및 응답 가공
+        ResponseEvent event = snmp.send(pdu, target);
+        if (event != null && event.getResponse() != null) {
+            String result = event.getResponse().get(0).getVariable().toString();
+            snmp.close();
+            return result; // L4가 던져준 숫자 반환
+        } else {
+            snmp.close();
+            return "TIMEOUT";
+        }
+    }
+}
