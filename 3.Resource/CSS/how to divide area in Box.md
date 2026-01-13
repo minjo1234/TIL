@@ -527,9 +527,8 @@ HTTPS X
 SNMP ?
 ICMP 로만 이뤄지고 있다. 
 
-- **API:** `GET https://l4-ip/api/stats/cpu` → JSON 응답
-    
-- **SNMP:** `GET 1.3.6.1.4.1.1872.2.1.8.12.0` (Alteon CPU OID 예시) → 숫자 응답
+- **API:** `GET https://l4-ip/api/stats/cpu` 
+- **SNMP:** `GET 1.3.6.1.4.1.1872.2.1.8.12.0` 
 
 1. **SNMP v3 사용:** "v1, v2는 암호화가 안 되지만, **v3는 암호화와 사용자 인증**을 지원하므로 안전합니다"라고 설득하세요.
     
