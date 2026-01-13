@@ -596,3 +596,9 @@ pdu.setType(PDU.GET); // "정보를 가져와라" 요청 타입
 }
 
 ---
+
+# SNMP v3 요청 양식
+snmpget -v 3 -u [사용자ID] -l authPriv -a SHA -A [인증비번] -x AES -X [암호화비번] [L4_IP]:161 [OID]
+
+# 예시
+snmpget -v 3 -u alteon-admin -l authPriv -a SHA -A auth-pass-123 -x AES -X priv-pass-456 10.10.1.100 .1.3.6.1.4.1.1872.2.1.8.12.0
