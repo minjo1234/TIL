@@ -535,3 +535,41 @@ ICMP 로만 이뤄지고 있다.
 2. **IP 화이트리스트 (ACL):** "L4 장비에서 **포털 서버 IP만** UDP 161 포트로 접속할 수 있게 제한하겠습니다"라고 명시하세요.
     
 3. **Read-Only:** "설정을 바꾸는 기능 없이 **오직 조회(Get)**만 가능한 권한을 사용하겠습니다"라고 제안하세요.
+
+---
+
+| **구분**      | **파라미터명 (필드)**     | **실제 값 예시**            | **설명**                           |
+| ----------- | ------------------ | ---------------------- | -------------------------------- |
+| **대상**      | **Target IP**      | `10.10.1.100`          | L4 장비의 관리 IP 주소                  |
+| **접속**      | **Port**           | `161`                  | SNMP 기본 포트 (UDP)                 |
+| **인증(ID)**  | **Security Name**  | `alteon-admin`         | 장비에 등록된 SNMP v3 사용자 ID           |
+| **보안 레벨**   | **Security Level** | `AuthPriv`             | **인증과 암호화를 모두 사용**한다는 설정 (가장 권장) |
+| **인증 암호**   | **Auth Protocol**  | `SHA` (또는 MD5)         | 비밀번호 암호화 알고리즘                    |
+|             | **Auth Password**  | `auth-pass-123`        | 인증용 비밀번호                         |
+| **통신 암호**   | **Priv Protocol**  | `AES` (또는 DES)         | 데이터 구간 암호화 알고리즘                  |
+|             | **Priv Password**  | `priv-pass-456`        | 데이터 암호화용 비밀번호                    |
+| **데이터 주[소** | **OID**            | `.1.3.6.1.4.1.1872...` | 조회할 정보의 고유 번호 (예: CPU)           |
+
+---
+
+// 1. 보안 모델 설정 (v3 인증 정보 양식)
+UsmUser user = new UsmUser(
+    new OctetString("alteon-admin"),      // Security Name
+    AuthSHA.ID,                           // Auth Protocol
+    new OctetString("auth-pass-123"),    // Auth Password
+    PrivAES128.ID,                        // Priv Protocol
+    new OctetString("priv-pass-456")     // Priv Password
+);
+
+// 2. 요청 주소 설정 (Target 양식)
+UserTarget target = new UserTarget();
+target.setAddress(GenericAddress.parse("udp:10.10.1.100/161"));
+target.setSecurityLevel(SecurityLevel.AUTH_PRIV);
+target.setSecurityName(new OctetString("alteon-admin"));
+target.setTimeout(3000); // 3초 타임아웃
+target.setRetries(1);    // 실패 시 1번 재시도
+
+// 3. 조회할 항목 설정 (PDU 양식)
+PDU pdu = new ScopedPDU();
+pdu.add(new VariableBinding(new OID(".1.3.6.1.4.1.1872.2.1.8.12.0"))); // CPU OID
+pdu.setType(PDU.GET); // "정보를 가져와라" 요청 타입
