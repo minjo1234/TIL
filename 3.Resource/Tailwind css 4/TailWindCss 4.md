@@ -200,3 +200,7 @@ L4 장비의 내부의 구성요소인지
 
 1. 노코드(No-code)와 로코드(Low-code)의 융합: **Rive & Framer**
 2. 1. 3D와 공간 설계의 정점: **Three.js & Spline**
+
+---
+
+message.properties 에 true, false 
