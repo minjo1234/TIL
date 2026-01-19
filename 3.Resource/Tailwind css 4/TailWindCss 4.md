@@ -204,3 +204,10 @@ L4 장비의 내부의 구성요소인지
 ---
 
 message.properties 에 true, false 
+
+---
+
+NextHub 
+
+1.수주완료 상태일경우 - 수주완료보고서 확인필요 
+2.
