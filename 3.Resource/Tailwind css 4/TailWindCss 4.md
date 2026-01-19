@@ -268,3 +268,7 @@ docker 설치
 5. **docker-compose-plugin**
     
     - `docker-compose-plugin_2.32.4-1~ubuntu.24.04~noble_amd64.deb`
+---
+
+1.우선협상 단계가 되었으면 -> 수주완료 -> 발행완료 
+2.
