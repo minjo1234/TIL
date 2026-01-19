@@ -250,3 +250,21 @@ NextHub
 4.영업실적에서는 세금제외하기.
 5.사업실적 저장하고 다시 목록으로 보내기
 
+
+---
+
+docker 설치 
+
+### 1. 다운로드해야 할 파일 5개 (Noble 기준)
+
+1. **containerd.io** (스크롤 중간쯤)
+    - `containerd.io_1.7.27-1_amd64.deb` (또는 버전 숫자가 더 높은 것)
+2. **docker-ce** (더 아래로 내려가세요)
+    - `docker-ce_28.0.4-1~ubuntu.24.04~noble_amd64.deb`
+3. **docker-ce-cli**
+    - `docker-ce-cli_28.0.4-1~ubuntu.24.04~noble_amd64.deb`
+4. **docker-buildx-plugin**
+    - `docker-buildx-plugin_0.21.1-1~ubuntu.24.04~noble_amd64.deb`
+5. **docker-compose-plugin**
+    
+    - `docker-compose-plugin_2.32.4-1~ubuntu.24.04~noble_amd64.deb`
