@@ -291,3 +291,5 @@ dns : "0.0,0,0"
 2.영업실적 페이지 쿼리 
 
 강태우
+
+SELECT * FROM table WHERE id = (SELECT id FROM user WHERE name='홍길동')
