@@ -294,5 +294,13 @@ dns : "0.0,0,0"
 
 SELECT * FROM table WHERE id = (SELECT id FROM user WHERE name='홍길동')
 
+---
 
 CarryInOutRequestMapper.xml
+
+```
+### Error querying database.  Cause: java.sql.SQLException: Subquery returns more than 1 row  
+### The error may exist in URL [jar:file:/usr/local/tomcat/webapps/ROOT/WEB-INF/lib/clovircm-domin-infra-2.0.jar!/META-INF/sql/CarryInOutRequestMapper.xml]  
+### The error may involve com.clovircm.CarryInOutRequest.findByAdmin-Inline  
+### The error occurred while setting parameters
+```
