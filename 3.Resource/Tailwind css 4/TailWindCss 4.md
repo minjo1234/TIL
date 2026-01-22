@@ -304,3 +304,6 @@ CarryInOutRequestMapper.xml
 ### The error may involve com.clovircm.CarryInOutRequest.findByAdmin-Inline  
 ### The error occurred while setting parameters
 ```
+
+select approverUserId from requestcarryinoutapprovalline where requestCarryInOutManagementId = r.id and  
+approvalStatus is null order by approvalOrder limit 1) as nextApproverUserId,
