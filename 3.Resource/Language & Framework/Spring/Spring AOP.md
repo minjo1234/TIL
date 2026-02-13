@@ -17,4 +17,12 @@ AOP를 이용하여 관련 자원들만 한 번에 처리하려고한다.
 호출하는 쪽에 배치 : 멀티 모듈환경에서 import가 가능한 쪽에 Aspect를 구현한다.
 
 updateDeploy 
+
+```
+```
 <aop:aspectj-autoproxy/> 미설정  , applicationContext.xml에 추가
+
+
+
+ Spring AOP는 프록시 기반이라 같은 빈 내부의 메서드 호출은 인터셉트하지 못한다. 
+- 이게 무슨 뜻일까?
