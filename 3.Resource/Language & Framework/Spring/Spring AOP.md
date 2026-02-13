@@ -31,3 +31,6 @@ AOP를 이용하여 관련 자원들만 한 번에 처리하려고한다.
   
 - Joinpoint 라는 건 무엇일까 ? - 공략지점, 발생 실행된 메서드의 블랙박스 
 
+
+
+ATATT3xFfGF0axg0lKkGpHnAW-2M-F6yKlKHSwyCb9K2E5haJk5syyqtphMKZ3_kH3CyVI_x8X8_bDgTmAUPAK3qeEONwCzXq0ayC2CyVpXukole5bwCCjiCZWCmsXmfNmKTG4gbAFrClrfxfDn-cYoXM_FaRJkHChAYtf6XANiPwQrQ-Aqa0Fc=48493BBE
