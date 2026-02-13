@@ -35,3 +35,7 @@ AOP를 이용하여 관련 자원들만 한 번에 처리하려고한다.
 
 
 ATATT3xFfGF0ZPE_FTszBNYMogsDpYo00_lppiwP8436xVG5ABvuAzeBTD-9ZpUf-dquQtg6KsiUk5p5dqFJALyI6k5cIHQNvEaVHRa5P_yBqkwd8RnMikjwJ9bKcIKjpczc8m6juNQYs0hvkrYHlpVX2MewSX8JS_mgMTSPellZClp5lDJ8uUY=32B897C0
+
+
+
+gitlab-token : glpat-denM7Xi26IwB7BhmNsNJCm86MQp1OjYH.01.0w1dw1anj
