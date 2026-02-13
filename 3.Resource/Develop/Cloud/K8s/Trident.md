@@ -20,4 +20,3 @@ kubernetes storage manager(쿠버네티스 스토리지 관리자) 이다.
 - PV(PersistentVolume) : 해당 공간을 쿠버네티스에서 인식할 수 있도록 등록한 쿠버네티스 객체 
 
 
-차량지원금
