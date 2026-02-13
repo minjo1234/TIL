@@ -39,3 +39,5 @@ ATATT3xFfGF0ZPE_FTszBNYMogsDpYo00_lppiwP8436xVG5ABvuAzeBTD-9ZpUf-dquQtg6KsiUk5p5
 
 
 gitlab-token : glpat-denM7Xi26IwB7BhmNsNJCm86MQp1OjYH.01.0w1dw1anj
+
+glpat-N2ZemzXAVbi2VqXMvJFynW86MQp1OjEH.01.0w0fy7hyc
