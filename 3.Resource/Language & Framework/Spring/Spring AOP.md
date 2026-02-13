@@ -14,3 +14,7 @@ CMP에서 EDA 기반의 아키텍쳐로 K8s 관련한 자원들이 배포되고 
 자원관련한 모든 메서드를 수정하여 감사로그를 추적하는 것을 유지보수성에 좋지않으므로
 AOP를 이용하여 관련 자원들만 한 번에 처리하려고한다.
 
+호출하는 쪽에 배치 : 멀티 모듈환경에서 import가 가능한 쪽에 Aspect를 구현한다.
+
+updateDeploy 
+<aop:aspectj-autoproxy/> 미설정  , applicationContext.xml에 추가
