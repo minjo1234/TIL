@@ -11,6 +11,6 @@ created: 2025-04-26
 ----
 ### 1st level 
 - [[DB]]
-	- [[Transaction]]
+	- [[3.Resource/CS/DB/010 Transaction/Transaction]]
 		- [[011 트랜잭션의 격리 수준(Isolation Level)|011 트랜잭션의 격리 수준]]
 		- 
