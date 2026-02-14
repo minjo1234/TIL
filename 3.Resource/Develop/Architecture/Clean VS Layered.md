@@ -4,3 +4,5 @@
 - DB 기술을 바꾸거나 테스트할 때 `Service` 코드도 영향을 받습니다. 서비스가 DB의 노예가 된 셈이죠.
 
 클린 아키텍쳐 : 
+- `Service` —(참조)—> `OrderRepository` **[인터페이스]** (Domain/Core 폴더에 위치)
+- `JpaOrderRepository` **[구현체]** —(상속/구현)—> `OrderRepository` (Infrastructure 폴더에 위치)
