@@ -106,3 +106,12 @@ Plugin : 확장 기능
     - **전략:** **해당 고객사 전용 레포지토리/폴더**에서 관리하여 코어 업데이트 시 간섭 최소화.
 
 **"이 소스코드가 물리적으로 어디에 위치해야 하는가"**에 대한 **설계적 기준(Architectural Standard)**이 없었기 때문입니다.
+
+
+---
+
+1. 아키텍처 전략: **"Microkernel Architecture" (미크로커널 아키텍처)**
+2. 디자인 패턴: **"Strategy Pattern" (전략 패턴)**
+	1. 실행 중에 알고리즘(로직)을 선택할 수 있게 하는 패턴
+3. 코드 관리 전략: **"Mainline Model with Feature Toggles"**
+	1. Fea
