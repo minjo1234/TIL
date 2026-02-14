@@ -15,3 +15,6 @@
 - JpaOrderRepository **[구현체]** —(상속/구현)—> `OrderRepository` (Infrastructure 폴더에 위치)
 
 
+PrmQL을 활용한 메트릭수집
+AZ-120 자격증 보유
+CKA까지 있으면 더 좋을듯
