@@ -1,4 +1,8 @@
-사용 목적 : 대규모 캐싱, 실시간 처리, 비정형 데이터 등
+사용 목적 : 
+
+캐싱 (Caching) : 성능 최적화
+세션 및 상태 관리 (Session Management) : 사용자 유지
+실시간 분석 및 계산 (Real-time Processing) : 즉시성
 
 ### Spring - Redis 사용법 
 
