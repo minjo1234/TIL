@@ -1,8 +1,19 @@
 사용 목적 : 
 
-캐싱 (Caching) : 성능 최적화
-세션 및 상태 관리 (Session Management) : 사용자 유지
-실시간 분석 및 계산 (Real-time Processing) : 즉시성
+1.캐싱 (Caching) : 성능 최적화
+- **사례:** 자주 조회하는 상품 상세 정보, 공지사항 등.
+
+2.세션 및 상태 관리 (Session Management) : 사용자 유지
+- **사례:** 로그인했는데 새로고침하니 로그아웃됐어요 같은 상황 방지.
+- 
+3.실시간 분석 및 계산 (Real-time Processing) : 즉시성
+- **사례:** 실시간 인기 검색어, 게임 랭킹 보드(Leaderboard), 오늘 방문자 수 카운팅.
+
+4.메시지 브로커 (Messaging) : 통신
+- **사례:** 실시간 채팅방, 푸시 알림 서비스, 작업 큐(Task Queue).
+
+5.분산 제어 (Distributed Coordination) : "데이터 정합성"
+- **사례:** **분산 락(Distributed Lock)**을 이용한 중복 결제 방지, 선착순 100명 이벤트 관리.
 
 ### Spring - Redis 사용법 
 
