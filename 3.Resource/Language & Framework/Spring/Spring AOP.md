@@ -24,20 +24,10 @@ AOP를 이용하여 관련 자원들만 한 번에 처리하려고한다.
 ```
 
 
-
-
  Spring AOP는 프록시 기반이라 같은 빈 내부의 메서드 호출은 인터셉트하지 못한다. 
 - 이게 무슨 뜻일까?
   
 - Joinpoint 라는 건 무엇일까 ? - 공략지점, 발생 실행된 메서드의 블랙박스 
 
-
-
-
-ATATT3xFfGF0ZPE_FTszBNYMogsDpYo00_lppiwP8436xVG5ABvuAzeBTD-9ZpUf-dquQtg6KsiUk5p5dqFJALyI6k5cIHQNvEaVHRa5P_yBqkwd8RnMikjwJ9bKcIKjpczc8m6juNQYs0hvkrYHlpVX2MewSX8JS_mgMTSPellZClp5lDJ8uUY=32B897C0
-
-
-
 gitlab-token : glpat-denM7Xi26IwB7BhmNsNJCm86MQp1OjYH.01.0w1dw1anj
-
 glpat-N2ZemzXAVbi2VqXMvJFynW86MQp1OjEH.01.0w0fy7hyc
