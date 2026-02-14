@@ -114,4 +114,6 @@ Plugin : 확장 기능
 2. 디자인 패턴: **"Strategy Pattern" (전략 패턴)**
 	1. 실행 중에 알고리즘(로직)을 선택할 수 있게 하는 패턴
 3. 코드 관리 전략: **"Mainline Model with Feature Toggles"**
-	1. Fea
+	1. Feature strategy 
+4. 의존성 관리 전략: **"Inversion of Control" (IoC, 제어의 역전)**
+	1. 코어가 플러그인을 부르는 게 아니라, 플러그인이 코어에 등록되는" 방식입니다.
