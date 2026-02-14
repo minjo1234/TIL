@@ -9,7 +9,11 @@
 
 사용 목적 : 
 - 대용량 트래픽 : 
-- 기술 선택의 자유도 (Polyglot Architecture) : 실시간 채팅은 Node.js, 데이터 계산은 Python 
+- 개발 속도
+- 기술 선택의 자유도 (Polyglot Architecture) : 실시간 채팅은 Node.js, 데이터 계산은 Python
+- 장애 격리 (Fault Tolerance) : 하나의 서비스에서 장애가 통제된다.
+- 스케일 아웃 (Selective Scaling) : 쿠폰 조회 기능만 사용량이 급증한다면, 쿠폰 서비스의 컨테이너 개수만 늘리면 된다.
+
 
 
 - 각 기능을 독립적인 서비스로 분리
