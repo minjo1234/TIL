@@ -19,9 +19,27 @@
 ---
 ### Isolation Level
 
+4개의 단계가 존재한다.
+
+|**격리 수준**|**특징**|**발생 가능한 문제**|
+|---|---|---|
+|**READ UNCOMMITTED**|커밋되지 않은 데이터도 읽음|**Dirty Read** (남이 고치다 만 데이터가 보임)|
+|**READ COMMITTED**|커밋된 데이터만 읽음 (가장 많이 씀)|**Non-Repeatable Read** (한 트랜잭션 내에서 결과가 바뀜)|
+|**REPEATABLE READ**|트랜잭션 시작 시점 데이터를 계속 읽음|**Phantom Read** (없던 레코드가 갑자기 나타남)|
+|**SERIALIZABLE**|완벽한 직렬화 (거의 사용 안 함)|성능 저하, 교착 상태(Deadlock) 위험|
+
 
 DB type 별로 다르다. 
 
 
 **MySQL (InnoDB):** `REPEATABLE READ`
 **PostgreSQL / Oracle / SQL Server:** `READ COMMITTED`
+
+
+#### ② Dirty Read 방지 (최소한의 방어선)
+
+최소한 `READ COMMITTED` 이상은 써야 합니다. 누군가 돈을 송금하다가 에러가 나서 취소(Rollback)했는데, 그 찰나에 취소 전 금액을 읽어서 처리해버리면 대참사가 나기 때문입니다.
+
+#### ③ `@Transactional`에서의 직접 설정
+
+DB 기본 설정을 따르지 않고, 특정 메서드에서만 격리 수준을 바꾸고 싶을 때 개발자가 직접 코드로 제어할 수 있습니다.
