@@ -1,15 +1,17 @@
 
-레이어드 아키텍쳐 
+### 레이어드 아키텍쳐 
 
-- 장점 : 구혀
+- 장점 : 구현 속도가 빠르다
+- 단점 : 결합도, 기술교체, 유지보수 비용이 증가할 수 있다.
+- Service —(직접 참조)—> `JpaRepository` (Infrastructure)
+- DB 기술을 바꾸거나 테스트할 때 `Service` 코드도 영향을 받습니다. 서비스가 DB의 노예가 된 셈
 
-- `Service` —(직접 참조)—> `JpaRepository` (Infrastructure)
-- DB 기술을 바꾸거나 테스트할 때 `Service` 코드도 영향을 받습니다. 서비스가 DB의 노예가 된 셈이죠.
+### 클린 아키텍쳐 : 
 
+- 장점 : 결합도, 기술교체, 서비스 로직만의 테스트가 가능하다.
+- 단점 : 
 
-
-클린 아키텍쳐 : 
-- `Service` —(참조)—> `OrderRepository` **[인터페이스]** (Domain/Core 폴더에 위치)
+- Service —(참조)—> `OrderRepository` **[인터페이스]** (Domain/Core 폴더에 위치)
 - `JpaOrderRepository` **[구현체]** —(상속/구현)—> `OrderRepository` (Infrastructure 폴더에 위치)
 
 Domain 엔티티와 DB 엔티티를 나눈다.
