@@ -25,3 +25,6 @@
 - **방법**: 코어 안에 `AutomationTask`라는 추상 레이어를 만듭니다.
     
     - 코어가 업데이트되어 내부 DB 구조가 바뀌더라도, `AutomationTask`라는 입구(Interface)의 규격만 유지한다면 SK-Hynix 브랜치의 Jenkins 로직은 절대 깨지지 않습니다.
+
+
+플러그인이 많아지는 것은 성공의 측면에서 좋다.
