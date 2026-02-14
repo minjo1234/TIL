@@ -6,3 +6,9 @@
 클린 아키텍쳐 : 
 - `Service` —(참조)—> `OrderRepository` **[인터페이스]** (Domain/Core 폴더에 위치)
 - `JpaOrderRepository` **[구현체]** —(상속/구현)—> `OrderRepository` (Infrastructure 폴더에 위치)
+
+
+Domain 엔티티와
+
+- **Order (Domain):** 순수 자바 객체. 비즈니스 로직(할인 계산, 상태 변경 등)이 들어있음.
+- **OrderEntity (JPA/DB):** `@Table`, `@Column` 같은 DB 전용 어노테이션이 붙은 객체.
