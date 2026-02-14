@@ -1,6 +1,10 @@
+사용 목적 : 대규모 캐싱, 실시간 처리, 비정형 데이터 등
+
 ### Spring - Redis 사용법 
 
  @Cacheable vs RedisTemplate 
+
+
 
 Redis 사용목적 
 
