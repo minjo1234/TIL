@@ -33,19 +33,15 @@
 | **SERIALIZABLE**     | 완벽한 직렬화 (거의 사용 안 함)   | 성능 저하, 교착 상태(Deadlock) 위험                   |
 
 
-DB type 별로 다르다. 
-
+DB type 별로 기본 설정이 다르다. 
 
 **MySQL (InnoDB):** `REPEATABLE READ`
 **PostgreSQL / Oracle / SQL Server:** `READ COMMITTED`
 
+DB 기본 설정을 따르지 않고, 특정 메서드에서만 격리 수준을 바꾸고 싶을 때 개발자가 직접 코드(@Transactional) 로 제어할 수 있습니다.
 
 
-최소한 `READ COMMITTED` 이상은 써야 합니다. 누군가 돈을 송금하다가 에러가 나서 취소(Rollback)했는데, 그 찰나에 취소 전 금액을 읽어서 처리해버리면 대참사가 나기 때문입니다.
-
-#### ③ `@Transactional`에서의 직접 설정
-
-DB 기본 설정을 따르지 않고, 특정 메서드에서만 격리 수준을 바꾸고 싶을 때 개발자가 직접 코드로 제어할 수 있습니다.
+READ UNCOMMITED : 남이 결제를 취소해도 그 금액이 보일 수 있기 때문에 사용하지 않는다.
 
 
 Repeatable Read (데이터 일관성 우선) - 쓰기 작업, 결제 
