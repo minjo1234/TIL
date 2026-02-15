@@ -221,3 +221,4 @@ ZSet
 - Key : { Value1(Score: 10), Value2(Score: 20) ... }
 - Set 처럼 중독은 안되지만, 자동 정렬, 실시간 랭킹 시스템 
 
+base_key:rawKey 형식으로 key를 저장하는게 국룰이다.
