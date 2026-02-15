@@ -198,3 +198,8 @@ Redis 사용목적
 - **C (Consistency)**: 모든 노드가 동일한 데이터를 봄  
 - **A (Availability)**: 모든 요청에 응답  
 - **P (Partition Tolerance)**: 네트워크 분리에도 동작
+
+
+
+RedisBaseRepository 
+
