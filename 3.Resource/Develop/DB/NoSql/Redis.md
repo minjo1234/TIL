@@ -119,6 +119,14 @@ cacheManager : ttl,
 ---
 
 
+캐싱을 구현하는 방식을 두 가지로 구분한다.
+
+
+1. **Spring Cache 기반 선언적 캐싱(Annotation-based Caching)**
+
+
+2.  **캐싱 데이터 처리 로직을 직접 구현(캐시 레포지토리 패턴)**
+
 
 ### Spring - Redis 사용법
 
@@ -128,13 +136,7 @@ cacheManager : ttl,
 
 Redis 사용목적 
 
-  1. 현재 프로젝트의 Redis 사용 목적은 "캐시 공유"                                                                                                                                                            
-  - cache.store=redis|local 프로퍼티 하나로 Caffeine(로컬) ↔ Redis(공유) 전환                                                                                                                               
-  - WAS 2대가 같은 Redis를 바라보므로, 한쪽에서 캐시를 갱신하면 다른 쪽도 즉시 반영됨
-  - 현재는 RedisStandaloneConfiguration (단일 노드) — 가장 단순한 형태
-
   2. 대용량 트래픽 시 달라지는 점
-  - 토폴로지: Standalone → Sentinel(자동 장애복구) 또는 Cluster(샤딩/수평확장)
   - 활용 범위: 단순 캐시를 넘어서 세션 스토어, 분산 락, Rate Limiting, Pub/Sub, 이벤트 큐로 확장
   - 코드 변경: ConnectionFactory 설정만 교체하면 기존 RedisTemplate 기반 코드는 그대로 동작
 
