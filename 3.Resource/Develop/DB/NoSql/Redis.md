@@ -46,7 +46,8 @@ Full Name : Re(Remote) Di(Directory) S(Server)
 )
 ```
 
-matchIfMissing = true 
+사용이유 : 
+- Scale out 
 
 
 ---
