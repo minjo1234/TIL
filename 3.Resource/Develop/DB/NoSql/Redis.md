@@ -10,6 +10,7 @@ Full Name : Re(Remote) Di(Directory) S(Server)
 	- 시간 채팅방, 푸시 알림 서비스, 작업 큐(Task Queue).
 - 분산 제어 (Distributed Coordination) : 데이터 정합성
 	- **분산 락(Distributed Lock)**을 이용한 중복 결제 방지, 선착순 100명 이벤트 관리.
+	- 분산 락 - 모든 서버에서 Redis 데이터를 본다.
 
 ---
 ### Redis 자료구조 
