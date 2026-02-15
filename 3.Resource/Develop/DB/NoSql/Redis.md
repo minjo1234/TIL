@@ -208,4 +208,8 @@ RedisBaseRepository
 
 
 자료구조 : 
-- Value, Hash, List, S
+- Value, Hash, List, Set, ZSet
+
+Value :  Key -> Value 
+Key : { Field1: Value, Field2: Value ... }
+Key : [] Value1, Value2, Value3 
