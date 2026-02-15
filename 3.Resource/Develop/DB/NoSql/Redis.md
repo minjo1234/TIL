@@ -103,6 +103,8 @@ PostConstruct로 설정된 HashMap중 데이터의 변화가 일어난다면 Red
 
 로드 밸런서가 고정되어있다면 사용할 필요가없다
 
+---
+
 1.L4의 'Sticky Session'은 완벽한 해결책이 아닙니다
 
 
