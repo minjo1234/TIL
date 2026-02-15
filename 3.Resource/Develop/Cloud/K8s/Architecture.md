@@ -23,13 +23,6 @@
 - PVC(Persistent Volume Claim):
 - 이중화 전략: * DB (MySQL/PostgreSQL): 
 
-
-
-1.Stateless 영역이란 무엇인지 , 보통 저렇게 Stateless 영역, DevOps 영역, Stateful 영역을 나누는지 각각의 차이는 무엇인지
-
-2.가용성과 자동복구의 차이 ? 가용성은 무엇이고 자동복구는 무엇인지.
-
-
 ---
 ## 1. 쿠버네티스 기본: 롤링 업데이트 (Rolling Update)
 
