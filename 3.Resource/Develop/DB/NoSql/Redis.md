@@ -78,6 +78,11 @@ RedisStandaloneConfiguration : redis가 한대
 clientBuilder.useSsl() : ssl 암호화 설정
 
 
+redisConfig 
+
+redisConnectionFactory : password, ssl, connection timeout setting 
+redisTemplate:  어떤 포맷으로 레디스에 저장할
+
 
 ---
 
