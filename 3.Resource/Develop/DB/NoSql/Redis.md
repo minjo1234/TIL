@@ -26,6 +26,7 @@ Full Name : Re(Remote) Di(Directory) S(Server)
 | **Document**      | MongoDB, CouchDB      | `key → JSON/BSON 문서`  | 유연한 스키마, CMS, 카탈로그 |     |
 | **Column-Family** | Cassandra, HBase      | `row → column family` | 시계열 데이터, 대량 쓰기     |     |
 | **Graph**         | Neo4j, Amazon Neptune | `노드-엣지 관계`            | 소셜 네트워크, 추천 시스템    |     |
+|                   |                       |                       |                    |     |
 
 자료구조 : String,  Hash, List, Set, Sorted Set, TTL
 
@@ -41,6 +42,9 @@ Full Name : Re(Remote) Di(Directory) S(Server)
 - 로드 밸런서가 이 서버 저서버로 DB에 접근할텐데 그때의 데이터를 한곳에서 관리하니까 ? 이건 잘 모르겠음.
 
 목적 : 빠른 속도(In-memory)를 유지하면서, 여러 서버가 공유해야 하는 핵심 데이터를 안전하고 정확하게 처리하는 것
+
+
+@ConditionalOnProperty 
 
 ---
 ### Spring - Redis 사용법
