@@ -87,6 +87,11 @@ cacheManager : ttl,
 
 @Cacheable, @Caching 
 
+**`@EnableCaching`** 기억하시나요? 이 어노테이션이 붙는 순간, 스프링은 전체 프로젝트의 모든 클래스를 훑기 시작합니다.
+
+- **레이더 가동:** "자, 지금부터 `@Cacheable`이나 `@CacheEvict`가 붙은 메서드가 있는지 다 찾아봐!"
+- 프록시 객체가 호출을 가로채서 이를 확보한다.
+
 ---
 
 
