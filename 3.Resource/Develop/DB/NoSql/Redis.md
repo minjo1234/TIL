@@ -84,10 +84,9 @@ PostConstruct로 설정된 HashMap중 데이터의 변화가 일어난다면 Red
 (각 서버마다 다른 정보를 보여주면 안 되기 때문이다.)
 
 ---
+### 근거:
 
-근거:
-
-1. @EnableRedisHttpSession 미사용 — Spring Session Redis를 활성화하는 어노테이션이 프로젝트 어디에도 없음                                                                                                 
+1. @EnableRedisHttpSession 미사용 — Spring Session Redis를 활성화하는 어노테이션이 프로젝트 어디에도 없음                                                                                             
 2. spring-session-data-redis 의존성 미확인 — Redis 세션 라이브러리가 포함되어 있지 않음
 3. request.getSession() 사용 — SessionHandlingInterceptor에서 서블릿 표준 HttpSession에 직접 setAttribute/getAttribute 호출
 4. 세션 타임아웃도 서블릿 방식 — request.getSession().setMaxInactiveInterval(sessionTimeoutSec) 로 Tomcat 세션 타임아웃을 직접 설정 (프로퍼티: session.timeout=86400, 24시간)
