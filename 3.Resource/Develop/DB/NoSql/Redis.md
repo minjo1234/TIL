@@ -201,10 +201,7 @@ Redis 사용목적
 
 
 ---
-
-
-RedisBaseRepository 
-
+### Redis 자료구조 
 
 
 자료구조 : 
@@ -220,6 +217,7 @@ List     -> Key : [ Value1, Value2, Value3 ]
 Set     -> Key : { Value1, Value2 ... }
 - 중복 허용, 순서 보장 X
 
-BaseZSet
+ZSet
 - Key : { Value1(Score: 10), Value2(Score: 20) ... }
-- 자동 정렬, 실시간 랭킹 시스템 
+- Set 처럼 중독은 안되지만, 자동 정렬, 실시간 랭킹 시스템 
+
