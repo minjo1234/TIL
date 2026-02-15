@@ -55,6 +55,7 @@ Full Name : Re(Remote) Di(Directory) S(Server)
 
 @PostConstruct로 처리되는 HashMap의 경우에는 신경쓰지 않아도 되지만,
 그 값이 운영 상황에서 변할 수 있다면 전략 패턴을 적용해서 Redis로 보내면 된다.
+전략 패턴을 사용하면 동적으로 데이터를 처리할 수 있기 때문에 전략 패턴을 이용하면 확장성까지 가질수있다. (Redis가 아닌 `Hazelcast`, `Memcached`의 사용도 가능하다.)
 
 
 ---
