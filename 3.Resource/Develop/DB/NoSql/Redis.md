@@ -84,6 +84,9 @@ redisConnectionFactory : password, ssl, connection timeout setting
 redisTemplate:  어떤 포맷으로 레디스에 저장할지, 직렬화 설정 (기본적으로 byte라서 해줘야한다.)
 cacheManager : ttl, 
 
+
+@Cacheable, @Caching 
+
 ---
 
 
