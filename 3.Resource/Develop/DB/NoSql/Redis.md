@@ -199,15 +199,13 @@ Redis 사용목적
 ---
 ### Redis 자료구조 
 
-
-자료구조 : 
-- Value, Hash, List, Set, ZSet
+자료구조 :  Value, Hash, List, Set, ZSet
 
 Value  :    Key -> Value 
 Hash  :    Key : { Field1: Value, Field2: Value ... }, 객체의 특정 필드만 수정하거나 가져올 때 효과적
 List     :    Key : [ Value1, Value2, Value3 ], 데이터 순서보장
 Set     :    Key : { Value1, Value2 ... }, 중복 허용, 순서 보장 X
-ZSet  :    Key :  
+ZSet  :    Key :  {"user:A": 10.5, "user:B": 50.2, "user:C": 30.0}, 실시간 자동 정렬
 
 ---
 ## Redis 도입 및 시스템 고도화 분석 보고서
