@@ -71,6 +71,9 @@ Full Name : Re(Remote) Di(Directory) S(Server)
 
 `RedisConfig`  를 설정한다.
 
+Lettuce: 레디스 엔진
+
+
 
 
 ---
