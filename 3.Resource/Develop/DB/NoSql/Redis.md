@@ -72,7 +72,8 @@ Full Name : Re(Remote) Di(Directory) S(Server)
 `RedisConfig`  를 설정한다.
 
 Lettuce: 레디스 엔진
-
+redisConnectionFactory : 레디스 연결 통로
+redisTemplate : redis에 명령어를 날릴 때 사용한다.
 
 
 
