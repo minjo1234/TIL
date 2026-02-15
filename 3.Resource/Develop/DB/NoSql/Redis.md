@@ -46,6 +46,16 @@ Full Name : Re(Remote) Di(Directory) S(Server)
 
 @ConditionalOnProperty 
 
+```java
+@ConditionalOnProperty(
+    name = "cache.store", 
+    havingValue = "local", 
+    matchIfMissing = true
+)
+```
+
+name = "cache.store"
+
 ---
 ### Spring - Redis 사용법
 
