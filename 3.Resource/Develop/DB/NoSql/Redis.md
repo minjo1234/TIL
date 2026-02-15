@@ -57,6 +57,10 @@ Full Name : Re(Remote) Di(Directory) S(Server)
 그 값이 운영 상황에서 변할 수 있다면 전략 패턴을 적용해서 Redis로 보내면 된다.
 전략 패턴을 사용하면 동적으로 데이터를 처리할 수 있기 때문에 전략 패턴을 이용하면 확장성까지 가질수있다. (Redis가 아닌 `Hazelcast`, `Memcached`의 사용도 가능하다.)
 
+**핵심 포인트**: 두 대 이상의 WAS가 동일한 캐시를 바라보기 위해 Redis를 사용한다.  
+- `cache.store=local` → Caffeine (JVM 내부 캐시, 단일 인스턴스용)  
+- `cache.store=redis` → Redis (외부 캐시, 다중 인스턴스 공유)
+
 
 ---
 
