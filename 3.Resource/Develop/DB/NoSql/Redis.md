@@ -203,83 +203,11 @@ Redis 사용목적
 자료구조 : 
 - Value, Hash, List, Set, ZSet
 
-Value  ->  Key -> Value 
-- 가장 기본적
-Hash  ->  Key : { Field1: Value, Field2: Value ... }
-- 객체의 특정 필드만 수정하거나 가져올 때 효과적
-
-List     -> Key : [ Value1, Value2, Value3 ]
-- 데이터 순서보장
-Set     -> Key : { Value1, Value2 ... }
+Value :  Key -> Value 
+Hash :   Key : { Field1: Value, Field2: Value ... }, 객체의 특정 필드만 수정하거나 가져올 때 효과적
+List   :   Key : [ Value1, Value2, Value3 ], 데이터 순서보장
+Set    Key : { Value1, Value2 ... }
 - 중복 허용, 순서 보장 X
-
-ZSet
-- Key : { Value1(Score: 10), Value2(Score: 20) ... }
-- Set 처럼 중독은 안되지만, 자동 정렬, 실시간 랭킹 시스템 
-
-base_key:rawKey 형식으로 key를 저장하는게 국룰이다.
-그럼 내가 Redis를 하면서 겪은 것은
-  
-
-서버가 scale out에서 다중으로 늘어나면서 세션, 토큰, Role 등의 관리가 필요해졌고
-그를 redis로 도입해서 해결하는데
-해줘야하는건
-
-1.redisConfig - redis기본설정
-2.redis 자료구조 정의
-3.spring cache vs redisTemplate를 이용하여 구현할지 설정하고 적용만해주면되는거였네.
-
-이걸 이력서에 쓰면 이점이 되려나 ? 분석해주고 이 외에도 내가 레디스에서 알아야할 정보가 있나 알아봐줘
-
-- **분산 환경에 대한 이해 증명:** "서버가 Scale-out 되는 환경에서 데이터 정합성 문제를 해결하기 위해 Redis를 분산 캐시/세션 저장소로 도입했다"는 문장은 당신이 **확장 가능한 아키텍처**를 고민하는 개발자임을 보여줍니다.
-    
-- **전략적 선택 능력:** "데이터의 특성(단순 조회 vs 복잡한 가공)에 따라 **Spring Cache**와 **RedisTemplate**을 적절히 혼용하여 생산성과 제어권을 동시에 잡았다"는 표현은 매우 전문적으로 들립니다.
-    
-- **자료구조 최적화:** "단순 String 저장이 아닌, 목적에 맞는 자료구조(Hash, ZSet 등)를 선택하여 **메모리 효율과 성능**을 개선했다"는 내용은 실무 역량을 입증하는 킬링 포인트입니다.
-
-
----
-### 추가적인 정보
-
-1.Redis Single Thread  : 레디스는 한 번에 하나의 명령만 수행한다.
-
-`SCAN`은 점원에게 일을 시킬 때 **"조금씩 끊어서 해줘"**라고 말하는 것과 같습니다.
-
-- **KEYS:** "다 찾을 때까지 아무도 나 방해하지 마!" (통차단)
-- **SCAN:** "일단 10개만 찾아서 나한테 주고, 잠깐 쉬면서 다른 손님 주문 받아. 그리고 여유 생기면 다음 10개 찾아줘." (분할 처리)
-
-- 이 점원은 엄청나게 발이 빨라서, 간단한 주문(GET, SET)은 1초에 수십만 개도 처리합니다.
-- 그런데 만약 한 손님이 **"가게 안에 있는 모든 메뉴판 다 가져와서 읽어줘!(KEYS *)"**라는 복잡한 주문을 하면 어떻게 될까요?
-- 점원은 그 일을 끝낼 때까지 **다음 손님의 주문을 아예 받지 못하고 멈춰 서게 됩니다.**
-
-
-```java
-public Set<String> getAllFullKeys() { return redis.keys(key(ALL_KEYS_PATTERN)); // 여기서 keys()를 쓰고 있음! }
-```
-
-
-```java
-public Set<String> getAllFullKeys() {
-    Set<String> keys = new HashSet<>();
-    
-    // 1. SCAN 설정을 만듭니다 (한 번에 100개씩 끊어서 읽기)
-    ScanOptions options = ScanOptions.scanOptions()
-            .match(key(ALL_KEYS_PATTERN)) // 패턴 지정 (예: user:*)
-            .count(100)                  // 한 번에 가져올 단위
-            .build();
-
-    // 2. 커서를 사용하여 레디스에 부하를 주지 않고 순회합니다.
-    try (Cursor<byte[]> cursor = redis.getConnectionFactory().getConnection().scan(options)) {
-        while (cursor.hasNext()) {
-            keys.add(new String(cursor.next()));
-        }
-    } catch (Exception e) {
-        throw new RuntimeException("Redis scan error", e);
-    }
-    
-    return keys;
-}
-```
 
 
 ---
