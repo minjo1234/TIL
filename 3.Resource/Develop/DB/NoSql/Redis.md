@@ -200,6 +200,10 @@ Redis 사용목적
 - **P (Partition Tolerance)**: 네트워크 분리에도 동작
 
 
+---
+
 
 RedisBaseRepository 
+
+
 
