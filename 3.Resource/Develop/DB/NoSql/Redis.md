@@ -41,14 +41,10 @@ Full Name : Re(Remote) Di(Directory) S(Server)
 ```java
 @ConditionalOnProperty(
     name = "cache.store",  // application.properties에서 key가 cache.store로 설정된 것을 찾는다.
-    havingValue = "local",//
-    matchIfMissing = true
+    havingValue = "local", // 그 값이 local 인지 확인한다.
+    matchIfMissing = true // cache.store 자체의 설정이 없더라도 기본적으로 이 클래스를 사용한다.
 )
 ```
-
-name = "cache.store" (appl)
-havingValue = "local"
-matchIfMissing = true -> `cache.store`라는 설정 자체가 없더라도, 기본적으로 이 클래스를 사용하겠다는 뜻
 
 matchIfMissing = true 
 
