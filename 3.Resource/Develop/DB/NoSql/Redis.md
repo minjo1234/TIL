@@ -82,7 +82,6 @@ redisConnectionFactory : password, ssl, connection timeout setting
 redisTemplate:  어떤 포맷으로 레디스에 저장할지, 직렬화 설정 (기본적으로 byte라서 해줘야한다.)
 cacheManager : ttl, 
 
-@Cacheable, @Caching 
 
 `@EnableCaching` 기억하시나요? 이 어노테이션이 붙는 순간, 스프링은 전체 프로젝트의 모든 클래스를 훑기 시작합니다.
 
@@ -103,7 +102,6 @@ cacheManager : ttl,
 - **게임 서버의 실시간 랭킹:** 순위가 잠시 날아가도 다시 계산하면 될 때.
 - **오늘 하루 방문자 수:** 통계 데이터.
 
-### 결론: 왜 우리 프로젝트는 Caching으로 쓸까?
 
 지금 보시는 `Role` 데이터(권한, 역할)는 **절대로 사라지면 안 되는 매우 중요한 정보**입니다.
 
