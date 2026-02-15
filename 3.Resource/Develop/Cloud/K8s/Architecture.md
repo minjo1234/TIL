@@ -49,6 +49,11 @@
 
 ---
 
+1.죽어도 되는 놈 vs 살려야 하는 놈 (데이터의 유무)
+2.물리적 서버 배치 전략 (Anti-Affinity)
+3.리소스 격리 (Resource Quota)
+4.보안 및 네트워크 격리 (Network Policy)
+
 - 영역을 나누는 게 의미가 있는가 ?  (데이터의 유무) 
 	- PVC 설정이 다르다.
 
@@ -72,7 +77,14 @@
 
 
 
-Namespace로 Resource Quota 
+Namespace로 Resource Quota 호스트의 리소스 사용량의 제한을 두어 서버의 영향도를 주지않도로 설정한다.
+
+
+## 4. 보안 및 네트워크 격리 (Network Policy)
+
+보안 관점에서도 영역 구분은 필수입니다.
+- **Stateless:** 외부 인터넷에서 접속이 가능해야 합니다. (Public)
+- **Stateful:** 외부에서 DB에 직접 접속하면 큰일 납니다. 오직 **포털 영역에서 오는 요청만 받도록** 방화벽(Network Policy)을 칠 수 있습니다.
 
 
 
