@@ -20,12 +20,14 @@ Full Name : Re(Remote) Di(Directory) S(Server)
 1.백엔드 서버에서 관리할때랑, Redis에서 관리할 때랑 코드의 규약이 어떻게 달라질까 ?
 
 
-| 유형 | 대표 DB | 데이터 모델 | 적합한 케이스 |  
-|------|---------|------------|-------------|  
-| **Key-Value** | Redis, Memcached | `key → value` | 캐싱, 세션, 실시간 카운터 |  
-| **Document** | MongoDB, CouchDB | `key → JSON/BSON 문서` | 유연한 스키마, CMS, 카탈로그 |  
-| **Column-Family** | Cassandra, HBase | `row → column family` | 시계열 데이터, 대량 쓰기 |  
-| **Graph** | Neo4j, Amazon Neptune | `노드-엣지 관계` | 소셜 네트워크, 추천 시스템 |
+| 유형                | 대표 DB                 | 데이터 모델                | 적합한 케이스            |     |
+| ----------------- | --------------------- | --------------------- | ------------------ | --- |
+| **Key-Value**     | Redis, Memcached      | `key → value`         | 캐싱, 세션, 실시간 카운터    |     |
+| **Document**      | MongoDB, CouchDB      | `key → JSON/BSON 문서`  | 유연한 스키마, CMS, 카탈로그 |     |
+| **Column-Family** | Cassandra, HBase      | `row → column family` | 시계열 데이터, 대량 쓰기     |     |
+| **Graph**         | Neo4j, Amazon Neptune | `노드-엣지 관계`            | 소셜 네트워크, 추천 시스템    |     |
+
+자료구조 : String,  Hash, List, Set, Sorted Set, TTL
 
 
 3.실시간 분석 및 계산 (Real-time Processing) : 즉시성
