@@ -69,7 +69,7 @@ Full Name : Re(Remote) Di(Directory) S(Server)
 
 `@EnableCaching`은 **"스프링아, 이제부터 내 코드에 캐시 관련 어노테이션(`@Cacheable` 등)이 보이면 캐시 기능을 작동시켜줘"**라고 명령하는 스위치입니다.
 
-`RedisConfig` 를 설정한다.
+`RedisConfig`  를 설정한다.
 
 
 
