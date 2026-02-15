@@ -64,6 +64,12 @@ Full Name : Re(Remote) Di(Directory) S(Server)
 
 이 패턴 덕분에 **코드 변경 없이 프로퍼티만 바꾸면** 로컬 개발(Caffeine) ↔ 운영 이중화(Redis)를 전환할 수 있다.
 
+
+### 2.캐싱 설정
+
+`@EnableCaching`은 **"스프링아, 이제부터 내 코드에 캐시 관련 어노테이션(`@Cacheable` 등)이 보이면 캐시 기능을 작동시켜줘"**라고 명령하는 스위치입니다.
+
+
 ---
 
 
