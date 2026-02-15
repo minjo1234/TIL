@@ -20,14 +20,6 @@ Full Name : Re(Remote) Di(Directory) S(Server)
 1.백엔드 서버에서 관리할때랑, Redis에서 관리할 때랑 코드의 규약이 어떻게 달라질까 ?
 
 
-| 유형                | 대표 DB                 | 데이터 모델                | 적합한 케이스            |     |
-| ----------------- | --------------------- | --------------------- | ------------------ | --- |
-| **Key-Value**     | Redis, Memcached      | `key → value`         | 캐싱, 세션, 실시간 카운터    |     |
-| **Document**      | MongoDB, CouchDB      | `key → JSON/BSON 문서`  | 유연한 스키마, CMS, 카탈로그 |     |
-| **Column-Family** | Cassandra, HBase      | `row → column family` | 시계열 데이터, 대량 쓰기     |     |
-| **Graph**         | Neo4j, Amazon Neptune | `노드-엣지 관계`            | 소셜 네트워크, 추천 시스템    |     |
-|                   |                       |                       |                    |     |
-
 자료구조 : String,  Hash, List, Set, Sorted Set, TTL
 
 
@@ -44,8 +36,8 @@ Full Name : Re(Remote) Di(Directory) S(Server)
 목적 : 빠른 속도(In-memory)를 유지하면서, 여러 서버가 공유해야 하는 핵심 데이터를 안전하고 정확하게 처리하는 것
 
 
-@ConditionalOnProperty 
-
+@ConditionalOnProperty : 설정값에 따라 이 클래스를 빈(Bean)으로 등록할 지 말지를 결정한다.
+ 
 ```java
 @ConditionalOnProperty(
     name = "cache.store", 
@@ -54,9 +46,14 @@ Full Name : Re(Remote) Di(Directory) S(Server)
 )
 ```
 
-name = "cache.store"
+name = "cache.store" 
+havingValue = "local"
+
 
 ---
+
+
+
 ### Spring - Redis 사용법
 
  @Cacheable vs RedisTemplate 
