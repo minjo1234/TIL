@@ -71,23 +71,20 @@ Full Name : Re(Remote) Di(Directory) S(Server)
 
 `RedisConfig`  를 설정한다.
 
+
 Lettuce: 레디스 엔진
 redisConnectionFactory : 레디스 연결 통로
 redisTemplate : redis에 명령어를 날릴 때 사용한다.
 RedisStandaloneConfiguration : redis가 한대
 clientBuilder.useSsl() : ssl 암호화 설정
 
-
-redisConfig 
-
 redisConnectionFactory : password, ssl, connection timeout setting 
 redisTemplate:  어떤 포맷으로 레디스에 저장할지, 직렬화 설정 (기본적으로 byte라서 해줘야한다.)
 cacheManager : ttl, 
 
-
 @Cacheable, @Caching 
 
-**`@EnableCaching`** 기억하시나요? 이 어노테이션이 붙는 순간, 스프링은 전체 프로젝트의 모든 클래스를 훑기 시작합니다.
+`@EnableCaching` 기억하시나요? 이 어노테이션이 붙는 순간, 스프링은 전체 프로젝트의 모든 클래스를 훑기 시작합니다.
 
 - **레이더 가동:** "자, 지금부터 `@Cacheable`이나 `@CacheEvict`가 붙은 메서드가 있는지 다 찾아봐!"
 - 프록시 객체가 호출을 가로채서 이를 확보한다.
