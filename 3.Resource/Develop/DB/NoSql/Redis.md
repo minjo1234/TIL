@@ -100,3 +100,5 @@ PostConstruct로 설정된 HashMap중 데이터의 변화가 일어난다면 Red
   - 현재 Redis는 캐시 데이터만 공유하고, 세션은 각 WAS의 Tomcat 메모리에 독립 저장됨
   - WAS 이중화 상태에서 L4/L7 로드밸런서가 Sticky Session(세션 어피니티)을 설정하지 않으면, 사용자가 다른 WAS로 라우팅될 때 로그인이 풀리는 문제가 발생할 수 있음
   - 이를 해결하려면 @EnableRedisHttpSession으로 세션도 Redis에 저장하거나, 로드밸런서에서 Sticky Session을 보장해야 함
+
+로드 밸런서가 고정되어있다면 사용할 필요가없다
