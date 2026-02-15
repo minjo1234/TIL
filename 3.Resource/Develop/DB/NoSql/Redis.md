@@ -74,6 +74,8 @@ Full Name : Re(Remote) Di(Directory) S(Server)
 Lettuce: 레디스 엔진
 redisConnectionFactory : 레디스 연결 통로
 redisTemplate : redis에 명령어를 날릴 때 사용한다.
+RedisStandaloneConfiguration : redis가 한대
+clientBuilder.useSsl() : ssl 암호화 설정
 
 
 
