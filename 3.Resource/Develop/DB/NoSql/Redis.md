@@ -309,3 +309,12 @@ Redis가 죽었을 때의 대응법을 고민해봐야할듯..
 
 3.Redis Failover(장애 극복) 대응 전략
 
+
+-  A. 인프라 계층: Redis Sentinel 또는 Cluster
+- **Java 설정 변경:** `RedisConfig`에서 `RedisStandaloneConfiguration` 대신 `RedisSentinelConfiguration`을 사용하도록 변경하면 됩니다. 스프링은 자동으로 바뀐 서버에 연결합니다.
+
+-  B. 애플리케이션 계층: Fallback(방어 코드) 로직
+	- 
+
+-  C. 서킷 브레이커 (Circuit Breaker) 도입
+	- `Resilience4j` 같은 라이브러리를 써서 **"레디스가 5번 이상 에러 나면 아예 1분 동안은 레디스를 쳐다보지도 말고 바로 DB로 가!"**라고 설정하는 것이 실무의 정석입니다.
