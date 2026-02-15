@@ -15,9 +15,13 @@
 - **Nginx:** 별도의 서버로 두지 말고 **Ingress Controller**(예: ingress-nginx)를 사용하세요. 클러스터 진입점 역할을 하며 L7 스위칭을 담당합니다.
 - **Portal (2대):** `Deployment` 객체로 관리하며 `replicas: 2`로 설정합니다. 서로 다른 노드에 배치되도록 **Pod Anti-Affinity** 설정을 추가하는 것이 이중화의 핵심입니다.
 
+② DB & Redis (Stateful 영역)
+- StatefulSet 사용:
+- PVC(Persistent Volume Claim):
+- 이중화 전략: * DB (MySQL/PostgreSQL): 
 
 
 
 
-1.Stateless 영역이란 무엇인지 
+1.Stateless 영역이란 무엇인지 , 보통 저렇게 Stateless 영역, DevOps 영역, Stateful 영역을 난
 2.가용성과 자동복구의 차이 ? 가용성은 무엇이고 자동복구는 무엇인지.
