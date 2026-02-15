@@ -207,3 +207,5 @@ RedisBaseRepository
 
 
 
+자료구조 : 
+- Value, Hash, List, S
