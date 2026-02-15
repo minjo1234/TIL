@@ -210,6 +210,9 @@ RedisBaseRepository
 자료구조 : 
 - Value, Hash, List, Set, ZSet
 
-Value :  Key -> Value 
-Key : { Field1: Value, Field2: Value ... }
-Key : [] Value1, Value2, Value3 
+Value  ->  Key -> Value 
+Hash  ->  Key : { Field1: Value, Field2: Value ... }
+List     -> Key : [ Value1, Value2, Value3 ]
+- 
+Set     -> Key : { Value1, Value2 ... }
+- 중복 허용, 순서 보장 X
