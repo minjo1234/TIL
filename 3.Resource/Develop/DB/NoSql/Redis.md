@@ -211,8 +211,15 @@ RedisBaseRepository
 - Value, Hash, List, Set, ZSet
 
 Value  ->  Key -> Value 
+- 가장 기본적
 Hash  ->  Key : { Field1: Value, Field2: Value ... }
+- 객체의 특정 필드만 수정하거나 가져올 때 효과적
+
 List     -> Key : [ Value1, Value2, Value3 ]
-- 
+- 데이터 순서보장
 Set     -> Key : { Value1, Value2 ... }
 - 중복 허용, 순서 보장 X
+
+BaseZSet
+- Key : { Value1(Score: 10), Value2(Score: 20) ... }
+- 자동 정렬, 실시간 랭킹 시스템 
