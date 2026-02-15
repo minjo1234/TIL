@@ -60,7 +60,9 @@ Full Name : Re(Remote) Di(Directory) S(Server)
 **핵심 포인트**: 두 대 이상의 WAS가 동일한 캐시를 바라보기 위해 Redis를 사용한다.  
 - `cache.store=local` → Caffeine (JVM 내부 캐시, 단일 인스턴스용)  
 - `cache.store=redis` → Redis (외부 캐시, 다중 인스턴스 공유)
+- `cache.ttl.default.minutes=10`
 
+이 패턴 덕분에 **코드 변경 없이 프로퍼티만 바꾸면** 로컬 개발(Caffeine) ↔ 운영 이중화(Redis)를 전환할 수 있다.
 
 ---
 
