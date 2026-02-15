@@ -53,7 +53,8 @@ Full Name : Re(Remote) Di(Directory) S(Server)
 그렇다면 이것은 안티패턴일까 ? 아니다. 전략 패턴으로 스케일 아웃 상황에서는 신경쓰지 않아도된다.
 스케일 아웃 상황에서 redis를 사용할때 HashMap 으로 관리중이던.
 
-@PostConstruct 
+@PostConstruct로 처리되는 HashMap의 경우에는 신경쓰지 않아도 되지만,
+그 값이 운영 상황에서 변할 수 있다면 전략 패턴을 적용해서 Redis로 보내면 된다.
 
 
 ---
