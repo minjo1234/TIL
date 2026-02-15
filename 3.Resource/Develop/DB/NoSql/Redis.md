@@ -246,15 +246,6 @@ base_key:rawKey 형식으로 key를 저장하는게 국룰이다.
 ### 추가적인 정보
 
 1.Redis Single Thread  : 레디스는 한 번에 하나의 명령만 수행한다.
-2.캐시 쇄도(Cache Stampede)와 유효기간(TTL)
-3.영속성 옵션 (RDB vs AOF)
-- **RDB:** 특정 시점의 스냅샷을 찍어 파일로 저장 (백업용).
-- **AOF:** 모든 쓰기 명령을 기록해두었다가 다시 실행 (복구용).
-4.메모리 한계와 퇴거 정책 (Maxmemory Policy)
-
-Redis가 죽었을 때의 대응법을 고민해봐야할듯..
-로컬 캐시와 레디스를 같이 쓰는경우까지 고려해보면될듯
-
 
 `SCAN`은 점원에게 일을 시킬 때 **"조금씩 끊어서 해줘"**라고 말하는 것과 같습니다.
 
@@ -265,10 +256,40 @@ Redis가 죽었을 때의 대응법을 고민해봐야할듯..
 - 그런데 만약 한 손님이 **"가게 안에 있는 모든 메뉴판 다 가져와서 읽어줘!(KEYS *)"**라는 복잡한 주문을 하면 어떻게 될까요?
 - 점원은 그 일을 끝낼 때까지 **다음 손님의 주문을 아예 받지 못하고 멈춰 서게 됩니다.**
 
+
 ```java
 public Set<String> getAllFullKeys() { return redis.keys(key(ALL_KEYS_PATTERN)); // 여기서 keys()를 쓰고 있음! }
 ```
 
 
+```java
+public Set<String> getAllFullKeys() {
+    Set<String> keys = new HashSet<>();
+    
+    // 1. SCAN 설정을 만듭니다 (한 번에 100개씩 끊어서 읽기)
+    ScanOptions options = ScanOptions.scanOptions()
+            .match(key(ALL_KEYS_PATTERN)) // 패턴 지정 (예: user:*)
+            .count(100)                  // 한 번에 가져올 단위
+            .build();
+
+    // 2. 커서를 사용하여 레디스에 부하를 주지 않고 순회합니다.
+    try (Cursor<byte[]> cursor = redis.getConnectionFactory().getConnection().scan(options)) {
+        while (cursor.hasNext()) {
+            keys.add(new String(cursor.next()));
+        }
+    } catch (Exception e) {
+        throw new RuntimeException("Redis scan error", e);
+    }
+    
+    return keys;
+}
 ```
-```
+
+2.캐시 쇄도(Cache Stampede)와 유효기간(TTL)
+3.영속성 옵션 (RDB vs AOF)
+- **RDB:** 특정 시점의 스냅샷을 찍어 파일로 저장 (백업용).
+- **AOF:** 모든 쓰기 명령을 기록해두었다가 다시 실행 (복구용).
+4.메모리 한계와 퇴거 정책 (Maxmemory Policy)
+
+Redis가 죽었을 때의 대응법을 고민해봐야할듯..
+로컬 캐시와 레디스를 같이 쓰는경우까지 고려해보면될듯
