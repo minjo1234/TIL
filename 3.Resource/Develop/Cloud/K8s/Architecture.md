@@ -5,7 +5,8 @@
 3.Namespace 및, pod의 배치는 (Stateful, Stateless, Devops)
 4.NFS등 PV에 대한 고려는 어떻게 할지 ?
 5.Cluster, Pod monitoring은 어떻게할지?
-
+6.네트워크 보안 정책
+- 포털 포드가 DB 포드에는 접근해야 하지만, 외부 노출된 포드가 Jenkins 관리 페이지에 접근하는 것은 막아야 하지 않을까?" 하는 보안 규칙입니다
 
 ### 사용계기 
 
