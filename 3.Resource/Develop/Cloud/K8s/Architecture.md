@@ -480,3 +480,14 @@ Nginx Ingress Controller (K8s)
 - **관리용 툴:** **Rancher**를 설치하세요. (무료 오픈소스)
 - **배포 방식:** **Helm 차트** 형태로 서비스를 패키징하세요.
 - **운영:** Rancher UI에서 해당 Helm 차트를 불러와, 마우스 클릭으로 **Node Affinity**나 **Replica** 개수를 조절하며 운영합니다.
+
+
+그럼 일단 해야할것은 서버 3대를 배포하고
+
+  
+
+1.각각의 서버에 k3s를 설치한다.
+2.마스터노드가 3대일텐데 한대의 서버에는 Rancher, Helm을 설치하여 UI, CLI로 설정한다.
+3.pod들의 namespace를 정의한다. (stateful, stateless, devops) 이렇게 3개
+4.pod들이 어떤 노드에 배치될지, 어떤 정도의 자원을 사용할지 세팅한다.
+5.pod들을 배포하고 failover를 테스트한다 . -> 이정도면 되려나?
