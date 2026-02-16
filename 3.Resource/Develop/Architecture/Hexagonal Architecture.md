@@ -26,7 +26,7 @@ Adpater Out : JPA, Redis 등을 사용하여 DB에 저장한다.
 
 ### 의존성 흐름
 
-Adapter In -> Port In -> Service -> Adapter Out -> Port Out 
+
 
 
 
