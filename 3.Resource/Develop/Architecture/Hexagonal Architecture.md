@@ -20,7 +20,8 @@ domain은 순수 도메인
 application의 service는 순수 비즈니스 로직
 adapter는 application에 들어오는 in과 out으로 분리되며 out에서 어떤 DB에 저장될지 설정된다.
 
-adapter in -> application 
+Adpater In -> Application Port In -> Application Service -> Application Port out -> Adpater out 
+
 
 
 ```bash
