@@ -471,3 +471,12 @@ Nginx Ingress Controller (K8s)
 1. **Portal:** `Anti-Affinity`를 걸어서 노드 1, 2, 3번에 하나씩 찢어서 배치 (서버 장애 대비).
 2. **DB:** `Node Selector`를 써서 특정 노드에 고정하거나, 공유 스토리지 성능이 보장된 노드 그룹으로 유도.
 3. **Jenkins/GitLab:** `Resource Requests/Limits`를 빡빡하게 걸어서 다른 서비스의 자원을 뺏지 못하게 격리.
+
+---
+### 4. CMP 솔루션에서의 추천 조합
+
+사용자님은 **CMP(Cloud Management Platform) 솔루션**을 구축 중이시니, 인프라 자체가 상품이 될 수도 있겠네요. 그렇다면 이 조합이 가장 정석입니다.
+
+- **관리용 툴:** **Rancher**를 설치하세요. (무료 오픈소스)
+- **배포 방식:** **Helm 차트** 형태로 서비스를 패키징하세요.
+- **운영:** Rancher UI에서 해당 Helm 차트를 불러와, 마우스 클릭으로 **Node Affinity**나 **Replica** 개수를 조절하며 운영합니다.
