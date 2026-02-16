@@ -1,9 +1,11 @@
 
-1.도입배경 
-2.도입해야 할 이유가 존재하는가 ?
+1.도입해야 할 이유가 존재하는지 찾아보기 
+
 3.서버 Master Plane, Worker Node의 구성을 어떻게 할 것 인지
 - 노드는 몇 대 ? 
-4.Nameps
+4.Namespace 및, pod의 배치는 (Stateful, Stateless, Devops)
+5.NFS등 PV에 대한 고려는 어떻게 할지 ?
+6.Cluster, Pod monitoring은 어떻게할지?
 
 
 ### 사용계기 
