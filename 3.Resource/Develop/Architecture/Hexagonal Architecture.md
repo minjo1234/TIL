@@ -26,8 +26,9 @@ Adpater Out : JPA, Redis 등을 사용하여 DB에 저장한다.
 
 ### 의존성 흐름
 
+**Adapter In** (Port In을 의존) → **Port In** (Service가 구현) → **Service** (Port Out을 사용) → **Adapter Out** (Port Out을 구현/의존) $\rightarrow$ **Port Out**
 
-
+포트와 어댑터라는 
 
 
 ```bash
