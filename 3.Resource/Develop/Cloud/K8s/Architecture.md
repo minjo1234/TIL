@@ -421,3 +421,12 @@ Nginx Ingress Controller (K8s)
 - **DB 및 Redis 통합:** CMP는 보통 관리용 데이터가 핵심입니다. 외부 스토리지를 복잡하게 잡기보다, 3대의 노드에 데이터를 복제하는 **Longhorn** 같은 경량 스토리지 솔루션을 얹어서 사용하세요.
 - **Ingress:** 기본 내장된 **Traefik**을 그대로 써도 무방합니다. (Nginx보다 가볍고 CMP 대시보드와 궁합이 좋습니다.)
 - **DevOps:** Jenkins 대신 **GitHub Actions Runner**나 **GitLab Runner**를 컨테이너로 띄워 필요할 때만 자원을 쓰게 설정하세요.
+
+
+## 3. 구축 시 주의할 점 (Taint와 Toleration)
+
+보통 정석 쿠버네티스 설치 도구(kubeadm 등)는 보안과 안정성을 위해 **"마스터 노드에는 일반 포드를 띄우지 마라"**는 표식(**Taint**)을 자동으로 새겨둡니다.
+
+통합형으로 쓰시려면 이 표식을 지워주는 작업이 필요합니다.
+- **K3s:** 기본적으로 마스터에 포드가 뜨도록 설정되어 있어 별도 작업이 필요 없습니다. (매우 편리하죠!)
+- **K8s (정석):** `kubectl taint nodes --all node-role.kubernetes.io/master-` 같은 명령어로 금지령을 풀어줘야 합니다.
