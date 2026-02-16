@@ -527,3 +527,5 @@ Nginx Ingress Controller (K8s)
 ## Longhorn을 추천하나? (장점)
 
 - **100% 무료:** 오픈소스(CNCF 프로젝트)이며 비용이 전혀 들지 않습니다.
+
+
