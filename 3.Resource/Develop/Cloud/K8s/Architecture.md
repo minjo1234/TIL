@@ -462,3 +462,12 @@ Nginx Ingress Controller (K8s)
 
 - **설정 방식:** `podAntiAffinity`를 사용합니다.
 - **논리:** "내 이름이 `portal`인 Pod를 찾아서, 그 Pod가 이미 있는 노드에는 나를 배정하지 마!"라고 선언합니다.
+
+
+### 💡 실무 적용 시나리오 (3~6대 환경)
+
+사용자님의 CMP 환경에 적용한다면 이런 규칙을 넣게 됩니다.
+
+1. **Portal:** `Anti-Affinity`를 걸어서 노드 1, 2, 3번에 하나씩 찢어서 배치 (서버 장애 대비).
+2. **DB:** `Node Selector`를 써서 특정 노드에 고정하거나, 공유 스토리지 성능이 보장된 노드 그룹으로 유도.
+3. **Jenkins/GitLab:** `Resource Requests/Limits`를 빡빡하게 걸어서 다른 서비스의 자원을 뺏지 못하게 격리.
