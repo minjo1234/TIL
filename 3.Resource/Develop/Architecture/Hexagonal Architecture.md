@@ -28,7 +28,17 @@ Adpater Out : JPA, Redis 등을 사용하여 DB에 저장한다.
 
 **Adapter In** (Port In을 의존) → **Port In** (Service가 구현) → **Service** (Port Out을 사용) → **Adapter Out** (Port Out을 구현/의존) $\rightarrow$ **Port Out**
 
-포트와 어댑터라는 
+포트와 어댑터라는 구체적인 통신 인터페이스를 정의한다.
+
+
+### 헥사고날 아키텍처 (2단 분리)
+
+단순하게 **안(Inside)**과 **밖(Outside)**으로 나뉩니다.
+
+- **안:** 도메인 모델과 이를 다루는 서비스 로직.
+- **밖:** DB, 웹 UI, 외부 API 등 기술적인 구현체.
+- **경계:** 포트(인터페이스)가 이 둘을 연결합니다.
+
 
 
 ```bash
@@ -43,3 +53,5 @@ Adpater Out : JPA, Redis 등을 사용하여 DB에 저장한다.
       ├─ database (JPA, MyBatis)
       └─ ui (Web Framework)
 ```
+
+
