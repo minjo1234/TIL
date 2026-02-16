@@ -521,3 +521,9 @@ Nginx Ingress Controller (K8s)
 3.pod들의 namespace를 정의한다. (stateful, stateless, devops) 이렇게 3개
 4.pod들이 어떤 노드에 배치될지, 어떤 정도의 자원을 사용할지 세팅한다.
 5.pod들을 배포하고 failover를 테스트한다 . -> 이정도면 되려나?
+6.Longhorn은 **"각 서버에 흩어져 있는 하드디스크 조각들을 모아, 쿠버네티스 전용 거대 가상 디스크 풀"**로 만들어주는 소프트웨어입니다.
+
+
+## Longhorn을 추천하나? (장점)
+
+- **100% 무료:** 오픈소스(CNCF 프로젝트)이며 비용이 전혀 들지 않습니다.
