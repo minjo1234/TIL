@@ -14,3 +14,10 @@ Hexagonal vs Clean Architecture
       └─ out (PersistenceAdapter: JPA Repository 구현체)
 ```
 
+domain, application, adapter로 분리한다.
+
+domain은 순수 도메인
+application의 service는 순수 비즈니스 로직
+adapter는 application에 들어오는 in과 out으로 분리되며 out에서 어떤 DB에 저장될지 설정된다.
+
+adap
