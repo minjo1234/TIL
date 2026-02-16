@@ -16,17 +16,18 @@ Hexagonal vs Clean Architecture
 
 domain, application, adapter로 분리한다.
 
-domain은 순수 도메인
-application의 service는 순수 비즈니스 로직
-adapter는 application에 들어오는 in과 out으로 분리되며 out에서 어떤 DB에 저장될지 설정된다.
-
-Adpater In -> Application Port In -> Application Service -> Application Port out -> Adpater out 
+### 실행 흐름
 
 Adpater In : Rest Controller 
 Application Port In : 추상 메서드
 Application Service : 메서드 구현체
 Application Port out : Repository 인터페이스 
-Adpater Out : JPA, Redis 등을 사용하여 
+Adpater Out : JPA, Redis 등을 사용하여 DB에 저장한다.
+
+### 의존성 흐름
+
+
+
 
 
 ```bash
