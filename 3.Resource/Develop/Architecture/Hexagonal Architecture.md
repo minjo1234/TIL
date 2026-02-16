@@ -30,7 +30,6 @@ Adpater Out : JPA, Redis 등을 사용하여 DB에 저장한다.
 
 포트와 어댑터라는 구체적인 통신 인터페이스를 정의한다.
 
-
 ### 헥사고날 아키텍처 (2단 분리)
 
 단순하게 **안(Inside)**과 **밖(Outside)**으로 나뉩니다.
@@ -39,7 +38,7 @@ Adpater Out : JPA, Redis 등을 사용하여 DB에 저장한다.
 - **밖:** DB, 웹 UI, 외부 API 등 기술적인 구현체.
 - **경계:** 포트(인터페이스)가 이 둘을 연결합니다.
 
-
+---
 
 ```bash
 └─ com.example.order
@@ -55,3 +54,9 @@ Adpater Out : JPA, Redis 등을 사용하여 DB에 저장한다.
 ```
 
 
+더 엄격하고 세밀하게 계층을 쪼갭니다.
+
+- **Entities:** 가장 핵심적인 비즈니스 규칙.
+- **Use Cases:** 애플리케이션 특화 비즈니스 규칙.
+- **Interface Adapters:** 데이터를 변환하는 계층 (Presenter, Controller, Gateway).
+- **Frameworks & Drivers:** 가장 바깥쪽 세부 기술 (DB, UI).
