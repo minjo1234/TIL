@@ -15,8 +15,9 @@ ChainHandler  : process method interface
 
 Qulifier 를 이용해서 하나의 Chain Bean 을 등록하낟.
 
-각각의 Controller, Service 등은 Chain 만 알면되고 다른 결ㅈ
-
+각각의 Controller, Service 등은 Chain 만 알면되고 다른 결제로직과의 의존성을 몰라도된다.
+장점, 만약 회사의 결제 단계의 수정이 일어난다면 만약 승인단계가 변경된다면 
+- 하나의 단계의 속하는 클래스만 Chain에서 제거해주면된다.
 
 
 
