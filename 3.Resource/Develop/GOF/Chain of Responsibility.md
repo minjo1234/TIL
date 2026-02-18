@@ -8,7 +8,15 @@ Handler : 처리자
 
 
 
-
+```java
+@Getter
+public class Chain {
+	
+	@Setter
+	private Chain nextChain;
+	private Chai
+}
+```
 
 
 ---
@@ -32,4 +40,4 @@ Handler : 처리자
 | **비용**     | 고가의 전용 장비와 라이선스 비용 발생       | 오픈소스 기반이라 하드웨어 구성비가 저렴함       |
 
 
-휴가, 재택근무
+휴가, 재택근무, 사용자 생성은 해당 Bean
