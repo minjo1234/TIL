@@ -14,7 +14,15 @@ public class Chain {
 	
 	@Setter
 	private Chain nextChain;
-	private Chai
+	private ChainHandler process ;
+	
+	public Chain(ChainHandler process){ this.process = process; }
+	
+	@Transactional(rollbackFor = Exception.class)  
+	public <T> void process(T obj){  
+	    this.process.process(obj);  
+	    if(Objects.nonNull(this.nextChain)) this.nextChain.process(obj); 
+	}
 }
 ```
 
