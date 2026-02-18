@@ -8,9 +8,10 @@ Handler : 처리자
 
 구성 ClassFile
 
-Chain : nextChain, process method 존재
+Chain : nextChain, process method 구현체 존재
 ChainHandlerFactory : Fluent(흐르는) API 설정, Chain 연결 
-ChainHandler  : process interface
+ChainHandler  : process method interface 
+	
 
 
 
