@@ -86,4 +86,5 @@ Chain
 
 
 approval
-appr
+approval_detail_config 
+approval_line_config 
