@@ -6,6 +6,18 @@
 Chain : 연결고리
 Handler : 처리자
 
+구성 ClassFile
+
+Chain 
+ChainHandlerFactory : Fluent(흐르는) API 설정, 
+ChainHandler 
+
+
+
+
+
+```
+
 
 
 
