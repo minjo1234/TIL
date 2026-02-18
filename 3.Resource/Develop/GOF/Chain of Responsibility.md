@@ -88,3 +88,4 @@ Chain
 approval
 approval_detail_config 
 approval_line_config 
+- approval_detail_config
