@@ -15,6 +15,7 @@ ChainHandler  : process method interface
 
 Qulifier 를 이용해서 하나의 Chain Bean 을 등록하낟.
 
+각각의 Controller, Service 등은 Chain 만 알면되고 다른 결ㅈ
 
 
 
