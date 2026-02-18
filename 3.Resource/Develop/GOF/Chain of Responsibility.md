@@ -11,7 +11,10 @@ Handler : 처리자
 Chain : nextChain, process method 구현체 존재
 ChainHandlerFactory : Fluent(흐르는) API 설정, Chain 연결 
 ChainHandler  : process method interface 
-	
+
+
+Qulifier 를 이용해서 하나의 Chain Bean 을 등록하낟.
+
 
 
 
