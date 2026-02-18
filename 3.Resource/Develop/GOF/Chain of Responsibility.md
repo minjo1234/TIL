@@ -86,8 +86,8 @@ Chain
 
 
 approval
-approval_detail_config 
-approval_line_config 
+approval_process : 결제 프로세스
+approval_line_config  -> 결제라인
 - approval_detail_config
 
 1.휴저한명당, 해당 부서에 따라서 유저생성시 결제라인이 생성되도록 chain 을 설정해두었음.
