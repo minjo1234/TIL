@@ -26,3 +26,4 @@ SPI(Service Provider Interface)
 2.Infra, genera action 
 - general -> portal 
 - Infra -> Custom 으로 변경예정이다.
+- default action 
