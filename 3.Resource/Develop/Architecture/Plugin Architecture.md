@@ -27,3 +27,5 @@ SPI(Service Provider Interface)
 - general -> portal 
 - Infra -> Custom 으로 변경예정이다.
 - default action 
+- custom action - 자원권한체크 
+
