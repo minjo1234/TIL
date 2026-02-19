@@ -20,3 +20,9 @@ SPI(Service Provider Interface)
 
 - **의도:** 동적 로딩과 인터페이스 호출에 따른 비용을 묻는 것입니다.
 - **답변 전략:** 플러그인 로딩은 초기 구동 시에만 호출하여 성능에 대한 문제는 발생하지 않습니다.
+
+
+1.CustomAction
+2.Infra, genera action 
+- general -> portal 
+- Infra -> Custom 으로 변경예정이다.
