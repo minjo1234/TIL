@@ -73,3 +73,9 @@ Database 별도로 분리된다.
 ```
 
 ```
+
+
+TypeScript 
+
+- Partial : 해당 객체중 모든 객체의 요소가 아닌 입력받고 싶은것만 입력받도록 설정된다.
+- overrides: 해당 값
