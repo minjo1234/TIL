@@ -66,3 +66,4 @@ SPI(Service Provider Interface)
 조인어스비즈
 야간에 
 Database 별도로 분리된다. 
+- datbase는 빈 내역으로 전송해도 상관없다.
