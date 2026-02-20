@@ -33,7 +33,6 @@ SPI(Service Provider Interface)
 
 ---
 1.ag-grid, 그리드를 고려해서
--
 현재 페이지에서 마지막데이터를 조회할때 
 
 
@@ -41,3 +40,5 @@ SPI(Service Provider Interface)
 - 자신의 데이터로 변경되는 것을 확인했다.
 2.그룹별 일정 
 - 데이터 조회속도가 느리다.
+- 확장버튼이 존재하지 않는다. 
+
