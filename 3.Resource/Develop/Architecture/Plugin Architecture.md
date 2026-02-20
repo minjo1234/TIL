@@ -50,4 +50,5 @@ SPI(Service Provider Interface)
 - 주간일정 : 주 일정 
 - 연간일정 : 월별일정 
 
-5.
+5.문의사항에 
+- 배포일시, 조치내용에 대한 확인에 대한 comm
