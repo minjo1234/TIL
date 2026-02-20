@@ -63,5 +63,6 @@ SPI(Service Provider Interface)
   - 플러그인 인프라(plugin.json 등) 관리 비용을 감수할 가치가 있을 때
 
 
-조인어스비즈 
-Database -> 
+조인어스비즈
+야간에 
+Database 별도로 분리된다. 
