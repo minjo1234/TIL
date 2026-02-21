@@ -79,3 +79,7 @@ TypeScript
 
 - Partial : 해당 객체중 모든 객체의 요소가 아닌 입력받고 싶은것만 입력받도록 설정된다.
 - overrides: 해당 값은 덮어씌워 질 예정인 값을 의미한다.
+
+
+Supabase 
+- Wlgns3350@@
