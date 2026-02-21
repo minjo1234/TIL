@@ -113,3 +113,6 @@ Supabase
   - npm run lint ✅
   - npm run test ✅
 
+
+tsc --noEmit : 문법상 틀린것이 있는지 확인한다.
+ESLint : 
