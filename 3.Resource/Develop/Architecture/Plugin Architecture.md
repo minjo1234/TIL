@@ -83,3 +83,5 @@ TypeScript
 
 Supabase 
 - Wlgns3350@@
+
+. /hookify 명령어 - 대화 기반으로 훅 자동 생성
