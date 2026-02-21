@@ -91,3 +91,25 @@ Supabase
   - UI 스냅샷/E2E (Playwright, 느리지만 강력)
   - 위 전부 조합
 
+
+
+  ---
+  수정 순서 (4단계)
+
+  Step 1 — package.json scripts 수정 (1줄)
+  - "lint": "eslint src --ext .ts,.tsx" → "eslint src/"
+  - "lint:fix" 동일하게
+
+  Step 2 — qa-check.sh 버그 수정 (2줄)
+  - set -euo pipefail → set -uo pipefail
+  - __tests__ 경로 패턴 수정
+
+  Step 3 — BMI 로직 버그 수정
+  - src/utils/weight.ts 의 calculateBmi 아시아 기준 경계값 확인 및 수정
+  - Jest 테스트 통과 확인
+
+  Step 4 — 전체 검증
+  - npm run type-check ✅
+  - npm run lint ✅
+  - npm run test ✅
+
