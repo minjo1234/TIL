@@ -135,3 +135,9 @@ Oauth Client Password : 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
 ```
 
 ```
+
+  ★ Insight ─────────────────────────────────────                                                                                                                                                          
+  헬스장 기구 데이터는 Life Fitness, Technogym 같은 브랜드들이 공개 API를 제공하지 않아요. 웹 크롤링은 ToS 위반 위험 + 마크업이 바뀌면 깨짐 → 유지보수 비용이 큼. 현실적인 "자동화"는 데이터 소스를        
+  JSON/CSV로 관리 + 파이프라인 스크립트로 Supabase에 자동 적재하는 구조예요 — 새 기구 추가 = JSON 수정 → CI/CD가 자동 sync.  
+
+upsert하는?
