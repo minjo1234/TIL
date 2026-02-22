@@ -122,3 +122,10 @@ Jest : 비즈니스 로직 및 기능 작동 검증
 
 Detox :  는 E2E 테스트 프레임워크입니다.
  - React Natvie 와 가장 궁합이 좋다.
+-
+
+---
+
+Oauth Client Id : 538548591814-2icp52hchpjtaatdg1c8vjrmojoan8tt.apps.googleusercontent.com
+
+Oauth Client Password : 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
