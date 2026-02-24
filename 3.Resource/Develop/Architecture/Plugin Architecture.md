@@ -185,3 +185,5 @@ isGpuOperator - Kubernetes GPU Operatro , GPU 수량은 0 이다.
 
 obj.isGpuCluster = isGpuNode 
 obj.isGpuOperator = isGpu_YN
+
+1.Node에 Gpu개수가 몇개남았는지 확인할 수 있도록 해야하나 ? 
