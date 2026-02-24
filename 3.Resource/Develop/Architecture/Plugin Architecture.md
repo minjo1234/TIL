@@ -174,6 +174,11 @@ Liveness = 살아있는지 판단하기.
 isGpuNode - GPU 노드에 직접 배포한다. - GPU_EA =  1 요청
 isGpuOperator - Kubernetes GPU Operatro , GPU 수량은 0 이다.
 
-CM_TMPL.GPU_YN -> isGpuNode 
-CM_CLUSTER.GPU_USE_YN ->
+- CM_TMPL.GPU_YN -> isGpuNode 
+- CM_CLUSTER.GPU_USE_YN ->
 
+
+  // ParseTemplate.java:65
+  if(yaml.indexOf("GPU_EA") > 0 && yaml.indexOf("GPU_SELECTOR") > 0) {
+      result.put("GPU_YN", "Y");   // YAML 안에 GPU_EA, GPU_SELECTOR 변수가 있으면 GPU 템플릿
+  }
