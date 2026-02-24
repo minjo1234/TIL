@@ -182,3 +182,6 @@ isGpuOperator - Kubernetes GPU Operatro , GPU 수량은 0 이다.
   if(yaml.indexOf("GPU_EA") > 0 && yaml.indexOf("GPU_SELECTOR") > 0) {
       result.put("GPU_YN", "Y");   // YAML 안에 GPU_EA, GPU_SELECTOR 변수가 있으면 GPU 템플릿
   }
+
+obj.isGpuCluster = isGpuNode 
+obj.isGpuOerator = 
