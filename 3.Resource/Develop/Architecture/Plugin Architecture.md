@@ -165,3 +165,6 @@ Last State:     Terminated
 
 Liveness = 살아있는지 판단하기.
 15초보다 길면 죽었다고 판단한다. liveness 가 15초보다 길 경우에는
+
+1.isGpuOperator 
+2.
