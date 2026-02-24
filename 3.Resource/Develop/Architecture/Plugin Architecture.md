@@ -160,3 +160,7 @@ Last State:     Terminated
       Finished:     Tue, 24 Feb 2026 14:28:06 +0900
     Ready:          False
     Restart Count:  59
+
+쿠버네티스 시스템에 의해 강제종료를 당했다. 
+
+Liveness = 살아있늕 ㅣ판단
