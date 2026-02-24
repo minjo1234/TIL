@@ -174,4 +174,5 @@ Liveness = 살아있는지 판단하기.
 isGpuNode - GPU 노드에 직접 배포한다. - GPU_EA =  1 요청
 isGpuOperator - Kubernetes GPU Operatro , GPU 수량은 0 이다.
 
-
+CM_TMPL.GPU_YN
+CM_CLUSTER.GPU_USE_YN
