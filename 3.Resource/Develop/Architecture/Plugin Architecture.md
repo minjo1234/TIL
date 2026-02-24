@@ -148,3 +148,15 @@ upsert하는?
 특정 클러스터의 메모리 사용률 확인ㄴ
 
 kubectl top node gpu-tkc-gpu-t4-2-mtcf4-dc4d57d57-lrsd8
+
+pod 조회
+
+kubectl describe pod app-wozqlrbkccrcvnu-5b8c8b66-cqpx8 -n gpu-ncdc2025110002
+
+Last State:     Terminated
+      Reason:       Error
+      Exit Code:    137
+      Started:      Tue, 24 Feb 2026 14:26:51 +0900
+      Finished:     Tue, 24 Feb 2026 14:28:06 +0900
+    Ready:          False
+    Restart Count:  59
