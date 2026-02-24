@@ -166,6 +166,7 @@ Last State:     Terminated
 Liveness = 살아있는지 판단하기.
 15초보다 길면 죽었다고 판단한다. liveness 가 15초보다 길 경우에는
 
-1.isGpuOperator 
-2.
- isGpuOperator와 isGpuNode는 서로 다른 GPU 배포 방식을 구분: Operator는 Kubernetes GPU Operator로 관리되는 환경, Node는 GPU 노드에 직접 배포하는 환경
+
+1.isGpuOperator와 isGpuNode는 서로 다른 GPU 배포 방식을 구분: Operator는 Kubernetes GPU Operator로 관리되는 환경, Node는 GPU 노드에 직접 배포하는 환경
+
+2.isGpuNode 
