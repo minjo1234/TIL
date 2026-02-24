@@ -176,3 +176,5 @@ isGpuOperator - Kubernetes GPU Operatro , GPU 수량은 0 이다.
 
 CM_TMPL.GPU_YN
 CM_CLUSTER.GPU_USE_YN
+
+get_CM_TMPL
