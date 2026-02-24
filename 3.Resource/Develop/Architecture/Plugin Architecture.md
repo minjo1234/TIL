@@ -189,3 +189,4 @@ obj.isGpuOperator = isGpu_YN
 1.Node에 Gpu개수가 몇개남았는지 확인할 수 있도록 해야하나 ? 
 
 - GPU 1 개짜리 노드 여러 개로 구성된 경우 
+- 
