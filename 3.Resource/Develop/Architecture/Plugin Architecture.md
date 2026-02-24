@@ -163,4 +163,5 @@ Last State:     Terminated
 
 쿠버네티스 시스템에 의해 강제종료를 당했다. 
 
-Liveness = 살아있늕 ㅣ판단
+Liveness = 살아있는지 판단하기.
+15초보다 길면 죽었다고 판단한다. liveness 가 15초보다 길 경우에는
