@@ -184,4 +184,4 @@ isGpuOperator - Kubernetes GPU Operatro , GPU 수량은 0 이다.
   }
 
 obj.isGpuCluster = isGpuNode 
-obj.isGpuOerator = 
+obj.isGpuOperator = isGpu_YN
