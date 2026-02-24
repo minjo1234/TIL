@@ -141,3 +141,10 @@ Oauth Client Password : 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
   JSON/CSV로 관리 + 파이프라인 스크립트로 Supabase에 자동 적재하는 구조예요 — 새 기구 추가 = JSON 수정 → CI/CD가 자동 sync.  
 
 upsert하는?
+
+
+---
+
+특정 클러스터의 메모리 사용률 확인ㄴ
+
+kubectl top node gpu-tkc-gpu-t4-2-mtcf4-dc4d57d57-lrsd8
