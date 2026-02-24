@@ -168,3 +168,4 @@ Liveness = 살아있는지 판단하기.
 
 1.isGpuOperator 
 2.
+ isGpuOperator와 isGpuNode는 서로 다른 GPU 배포 방식을 구분: Operator는 Kubernetes GPU Operator로 관리되는 환경, Node는 GPU 노드에 직접 배포하는 환경
