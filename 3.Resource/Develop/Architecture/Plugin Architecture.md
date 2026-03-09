@@ -240,3 +240,7 @@ java.lang.RuntimeException: java.lang.StringIndexOutOfBoundsException: String in
 
 [GC (Allocation Failure)  745726K->138768K(867840K), 0.0054614 secs]
 org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 2
+
+간시엔 니 징티엔 신친 공쥬어
+
+간~시엔! 니 징티엔
