@@ -292,3 +292,5 @@ Xiǎo wēi wèishéme yào xué hányǔ?
 开心 - Kāixīn 행복하다.
 帅 - Shuài 멋있는
 晚安 - Wǎn'ān
+
+我会 - 我会读和写这些
