@@ -196,4 +196,11 @@ obj.isGpuOperator = isGpu_YN
 AS-IS 
 
 - 내부 : 하버 + 내부 Nexus -  VM 
+- 외부 : Nexus  - 물리서버 (신상규 과장님이 진행예정)
+
+TO-BE 
+
+해야 할 작업 
+
+- 외부 Nexus 에 대한 설치 (문의)
 - 
