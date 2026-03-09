@@ -298,3 +298,5 @@ Xiǎo wēi wèishéme yào xué hányǔ?
 **和 (hé)：** 和 / 以及 (and)
 写 -  xiě  read 
 **这些 (zhèxiē)：** 这些 (these)
+**真 (zhēn)** really
+**厉害 (lìhai):** awesome 
