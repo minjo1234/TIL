@@ -217,6 +217,4 @@ TO-BE
 
 
 
-App Name : 
-- app-yljmpvncqlltpge
-- 
+App Code : app-yljmpvncqlltpge
