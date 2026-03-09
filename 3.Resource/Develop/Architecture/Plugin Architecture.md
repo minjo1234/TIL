@@ -247,18 +247,22 @@ org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis
 
 
 뽀우 포우 모우 풔우 더 터 너 러 그어 크어 흐어 지
-b     p    
+b  p m f d t n l g k h j
 
 치 시 즐 츨 싈 릐어 즈 츠 스 이 우
+q x zh ch sh r z c s y w 
 
 아 오어 으어 이에 우 의에 
+a o e i u u
 
 아이 에이 왜이 아우 어우 이유 이에 의에 얼 
-ai.    ei.   ui
+ai ei ui ao ou iu ie ue er 
 
 안 언 인 운 읜 
+an en in un un 
 
 앙 엉 잉 옹 
+ang
 
 즐 츨 싈 르 즈 츠 쓰 이 우
 
