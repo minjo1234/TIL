@@ -285,4 +285,4 @@ Xiǎo wēi wèishéme yào xué hányǔ?
 云粉
 看 - Kàn 보다 
 脸 - liǎn 얼굴
-
+见面 - Jiànmiàn 만나다.
