@@ -284,4 +284,5 @@ Xiǎo wēi wèishéme yào xué hányǔ?
 很好 - Hěn hǎo 매우 좋은
 云粉
 看 - Kàn 보다 
-脸
+脸 - liǎn 얼굴
+
