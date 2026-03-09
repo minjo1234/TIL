@@ -198,7 +198,8 @@ AS-IS
 - 내부 : 하버 + 내부 Nexus -  VM 
 - 외부 : Nexus  - 물리서버 (신상규 과장님이 진행예정)
 
-내부 Nexus 에서 -> 외부 Nexus에서 바라보고 있다.
+
+- 내부 Nexus 에서 -> 외부 Nexus에서 바라보고 있다.
 
 
 TO-BE 
