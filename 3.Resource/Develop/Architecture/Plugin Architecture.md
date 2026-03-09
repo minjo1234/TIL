@@ -290,3 +290,4 @@ Xiǎo wēi wèishéme yào xué hányǔ?
 不一样 - Bù yīyàng 다른 
 明白 - míngbái 이해하다
 开心 - Kāixīn 행복하다.
+帅 - Shuài 멋있는
