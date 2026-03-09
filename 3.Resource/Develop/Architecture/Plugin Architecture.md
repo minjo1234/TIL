@@ -223,3 +223,14 @@ App Code : app-yljmpvncqlltpge
 
 - stepTwo.jsp  -> gpu_ea 
 - newApp_step_pop.jsp 
+
+
+stepTwo.jsp 
+
+- gpu_ea 추가 
+
+```jsp
+<label for="gpu_ea" class="control-label grid-title value-title" style="text-align: left; margin-left: 10px;">GPU 수량</label>  
+<input type="number" class="form-control input" id="gpu_ea" name="GPU_EA" value="0" min="0" max="1" style="width: 80px; display: inline-block;">
+
+```
