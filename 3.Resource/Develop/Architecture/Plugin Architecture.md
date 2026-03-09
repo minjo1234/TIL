@@ -208,7 +208,6 @@ TO-BE
 - 외부 Nexus 에 대한 설치 (문의) 
 - Nexus 백업 및 복원 - 진행예정
 
-
 1.Nexus, 하버 분리예정 
 
 서버 구성 : Git, DB, WAS, Nexus, 하버, boot 
