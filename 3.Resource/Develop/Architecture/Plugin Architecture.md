@@ -213,6 +213,6 @@ TO-BE
 
 서버 구성 : Git, DB, WAS, Nexus, 하버, boot 
 임시 IP는 모두 할당 될 예정이다.
-
+암센터 이관작업
 
 
