@@ -206,6 +206,10 @@ TO-BE
 - Nexus 백업 및 복원 - 진행예정
 
 
-Nexus, 하버 분리예정 
+1.Nexus, 하버 분리예정 
+
+서버 구성 : Git, DB, WAS, Nexus, 하버, boot 
+
+
 
 
