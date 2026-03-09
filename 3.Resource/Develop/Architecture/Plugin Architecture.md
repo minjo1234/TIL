@@ -317,7 +317,7 @@ Xiǎo wēi wèishéme yào xué hányǔ?
 做个好梦 (zuò gè hǎo mèng)
 
 **shuì** vs **shuìjiào**
-Wǒ huì  vs wo
+Wǒ huì  vs wo 可以 
 
 
 **睡得好吗？**【shuì de hǎo ma？】
