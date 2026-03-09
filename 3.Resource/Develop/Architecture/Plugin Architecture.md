@@ -294,5 +294,7 @@ Xiǎo wēi wèishéme yào xué hányǔ?
 晚安 - Wǎn'ān
 
 我会 - Wǒ huì  나는 ~ 할 수 있다.
+**读 (dú)：** 读 / 阅读 (read)
+**和 (hé)：** 和 / 以及 (and)
 写 -  xiě  read 
-这些 
+**这些 (zhèxiē)：** 这些 (these)
