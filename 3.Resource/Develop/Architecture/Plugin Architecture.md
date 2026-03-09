@@ -291,3 +291,4 @@ Xiǎo wēi wèishéme yào xué hányǔ?
 明白 - míngbái 이해하다
 开心 - Kāixīn 행복하다.
 帅 - Shuài 멋있는
+晚安 - Wǎn'ān
