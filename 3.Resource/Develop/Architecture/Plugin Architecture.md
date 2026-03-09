@@ -280,4 +280,5 @@ zhi chi shi ri zi ci si  yi
 Xiǎo wēi wèishéme yào xué hányǔ?
 
 
-如果 -  rúg
+如果 -  rúguǒ , 만일
+
