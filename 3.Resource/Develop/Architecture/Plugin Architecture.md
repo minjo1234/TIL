@@ -315,3 +315,10 @@ Xiǎo wēi wèishéme yào xué hányǔ?
 **好梦 (hǎo mèng):** 좋은 꿈
 
 做个好梦 (zuò gè hǎo mèng)
+
+**shuì** vs **shuìjiào**
+Wǒ huì  vs wo
+
+
+**睡得好吗？[shuì de hǎo ma?**
+
