@@ -262,10 +262,11 @@ ai ei ui ao ou iu ie ue er
 an en in un un 
 
 앙 엉 잉 옹 
-ang
+ang eng ing ong
 
 즐 츨 싈 르 즈 츠 쓰 이 우
+zhi chi shi ri zi ci si  yi
 
 의 이에 유에 유안 인 읜 잉 
-
+yu ye yue yuan yin yun yxin 
 
