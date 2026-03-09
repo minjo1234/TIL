@@ -299,3 +299,7 @@ Xiǎo wēi wèishéme yào xué hányǔ?
 **这些 (zhèxiē)：** 这些 (these)
 **真 (zhēn)** really
 **厉害 (lìhai):** awesome 
+
+
+
+**学 (xué)：** 学习 (learn)
