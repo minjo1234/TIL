@@ -294,3 +294,5 @@ Xiǎo wēi wèishéme yào xué hányǔ?
 晚安 - Wǎn'ān
 
 我会 - Wǒ huì  나는 ~ 할 수 있다.
+写 -  xiě  read 
+这些 
