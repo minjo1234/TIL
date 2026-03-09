@@ -234,3 +234,9 @@ stepTwo.jsp
 <input type="number" class="form-control input" id="gpu_ea" name="GPU_EA" value="0" min="0" max="1" style="width: 80px; display: inline-block;">
 
 ```
+
+
+java.lang.RuntimeException: java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+
+[GC (Allocation Failure)  745726K->138768K(867840K), 0.0054614 secs]
+org.mybatis.spring.MyBatisSystemException: nested exception is org.apache.ibatis.exceptions.TooManyResultsException: Expected one result (or null) to be returned by selectOne(), but found: 2
