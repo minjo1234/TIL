@@ -287,3 +287,4 @@ Xiǎo wēi wèishéme yào xué hányǔ?
 脸 - liǎn 얼굴
 见面 - Jiànmiàn 만나다.
 学习 - Xuéxí 공부 
+不一样 - Bù yīyàng 다른 
