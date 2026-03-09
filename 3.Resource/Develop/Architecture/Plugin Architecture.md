@@ -283,3 +283,5 @@ Xiǎo wēi wèishéme yào xué hányǔ?
 如果 -  rúguǒ , 만일
 很好 - Hěn hǎo 매우 좋은
 云粉
+看 - Kàn 보다 
+脸
