@@ -331,3 +331,5 @@ GPU 개수를 조절하는 과정에서 에러가 발생함.
 
 - Exit Code:  137 (OOM Killed)
 - GPU -> CPU로 바꾸는 과정에서 RAM이 증가한 거 아닐까라는 판단
+
+Reason: Evicted 
