@@ -334,4 +334,4 @@ GPU 개수를 조절하는 과정에서 에러가 발생함.
 - Status:   Failed
 - Reason: ContainerStatusUnknown
 - Reason: Evicted
-- Message:  The node was low on resource: ephemeral-storage.>)
+- Message:  The node was low on resource: ephemeral-storage (임시 저장소)
