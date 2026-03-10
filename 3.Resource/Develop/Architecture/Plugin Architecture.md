@@ -367,5 +367,6 @@ This is a classic Kubernetes **rolling update conflict**. Here's what likely hap
 
 resourcequota
 
-new pod request `GPU: 1` request 
-Kuberne
+1.new pod request `GPU: 1` request 
+2.Kubernetes Schedular watch the node 
+3.
