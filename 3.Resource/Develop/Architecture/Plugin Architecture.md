@@ -348,3 +348,4 @@ Conditions:
 
 Terminating -> ContainerCreating 
 PostStartHookError
+CrashLoopBackOff
