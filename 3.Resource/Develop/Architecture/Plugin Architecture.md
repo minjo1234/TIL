@@ -344,3 +344,6 @@ Conditions:
   DiskPressure     False   Tue, 10 Mar 2026 09:52:37 +0900   Sat, 03 Jan 2026 21:14:29 +0900   KubeletHasNoDiskPressure     kubelet has no disk pressure
   PIDPressure      False   Tue, 10 Mar 2026 09:52:37 +0900   Sat, 20 Sep 2025 02:37:28 +0900   KubeletHasSufficientPID      kubelet has sufficient PID available
   Ready            True    Tue, 10 Mar 2026 09:52:37 +0900   Sat, 20 Sep 2025 02:37:49 +0900   KubeletReady                 kubelet is posting ready status. AppArmor enabled
+
+
+Terminating -> Cotai
