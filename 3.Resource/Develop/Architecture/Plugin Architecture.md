@@ -491,3 +491,5 @@ postStart는 한 번만 반복된다.  when the pod Immediately after created
 
 1. **마운트 전:** 컨테이너 안은 텅 비어 있습니다.
 2. **마운트 직후:** PVC에 있던 `link_to_data` 링크가 컨테이너 내부 경로에 **짠! 하고 나타납니다.**
+
+保持沙拉 **bāocài****shālā** ，  양배추샐러드
