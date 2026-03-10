@@ -358,4 +358,7 @@ CrashLoopBackOff
 | **설정(Config) 실수**     | `edit` / `patch`  | 굳이 삭제하지 않아도 수정 가능    |
 
 
-D
+
+kubectl get nodes -o custom-columns=NAME:.metadata.name,GPU:.status.allocatable.nvidia\.com/gpu 
+
+gpu 사용가능한 node 를 파악
