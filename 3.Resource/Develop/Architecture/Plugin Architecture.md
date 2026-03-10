@@ -439,7 +439,9 @@ when I deleted pod, deployments make a pod
 
 postStart는 한 번만 반복된다.  when the pod Immediately after created 
 
-쿠버네티스에서 **"수정(Update)"**이라는 행위는 단순히 설정을 고치는 게 아니라 **"기존 자원을 버리고 새로운 자원을 만드는 것"**과 같기 때문입니다.
+
+쿠버네티스에서의 수정은 수정이 아니라 새로운 컨테이너의 생성이다.
+
 
 새 컨테이너가 생성되는 것은 쿠버네티스의 정상적인 동작입니다. **이걸 막을 수는 없습니다.** 대신 **새 컨테이너가 생성되어도 스스로 문제를 해결하고 시작하도록** 스크립트를 짜야 합니다.
 
@@ -495,3 +497,4 @@ postStart는 한 번만 반복된다.  when the pod Immediately after created
 保持沙拉 **bāocài****shālā** ，  양배추샐러드
 
 zhe shi
+
