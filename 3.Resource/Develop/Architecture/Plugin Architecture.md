@@ -372,4 +372,4 @@ resourcequota
 3.
 
 
-when I deleted pod, deployme
+when I deleted pod, deployments make a pod 
