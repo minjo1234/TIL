@@ -323,7 +323,8 @@ Wǒ huì  vs wo 可以
 你睡得好吗？
 **睡得好吗？**【shuì de hǎo ma？】
 真的吗 Zhēn de ma, 정말로 ?
-午饭 Wǔfàn, 점심  
+午饭 Wǔfàn, 점심 
+你吃午饭了吗 Nǐ chī wǔfàn le ma?) , 점심먹었어?
 
 
 
