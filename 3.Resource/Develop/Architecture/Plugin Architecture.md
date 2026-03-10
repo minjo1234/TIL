@@ -570,3 +570,6 @@ wo sushi dou youkong
 mingtian ba 
 ni xiang chi shenme ?
 suibian
+
+
+**还没呢。** (Hái méi ne.) , 아직 없어
