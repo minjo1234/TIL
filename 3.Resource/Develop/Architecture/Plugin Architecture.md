@@ -349,3 +349,6 @@ Conditions:
 Terminating -> ContainerCreating 
 PostStartHookError
 CrashLoopBackOff
+
+**코드 에러/오류** 코드 수정 후 재배포근본적인 해결책
+**리소스 부족 (OOM/Disk)**리소스 `limits` 증설환경에 맞게 리소스 조정**일시적 노드/네트워크 장애****`delete` (교체)**노드 교체 시 정상 노드로 스케줄링됨**설정(Config) 실수**`edit` / `patch`굳이 삭제하지 않아도 수정 가능
