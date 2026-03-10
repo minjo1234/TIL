@@ -575,3 +575,10 @@ suibian
 **还没呢。** (Hái méi ne.) , 아직 없어
 太棒了 (Tài bàng le) - "멋지다!"
 太好了 (Tài hǎo le) - "좋다!"
+明天吧 (Míngtiān ba) - 내일 어때? / 내일 하자.
+你想吃什么? (Nǐ xiǎng chī shénme?) - 너 뭐 먹고 싶어?
+
+Míngtiān 내일 
+ba ~ 하자
+xiǎng 원하다
+chī 먹다
