@@ -591,3 +591,5 @@ na jiu kuai dongshou a
 shuo shenme bu zhongyao
 zuo shenme cai zhongyao
 sao
+
+**你用过这个吗？** (Nǐ yòng guò zhège ma?) - 너 이거 써본적있어?
