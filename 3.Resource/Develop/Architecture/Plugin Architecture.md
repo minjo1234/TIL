@@ -336,3 +336,11 @@ GPU 개수를 조절하는 과정에서 에러가 발생함.
 - Reason: ContainerStatusUnknown
 - Reason: Evicted
 - Message:  The node was low on resource: ephemeral-storage (임시 저장소)
+
+Conditions:
+  Type             Status  LastHeartbeatTime                 LastTransitionTime                Reason                       Message
+  ----             ------  -----------------                 ------------------                ------                       -------
+  MemoryPressure   False   Tue, 10 Mar 2026 09:52:37 +0900   Sat, 20 Sep 2025 02:37:28 +0900   KubeletHasSufficientMemory   kubelet has sufficient memory available
+  DiskPressure     False   Tue, 10 Mar 2026 09:52:37 +0900   Sat, 03 Jan 2026 21:14:29 +0900   KubeletHasNoDiskPressure     kubelet has no disk pressure
+  PIDPressure      False   Tue, 10 Mar 2026 09:52:37 +0900   Sat, 20 Sep 2025 02:37:28 +0900   KubeletHasSufficientPID      kubelet has sufficient PID available
+  Ready            True    Tue, 10 Mar 2026 09:52:37 +0900   Sat, 20 Sep 2025 02:37:49 +0900   KubeletReady                 kubelet is posting ready status. AppArmor enabled
