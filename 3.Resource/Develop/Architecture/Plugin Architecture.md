@@ -565,3 +565,8 @@ keyi gei wo caidan ma ?
 ---
 
 ~ 이거 주세요 : keyi gei wo (명사) ma?
+
+wo sushi dou youkong
+mingtian ba 
+ni xiang chi shenme ?
+suibian
