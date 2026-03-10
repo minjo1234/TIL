@@ -566,12 +566,6 @@ keyi gei wo caidan ma ?
 
 ~ 이거 주세요 : keyi gei wo (명사) ma?
 
-wo sushi dou youkong
-mingtian ba 
-ni xiang chi shenme ?
-suibian
-
-
 **还没呢。** (Hái méi ne.) , 아직 없어
 太棒了 (Tài bàng le) - "멋지다!"
 太好了 (Tài hǎo le) - "좋다!"
@@ -590,3 +584,6 @@ Suíbiàn 아무거나
 **有 (yǒu):** '있다'
 **都 (dōu) ** : **다(모두)**
 **空 (kòng):** '틈, 여유, 빈 시간'이라는
+
+sao ba
+jiran shuo
