@@ -346,4 +346,5 @@ Conditions:
   Ready            True    Tue, 10 Mar 2026 09:52:37 +0900   Sat, 20 Sep 2025 02:37:49 +0900   KubeletReady                 kubelet is posting ready status. AppArmor enabled
 
 
-Terminating -> Cotai
+Terminating -> ContainerCreating 
+PostStartHookError
