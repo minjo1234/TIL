@@ -370,3 +370,6 @@ resourcequota
 1.new pod request `GPU: 1` request 
 2.Kubernetes Schedular watch the node 
 3.
+
+
+when I deleted pod, deployme
