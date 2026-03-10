@@ -665,3 +665,5 @@ ting , 듣다
 **"와, 진짜 잘했다!"**
 
 > **"哇，太棒了！"** (Wā, tài bàng le!)
+
+**这次我是独自旅行，你能不能给我推荐一下住在哪片区域比较好？** (Zhè cì wǒ shì dúzì lǚxíng, nǐ néng bù néng gěi wǒ tuījiàn yīxià zhù zài nǎ piàn qūyù bǐjiào hǎo?)
