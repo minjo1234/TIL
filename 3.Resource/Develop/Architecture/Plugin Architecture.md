@@ -365,3 +365,4 @@ gpu 사용가능한 node 를 파악
 
 This is a classic Kubernetes **rolling update conflict**. Here's what likely happened:
 
+resourcequota
