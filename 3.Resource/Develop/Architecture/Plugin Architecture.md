@@ -428,3 +428,5 @@ when I deleted pod, deployments make a pod
 | **不见**  | 부 지엔   | 만나지 못했다 |
 | **很高兴** | 헌 까오싱  | 매우 기쁘다  |
 | **见到**  | 지엔 따오  | 만나다     |
+
+postStart는 한 번만 반복된다.  when It created later
