@@ -586,4 +586,8 @@ Suíbiàn 아무거나
 **空 (kòng):** '틈, 여유, 빈 시간'이라는
 
 sao ba
-jiran shuo
+jiran shuo le hui dasao
+na jiu kuai dongshou a
+shuo shenme bu zhongyao
+zuo shenme cai zhongyao
+sao
