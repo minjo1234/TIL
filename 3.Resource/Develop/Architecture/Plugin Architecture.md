@@ -839,6 +839,8 @@ wǒ huì shuō zhōngwén
 (kànshū, 칸 슈) : 책을 보다.
 (yào, 야오) : ~하려고 하다 (의지)
 
+(shàngbān, 샹 빤) : 출근하다.
+
 ### Example Sentence 
 
 (shénme shíhou qù? , 션머 스허우 취?) : 언제가니 ?
@@ -897,23 +899,13 @@ wǒ néng shuō zhōngwén : 중국어를 할 수 있는 환경이다.
 (jīchǎng, 지창) : 공항
 (chūzūchē, 츠쭈처) : 택시
 (gōngjiāochē, 꽁지아오처) : 버스
-
 (dìtiě, 띠티에) : 지하철
-
 (jiǔdiàn, 지우띠엔) : 호텔
-
 (gōngsī, 꽁쓰) : 회사
-
 (huǒchēzhàn, 후오처짠) : 기차역
 
-  
-
 (yùndòng, 윈똥) : 운동
-
 (gǎnjué, 깐쥐에) : 느낌
-
 (lèi, 레이) : 피곤하다
-
 (yǒu yìsi, 요우 이쓰) : 재밌다
-
 (xǐhuān, 시환) : 좋아하다.
