@@ -729,3 +729,13 @@ ting , 듣다
 - **如果在...的话 (rúguǒ zài... de huà):** 만약 ~한다면
 - **网上订 (wǎngshàng dìng):** 인터넷으로 예약하다
 - **差不了多少 (chà bù liǎo duōshǎo):** 별로 차이 나지 않다 (차이가 크지 않다)
+
+---
+
+**Software Product Line (SPL) Architecture**.
+
+In this setup:
+
+- **Core:** The "System of Record" or Infrastructure layer.
+- **Platform:** The "Kernel" or Domain layer (common business logic).
+- **Customer X:** The "Tenant-specific" or "Feature" layer.
