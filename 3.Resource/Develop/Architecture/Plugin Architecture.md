@@ -790,7 +790,8 @@ wǒ huì shuō zhōngwén
 (hěn / 헌) : 많이
 (zhēn / 쩐) : 진짜 
 (fēicháng / 페이창) : 엄청 / 매우
-(tài le) : 매우 
+(tài le, 타이러) : 매우 
+
 
 
 ### 날짜 
@@ -829,7 +830,7 @@ wǒ huì shuō zhōngwén
 (shénme shíhou, 션머 스허우) : 언제
 (shuìjiào, 슈이-짜오) : 잠을 자다 
 (qǐchuáng, 치-츄앙) : 일어 나다 
-(shàng, 샹) : 지난 / 이전의
+(pāi) : 찍다
 
 
 
@@ -849,6 +850,12 @@ shàng yī cì : 저번
 ### Example Sentence 
 
 **(zuò gōngzuò):** 일을 하다.
+
+
+### 조사
+---
+
+(shàng, 샹) : 지난 / 이전의
 
 ### VS 
 ---
