@@ -756,3 +756,6 @@ stateful - platform
 
 - tai bang le 
 - tai hao le 
+
+os 재설
+nexus backup 100GB
