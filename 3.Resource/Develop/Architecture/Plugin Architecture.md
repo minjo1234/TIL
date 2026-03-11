@@ -763,6 +763,8 @@ stateful - platform
 
 ---
 
+tài bàng le : 최고다(칭찬)
+tài hǎo le : 좋다(감탄)
 
 méi guān xi : 괜찮아 (사과를 받는경우)
 méishì : 아무 일도 아냐
