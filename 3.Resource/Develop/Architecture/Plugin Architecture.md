@@ -823,6 +823,7 @@ wǒ huì shuō zhōngwén
 (děng, 덩) : 기다리다
 (zhīdào, 쯔다오) : zhīdào
 (zuò, 쭤) : 하다 / 만들다 / 작성하다 만능단어
+(shuǐ, 슈이) : 물
 
 ### 명사
 ---
@@ -831,6 +832,10 @@ wǒ huì shuō zhōngwén
 (tiān qì, 티엔-치) : 날씨
 (gōngzuò, 공-쭈어) : 일, 일하다
 (fàn) : 밥, 식사
+
+### Example Sentence 
+
+**(zuò gōngzuò):** 일을 하다.
 
 ### VS 
 ---
