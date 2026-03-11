@@ -748,4 +748,8 @@ stateful - platform
 샤오위가 토요일이랑 일요일에 편하다고 했지?" (상대방에게 되물어볼 때)
 
 - **小鱼说过周六和周日方便吧？**
-- (Xiǎoyú shuōguò zhōuliù hé zhōurì fāngbiàn ba?)
+- (Xiǎoyú shuōguò zhōuliù hé zhōurì fāngbiàn ba
+
+- 여행 계획 짜는 데 필요해서 물어본 거야, 고마워!"
+- **因为在做旅行计划，所以问了一下，谢谢！**
+- (Yīnwèi zài zuò lǚxíng jìhuà, suǒyǐ wènle yīxià, xièxie!)
