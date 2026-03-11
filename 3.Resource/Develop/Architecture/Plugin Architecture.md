@@ -825,12 +825,17 @@ wǒ huì shuō zhōngwén
 (zuò, 쭤) : 하다 / 만들다 / 작성하다 만능단어
 (shuǐ, 슈이) : 물
 (shíhou, 스허우) : 시간, 때
-(shénme shíhou (션머 스허우) : 언제
+(shénme shíhou, 션머 스허우) : 언제
+(shuìjiào, 슈이-짜오) : 잠을 자다 
+(qǐchuáng, 치-츄앙) : 일어 나다 
+(shàng, 샹) : 지난 / 이전의
+
 
 
 ### Example Sentence 
 
 shénme shíhou qù? , 션머 스허우 취? : 언제가니 ?
+shàng yī cì : 저번
 
 ### 명사
 ---
