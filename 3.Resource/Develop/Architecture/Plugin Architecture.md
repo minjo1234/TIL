@@ -761,8 +761,12 @@ stateful - platform
 - os 재설치, 동일하게 
 - nexus backup 70GB, backup solution exsits, but it is not good choice
 
+---
 
-méishì 
+
+méi guān xi : 괜찮아 (사과를 받는경우)
+méishì : 아무 일도 아냐
+méishénme : 별거 아냐 
 
 Hǎo fùzá ya : 복잡하네. 
 - fùzá : 복잡하다
