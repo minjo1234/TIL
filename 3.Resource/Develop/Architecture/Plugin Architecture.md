@@ -779,7 +779,7 @@ Hǎo fùzá ya : 복잡하네.
 nǐ hěn néng chī là ma? : 너 매운 거 잘 먹니 ? (니 헌 넝 치 라 마?)
 - **hěn / 헌):** 아주
 - **néng / 넝):** ~할 수 있다
-- buneng : ~ 할 
+- bùnéng, 뿌넝): ~ 할 수 없다
 
 wǒ huì shuō zhōngwén 
 - shuō, 슈오 말하다
