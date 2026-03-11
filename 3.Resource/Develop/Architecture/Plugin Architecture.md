@@ -763,7 +763,8 @@ stateful - platform
 
 
 
-Hǎo fùzá ya, 복잡하네. 
--  fùzá 복잡하다.
-- 
+Hǎo fùzá ya : 복잡하네. 
+- fùzá : 복잡하다
+- ya : 문장끝에서 말을 부드럽게 한다.
+
 
