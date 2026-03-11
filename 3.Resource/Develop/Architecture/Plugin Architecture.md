@@ -830,8 +830,9 @@ wǒ huì shuō zhōngwén
 (shénme shíhou, 션머 스허우) : 언제
 (shuìjiào, 슈이-짜오) : 잠을 자다 
 (qǐchuáng, 치-츄앙) : 일어 나다 
-(pāi) : 찍다
-
+(pāi, 파이) : 찍다
+(zhàopiàn, 쨔오뎬) : 사진 
+(kàn, 칸) : 보다 
 
 
 ### Example Sentence 
