@@ -753,3 +753,6 @@ stateful - platform
 - 여행 계획 짜는 데 필요해서 물어본 거야, 고마워!"
 - **因为在做旅行计划，所以问了一下，谢谢！**
 - (Yīnwèi zài zuò lǚxíng jìhuà, suǒyǐ wènle yīxià, xièxie!)
+
+- tai bang le 
+- tai hao le 
