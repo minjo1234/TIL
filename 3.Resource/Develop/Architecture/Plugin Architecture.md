@@ -837,7 +837,7 @@ wǒ huì shuō zhōngwén
 (dào) : ~까지, 도착하다
 (xuéxí, 쉬에 시) : 공부하다.
 (kànshū, 칸 슈) : 책을 보다.
-
+(yào, 야오) : ~하려고 하다 (의지)
 
 ### Example Sentence 
 
@@ -845,6 +845,7 @@ wǒ huì shuō zhōngwén
 (shàng yī cì, 샹 이츠): 저번
 (Xièxiè nǐ xiǎng dào wǒ) : 내 생각해줘서 고마워
 (Duōkuī le nǐ, 뚜오쿠이 러 니) ： 너 덕분에
+(Wǒ yào qù shuìjiào le, 워 야오 취 쉐이쨔오 러) : 나 이제 잔다  
 
 ### 명사
 ---
