@@ -854,9 +854,8 @@ wǒ huì shuō zhōngwén
 ### Example Sentence 
 
 **(zuò gōngzuò):** 일을 하다.
-(yīdiǎn dào liǎngdiǎn, 이 띠엔 따오 리앙 띠엔): 1시에서 2시까지 
-
-
+(yīdiǎn dào liǎngdiǎn, 이 띠엔 따오 리앙 띠엔): 1시에서 2시까지
+（shí yī diǎn dào shí èr diǎ，스 이 뎬 따오 스 얼 뎬）
 
 
 
