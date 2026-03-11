@@ -849,11 +849,12 @@ wǒ huì shuō zhōngwén
 (tiān qì, 티엔-치) : 날씨
 (gōngzuò, 공-쭈어) : 일, 일하다
 (fàn) : 밥, 식사
+(jǐdiǎn, 찌 띠엔) :  몇 시 
 
 ### Example Sentence 
 
 **(zuò gōngzuò):** 일을 하다.
-(yīdiǎn dào liǎngdiǎn): 1시에서 2시까지 
+(yīdiǎn dào liǎngdiǎn, 이 띠엔 따오 리앙 띠엔): 1시에서 2시까지 
 
 
 
