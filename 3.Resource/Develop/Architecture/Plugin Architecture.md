@@ -840,6 +840,7 @@ wǒ huì shuō zhōngwén
 (yào, 야오) : ~하려고 하다 (의지)
 
 (shàngbān, 샹 빤) : 출근하다.
+(xiàbān, 시아빤) : 퇴근하다.
 
 ### Example Sentence 
 
