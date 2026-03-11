@@ -829,4 +829,4 @@ néng, huì
 wǒ huì shuō zhōngwén : 중국어를 배워서 할 수 있다.
 wǒ néng shuō zhōngwén : 
 
-wo hui shuo
+我会说中文异地哪人
