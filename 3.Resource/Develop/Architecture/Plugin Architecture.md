@@ -762,6 +762,7 @@ stateful - platform
 - nexus backup 70GB, backup solution exsits, but it is not good choice
 
 
+méishì 
 
 Hǎo fùzá ya : 복잡하네. 
 - fùzá : 복잡하다
