@@ -827,6 +827,6 @@ wǒ huì shuō zhōngwén
 néng, huì
 
 wǒ huì shuō zhōngwén : 중국어를 배워서 할 수 있다.
-wǒ néng shuō zhōngwén : 
+wǒ néng shuō zhōngwén : 중국어를 할 수 있는 환경이다.
 
 我会说中文异地哪人
