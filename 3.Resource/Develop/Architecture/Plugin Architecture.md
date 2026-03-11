@@ -759,4 +759,4 @@ stateful - platform
 
 
 - os 재설치, 동일하게 
-- nexus backup 100GB
+- nexus backup 70GB, backup solution exsits, but it is not good choice
