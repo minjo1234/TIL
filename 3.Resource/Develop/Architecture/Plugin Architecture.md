@@ -745,3 +745,7 @@ stateless - core
 stateful - platform 
 
 
+샤오위가 토요일이랑 일요일에 편하다고 했지?" (상대방에게 되물어볼 때)
+
+- **小鱼说过周六和周日方便吧？**
+- (Xiǎoyú shuōguò zhōuliù hé zhōurì fāngbiàn ba?)
