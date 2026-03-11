@@ -760,3 +760,10 @@ stateful - platform
 
 - os 재설치, 동일하게 
 - nexus backup 70GB, backup solution exsits, but it is not good choice
+
+
+
+Hǎo fùzá ya, 복잡하네. 
+-  fùzá 복잡하다.
+- 
+
