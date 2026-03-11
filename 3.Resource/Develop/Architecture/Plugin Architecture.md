@@ -837,8 +837,9 @@ wǒ huì shuō zhōngwén
 
 ### Example Sentence 
 
-shénme shíhou qù? , 션머 스허우 취? : 언제가니 ?
-shàng yī cì : 저번
+(shénme shíhou qù? , 션머 스허우 취?) : 언제가니 ?
+(shàng yī cì, 샹 이츠): 저번
+(Xièxiè nǐ xiǎng dào wǒ)  : 내 생가
 
 ### 명사
 ---
