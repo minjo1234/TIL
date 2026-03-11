@@ -834,7 +834,8 @@ wǒ huì shuō zhōngwén
 (zhàopiàn, 쨔오뎬) : 사진 
 (kàn, 칸) : 보다 
 (dào) : ~까지, 도착하다
-(xuéxí, 쉬에 시) : 
+(xuéxí, 쉬에 시) : 공부하다.
+(kànshū, 칸 슈) : 책을 보다.
 
 
 ### Example Sentence 
@@ -857,8 +858,6 @@ wǒ huì shuō zhōngwén
 **(zuò gōngzuò):** 일을 하다.
 (yīdiǎn dào liǎngdiǎn, 이 띠엔 따오 리앙 띠엔): 1시에서 2시까지
 （shí yī diǎn dào shí èr diǎ，스 이 뎬 따오 스 얼 뎬）
-
-
 
 
 ### 조사
