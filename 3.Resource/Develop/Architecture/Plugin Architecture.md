@@ -864,6 +864,10 @@ wǒ huì shuō zhōngwén
 (Duōkuī le nǐ, 뚜오쿠이 러 니) ： 너 덕분에
 (Wǒ yào qù shuìjiào le, 워 야오 취 쉐이쨔오 러) : 나 이제 잔다  
 
+#### 나 ~ 할거야 / 나 ~ 했어 
+
+(Wǒ yào, 워 야오) : **Wǒ yào shuìjiào**
+
 
 
 
