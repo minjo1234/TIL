@@ -833,6 +833,7 @@ wǒ huì shuō zhōngwén
 (pāi, 파이) : 찍다
 (zhàopiàn, 쨔오뎬) : 사진 
 (kàn, 칸) : 보다 
+(dào) : ~까지, 도착하다
 
 
 ### Example Sentence 
@@ -852,6 +853,9 @@ wǒ huì shuō zhōngwén
 ### Example Sentence 
 
 **(zuò gōngzuò):** 일을 하다.
+(yīdiǎn dào liǎngdiǎn): 1시에서 2시까지 
+
+
 
 
 ### 조사
