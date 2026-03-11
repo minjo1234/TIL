@@ -834,6 +834,7 @@ wǒ huì shuō zhōngwén
 (zhàopiàn, 쨔오뎬) : 사진 
 (kàn, 칸) : 보다 
 (dào) : ~까지, 도착하다
+(xuéxí, 쉬에 시) : 
 
 
 ### Example Sentence 
