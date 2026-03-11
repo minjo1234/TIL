@@ -842,7 +842,8 @@ wǒ huì shuō zhōngwén
 
 (shénme shíhou qù? , 션머 스허우 취?) : 언제가니 ?
 (shàng yī cì, 샹 이츠): 저번
-(Xièxiè nǐ xiǎng dào wǒ)  : 내 생각해줘서 고마워
+(Xièxiè nǐ xiǎng dào wǒ) : 내 생각해줘서 고마워
+(Duōkuī le nǐ, 뚜오쿠이 러 니) ： 너 덕분에
 
 ### 명사
 ---
