@@ -574,7 +574,7 @@ keyi gei wo caidan ma ?
 太好了 (Tài hǎo le) - "좋다!"
 明天吧 (Míngtiān ba) - 내일 어때? / 내일 하자.
 我随时都有空 (Wǒ suíshí dōu yǒu kòng), 나 **언제든지** 시간 있어.
-你想吃什么? (Nǐ xiǎng chī shénme?) - 너 뭐 먹고 싶어?
+	你想吃什么? (Nǐ xiǎng chī shénme?) - 너 뭐 먹고 싶어?
 随便 (Suíbiàn) - 아무거나 / 상관없어.
 
 Míngtiān 내일 
