@@ -1005,7 +1005,7 @@ Wǒ gāi zěnme dào zhèlǐ?
 Wǒ zài kàn hányǔ chángyòng cíhuì
 
 Shì yīyàng de. 똑같다
-Wǒ gàosù nǐ! 내가 알려줄게
+Wǒ gàosù nǐ! 내가 알려줄게 
 Wǒ yǒu gè wèntí. 나 질문있어
 Nǐ yǒu duō gāo? , 키가 몇이야? 
 你为什么好奇这个问题
