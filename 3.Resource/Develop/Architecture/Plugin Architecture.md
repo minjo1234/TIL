@@ -998,3 +998,5 @@ tianqi - 날씨
 Wǒ gāi zěnme dào zhèlǐ?
 
 有点难 Yǒudiǎn nán
+
+你曾经去过那里吗？
