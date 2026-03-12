@@ -996,3 +996,5 @@ tianqi - 날씨
 
 
 Wǒ gāi zěnme dào zhèlǐ?
+
+有点难
