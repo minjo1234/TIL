@@ -833,6 +833,7 @@ wǒ huì shuō zhōngwén
 (zuò, 쭤) : 하다 / 만들다 / 작성하다 만능단어
 (shíhou, 스허우) : 시간, 때
 (shénme shíhou, 션머 스허우) : 언제
+（zěnmeyàng?) ： 어떄 ?
 
 #### 자다/일어나다 
 
@@ -886,6 +887,7 @@ wǒ huì shuō zhōngwén
 **(zuò gōngzuò):** 일을 하다.
 (yīdiǎn dào liǎngdiǎn, 이 띠엔 따오 리앙 띠엔): 1시에서 2시까지
 （shí yī diǎn dào shí èr diǎ，스 이 뎬 따오 스 얼 뎬）
+(Nàbiān, 나비엔) : 그쪽 
 
 
 ### 조사
