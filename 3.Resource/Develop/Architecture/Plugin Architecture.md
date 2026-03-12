@@ -1005,3 +1005,4 @@ Wǒ gāi zěnme dào zhèlǐ?
 Wǒ zài kàn hányǔ chángyòng cíhuì
 
 Shì yīyàng de. 똑같다
+Wǒ gàosù nǐ!
