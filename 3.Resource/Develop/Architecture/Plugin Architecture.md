@@ -1006,3 +1006,4 @@ Wǒ zài kàn hányǔ chángyòng cíhuì
 
 Shì yīyàng de. 똑같다
 Wǒ gàosù nǐ!
+Wǒ yǒu gè wèntí.
