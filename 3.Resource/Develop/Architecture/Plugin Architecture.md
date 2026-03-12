@@ -1003,3 +1003,5 @@ Wǒ gāi zěnme dào zhèlǐ?
 你在干什么 ？
 
 Wǒ zài kàn hányǔ chángyòng cíhuì
+
+Shì yīyàng de. 똑같다
