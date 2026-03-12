@@ -869,7 +869,7 @@ wǒ huì shuō zhōngwén
 
 (Wǒ yào, 워 야오) : **Wǒ yào shuìjiào**
 (Wǒ ~ le, 워 ~ 러) : Wǒ chīfàn le
- 
+
 
 
 ### 명사
