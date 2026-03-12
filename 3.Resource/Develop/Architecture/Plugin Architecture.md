@@ -947,3 +947,10 @@ wǒ néng shuō zhōngwén : 중국어를 할 수 있는 환경이다.
 
 학습어플 - duolingo 
 
+
+
+tianqi - 날씨 
+예약  
+
+~ 할 수 있어 ?
+~ ni yao ㅇ약마 ?
