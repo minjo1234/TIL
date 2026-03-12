@@ -886,7 +886,7 @@ wǒ huì shuō zhōngwén
 (fàn) : 밥, 식사
 (shuǐ, 슈이) : 물
 (jǐdiǎn, 찌 띠엔) :  몇 시  
-(jiā, 지아) : 집
+(jiā, 지아)
 
 ### Example Sentence 
 
