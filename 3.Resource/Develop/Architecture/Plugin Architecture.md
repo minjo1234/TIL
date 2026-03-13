@@ -1219,3 +1219,7 @@ Wǒ zǎoshang yào xuéxí.
 Qīnghuá dàxué, běijīng dàxué
 Wǒ měitiān dū hé tā yòng zhōngwén jiāotán.
 ganga ma?
+
+Nǐ yě jíjiāng kāishǐ nǐ de dì yī cì lǚxíng, duì ba?
+
+Nǐ bù jǐnzhāng ma? , 떨리지는 않아.
