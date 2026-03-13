@@ -1315,3 +1315,8 @@ Nǐ xiǎng kàn wǒ pāi de zhàopiàn ma
 Bù kèqì ó
 
 Nàlǐ xiànzài shì jǐ diǎn ne?
+
+
+Zhè shìgè hánguó xiàohuà, dàn zhōngguó rén yě zhème wán ma?
+
+Rúguǒ zhàopiàn pāi dé hěn hǎo, nǐ huì jiǎng shénme yàng de xiàohuà?
