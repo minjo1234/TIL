@@ -1247,3 +1247,5 @@ Nàme, wǒmen qù fùjìn de shānshàng zǒu zǒu ba?
 
 Dànshì wǒ tǐlì bùshì hěn hǎo, bù zhīdào néng bùnéng dēng dǐng
 Méiyǒu méiyǒu pá guòlái
+
+Wǒ qùguò hánguó dàyuē 3 cì.
