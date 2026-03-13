@@ -1230,3 +1230,5 @@ Nǐ néng zàishuō yībiàn ma?
 Xiǎoshí 시간
 
 真的很远。
+
+Nǐ shōushí hǎo xínglǐle ma?
