@@ -1224,3 +1224,7 @@ Nǐ yě jíjiāng kāishǐ nǐ de dì yī cì lǚxíng, duì ba?
 
 Nǐ bù jǐnzhāng ma? , 떨리지는 않아.
 Hái yǒu duō yuǎn?,  얼마나 가는거야? 
+
+Nǐ néng zàishuō yībiàn ma?
+
+Xiǎoshí 시간
