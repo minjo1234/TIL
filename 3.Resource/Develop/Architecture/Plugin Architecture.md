@@ -1228,3 +1228,5 @@ Hái yǒu duō yuǎn?,  얼마나 가는거야?
 Nǐ néng zàishuō yībiàn ma?
 
 Xiǎoshí 시간
+
+真的很远。
