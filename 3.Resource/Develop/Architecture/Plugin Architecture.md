@@ -1305,3 +1305,6 @@ Zhōngxué
 Wǒ yǔ nǐ biàn dé qīnmì de gùshì
 
 Dāng wǒ bǎ zhè jiàn shì gàosù zhōuwéi de rén shí, tāmen dōu fēicháng gǎn xìngqù.
+
+Wǒ huì bǎ zhàopiàn fā gěi nǐ.
+
