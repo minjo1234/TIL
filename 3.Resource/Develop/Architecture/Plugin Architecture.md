@@ -1183,3 +1183,5 @@ bú kè qì ya : 천만에요
 
 naicha 
 Nǎichá
+
+Wǒmen gāi qù nǎlǐ?
