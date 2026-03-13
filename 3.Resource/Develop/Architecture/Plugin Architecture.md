@@ -1191,3 +1191,7 @@ Háishì chéngdū fùjìn shěngfèn
 Nǐ kěyǐ qù guǎngxī, guìzhōu, yúnnán
 Lí chéngdū dōu bǐjiào jìn
 Hái yǒu gānsù
+
+Wǒ kěyǐ chéng huǒchē qù ma?
+
+Zhōngjiān, 중앙
