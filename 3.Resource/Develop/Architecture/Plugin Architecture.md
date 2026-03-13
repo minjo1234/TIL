@@ -1237,3 +1237,4 @@ Wǒ huí chéngdū zuò fēijī 2 xiǎoshí
 
 xiǎoshí  시간 
 Wǒmen yě jìhuà yīcì lǚxíng ma?
+Rúguǒ nǐ xǐhuān shénme dōngxī, wǒ huì nǔlì xuéxí. 
