@@ -1303,3 +1303,5 @@ Nàgè rén shì nǐ gāo zhòng shí de péngyǒu ma?
 Zhōngxué
 
 Wǒ yǔ nǐ biàn dé qīnmì de gùshì
+
+Dāng wǒ bǎ zhè jiàn shì gàosù zhōuwéi de rén shí, tāmen dōu fēicháng gǎn xìngqù.
