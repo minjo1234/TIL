@@ -1252,3 +1252,9 @@ Wǒ qùguò hánguó dàyuē 3 cì.
 Nǐ páguò shān ma?
 
 Bùguò yě kěyǐ chángshì [Lol] yěxǔ fēicháng yǒuyìsi
+
+meiyou shenme
+
+你经常拍照吗？
+
+duoshao 
