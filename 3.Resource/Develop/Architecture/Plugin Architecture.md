@@ -1182,3 +1182,4 @@ bú kè qì ya : 천만에요
 • (Zhàopiàn, 쨔오피앤) : 사진
 
 naicha 
+Nǎichá
