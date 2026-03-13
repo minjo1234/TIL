@@ -1269,3 +1269,9 @@ Wǒ yǒu hěnduō àihào
 Pāizhào, jùběn shā, lǚxíng
 Zhuō yóu
 Jīngrén de
+
+Miàntiáo
+
+hen hao ya 
+bucho ya 
+yiger isi
