@@ -1250,3 +1250,5 @@ Méiyǒu méiyǒu pá guòlái
 
 Wǒ qùguò hánguó dàyuē 3 cì.
 Nǐ páguò shān ma?
+
+Bùguò yě kěyǐ chángshì [Lol] yěxǔ fēicháng yǒuyìsi
