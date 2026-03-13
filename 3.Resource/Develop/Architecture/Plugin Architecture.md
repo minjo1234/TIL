@@ -1201,3 +1201,7 @@ Bù zě me hǎo
 Wǒ yě bù hējiǔ.
 Qǐngwèn nín néng tuījiàn yījiā hào chī de jiǎozǐ diàn ma?
 Yuánjìyún jiǎo
+
+Wǒ huì shuō yīdiǎn zhōngwén.
+Fēicháng lìhài
+Fēicháng lìhài
