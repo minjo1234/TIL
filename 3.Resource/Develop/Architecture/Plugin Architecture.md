@@ -986,6 +986,7 @@ Wǒ lái gōngzuò le, 나 일 하러 왔어
 Zhēn dā, 진짜?
 Hái méi ne, 아직 아니야 
 Áoyèle, kùn, 늦게까지 깨어 있었더니 졸려요.
+Nǐ shénme shíhòu shuìzhe de? 
 
 **나도 그래 / 나도 마찬가지야:**
 
