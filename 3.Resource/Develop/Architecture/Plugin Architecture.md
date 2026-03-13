@@ -1298,3 +1298,6 @@ Dà bùfèn bǐjiào rèxīn, bùguò yěyǒu huàirén
 Háishì shuō, zhǐyǒu xiǎo yú tèbié qīnqiè?
 
 Wǒ péngyǒu huì yī diǎndiǎn hányǔ
+
+Nàgè rén shì nǐ gāo zhòng shí de péngyǒu ma?
+Zhōngxué
