@@ -1261,3 +1261,5 @@ Nǐ jīngcháng pāizhào ma?  너 사진 자주찍어?
 Hěn xǐhuān pāizhào
 duoshao  얼마나
 yidian 하루에 
+
+Zhè shì nǐ zuìdà de àihào ma? 이것이 당신의 가장 큰 취미인가요?
