@@ -1208,4 +1208,6 @@ Fēicháng lìhài
 Nǐ jīngcháng kàn zhège ma? - 
 Wǒ hái zài xiǎoxué yī niánjí, nǐ yǐjīng wǔ niánjíle
 
-我还在小学一年级，你已经五年级了
+
+我还在小学一年级，你已经五年级了 
+Dǒu yīn bǐjiào duō ? 
