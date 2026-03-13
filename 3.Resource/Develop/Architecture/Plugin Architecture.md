@@ -1282,3 +1282,5 @@ Nǐ xǐhuān yìdàlì miàn ma?
 Nǐ zhǐ xǐhuān miàntiáo lèi shíwù ma?
 Bù xǐhuān bù tǎoyàn
 
+
+Nǐ chīguò hánguó lāmiàn ma?
