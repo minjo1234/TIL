@@ -1284,3 +1284,6 @@ Bù xǐhuān bù tǎoyàn
 
 
 Nǐ chīguò hánguó lāmiàn ma?
+Nǐ néng chī là, duì ba?
+
+Bǐ wǒ qiáng?
