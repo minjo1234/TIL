@@ -1257,4 +1257,7 @@ meiyou shenme
 
 你经常拍照吗？
 
-duoshao 
+Nǐ jīngcháng pāizhào ma?  너 사진 자주찍어?
+Hěn xǐhuān pāizhào
+duoshao  얼마나
+yidian 하루에 
