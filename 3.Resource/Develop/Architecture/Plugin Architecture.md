@@ -1296,3 +1296,5 @@ Dàn wǒ hái méi shìguò.
 Hái yǒu yángròu tāng hěn hǎo hē
 Dà bùfèn bǐjiào rèxīn, bùguò yěyǒu huàirén
 Háishì shuō, zhǐyǒu xiǎo yú tèbié qīnqiè?
+
+Wǒ péngyǒu huì yī diǎndiǎn hányǔ
