@@ -1301,3 +1301,5 @@ Wǒ péngyǒu huì yī diǎndiǎn hányǔ
 
 Nàgè rén shì nǐ gāo zhòng shí de péngyǒu ma?
 Zhōngxué
+
+Wǒ yǔ nǐ biàn dé qīnmì de gùshì
