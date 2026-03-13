@@ -1290,3 +1290,4 @@ Bǐ wǒ qiáng?
 Jiànkāng de bù zǎ hào chī 건강에 좋은 것들은 맛이 별로 없어요.
 
 Bù là de miàn yě hào chī
+Wǒ qù chéngdū de shíhòu xiǎng chī zhège.
