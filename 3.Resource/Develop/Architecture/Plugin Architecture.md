@@ -1279,5 +1279,6 @@ Nǐ de zhōngwén shuō dé zhēn hǎo.
 Nǐ shì zuì bàng de lǎoshī.
 
 Nǐ xǐhuān yìdàlì miàn ma?
-
+Nǐ zhǐ xǐhuān miàntiáo lèi shíwù ma?
 Bù xǐhuān bù tǎoyàn
+
