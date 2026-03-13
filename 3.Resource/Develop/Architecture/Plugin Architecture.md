@@ -1323,3 +1323,5 @@ Zhè shìgè hánguó xiàohuà, dàn zhōngguó rén yě zhème wán ma?
 Rúguǒ zhàopiàn pāi dé hěn hǎo, nǐ huì jiǎng shénme yàng de xiàohuà?
 
 Méiyǒu xiàohuà
+
+Nǐ yīzhí dōu shì zhǎng tóufǎ ma?
