@@ -1196,3 +1196,6 @@ Wǒ kěyǐ chéng huǒchē qù ma?
 
 Zhōngjiān, 중앙
 Nǐ yě bù hējiǔ ma?
+
+Bù zě me hǎo
+Wǒ yě bù hējiǔ.
