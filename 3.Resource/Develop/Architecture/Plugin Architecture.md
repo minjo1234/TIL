@@ -1029,3 +1029,5 @@ Nǐ yǒu duō gāo? , 키가 몇이야?
 
 Uptime Kuma + Webhook
 Azure & Kubernetes 경험
+
+**OPIc:** IH (Intermediate High) 정도
