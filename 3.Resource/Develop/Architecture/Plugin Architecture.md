@@ -1308,3 +1308,7 @@ Dāng wǒ bǎ zhè jiàn shì gàosù zhōuwéi de rén shí, tāmen dōu fēich
 
 Wǒ huì bǎ zhàopiàn fā gěi nǐ.
 
+
+Qǐng jiǎnchá yīxià nín de zhàopiàn fēnggé shìfǒu yǒu suǒ chāyì.
+
+Nǐ xiǎng kàn wǒ pāi de zhàopiàn ma
