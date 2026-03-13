@@ -1312,3 +1312,6 @@ Wǒ huì bǎ zhàopiàn fā gěi nǐ.
 Qǐng jiǎnchá yīxià nín de zhàopiàn fēnggé shìfǒu yǒu suǒ chāyì.
 
 Nǐ xiǎng kàn wǒ pāi de zhàopiàn ma
+Bù kèqì ó
+
+Nàlǐ xiànzài shì jǐ diǎn ne?
