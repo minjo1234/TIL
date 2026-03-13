@@ -1265,3 +1265,6 @@ yidian 하루에
 Zhè shì nǐ zuìdà de àihào ma? 이것이 당신의 가장 큰 취미인가요?
 
 Wǒ yǒu hěnduō àihào 
+
+Pāizhào, jùběn shā, lǚxíng
+Zhuō yóu
