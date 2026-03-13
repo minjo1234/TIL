@@ -1215,3 +1215,4 @@ Dǒu yīn bǐjiào duō ?
 Bǐ zuótiān gèng duō 
 wo mingbai 
 Wǒ zhèngzài bǎ hé nǐ suǒyǒu de duìhuà dōu jì xiàlái.
+Wǒ zǎoshang yào xuéxí.
