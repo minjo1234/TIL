@@ -1211,3 +1211,7 @@ Wǒ hái zài xiǎoxué yī niánjí, nǐ yǐjīng wǔ niánjíle
 
 我还在小学一年级，你已经五年级了 
 Dǒu yīn bǐjiào duō ? 
+
+Bǐ zuótiān gèng duō 
+wo mingbai 
+Wǒ zhèngzài bǎ hé nǐ suǒyǒu de duìhuà dōu jì xiàlái.
