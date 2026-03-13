@@ -1216,3 +1216,5 @@ Bǐ zuótiān gèng duō
 wo mingbai 
 Wǒ zhèngzài bǎ hé nǐ suǒyǒu de duìhuà dōu jì xiàlái.
 Wǒ zǎoshang yào xuéxí.
+Qīnghuá dàxué, běijīng dàxué
+Wǒ měitiān dū hé tā yòng zhōngwén jiāotán.
