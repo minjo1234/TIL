@@ -1186,3 +1186,7 @@ Nǎichá
 
 Wǒmen gāi qù nǎlǐ?
 Nǐ xiǎng yào qù gège chéngshì wán ma
+Háishì chéngdū fùjìn shěngfèn
+
+Nǐ kěyǐ qù guǎngxī, guìzhōu, yúnnán
+Lí chéngdū dōu bǐjiào jìn
