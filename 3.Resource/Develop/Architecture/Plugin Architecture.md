@@ -1275,3 +1275,5 @@ Miàntiáo
 hen hao ya 
 bucho ya 
 yiger isi
+Nǐ de zhōngwén shuō dé zhēn hǎo. 
+Nǐ shì zuì bàng de lǎoshī.
