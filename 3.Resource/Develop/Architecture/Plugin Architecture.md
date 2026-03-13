@@ -1277,3 +1277,7 @@ bucho ya
 yiger isi
 Nǐ de zhōngwén shuō dé zhēn hǎo. 
 Nǐ shì zuì bàng de lǎoshī.
+
+Nǐ xǐhuān yìdàlì miàn ma?
+
+Bù xǐhuān bù tǎoyàn
