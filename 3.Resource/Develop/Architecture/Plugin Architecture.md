@@ -1330,45 +1330,44 @@ bú kè qì ya : 천만에요
 
 ---
 
+### 1. 사람과 성격 (People & Personality)
 
-Dàn wǒ hái méi shìguò.
-Hái yǒu yángròu tāng hěn hǎo hē
-Dà bùfèn bǐjiào rèxīn, bùguò yěyǒu huàirén
-Háishì shuō, zhǐyǒu xiǎo yú tèbié qīnqiè?
+- **(rèxīn, 르어신):** 친절하다 / 열성적이다
+- **(huàirén, 후아이런):** 나쁜 사람
+- **(qīnqiè, 친치에):** 다정하다 / 친절하다
+- **(qīnmì, 친미):** 친밀하다 / 가깝다
+- **(gǎn xìngqù, 깐 싱취):** 관심이 있다 / 흥미를 느끼다
+- **(zhōuwéi, 죠우웨이):** 주변 / 주위
 
-Wǒ péngyǒu huì yī diǎndiǎn hányǔ
+### 2. 소통과 유머 (Communication & Humor)
 
-Nàgè rén shì nǐ gāo zhòng shí de péngyǒu ma?
-Zhōngxué
+- **(gùshì, 꾸쓰):** 이야기 / 스토리
+- **(xiàohuà, 시아오후아):** 농담 / 유머
+- **(fā, 파):** (사진 등을) 보내다 / 전송하다
+- **(fēnggé, 펑거):** 스타일 / 풍격
+- **(chāyì, 챠이):** 차이 / 다름
+- **(bù kèqì, 부 커치):** 천만에요 / 별말씀을요
 
-Wǒ yǔ nǐ biàn dé qīnmì de gùshì
+### 3. 음식과 일상 (Food & Daily Life)
 
-Dāng wǒ bǎ zhè jiàn shì gàosù zhōuwéi de rén shí, tāmen dōu fēicháng gǎn xìngqù.
+- **(yángròu tāng, 양로우 탕):** 양고기 탕
+- **(hǎohē, 하오허):** (마시는 것이) 맛있다
+- **(shìguò, 쓰꾸오):** 시도해보다 / 해본 적 있다
+- **(tóufǎ, 토우파):** 머리카락
+- **(chángfǎ, 챵파):** 긴 머리
+- **(duǎnfǎ, 똰파):** 짧은 머리 / 단발
+- **(nòngzāng, 농짱):** 더럽히다
 
-Wǒ huì bǎ zhàopiàn fā gěi nǐ.
+### 4. 시간과 학교 (Time & School)
 
+- **(jǐ diǎn, 지 뎬):** 몇 시
+- **(xiànzài, 시엔짜이):** 지금
+- **(gāozhōng, 까오쭝):** 고등학교
+- **(zhōngxué, 쭝슈에):** 중학교 (중국에서는 중고교 통칭으로도 쓰임)
+- **(nà shíhòu, 나 쓰호우):** 그때 / 그 시절
 
-Qǐng jiǎnchá yīxià nín de zhàopiàn fēnggé shìfǒu yǒu suǒ chāyì.
+---
 
-Nǐ xiǎng kàn wǒ pāi de zhàopiàn ma
-Bù kèqì ó
-
-Nàlǐ xiànzài shì jǐ diǎn ne?
-
-
-Zhè shìgè hánguó xiàohuà, dàn zhōngguó rén yě zhème wán ma?
-
-
-Rúguǒ zhàopiàn pāi dé hěn hǎo, nǐ huì jiǎng shénme yàng de xiàohuà?
-
-Méiyǒu xiàohuà
-
-Nǐ yīzhí dōu shì zhǎng tóufǎ ma?
-
-Wǒ jìdé nà shíhòu wǒ liú de shì duǎnfǎ.
-
-
-bāozhe bù róngyì nòngzāng shǒu
 
 
 | **단어 (한자)** | **병음** | **품사** | **의미**          |
