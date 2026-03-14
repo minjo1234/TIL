@@ -1181,118 +1181,155 @@ bú kè qì ya : 천만에요
 • (Gōngzuò, 꽁쭈오) : 일
 • (Zhàopiàn, 쨔오피앤) : 사진
 
-naicha 
-Nǎichá
 
-Wǒmen gāi qù nǎlǐ?
-Nǐ xiǎng yào qù gège chéngshì wán ma
-Háishì chéngdū fùjìn shěngfèn
+### 1. 이동과 여행 (Travel & Transport)
 
-Nǐ kěyǐ qù guǎngxī, guìzhōu, yúnnán
-Lí chéngdū dōu bǐjiào jìn
-Hái yǒu gānsù
+- **(nǎichá, 나이차):** 밀크티
+    
+- **(nǎlǐ, 나리):** 어디
+    
+- **(chéngshì, 청쓰):** 도시
+    
+- **(fùjìn, 푸진):** 부근 / 근처
+    
+- **(shěngfèn, 셩펀):** 성(省, 중국의 행정 구역 단위)
+    
+- **(huǒchē, 후오처):** 기차
+    
+- **(fēijī, 페이지):** 비행기
+    
+- **(lǚxíng, 뤼싱):** 여행
+    
+- **(xínglǐ, 싱리):** 짐 / 수하물
+    
+- **(jìn, 찐):** 가깝다
+    
+- **(yuǎn, 위엔):** 멀다
+    
 
-Wǒ kěyǐ chéng huǒchē qù ma?
+### 2. 일상 동작과 소통 (Daily Life & Communication)
 
-Zhōngjiān, 중앙
-Nǐ yě bù hējiǔ ma?
+- **(wǒmen, 워먼):** 우리
+    
+- **(kěyǐ, 커이):** ~할 수 있다 / 가능하다
+    
+- **(hējiǔ, 허지우):** 술을 마시다
+    
+- **(tuījiàn, 투이지엔):** 추천하다
+    
+- **(jiǎozǐ, 쟈오쯔):** 만두
+    
+- **(xuéxí, 쉬에시):** 공부하다
+    
+- **(jiāotán, 쟈오탄):** 교제하다 / 대화하다
+    
+- **(míngbai, 밍바이):** 이해하다 / 알다
+    
+- **(jì xiàlái, 찌 시아라이):** 적어두다 / 기록하다
+    
+- **(shōushí, 쇼우스):** 정리하다 / (짐을) 싸다
+    
 
-Bù zě me hǎo
-Wǒ yě bù hējiǔ.
-Qǐngwèn nín néng tuījiàn yījiā hào chī de jiǎozǐ diàn ma?
-Yuánjìyún jiǎo
+### 3. 상태와 정도 표현 (Status & Degree)
 
-Wǒ huì shuō yīdiǎn zhōngwén.
-Fēicháng lìhài
-Fēicháng lìhài
-Nǐ jīngcháng kàn zhège ma? - 
-Wǒ hái zài xiǎoxué yī niánjí, nǐ yǐjīng wǔ niánjíle
+- **(fēicháng, 페이창):** 매우 / 대단히
+    
+- **(lìhài, 리하이):** 대단하다 / 멋지다 (실력이 좋을 때)
+    
+- **(gāngà, 깐까):** 어색하다 / 민망하다
+    
+- **(jǐnzhāng, 진짱):** 긴장하다 / 떨리다
+    
+- **(yīdiǎn, 이디엔):** 조금 / 약간
+    
+- **(gèng duō, 껑 뚜오):** 더욱 많이
+    
+- **(zhēn de, 쩐더):** 진짜로 / 정말로
+    
+
+### 4. 시간과 질문 (Time & Question)
+
+- **(zǎoshang, 짜오샹):** 아침
+    
+- **(xiǎoshí, 시아오스):** 시간 (Time duration)
+    
+- **(zàishuō yībiàn, 짜이슈오 이삐엔):** 한 번 더 말하다
+    
+- **(ma, 마):** ~인가요? (의문문을 만드는 말)
+    
+- **(le, 러):** ~했다 / ~하게 되었다 (변화나 완료)
 
 
-我还在小学一年级，你已经五年级了 
-Dǒu yīn bǐjiào duō ? 
-
-Bǐ zuótiān gèng duō 
-wo mingbai 
-Wǒ zhèngzài bǎ hé nǐ suǒyǒu de duìhuà dōu jì xiàlái.
-Wǒ zǎoshang yào xuéxí.
-Qīnghuá dàxué, běijīng dàxué
-Wǒ měitiān dū hé tā yòng zhōngwén jiāotán.
-ganga ma?
-
-Nǐ yě jíjiāng kāishǐ nǐ de dì yī cì lǚxíng, duì ba?
-
-Nǐ bù jǐnzhāng ma? , 떨리지는 않아.
-Hái yǒu duō yuǎn?,  얼마나 가는거야? 
-
-Nǐ néng zàishuō yībiàn ma?
-
-Xiǎoshí 시간
-
-真的很远。
-
-Nǐ shōushí hǎo xínglǐle ma?
-
-Wǒ huí chéngdū zuò fēijī 2 xiǎoshí
 
 ---
 
-xiǎoshí  시간 
-Wǒmen yě jìhuà yīcì lǚxíng ma?
-Rúguǒ nǐ xǐhuān shénme dōngxī, wǒ huì nǔlì xuéxí. 
+### 1. 취미와 활동 (Hobbies & Activities)
 
-Wǒ yǒuxiē huà xiǎng shuō. 
-Wǒ méiyǒu shé me tèbié xiǎng zuò de shì.
-Páshān
+- **(àihào, 아이하오):** 취미
+    
+- **(pāizhào, 파이쨔오):** 사진을 찍다
+    
+- **(páshān, 파샨):** 등산하다
+    
+- **(dēng dǐng, 떵딩):** 정상에 오르다
+    
+- **(zhuōyóu, 쥬오여우):** 보드게임
+    
+- **(jùběnshā, 쥐번샤):** 크라임씬/마피아 게임 (중국에서 유행하는 추리 게임)
+    
+- **(chángshì, 챵쓰):** 시도하다 / 도전하다
+    
+- **(yǒuyìsi, 여우이쓰):** 재미있다 / 의미가 있다
+    
 
-Nàme, wǒmen qù fùjìn de shānshàng zǒu zǒu ba?
+### 2. 음식과 맛 (Food & Taste)
 
-Dànshì wǒ tǐlì bùshì hěn hǎo, bù zhīdào néng bùnéng dēng dǐng
-Méiyǒu méiyǒu pá guòlái
+- **(miàntiáo, 미엔탸오):** 국수 / 면류
+    
+- **(yìdàlì miàn, 이따리 미엔):** 파스타 (이탈리아 면)
+    
+- **(lāmiàn, 라미엔):** 라면
+    
+- **(là, 라):** 맵다
+    
+- **(hǎochī, 하오츠):** 맛있다
+    
+- **(jiànkāng, 젠캉):** 건강하다 / 건강
+    
 
-Wǒ qùguò hánguó dàyuē 3 cì.
-Nǐ páguò shān ma?
+### 3. 소통과 상태 (Communication & State)
 
-Bùguò yě kěyǐ chángshì [Lol] yěxǔ fēicháng yǒuyìsi
+- **(jìhuà, 지후아):** 계획하다
+    
+- **(nǔlì, 누리):** 노력하다 / 열심히 하다
+    
+- **(tèbié, 터비에):** 특별히 / 특히
+    
+- **(tǐlì, 티리):** 체력
+    
+- **(tǎoyàn, 타오옌):** 싫어하다
+    
+- **(qiáng, 치앙):** 강하다 / (실력이) 더 낫다
+    
+- **(zuì bàng, 쭈이 빵):** 최고다 / 최고로 멋지다
+    
+- **(lǎoshī, 라오쓰):** 선생님
+    
 
-meiyou shenme
+### 4. 숫자와 정도 (Numbers & Degree)
 
-你经常拍照吗？
+- **(duōshǎo, 뚜오샤오):** 얼마 / 얼마나
+    
+- **(dàyuē, 따이에):** 대략 / 약
+    
+- **(cì, 츠):** 번 / 횟수 (예: 3번 - 3次)
+    
+- **(xiǎoshí, 샤오쓰):** 시간 (시간의 양)
+    
+- **(yīdiǎn, 이디엔):** 조금 / 약간
 
-Nǐ jīngcháng pāizhào ma?  너 사진 자주찍어?
-Hěn xǐhuān pāizhào
-duoshao  얼마나
-yidian 하루에 
+---
 
-Zhè shì nǐ zuìdà de àihào ma? 이것이 당신의 가장 큰 취미인가요?
-
-Wǒ yǒu hěnduō àihào 
-
-Pāizhào, jùběn shā, lǚxíng
-Zhuō yóu
-Jīngrén de
-
-Miàntiáo
-
-hen hao ya 
-bucho ya 
-yiger isi
-Nǐ de zhōngwén shuō dé zhēn hǎo. 
-Nǐ shì zuì bàng de lǎoshī.
-
-Nǐ xǐhuān yìdàlì miàn ma?
-Nǐ zhǐ xǐhuān miàntiáo lèi shíwù ma?
-Bù xǐhuān bù tǎoyàn
-
-
-Nǐ chīguò hánguó lāmiàn ma?
-Nǐ néng chī là, duì ba?
-
-Bǐ wǒ qiáng?
-Jiànkāng de bù zǎ hào chī 건강에 좋은 것들은 맛이 별로 없어요.
-
-Bù là de miàn yě hào chī
-Wǒ qù chéngdū de shíhòu xiǎng chī zhège.
 
 Dàn wǒ hái méi shìguò.
 Hái yǒu yángròu tāng hěn hǎo hē
