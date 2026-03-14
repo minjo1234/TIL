@@ -1341,3 +1341,12 @@ bāozhe bù róngyì nòngzāng shǒu
 | **弄**       | nòng   | 동사     | ~하게 만들다, 다루다    |
 | **脏**       | zāng   | 형용사    | 더럽다             |
 | **手**       | shǒu   | 명사     | 손               |
+
+
+- **咖啡馆 (kāfēiguǎn):** 카페
+- **复习 (fùxí):** 복습하다
+- **回顾 (huígù):** (지나간 일을) 되돌아보다, 회고하다
+- **聊的内容 (liáo de nèiróng):** 나눈 내용 / 이야기
+
+
+(Wǒ juéde bǐqǐ gāng kāishǐ tōnghuà de shíhou, wǒmen xiànzài gōutōng shùnchàng duō le.)
