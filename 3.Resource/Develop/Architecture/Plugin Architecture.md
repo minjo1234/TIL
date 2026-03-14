@@ -1235,6 +1235,8 @@ Nǐ shōushí hǎo xínglǐle ma?
 
 Wǒ huí chéngdū zuò fēijī 2 xiǎoshí
 
+---
+
 xiǎoshí  시간 
 Wǒmen yě jìhuà yīcì lǚxíng ma?
 Rúguǒ nǐ xǐhuān shénme dōngxī, wǒ huì nǔlì xuéxí. 
@@ -1350,3 +1352,6 @@ bāozhe bù róngyì nòngzāng shǒu
 
 
 (Wǒ juéde bǐqǐ gāng kāishǐ tōnghuà de shíhou, wǒmen xiànzài gōutōng shùnchàng duō le.)
+
+(Duō kuī le, 
+
