@@ -542,3 +542,4 @@ shàngmiàn, 샹미앤 : 위, 위쪽
 chuáng  츄앙 침대
 
 Nǐ méiyǒu chīguò ma
+Wèishéme zài dìshàng
