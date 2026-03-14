@@ -540,3 +540,5 @@ Kěyǐ tǎngzhe, shàngmiàn yǒu chuáng, hāhāhā
 tǎngzhe : 눕다, (상태의 지속) ~하고 있다
 shàngmiàn, 샹미앤 : 위, 위쪽
 chuáng  츄앙 침대
+
+Nǐ méiyǒu chīguò ma
