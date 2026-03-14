@@ -544,3 +544,5 @@ chuáng  츄앙 침대
 Nǐ méiyǒu chīguò ma
 Wèishéme zài dìshàng
 Wǒmen yěyǒu diànrè tǎn, shì pū chuángshàng de 침대에 덮는 전기담요도 있습니다.
+
+Gālí
